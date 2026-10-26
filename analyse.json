@@ -99,14 +99,16 @@
    "art": "Ändern",
    "aenderung": "Weekly-Teil: Take-Profit von 1R auf 2R setzen",
    "effekt": "+0,21 R je Weekly-Einstieg",
-   "beleg": "206 Weekly-Einstiege im Backtest: Ø +0,51 R bei 1R, +0,72 bei 1,5R und 2R. Danach flach."
+   "beleg": "206 Weekly-Einstiege im Backtest: Ø +0,51 R bei 1R, +0,72 bei 1,5R und 2R. Danach flach.",
+   "exit": true
   },
   {
    "prio": 3,
    "art": "Ändern",
    "aenderung": "Daily-Teil: Take-Profit von 2R auf 3R setzen",
    "effekt": "+0,28 R je Daily-Einstieg (4R: +0,39, weniger belastbar)",
-   "beleg": "56 Daily-Einstiege im Backtest: Ø +1,29 R bei 2R, +1,57 bei 3R, +1,68 bei 4R. Annahme: Höchststand wurde vor einem Stopp erreicht."
+   "beleg": "56 Daily-Einstiege im Backtest: Ø +1,29 R bei 2R, +1,57 bei 3R, +1,68 bei 4R. Annahme: Höchststand wurde vor einem Stopp erreicht.",
+   "exit": true
   },
   {
    "prio": 4,
