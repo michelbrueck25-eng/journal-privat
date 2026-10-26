@@ -1,6 +1,6 @@
 {
  "typ": "verhalten",
- "stand": "2026-10-26T20:15:03+01:00",
+ "stand": "2026-10-26T22:45:40+01:00",
  "exportStand": "2026-10-26T18:41:07.372Z",
  "headline": "Im Backtest funktioniert deine Strategie (Ø +0,66 R, 79 % Treffer, 206 Trades), live bisher kaum (Ø +0,08 R, 46 %, nur 13 Trades). Größte Hebel: nur mit Daily-Bestätigung einsteigen, nach einem Trade im selben Paar 5 Wochen Pause, AUD-Positionen begrenzen.",
  "kennzahlen": [
@@ -328,9 +328,9 @@
   },
   {
    "thema": "Optischer Vergleich: Stand der Bilder",
-   "backtest": "16 von 207 Exit-Bildern angesehen (12 Verlierer, 4 Gewinner)",
+   "backtest": "22 von 207 Exit-Bildern angesehen (18 Verlierer, 4 Gewinner)",
    "live": "Alle 21 Live-Bilder angesehen",
-   "bedeutung": "Auf den Bildern zeigt sich kein sicheres Unterscheidungsmerkmal zwischen Gewinnern und Verlierern: in beiden fällt (bei Longs) oder steigt (bei Shorts) der Kurs über mehrere Wochenkerzen in die Zone, COT-Index und Oszillator sehen ähnlich aus. Die 4 angesehenen Short-Verlierer (AUDUSD, AUDCAD, NZDCHF, AUDJPY, 2020) liefen alle gegen einen 6 bis 10 Wochen langen Anstieg an, mit Oszillator bei 95 bis 99 (überkauft). Der Aco-Zustand trennt im Backtest aber nicht (Überkauft +0,60 R, Überverkauft +0,67 R). Die Backtest-Bilder sind Aufnahmen nach dem Trade, die zahlenmäßige Auswertung läuft deshalb über alle 207 Trades. Die übrigen Backtest-Bilder sind nicht einzeln angesehen."
+   "bedeutung": "Auf den Bildern zeigt sich kein sicheres Unterscheidungsmerkmal zwischen Gewinnern und Verlierern: in beiden fällt (bei Longs) oder steigt (bei Shorts) der Kurs über mehrere Wochenkerzen in die Zone, COT-Index und Oszillator sehen ähnlich aus. Die 4 angesehenen Short-Verlierer (AUDUSD, AUDCAD, NZDCHF, AUDJPY, 2020) liefen alle gegen einen 6 bis 10 Wochen langen Anstieg an, mit Oszillator bei 95 bis 99 (überkauft). Der Aco-Zustand trennt im Backtest aber nicht (Überkauft +0,60 R, Überverkauft +0,67 R). Die Backtest-Bilder sind Aufnahmen nach dem Trade, die zahlenmäßige Auswertung läuft deshalb über alle 207 Trades. Die 6 weiteren Verlierer-Bilder (AUDUSD, GBPCHF, GBPCAD, USDJPY, Mar 2021 bis Jan 2022) zeigen dasselbe: eine große Kerze läuft durch die Zone. Die Bilder zeigen den Stand nach dem Trade, COT-Index und Oszillator darauf gehören daher nicht zum Einstiegszeitpunkt und taugen nicht für einen Vergleich. Die übrigen Backtest-Bilder sind nicht einzeln angesehen."
   },
   {
    "thema": "Wiedereinstieg: Live gegen Backtest",
