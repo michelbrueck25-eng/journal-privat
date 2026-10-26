@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-10-26T18:18:46.647Z",
+ "exportiert": "2026-10-26T18:20:43.535Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -390,6 +390,13 @@
     "at": "2026-10-13"
    },
    "fuDone": true,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mu5dqw2cwb8j4c_0.jpg",
+     "phase": "vorher",
+     "caption": "Weekly"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -464,6 +471,18 @@
    "riskPct": 1,
    "zone": "weekly",
    "fuDone": true,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mu6sia1s3qam1d_0.jpg",
+     "phase": "nachher",
+     "caption": "Daily"
+    },
+    {
+     "pfad": "bilder/mu6sia1s3qam1d_1.jpg",
+     "phase": "nachher",
+     "caption": "Daily"
+    }
+   ],
    "bilder": 2
   },
   {
@@ -778,6 +797,18 @@
    },
    "zone": "weekly",
    "fuDone": true,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mu6swm8ynuk152_0.jpg",
+     "phase": "nachher",
+     "caption": "Weekly"
+    },
+    {
+     "pfad": "bilder/mu6swm8ynuk152_1.jpg",
+     "phase": "nachher",
+     "caption": "Daily"
+    }
+   ],
    "bilder": 2
   },
   {
@@ -1016,6 +1047,18 @@
     "at": "2026-10-13"
    },
    "fuDone": true,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mu6tvozslxn8a4_0.jpg",
+     "phase": "nachher",
+     "caption": "Weekly"
+    },
+    {
+     "pfad": "bilder/mu6tvozslxn8a4_1.jpg",
+     "phase": "nachher",
+     "caption": "Daily"
+    }
+   ],
    "bilder": 2
   },
   {
@@ -1263,6 +1306,13 @@
     "lage": [],
     "at": "2026-10-13"
    },
+   "bilderListe": [
+    {
+     "pfad": "bilder/mu6u1iuwz8q6s1_0.jpg",
+     "phase": "nachher",
+     "caption": "Weekly"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -1305,6 +1355,13 @@
    "peak": 2.5,
    "zone": "weekly",
    "fuDone": true,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mu6u6owhe7xx9t_0.jpg",
+     "phase": "nachher",
+     "caption": "Weekly"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -1532,6 +1589,13 @@
     ],
     "at": "2026-10-13"
    },
+   "bilderListe": [
+    {
+     "pfad": "bilder/mu6ud7awrbclxi_0.jpg",
+     "phase": "nachher",
+     "caption": "Weekly"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -1572,6 +1636,13 @@
    ],
    "peak": 0.1,
    "plan": "Nur Weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mu6ughdt7ff9sa_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -1648,6 +1719,23 @@
    "exitReason": "SL",
    "discipline": 5,
    "lesson": "Schaue nicht so oft drauf",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mu6uj7qjb7nftl_0.jpg",
+     "phase": "vorher",
+     "caption": "Weekly"
+    },
+    {
+     "pfad": "bilder/mu6uj7qjb7nftl_1.jpg",
+     "phase": "vorher",
+     "caption": "Daily"
+    },
+    {
+     "pfad": "bilder/mu6uj7qjb7nftl_2.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 3
   },
   {
@@ -1688,6 +1776,18 @@
    "discipline": 5,
    "deviation": "COT hat sich geändert und dann auf BE manuell raus",
    "exitDate": "2026-10-05",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mu6un8dfwnto75_0.jpg",
+     "phase": "vorher",
+     "caption": "Weekly"
+    },
+    {
+     "pfad": "bilder/mu6un8dfwnto75_1.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 2
   },
   {
@@ -1749,6 +1849,13 @@
    "updatedAt": 1790268829535,
    "createdAt": 1789923892591,
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mua2axxrn5zt1b_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -1812,6 +1919,18 @@
    "updatedAt": 1790268849402,
    "createdAt": 1789924205455,
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mua2kmlhmh20wc_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    },
+    {
+     "pfad": "bilder/mua2kmlhmh20wc_1.jpg",
+     "phase": "nachher",
+     "caption": "Weekly"
+    }
+   ],
    "bilder": 2
   },
   {
@@ -1875,6 +1994,18 @@
    "updatedAt": 1790268954103,
    "createdAt": 1789924493020,
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mua2qkugxhv99k_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    },
+    {
+     "pfad": "bilder/mua2qkugxhv99k_1.jpg",
+     "phase": "nachher",
+     "caption": "Weekly"
+    }
+   ],
    "bilder": 2
   },
   {
@@ -1910,6 +2041,13 @@
    "mae": -0.9,
    "peak": 1.5,
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mua2wevxdl97hb_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -1944,6 +2082,13 @@
    "updatedAt": 1790323146613,
    "createdAt": 1789925204767,
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mua34xlkz4o64m_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -1978,6 +2123,13 @@
    "updatedAt": 1790323134179,
    "createdAt": 1789925345233,
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mua3a6e9uye027_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -2012,6 +2164,13 @@
    "updatedAt": 1790323117346,
    "createdAt": 1789925467249,
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mua3d6azxnj1gw_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -2046,6 +2205,13 @@
    "updatedAt": 1790323107046,
    "createdAt": 1789925644114,
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mua3gxc2bjvqgs_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -2079,6 +2245,13 @@
    "updatedAt": 1790322959780,
    "createdAt": 1789925807163,
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mua3jjnveamyjo_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -2141,6 +2314,13 @@
     }
    ],
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mua9ycnbrlv281_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -2203,6 +2383,13 @@
    "discipline": 5,
    "updatedAt": 1789936827587,
    "createdAt": 1789936827587,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muaa34ges93sa3_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -2236,6 +2423,13 @@
    "discipline": 5,
    "updatedAt": 1789936969403,
    "createdAt": 1789936969403,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muaa7fzh99d4gx_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -2298,6 +2492,13 @@
     }
    ],
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/muaaehrjpgsxo6_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -2359,6 +2560,13 @@
      ]
     }
    ],
+   "bilderListe": [
+    {
+     "pfad": "bilder/muaalksiur45rp_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -2392,6 +2600,13 @@
    "discipline": 5,
    "updatedAt": 1790025433296,
    "createdAt": 1789937885116,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muaaqcjtrpetig_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -2454,6 +2669,13 @@
     }
    ],
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/muaatywf6iktci_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -2488,6 +2710,13 @@
    "discipline": 5,
    "updatedAt": 1789941820940,
    "createdAt": 1789938447316,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muab2e7un5dtid_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -2547,6 +2776,13 @@
        "r": 2
       }
      ]
+    }
+   ],
+   "bilderListe": [
+    {
+     "pfad": "bilder/muab9hnnt0iv3l_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
     }
    ],
    "bilder": 1
@@ -2611,6 +2847,13 @@
    "discipline": 5,
    "updatedAt": 1789938979597,
    "createdAt": 1789938979597,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muabcnwl5ojf72_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -2674,6 +2917,13 @@
     }
    ],
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mub6o2fwis6r2q_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -2709,6 +2959,13 @@
    "updatedAt": 1790170357993,
    "createdAt": 1789991676713,
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mub6s4w1p1wmtj_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -2773,6 +3030,13 @@
    "updatedAt": 1790323093546,
    "createdAt": 1789992100527,
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mub6zq1b5kjjrr_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -2837,6 +3101,13 @@
    "updatedAt": 1790323051263,
    "createdAt": 1789992348387,
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mub756udlz6v7f_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -2871,6 +3142,13 @@
    "updatedAt": 1790322921831,
    "createdAt": 1789993191810,
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mub7o6oky3rjg0_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -2906,6 +3184,13 @@
    "updatedAt": 1790322903147,
    "createdAt": 1789993481041,
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mub7u9mw9035ay_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -2941,6 +3226,13 @@
    "updatedAt": 1790322868731,
    "createdAt": 1789993767356,
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mub7yrh9q7oak8_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3005,6 +3297,13 @@
    "updatedAt": 1790322794881,
    "createdAt": 1790026274308,
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mubrcybg36uct7_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3069,6 +3368,13 @@
    "updatedAt": 1790322826536,
    "createdAt": 1790026478157,
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mubribh4p0ywon_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3133,6 +3439,13 @@
    "updatedAt": 1790322850715,
    "createdAt": 1790026604639,
    "zone": "weekly",
+   "bilderListe": [
+    {
+     "pfad": "bilder/mubrkohb1rgl6i_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3167,6 +3480,13 @@
    "discipline": 5,
    "updatedAt": 1790085795364,
    "createdAt": 1790085795364,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mucqt30ydnnxyj_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3201,6 +3521,13 @@
    "discipline": 5,
    "updatedAt": 1790268759787,
    "createdAt": 1790085964798,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mucqwlarszeicv_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3264,6 +3591,13 @@
    "discipline": 5,
    "updatedAt": 1790268809719,
    "createdAt": 1790086277396,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mucr2lvhrwasd6_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3327,6 +3661,13 @@
    "discipline": 5,
    "updatedAt": 1790268893786,
    "createdAt": 1790086493811,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mucr7c7vjthjoc_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3362,6 +3703,13 @@
    "discipline": 5,
    "updatedAt": 1790086720878,
    "createdAt": 1790086720878,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mucrcwt3tcb6ck_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3426,6 +3774,13 @@
    "discipline": 5,
    "updatedAt": 1790156712158,
    "createdAt": 1790156712158,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mudx08qvmfrv5i_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3489,6 +3844,13 @@
    "discipline": 5,
    "updatedAt": 1790156886307,
    "createdAt": 1790156886307,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mudx45vim0x7pv_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3551,6 +3913,13 @@
    "discipline": 5,
    "updatedAt": 1790323206145,
    "createdAt": 1790157366504,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mudxf6uil84ovc_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3585,6 +3954,13 @@
    "discipline": 5,
    "updatedAt": 1790322995547,
    "createdAt": 1790157509336,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mudxif6gqhg33h_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3619,6 +3995,13 @@
    "discipline": 5,
    "updatedAt": 1790158924763,
    "createdAt": 1790158924763,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mudyce3gsdet9x_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3653,6 +4036,13 @@
    "discipline": 5,
    "updatedAt": 1790159155511,
    "createdAt": 1790159155511,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mudyhdehz38y77_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3713,6 +4103,13 @@
    "r": 0.5,
    "updatedAt": 1790323014263,
    "createdAt": 1790168542367,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mue42an0po93nh_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3747,6 +4144,13 @@
    "discipline": 5,
    "updatedAt": 1790254443961,
    "createdAt": 1790254227948,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mufizvtzn1zfir_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3781,6 +4185,13 @@
    "discipline": 5,
    "updatedAt": 1790254428581,
    "createdAt": 1790254408211,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mufj7hv21oqawn_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3844,6 +4255,13 @@
    "discipline": 5,
    "updatedAt": 1790255830158,
    "createdAt": 1790255830158,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mufk16gxedglko_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3878,6 +4296,13 @@
    "discipline": 5,
    "updatedAt": 1790255959375,
    "createdAt": 1790255959375,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mufk4palh4c89y_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3911,6 +4336,13 @@
    "exitReason": "TP",
    "updatedAt": 1790322884731,
    "createdAt": 1790256095923,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mufk7bo9nn06rf_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -3973,6 +4405,13 @@
    "discipline": 5,
    "updatedAt": 1790265277685,
    "createdAt": 1790265277685,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mufpo025m53ymh_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4007,6 +4446,13 @@
    "discipline": 5,
    "updatedAt": 1790266033189,
    "createdAt": 1790266033189,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mufpyx8ag564zc_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4041,6 +4487,13 @@
    "discipline": 5,
    "updatedAt": 1790266218920,
    "createdAt": 1790266218920,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mufq7wtf5ys1t6_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4075,6 +4528,13 @@
    "discipline": 5,
    "updatedAt": 1790266413453,
    "createdAt": 1790266413453,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mufqcdvku9bqn3_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4109,6 +4569,13 @@
    "discipline": 5,
    "updatedAt": 1790268102556,
    "createdAt": 1790268102556,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mufrcjkruljsvf_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4143,6 +4610,13 @@
    "discipline": 5,
    "updatedAt": 1790268315255,
    "createdAt": 1790268315255,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mufrgmlbpmgjff_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4177,6 +4651,13 @@
    "discipline": 5,
    "updatedAt": 1790269337917,
    "createdAt": 1790269337917,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mufs3cdx6f1oqw_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4210,6 +4691,13 @@
    "exitReason": "TP",
    "updatedAt": 1790269470566,
    "createdAt": 1790269470566,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mufs6eek7yphzx_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4272,6 +4760,13 @@
    "discipline": 5,
    "updatedAt": 1790269718335,
    "createdAt": 1790269718335,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mufs9kogirlf1d_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4334,6 +4829,13 @@
    "discipline": 5,
    "updatedAt": 1790271123647,
    "createdAt": 1790271123647,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muft3twve9wjbt_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4394,6 +4896,13 @@
    "dir": "long",
    "updatedAt": 1790271350217,
    "createdAt": 1790271350217,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muft99goljjjj3_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4456,6 +4965,13 @@
    "discipline": 5,
    "updatedAt": 1790271550632,
    "createdAt": 1790271550632,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muftezax6x82c3_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4491,6 +5007,13 @@
    "discipline": 5,
    "updatedAt": 1790271732715,
    "createdAt": 1790271732715,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muftimvynclo40_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4525,6 +5048,13 @@
    "discipline": 5,
    "updatedAt": 1790271875949,
    "createdAt": 1790271875949,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muftlvedarf997_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4559,6 +5089,13 @@
    "discipline": 5,
    "updatedAt": 1790272089548,
    "createdAt": 1790272089548,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muftqkf3gjxe7v_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4593,6 +5130,13 @@
    "discipline": 5,
    "updatedAt": 1790272248430,
    "createdAt": 1790272248430,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muftu0tb35jk1x_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4656,6 +5200,13 @@
    "dir": "short",
    "updatedAt": 1790272545179,
    "createdAt": 1790272545179,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mufu0d7jt06yry_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4719,6 +5270,13 @@
    "discipline": 5,
    "updatedAt": 1790272705646,
    "createdAt": 1790272705646,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mufu37x7wv2x1g_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4753,6 +5311,13 @@
    "discipline": 5,
    "updatedAt": 1790324291338,
    "createdAt": 1790324291338,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mugot45q82lxz7_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4787,6 +5352,13 @@
    "discipline": 5,
    "updatedAt": 1790324377388,
    "createdAt": 1790324377388,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mugovl9k92rkrt_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4821,6 +5393,13 @@
    "discipline": 5,
    "updatedAt": 1790324498536,
    "createdAt": 1790324498536,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mugoxp8rmj0aml_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4855,6 +5434,13 @@
    "discipline": 5,
    "updatedAt": 1790325452222,
    "createdAt": 1790325452222,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mugpiapdj7jagb_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4889,6 +5475,13 @@
    "discipline": 5,
    "updatedAt": 1790325609305,
    "createdAt": 1790325609305,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mugpl8scp3wqrf_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4923,6 +5516,13 @@
    "discipline": 5,
    "updatedAt": 1790325813587,
    "createdAt": 1790325813587,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mugpq7ckn0ik4r_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -4986,6 +5586,13 @@
    "discipline": 5,
    "updatedAt": 1790325932336,
    "createdAt": 1790325932336,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mugps5l9jblegr_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5020,6 +5627,13 @@
    "discipline": 5,
    "updatedAt": 1790326475250,
    "createdAt": 1790326050753,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mugpvea6n551da_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5054,6 +5668,13 @@
    "discipline": 5,
    "updatedAt": 1790326638866,
    "createdAt": 1790326638866,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mugq7l8vuab6sj_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5088,6 +5709,13 @@
    "discipline": 5,
    "updatedAt": 1790326808465,
    "createdAt": 1790326808465,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mugqaogzkrq433_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5150,6 +5778,13 @@
    "discipline": 5,
    "updatedAt": 1790422544792,
    "createdAt": 1790327034782,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mugqezl8vrm2tf_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5186,6 +5821,13 @@
    "discipline": 5,
    "updatedAt": 1790432499353,
    "createdAt": 1790432499353,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muih6bxr5qrzed_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5220,6 +5862,13 @@
    "exitReason": "SL",
    "updatedAt": 1790432721500,
    "createdAt": 1790432721500,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muihcv656gsy2u_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5255,6 +5904,13 @@
    "discipline": 5,
    "updatedAt": 1790434289900,
    "createdAt": 1790434289900,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muihhieybbb44r_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5290,6 +5946,13 @@
    "discipline": 5,
    "updatedAt": 1790434403899,
    "createdAt": 1790434403899,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muiickj9rfa63v_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5356,6 +6019,13 @@
    "discipline": 5,
    "updatedAt": 1790434916630,
    "createdAt": 1790434916630,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muiimb42hlejiq_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5422,6 +6092,13 @@
    "discipline": 5,
    "updatedAt": 1790435318912,
    "createdAt": 1790435318912,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muiiuziqdk94wp_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5457,6 +6134,13 @@
    "discipline": 5,
    "updatedAt": 1790453178925,
    "createdAt": 1790453178925,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muitj420h1uvyq_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5492,6 +6176,13 @@
    "discipline": 5,
    "updatedAt": 1790453317557,
    "createdAt": 1790453317557,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muitmqd60ydtx1_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5527,6 +6218,13 @@
    "discipline": 5,
    "updatedAt": 1790453556656,
    "createdAt": 1790453556656,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muitr5tfooecfb_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5562,6 +6260,13 @@
    "discipline": 5,
    "updatedAt": 1790453731072,
    "createdAt": 1790453731072,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muituztk8zhqaf_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5597,6 +6302,13 @@
    "discipline": 5,
    "updatedAt": 1790453860771,
    "createdAt": 1790453860771,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muity4ngagz1u2_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5632,6 +6344,13 @@
    "discipline": 5,
    "updatedAt": 1790454053303,
    "createdAt": 1790454053303,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muiu27smxf2hg9_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5667,6 +6386,13 @@
    "discipline": 5,
    "updatedAt": 1790454287501,
    "createdAt": 1790454287501,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muiu6wo8fggb4c_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5733,6 +6459,13 @@
    "discipline": 5,
    "updatedAt": 1790454593183,
    "createdAt": 1790454593183,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muiucyx5x03k3h_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5768,6 +6501,13 @@
    "discipline": 5,
    "updatedAt": 1790454706416,
    "createdAt": 1790454706416,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muiuh068x810d8_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5803,6 +6543,13 @@
    "discipline": 5,
    "updatedAt": 1790498886322,
    "createdAt": 1790498886322,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mujklvlcdqjzyx_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5838,6 +6585,13 @@
    "discipline": 5,
    "updatedAt": 1790499202153,
    "createdAt": 1790499153287,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mujkvrvlut3scw_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5904,6 +6658,13 @@
    "discipline": 5,
    "updatedAt": 1790499414402,
    "createdAt": 1790499414402,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mujl1mh2k4ykc6_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -5970,6 +6731,13 @@
    "discipline": 5,
    "updatedAt": 1790499921886,
    "createdAt": 1790499921886,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mujld12kjv0sjp_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6005,6 +6773,13 @@
    "discipline": 5,
    "updatedAt": 1790500593033,
    "createdAt": 1790500593033,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mujls8g0y593gv_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6040,6 +6815,13 @@
    "discipline": 5,
    "updatedAt": 1790500635599,
    "createdAt": 1790500635599,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mujltp7z6v6g5s_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6106,6 +6888,13 @@
    "discipline": 5,
    "updatedAt": 1790500910147,
    "createdAt": 1790500910147,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mujlxmg6p7aw97_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6141,6 +6930,13 @@
    "discipline": 5,
    "updatedAt": 1790501138862,
    "createdAt": 1790501138862,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mujm2l3maqm1sf_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6176,6 +6972,13 @@
    "discipline": 5,
    "updatedAt": 1790501273528,
    "createdAt": 1790501273528,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mujm67i2obwmzn_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6242,6 +7045,13 @@
    "discipline": 5,
    "updatedAt": 1790501457580,
    "createdAt": 1790501457580,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mujm95sw0cwcj4_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6277,6 +7087,13 @@
    "discipline": 5,
    "updatedAt": 1790522458074,
    "createdAt": 1790522458074,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mujysic0o11f9k_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6312,6 +7129,13 @@
    "discipline": 5,
    "updatedAt": 1790522695856,
    "createdAt": 1790522695856,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mujyxjzyb9ui3e_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6347,6 +7171,13 @@
    "discipline": 5,
    "updatedAt": 1790524232855,
    "createdAt": 1790524232855,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mujzux791kgirk_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6380,6 +7211,13 @@
    "days": 7,
    "updatedAt": 1790524349772,
    "createdAt": 1790524349772,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mujzxlnyeke80k_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6415,6 +7253,13 @@
    "discipline": 5,
    "updatedAt": 1790524445087,
    "createdAt": 1790524445087,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mujzyva2v94l79_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6450,6 +7295,13 @@
    "discipline": 5,
    "updatedAt": 1790524619670,
    "createdAt": 1790524619670,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muk0345afyytf3_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6485,6 +7337,13 @@
    "discipline": 5,
    "updatedAt": 1790524856619,
    "createdAt": 1790524856619,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muk07e20vftlga_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6520,6 +7379,13 @@
    "discipline": 5,
    "updatedAt": 1790524983352,
    "createdAt": 1790524983352,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muk0arrjl2uv4f_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6586,6 +7452,13 @@
    "discipline": 5,
    "updatedAt": 1790525179119,
    "createdAt": 1790525179119,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muk0elpo2o02tb_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6652,6 +7525,13 @@
    "discipline": 5,
    "updatedAt": 1790525322634,
    "createdAt": 1790525322634,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muk0hg5ncdbr1h_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6689,6 +7569,13 @@
    "notes": "Bin nicht rein, weil der EURJPY letzte Woche schon zu schwach war und ich nicht nochmal unnötig einen Prozent riskieren wollte.",
    "updatedAt": 1790584404851,
    "createdAt": 1790584404851,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mukzm4l7fi7jtk_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6725,6 +7612,13 @@
    "discipline": 5,
    "updatedAt": 1790610600043,
    "createdAt": 1790610268911,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muleuw8tpbsy5c_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6760,6 +7654,13 @@
    "discipline": 5,
    "updatedAt": 1790610787444,
    "createdAt": 1790610564612,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mulf7s9ts171bv_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6826,6 +7727,13 @@
    "discipline": 5,
    "updatedAt": 1790611723793,
    "createdAt": 1790611723793,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mulfvppe43ymrx_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6861,6 +7769,13 @@
    "discipline": 5,
    "updatedAt": 1790611947659,
    "createdAt": 1790611947659,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mulg0p5z1s4s7z_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6927,6 +7842,13 @@
    "discipline": 5,
    "updatedAt": 1790612285142,
    "createdAt": 1790612285142,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mulg59lyxqsyt7_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6962,6 +7884,13 @@
    "discipline": 5,
    "updatedAt": 1790677642796,
    "createdAt": 1790677642796,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mumj62qysy6886_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -6997,6 +7926,13 @@
    "discipline": 5,
    "updatedAt": 1790677925927,
    "createdAt": 1790677925927,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mumjcbrq3jocau_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7033,6 +7969,13 @@
    "discipline": 5,
    "updatedAt": 1790678164193,
    "createdAt": 1790678164193,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mumjho9diq2d9b_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7068,6 +8011,13 @@
    "discipline": 5,
    "updatedAt": 1790678322592,
    "createdAt": 1790678322592,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mumjlyunk1z46q_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7103,6 +8053,13 @@
    "discipline": 5,
    "updatedAt": 1790678444943,
    "createdAt": 1790678444943,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mumjnw535ctyeg_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7138,6 +8095,13 @@
    "discipline": 5,
    "updatedAt": 1790683660839,
    "createdAt": 1790683660839,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mummqoci7cofhu_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7173,6 +8137,13 @@
    "discipline": 5,
    "updatedAt": 1790685154938,
    "createdAt": 1790685154938,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mumnnxbhswissl_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7208,6 +8179,13 @@
    "discipline": 5,
    "updatedAt": 1790685310016,
    "createdAt": 1790685310016,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mumnrkabe75tw0_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7243,6 +8221,13 @@
    "discipline": 5,
    "updatedAt": 1790685551682,
    "createdAt": 1790685551682,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mumnvcy5d1kduq_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7278,6 +8263,13 @@
    "discipline": 5,
    "updatedAt": 1790685671916,
    "createdAt": 1790685671916,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mumnyl444mey6d_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7344,6 +8336,13 @@
    "discipline": 5,
    "updatedAt": 1790685947031,
    "createdAt": 1790685947031,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mumo2m78snomaa_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7379,6 +8378,13 @@
    "discipline": 5,
    "updatedAt": 1790887394880,
    "createdAt": 1790887394880,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muq00w5pnsl7yq_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7414,6 +8420,13 @@
    "discipline": 5,
    "updatedAt": 1790887690194,
    "createdAt": 1790887690194,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muq05mjy20o3of_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7479,6 +8492,13 @@
    "discipline": 5,
    "updatedAt": 1790888913891,
    "createdAt": 1790888913891,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muq0wlpy8kwsc1_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7514,6 +8534,13 @@
    "discipline": 5,
    "updatedAt": 1790889466822,
    "createdAt": 1790889466822,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muq1a08707kon0_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7549,6 +8576,13 @@
    "discipline": 5,
    "updatedAt": 1790889889403,
    "createdAt": 1790889889403,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muq1etbo9cvus3_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7584,6 +8618,13 @@
    "discipline": 5,
    "updatedAt": 1790890276554,
    "createdAt": 1790890276554,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muq1shp2lgi9uq_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7619,6 +8660,13 @@
    "discipline": 5,
    "updatedAt": 1790892491604,
    "createdAt": 1790892491604,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muq271mbzxvlb8_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7654,6 +8702,13 @@
    "discipline": 5,
    "updatedAt": 1790892651749,
    "createdAt": 1790892651749,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muq363mi8al0l3_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7719,6 +8774,13 @@
    "discipline": 5,
    "updatedAt": 1790893426065,
    "createdAt": 1790893426065,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muq3mlapni4gfi_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7765,6 +8827,18 @@
    "days": 22,
    "exitReason": "SL",
    "discipline": 5,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muqs4lmpa4s72w_0.jpg",
+     "phase": "vorher",
+     "caption": "Weekly"
+    },
+    {
+     "pfad": "bilder/muqs4lmpa4s72w_1.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 2
   },
   {
@@ -7832,6 +8906,13 @@
    "discipline": 5,
    "updatedAt": 1790976910693,
    "createdAt": 1790934954984,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muqsd09hq8867g_0.jpg",
+     "phase": "vorher",
+     "caption": "Weekly"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7867,6 +8948,13 @@
    "discipline": 5,
    "updatedAt": 1790936884119,
    "createdAt": 1790936884119,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muqthkujvde8f5_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7902,6 +8990,13 @@
    "discipline": 5,
    "updatedAt": 1790938965704,
    "createdAt": 1790938965704,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muquizxkyafohi_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -7968,6 +9063,13 @@
    "discipline": 5,
    "updatedAt": 1790939144854,
    "createdAt": 1790939144854,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muquuosvk8j86e_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8003,6 +9105,13 @@
    "discipline": 5,
    "updatedAt": 1790952834703,
    "createdAt": 1790952834703,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mur3032yxfhe1p_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8038,6 +9147,13 @@
    "discipline": 5,
    "updatedAt": 1790953179066,
    "createdAt": 1790953179066,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mur38ftdya9ons_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8073,6 +9189,13 @@
    "discipline": 5,
    "updatedAt": 1790953440863,
    "createdAt": 1790953440863,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mur3ed1ktho5o8_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8139,6 +9262,13 @@
    "discipline": 5,
    "updatedAt": 1790975251101,
    "createdAt": 1790975251101,
+   "bilderListe": [
+    {
+     "pfad": "bilder/murgcd3s5tpmw1_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8174,6 +9304,13 @@
    "discipline": 5,
    "updatedAt": 1790975468516,
    "createdAt": 1790975468516,
+   "bilderListe": [
+    {
+     "pfad": "bilder/murggyyl13i0sh_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8209,6 +9346,13 @@
    "dir": "long",
    "updatedAt": 1790975819464,
    "createdAt": 1790975819464,
+   "bilderListe": [
+    {
+     "pfad": "bilder/murgpnl06nsvlz_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8244,6 +9388,13 @@
    "discipline": 5,
    "updatedAt": 1790975907746,
    "createdAt": 1790975907746,
+   "bilderListe": [
+    {
+     "pfad": "bilder/murgs82m3ge4og_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8279,6 +9430,13 @@
    "discipline": 5,
    "updatedAt": 1790976685208,
    "createdAt": 1790976196312,
+   "bilderListe": [
+    {
+     "pfad": "bilder/murgxs5tlzn06f_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8314,6 +9472,13 @@
    "discipline": 5,
    "updatedAt": 1790976670308,
    "createdAt": 1790976361660,
+   "bilderListe": [
+    {
+     "pfad": "bilder/murh1l82qt01t9_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8349,6 +9514,13 @@
    "discipline": 5,
    "updatedAt": 1790976642608,
    "createdAt": 1790976642608,
+   "bilderListe": [
+    {
+     "pfad": "bilder/murh7w88msa21s_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8384,6 +9556,13 @@
    "discipline": 5,
    "updatedAt": 1790977100143,
    "createdAt": 1790977100143,
+   "bilderListe": [
+    {
+     "pfad": "bilder/murhgwr4xog7bp_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8419,6 +9598,13 @@
    "discipline": 5,
    "updatedAt": 1790977270041,
    "createdAt": 1790977270041,
+   "bilderListe": [
+    {
+     "pfad": "bilder/murhk3490q41tw_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8454,6 +9640,13 @@
    "discipline": 5,
    "updatedAt": 1790977414807,
    "createdAt": 1790977414807,
+   "bilderListe": [
+    {
+     "pfad": "bilder/murhnrq9dab2cg_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8489,6 +9682,13 @@
    "discipline": 5,
    "updatedAt": 1790977578189,
    "createdAt": 1790977578189,
+   "bilderListe": [
+    {
+     "pfad": "bilder/murhqpumr1psoj_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8555,6 +9755,13 @@
    "discipline": 5,
    "updatedAt": 1790977771756,
    "createdAt": 1790977771756,
+   "bilderListe": [
+    {
+     "pfad": "bilder/murhv8vm12ab83_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8590,6 +9797,13 @@
    "discipline": 5,
    "updatedAt": 1790977998988,
    "createdAt": 1790977998988,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muri0fqu64yd16_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8618,6 +9832,13 @@
    "emoBefore": "zuversichtlich",
    "updatedAt": 1791224259951,
    "createdAt": 1791224259951,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muvkm47gobd4xj_0.jpg",
+     "phase": "vorher",
+     "caption": "Weekly"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8653,6 +9874,13 @@
    "discipline": 5,
    "updatedAt": 1791225815468,
    "createdAt": 1791225815468,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muvljtwuz25ibb_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8688,6 +9916,13 @@
    "discipline": 5,
    "updatedAt": 1791226941061,
    "createdAt": 1791226941061,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muvlzrzwfoorjf_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8724,6 +9959,13 @@
    "discipline": 5,
    "updatedAt": 1791227253606,
    "createdAt": 1791227253606,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muvmd69cyixr8x_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8759,6 +10001,13 @@
    "discipline": 5,
    "updatedAt": 1791227471707,
    "createdAt": 1791227471707,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muvmjyf9jir9h7_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8794,6 +10043,13 @@
    "discipline": 5,
    "updatedAt": 1791227630622,
    "createdAt": 1791227630622,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muvmn1ejvzz820_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8829,6 +10085,13 @@
    "discipline": 5,
    "updatedAt": 1791227721422,
    "createdAt": 1791227721422,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muvmp9rl502tzy_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8864,6 +10127,13 @@
    "discipline": 5,
    "updatedAt": 1791227908588,
    "createdAt": 1791227908588,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muvmslin231eo2_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8899,6 +10169,13 @@
    "discipline": 5,
    "updatedAt": 1791228023887,
    "createdAt": 1791228023887,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muvmvnvtxcc8jd_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -8965,6 +10242,13 @@
    "mfeDays": 77,
    "updatedAt": 1791228218721,
    "createdAt": 1791228218721,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muvmyl3qb1i3xo_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9001,6 +10285,13 @@
    "discipline": 5,
    "updatedAt": 1791271266613,
    "createdAt": 1791271266613,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muwbw7mq7pkz4s_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9067,6 +10358,13 @@
    "discipline": 5,
    "updatedAt": 1791271745278,
    "createdAt": 1791271745278,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muwcsgbudixy7r_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9102,6 +10400,13 @@
    "discipline": 5,
    "updatedAt": 1791272019110,
    "createdAt": 1791272019110,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muwd0n73k9olnl_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9168,6 +10473,13 @@
    "discipline": 5,
    "updatedAt": 1791272201642,
    "createdAt": 1791272201642,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muwd58krw1470k_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9203,6 +10515,13 @@
    "discipline": 5,
    "updatedAt": 1791272485015,
    "createdAt": 1791272485015,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muwdc8eoc9bo2k_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9238,6 +10557,13 @@
    "discipline": 5,
    "updatedAt": 1791272682181,
    "createdAt": 1791272682181,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muwdgemzwuuyb1_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9273,6 +10599,13 @@
    "discipline": 5,
    "updatedAt": 1791272855630,
    "createdAt": 1791272855630,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muwdj1ns38hjgh_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9308,6 +10641,13 @@
    "discipline": 5,
    "updatedAt": 1791273010797,
    "createdAt": 1791273010797,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muwdnyslpg2ai7_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9343,6 +10683,13 @@
    "discipline": 5,
    "updatedAt": 1791273225063,
    "createdAt": 1791273207365,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muwdqvm9dbpz9s_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9378,6 +10725,13 @@
    "discipline": 5,
    "updatedAt": 1791273417763,
    "createdAt": 1791273417763,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muwduzgfj6rgmw_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9413,6 +10767,13 @@
    "discipline": 5,
    "updatedAt": 1791273529178,
    "createdAt": 1791273529178,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muwdzbkb73of3h_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9448,6 +10809,13 @@
    "discipline": 5,
    "updatedAt": 1791273667912,
    "createdAt": 1791273667912,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muwe12tnp744rh_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9483,6 +10851,13 @@
    "discipline": 5,
    "updatedAt": 1791274511076,
    "createdAt": 1791273809178,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muwe4gyevmun8g_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9518,6 +10893,13 @@
    "discipline": 5,
    "updatedAt": 1791273932611,
    "createdAt": 1791273932611,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muwe82sx02sld1_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9553,6 +10935,13 @@
    "discipline": 5,
    "updatedAt": 1791274135077,
    "createdAt": 1791274135077,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muwebu2bq6xoft_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9588,6 +10977,13 @@
    "dir": "long",
    "updatedAt": 1791274483726,
    "createdAt": 1791274483726,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muwee83lvdqfez_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9623,6 +11019,13 @@
    "discipline": 5,
    "updatedAt": 1791274609129,
    "createdAt": 1791274609129,
+   "bilderListe": [
+    {
+     "pfad": "bilder/muwemg88wlfxkn_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9658,6 +11061,13 @@
    "discipline": 5,
    "updatedAt": 1791556228046,
    "createdAt": 1791556228046,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv128c603grah0_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9693,6 +11103,13 @@
    "discipline": 5,
    "updatedAt": 1791560369345,
    "createdAt": 1791560369345,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv14q8hqqeghuj_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9728,6 +11145,13 @@
    "discipline": 5,
    "updatedAt": 1791560642227,
    "createdAt": 1791560642227,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv14v1r573w1qt_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9763,6 +11187,13 @@
    "discipline": 5,
    "updatedAt": 1791560812710,
    "createdAt": 1791560812710,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv15063rblq2at_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9797,6 +11228,13 @@
    "discipline": 5,
    "updatedAt": 1791561148476,
    "createdAt": 1791561148476,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv157uas7r24qc_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9832,6 +11270,13 @@
    "discipline": 5,
    "updatedAt": 1793037625694,
    "createdAt": 1791561247857,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv15a0kres4i6h_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9867,6 +11312,13 @@
    "discipline": 5,
    "updatedAt": 1791561370140,
    "createdAt": 1791561370140,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv15ctrdzu6697_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9902,6 +11354,13 @@
    "discipline": 5,
    "updatedAt": 1791561478540,
    "createdAt": 1791561478540,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv15f86xq4sx1r_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9937,6 +11396,13 @@
    "discipline": 5,
    "updatedAt": 1791561610407,
    "createdAt": 1791561610407,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv15i2ne91hdpe_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -9972,6 +11438,13 @@
    "discipline": 5,
    "updatedAt": 1791561753707,
    "createdAt": 1791561753707,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv15kxmahf8m0a_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -10007,6 +11480,13 @@
    "discipline": 5,
    "updatedAt": 1791561874456,
    "createdAt": 1791561874456,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv15nh1yizhb9c_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -10073,6 +11553,13 @@
    "discipline": 5,
    "updatedAt": 1791562095590,
    "createdAt": 1791562095590,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv15r6o5ndsdz6_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -10108,6 +11595,13 @@
    "discipline": 5,
    "updatedAt": 1791562288239,
    "createdAt": 1791562288239,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv15vhupb19ur5_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -10174,6 +11668,13 @@
    "discipline": 5,
    "updatedAt": 1791562443538,
    "createdAt": 1791562443538,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv15yn178alss0_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -10239,6 +11740,13 @@
    "discipline": 5,
    "updatedAt": 1791562599794,
    "createdAt": 1791562599794,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv1627hgun9fp5_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -10274,6 +11782,13 @@
    "discipline": 5,
    "updatedAt": 1791622641346,
    "createdAt": 1791622641346,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv25tww6rr2nlr_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -10309,6 +11824,13 @@
    "discipline": 5,
    "updatedAt": 1791622767245,
    "createdAt": 1791622748879,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv25w3jnov9qxh_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -10344,6 +11866,13 @@
    "discipline": 5,
    "updatedAt": 1791622918445,
    "createdAt": 1791622918445,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv25ywe5k6zr33_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -10379,6 +11908,13 @@
    "discipline": 5,
    "updatedAt": 1791622996248,
    "createdAt": 1791622996248,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv2610ktajwhuh_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -10445,6 +11981,13 @@
    "discipline": 5,
    "updatedAt": 1791623360284,
    "createdAt": 1791623360284,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv266ta8jrtafo_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -10480,6 +12023,13 @@
    "discipline": 5,
    "updatedAt": 1791623511912,
    "createdAt": 1791623511912,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv26c76rbsbw7p_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -10515,6 +12065,13 @@
    "discipline": 5,
    "updatedAt": 1791623650878,
    "createdAt": 1791623650878,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv26eku3cl63mp_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -10550,6 +12107,13 @@
    "discipline": 5,
    "updatedAt": 1791623785879,
    "createdAt": 1791623785879,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv26i2efaoaofd_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -10585,6 +12149,13 @@
    "discipline": 5,
    "updatedAt": 1791624365825,
    "createdAt": 1791624253128,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv26s6sfps7tgh_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -10620,6 +12191,13 @@
    "discipline": 5,
    "updatedAt": 1791624356576,
    "createdAt": 1791624356576,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv26uket24wo0b_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -10656,6 +12234,13 @@
    "discipline": 5,
    "updatedAt": 1791624482325,
    "createdAt": 1791624482325,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv26wu9km3kazi_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
@@ -10691,6 +12276,13 @@
    "discipline": 5,
    "updatedAt": 1791624922323,
    "createdAt": 1791624922323,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mv2764f6vci4h7_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
    "bilder": 1
   },
   {
