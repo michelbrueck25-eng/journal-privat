@@ -1,6 +1,6 @@
 {
  "typ": "verhalten",
- "stand": "2026-10-26T18:50:00+01:00",
+ "stand": "2026-10-26T19:10:00+01:00",
  "exportStand": "2026-10-26T17:43:16.343Z",
  "headline": "Im Backtest funktioniert deine Strategie (Ø +0,66 R, 79 % Treffer, 206 Trades), live bisher kaum (Ø +0,08 R, 46 %, nur 13 Trades). Größter Hebel im Backtest: Gewinner länger laufen lassen.",
  "kennzahlen": [
@@ -45,17 +45,17 @@
   },
   {
    "titel": "Verlierer waren oft kurz im Plus",
-   "text": "Von 31 Verlierern mit Verlaufsdaten lagen 12 (39 %) vorher mindestens +0,5 R im Gewinn, keiner erreichte +1R. Live waren es 3 von 4 Verlierern. Ein Stopp auf Einstand nach +0,5 R hätte in diesen Fällen den Verlust vermieden, kann aber auch Gewinner ausstoppen.",
-   "wirkung": "bis +0,08 R je Trade (Obergrenze, real geringer)",
+   "text": "Von 31 Verlierern mit Verlaufsdaten lagen 12 (39 %) vorher mindestens +0,5 R im Plus. Ein Einstands-Stopp würde diese retten, aber auch viele Gewinner ausstoppen, die zwischendurch zurückfielen.",
+   "wirkung": "Einstands-Stopp lohnt nicht",
    "staerke": 5,
-   "empfehlung": "Nachziehen des Stopps auf Einstand ab +0,5R im Exit-Labor testen und mit der Gewinner-Rate vergleichen."
+   "empfehlung": "Stopp nicht nachziehen."
   },
   {
    "titel": "Lange Trades sind schwächer",
-   "text": "Trades von 14 bis 30 Tagen: Ø +0,76 R bei 85 % Treffern (73 Trades). Über 30 Tage: Ø +0,41 R bei 65 % (40 Trades). Live lief ein Teil der Verlierer 19 bis 22 Tage.",
+   "text": "14 bis 29 Tage: Ø +0,76 R bei 85 % Treffern (73 Trades). 40 bis 59 Tage: Ø +0,12 R (13 Trades). Über 30 Tage insgesamt: Ø +0,41 R bei 65 % (40 Trades).",
    "wirkung": "-0,35 R je Trade (über 30 Tage)",
    "staerke": 5,
-   "empfehlung": "Einen Zeitstopp bei etwa 30 Tagen im Exit-Labor testen."
+   "empfehlung": "Trades nach 40 Tagen ohne Ziel kritisch prüfen."
   },
   {
    "titel": "Live-Longs auf JPY-Crosses",
@@ -69,11 +69,11 @@
    "text": "Stark im Backtest: GBPJPY +1,10 R (10 Trades, 100 %), EURUSD +1,09 R (16, 94 %), NZDCHF +0,91 R, USDCHF +0,83 R, GBPUSD +0,80 R. Schwach: AUDUSD +0,14 R (18 Trades, 56 %) und EURCHF +0,38 R (12, 58 %).",
    "wirkung": "AUDUSD -0,5 R unter dem Schnitt",
    "staerke": 4,
-   "empfehlung": "AUDUSD und EURCHF genauer ansehen, ob dort die Einstiegskriterien anders greifen."
+   "empfehlung": "Behalten, die Paare bleiben positiv."
   },
   {
    "titel": "Kein Rache-Muster nach Verlusten",
-   "text": "Nach einem Verlust liegt der nächste Backtest-Trade bei Ø +0,59 R (44 Fälle), nahe am Gesamtschnitt. Die längste Verlustserie sind 3 Trades.",
+   "text": "Nach einem Verlust liegt der nächste Backtest-Trade bei Ø +0,69 R (43 Fälle), über dem Gesamtschnitt. Die längste Verlustserie sind 3 Trades.",
    "wirkung": "neutral",
    "staerke": 3,
    "empfehlung": "Gut so, beibehalten."
@@ -86,10 +86,62 @@
    "empfehlung": "Bei jedem Live-Trade Emotion vor, während und nach dem Trade eintragen, Disziplin ehrlich bewerten."
   }
  ],
- "experimente": [
-  "Exit-Labor: Ziel 1,5R und 2R gegen 1R vergleichen, danach mit den nächsten 10 Live-Trades prüfen",
-  "GBPCAD-Trade vom 12.04.2021 korrigieren und die Auswertung neu laden",
-  "Vier Wochen lang bei jedem Live-Trade Emotion und Disziplin eintragen",
-  "Zeitstopp bei 30 Tagen und Einstands-Stopp ab +0,5R im Exit-Labor testen"
+ "tipps": [
+  {
+   "prio": 1,
+   "art": "Ändern",
+   "aenderung": "Take-Profit von 1R auf 2R setzen (1,5R ist die Untergrenze)",
+   "effekt": "+0,22 R je Trade, etwa +6 R pro Jahr",
+   "beleg": "150 Backtest-Trades mit Kursverlauf: Ø +0,60 R bei 1R, +0,81 bei 1,5R, +0,82 bei 2R. 32 von 120 Gewinnern liefen auf 2R oder mehr. Live (7 Trades): +0,29 R bei 2R statt 0,00 bei 1R."
+  },
+  {
+   "prio": 2,
+   "art": "Korrigieren",
+   "aenderung": "GBPCAD short vom 12.04.2021 von −11 R auf −1 R korrigieren",
+   "effekt": "+10 R Summe, GBPCAD wird +0,71 statt −0,07",
+   "beleg": "Größte Gegenbewegung war nur −1 R, ein Ergebnis von −11 R ist sehr wahrscheinlich ein Eingabefehler. Bis dahin rechnet die App den Trade nicht mit."
+  },
+  {
+   "prio": 3,
+   "art": "Lassen",
+   "aenderung": "Stopp nicht auf Einstand nachziehen",
+   "effekt": "vermeidet im ungünstigen Fall −41 R, Nutzen nur bis +12 R",
+   "beleg": "12 Verlierer lagen vorher mindestens +0,5 R im Plus. Aber 52 der 118 Gewinner mit ≥ +0,5 R fielen zwischendurch mindestens 0,3 R zurück und wären ausgestoppt worden."
+  },
+  {
+   "prio": 4,
+   "art": "Prüfen",
+   "aenderung": "Live-Trades gegen das Backtest-Regelwerk abgleichen (Stopp-Abstand, Einstiegszeitpunkt)",
+   "effekt": "Lücke von −0,58 R je Trade schließen",
+   "beleg": "Live: 46 % Treffer, Ø +0,08 R (13 Trades). Backtest: 79 %, Ø +0,66 R. Live-Trades laufen im Schnitt 10,8 Tage, im Backtest 19,6 Tage, Stopps werden live also früher getroffen."
+  },
+  {
+   "prio": 5,
+   "art": "Ändern",
+   "aenderung": "Emotion und Disziplin bei jedem Live-Trade eintragen",
+   "effekt": "Voraussetzung für eine echte Verhaltensanalyse",
+   "beleg": "Disziplin steht überall auf 5, Emotionen sind nur bei 4 von 222 Trades erfasst."
+  },
+  {
+   "prio": 6,
+   "art": "Beobachten",
+   "aenderung": "Trades, die nach 40 Tagen weder Ziel noch Stopp erreicht haben, kritisch prüfen",
+   "effekt": "nicht berechenbar, Kurs am Tag 40 fehlt",
+   "beleg": "40 bis 59 Tage: Ø +0,12 R (13 Trades). 14 bis 29 Tage: Ø +0,76 R (73 Trades)."
+  },
+  {
+   "prio": 7,
+   "art": "Lassen",
+   "aenderung": "Schwache Paare (AUDUSD, EURCHF) nicht aussortieren",
+   "effekt": "Ausschluss senkt die Summe um 7 R",
+   "beleg": "AUDUSD +0,14 R (18 Trades), EURCHF +0,38 R (12). Ohne beide steigt der Schnitt nur von +0,66 auf +0,73 R, die Summe fällt von +135 auf +128 R."
+  },
+  {
+   "prio": 8,
+   "art": "Lassen",
+   "aenderung": "Nach Verlusten normal weiterhandeln",
+   "effekt": "kein Handlungsbedarf",
+   "beleg": "Ø +0,69 R nach einem Verlust (43 Fälle), längste Verlustserie 3 Trades."
+  }
  ]
 }
