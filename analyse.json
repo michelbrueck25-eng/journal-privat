@@ -1,6 +1,6 @@
 {
  "typ": "verhalten",
- "stand": "2026-10-26T19:40:00+01:00",
+ "stand": "2026-10-26T19:38:43+01:00",
  "exportStand": "2026-10-26T17:43:16.343Z",
  "headline": "Im Backtest funktioniert deine Strategie (Ø +0,66 R, 79 % Treffer, 206 Trades), live bisher kaum (Ø +0,08 R, 46 %, nur 13 Trades). Größter Hebel im Backtest: Gewinner länger laufen lassen.",
  "kennzahlen": [
@@ -204,10 +204,28 @@
    "bedeutung": "Live läuft genau dort schlecht, wo der Backtest gut aussieht. Stichprobe klein."
   },
   {
-   "thema": "Optischer Vergleich der Charts",
-   "backtest": "nicht möglich",
-   "live": "nicht möglich",
-   "bedeutung": "Die Chart-Bilder liegen noch nicht im Repo. In den Einstellungen unter Privater GitHub-Sync „Chart-Bilder mitsenden“ auf „Nur Live-Trades“ stellen und senden."
+   "thema": "Order-Block-Aufbau in den Chart-Daten (7 Trades, 6 live)",
+   "backtest": "keine Chart-Daten im Backtest vorhanden",
+   "live": "Alle 7 Zonen sind Long. Einstieg liegt am oberen Rand der Zone, der Stop knapp unter dem unteren Rand (Zonenhöhe ≈ 0,9 R, das entspricht dem 10-%-Puffer), Ziel bei 1:1. 6 von 7 sind Weekly-Zonen, 1 Daily.",
+   "bedeutung": "Das ist deine Definition, soweit sie aus den Daten abzulesen ist: Zone = Tief des Swing-Bereichs bis Oberkante der Konsolidierung, Einstieg oben. Stichprobe klein, alle Trades noch offen oder gerade erst beendet, daher noch keine Aussage zur Qualität."
+  },
+  {
+   "thema": "Alter der Weekly-Zonen beim Einstieg",
+   "backtest": "nicht auswertbar",
+   "live": "Die Zonen sind 2 bis 20 Monate alt: GBPUSD ca. 11 Monate (Nov 2025 bis Okt 2026), EURGBP ca. 20 Monate (Feb 2025), NZDJPY ca. 11 Monate, AUDNZD ca. 2 Monate, AUDUSD und GBPCAD frisch (Wochen).",
+   "bedeutung": "Sehr alte Zonen (über 6 Monate) sind in dieser kleinen Stichprobe die Mehrheit. Ob Alter das Ergebnis beeinflusst, lässt sich erst sagen, wenn mehr Trades abgeschlossen sind. Im Backtest müsste das Zonenalter mit erfasst werden."
+  },
+  {
+   "thema": "Daily-Zone innerhalb der Weekly-Zone (Bilder AUDCHF, AUDJPY)",
+   "backtest": "AUDCHF Long: Weekly-Zone mit blauer Daily-Unterzone im unteren Teil, Ergebnis +1,5 R",
+   "live": "AUDJPY Long: gleicher Aufbau (blaue Daily-Zone in der unteren Hälfte der Weekly-Zone, Stop darunter), Ergebnis −1 R. Der Kurs lief tief in die Weekly-Zone bis in die Daily-Zone.",
+   "bedeutung": "In beiden Bildern sitzt die Daily-Zone im unteren Teil der Weekly-Zone, der Einstieg liegt aber am oberen Rand. Der Kurs läuft also oft erst in die Daily-Zone hinein, bevor er dreht. Einstieg direkt an der Daily-Zone würde den Stop enger machen. Nur 2 Bilder, nicht belastbar; die übrigen Bilder kommen noch."
+  },
+  {
+   "thema": "Optischer Vergleich: Stand der Bilder",
+   "backtest": "noch unvollständig",
+   "live": "Von 230 Bildern liegen zum Zeitpunkt dieser Analyse 73 im Repo, davon 2 Trades mit Weekly und Daily angesehen.",
+   "bedeutung": "Der vollständige Vergleich Live gegen Backtest (Lage der Daily-Zone, Stopp-Abstand, Einstieg) folgt, sobald alle Bilder da sind."
   }
  ]
 }
