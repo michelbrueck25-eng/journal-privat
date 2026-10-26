@@ -1,0 +1,95 @@
+{
+ "typ": "verhalten",
+ "stand": "2026-10-26T18:50:00+01:00",
+ "exportStand": "2026-10-26T17:43:16.343Z",
+ "headline": "Im Backtest funktioniert deine Strategie (Ø +0,66 R, 79 % Treffer, 206 Trades), live bisher kaum (Ø +0,08 R, 46 %, nur 13 Trades). Größter Hebel im Backtest: Gewinner länger laufen lassen.",
+ "kennzahlen": [
+  {
+   "label": "Backtest Ø R",
+   "wert": "+0,66 (206 Trades)"
+  },
+  {
+   "label": "Backtest Trefferquote",
+   "wert": "79 %"
+  },
+  {
+   "label": "Live Ø R",
+   "wert": "+0,08 (13 Trades)"
+  },
+  {
+   "label": "Live Trefferquote",
+   "wert": "46 %"
+  }
+ ],
+ "muster": [
+  {
+   "titel": "Live weicht stark vom Backtest ab",
+   "text": "Backtest: 79 % Treffer, Ø +0,66 R. Live: 46 % Treffer, Ø +0,08 R bei nur 13 abgeschlossenen Trades, also noch zu wenig für ein sicheres Urteil. Im September gab es vier Stopps in fünf Live-Trades.",
+   "wirkung": "-0,58 R je Trade (Live gegenüber Backtest)",
+   "staerke": 8,
+   "empfehlung": "Live-Trades weiter sammeln (Ziel 30) und prüfen, ob Einstiege und Ausführung dem Backtest entsprechen."
+  },
+  {
+   "titel": "Gewinner laufen weiter, du steigst bei 1R aus",
+   "text": "Von 120 Gewinnern mit Verlaufsdaten erreichten 32 mindestens 2R und 15 mindestens 3R, im Schnitt lag der Höchststand bei 1,84 R, realisiert wurden 1,02 R. Rechnet man ein festes Ziel durch (Schätzung, nimmt an, dass der Höchststand vor einem Stopp erreicht wurde): 1R = +0,59 R, 1,5R = +0,79 R, 2R = +0,81 R, danach wieder schwächer.",
+   "wirkung": "+0,2 R je Trade (Schätzung)",
+   "staerke": 7,
+   "empfehlung": "Im Exit-Labor 1,5R und 2R gegen 1R vergleichen. Ab 1,5R ist die Kurve flach, du musst also nicht auf 3R hoffen."
+  },
+  {
+   "titel": "Datenfehler: ein Trade mit -11 R",
+   "text": "GBPCAD short vom 12.04.2021 steht mit -11 R, obwohl die maximale Gegenbewegung nur -1 R betrug. Das ist sehr wahrscheinlich ein Tippfehler. Er senkt die Backtest-Summe um 10 R (Ø +0,60 statt +0,66) und macht GBPCAD scheinbar negativ (-0,07 statt +0,71 Ø).",
+   "wirkung": "+10 R Summe nach Korrektur",
+   "staerke": 9,
+   "empfehlung": "Den Trade öffnen und das Ergebnis korrigieren (vermutlich -1 R)."
+  },
+  {
+   "titel": "Verlierer waren oft kurz im Plus",
+   "text": "Von 31 Verlierern mit Verlaufsdaten lagen 12 (39 %) vorher mindestens +0,5 R im Gewinn, keiner erreichte +1R. Live waren es 3 von 4 Verlierern. Ein Stopp auf Einstand nach +0,5 R hätte in diesen Fällen den Verlust vermieden, kann aber auch Gewinner ausstoppen.",
+   "wirkung": "bis +0,08 R je Trade (Obergrenze, real geringer)",
+   "staerke": 5,
+   "empfehlung": "Nachziehen des Stopps auf Einstand ab +0,5R im Exit-Labor testen und mit der Gewinner-Rate vergleichen."
+  },
+  {
+   "titel": "Lange Trades sind schwächer",
+   "text": "Trades von 14 bis 30 Tagen: Ø +0,76 R bei 85 % Treffern (73 Trades). Über 30 Tage: Ø +0,41 R bei 65 % (40 Trades). Live lief ein Teil der Verlierer 19 bis 22 Tage.",
+   "wirkung": "-0,35 R je Trade (über 30 Tage)",
+   "staerke": 5,
+   "empfehlung": "Einen Zeitstopp bei etwa 30 Tagen im Exit-Labor testen."
+  },
+  {
+   "titel": "Live-Longs auf JPY-Crosses",
+   "text": "Live: 5 Long-Trades auf JPY-Crosses (EURJPY 2x, AUDJPY 2x, CADJPY), davon 1 Gewinner, Ø -0,6 R. Im Backtest laufen EURJPY (+0,46 R) und AUDJPY (+0,38 R) positiv. Mit 5 Trades ist das nur ein Hinweis, kein Beleg.",
+   "wirkung": "-0,6 R je Trade (Live, n=5)",
+   "staerke": 4,
+   "empfehlung": "Vor einem JPY-Cross-Long prüfen, ob Zinsdifferenz und Risikostimmung noch passen."
+  },
+  {
+   "titel": "Paare unterscheiden sich deutlich",
+   "text": "Stark im Backtest: GBPJPY +1,10 R (10 Trades, 100 %), EURUSD +1,09 R (16, 94 %), NZDCHF +0,91 R, USDCHF +0,83 R, GBPUSD +0,80 R. Schwach: AUDUSD +0,14 R (18 Trades, 56 %) und EURCHF +0,38 R (12, 58 %).",
+   "wirkung": "AUDUSD -0,5 R unter dem Schnitt",
+   "staerke": 4,
+   "empfehlung": "AUDUSD und EURCHF genauer ansehen, ob dort die Einstiegskriterien anders greifen."
+  },
+  {
+   "titel": "Kein Rache-Muster nach Verlusten",
+   "text": "Nach einem Verlust liegt der nächste Backtest-Trade bei Ø +0,59 R (44 Fälle), nahe am Gesamtschnitt. Die längste Verlustserie sind 3 Trades.",
+   "wirkung": "neutral",
+   "staerke": 3,
+   "empfehlung": "Gut so, beibehalten."
+  },
+  {
+   "titel": "Zu wenig Verhaltensdaten",
+   "text": "Disziplin steht überall auf 5, Emotionen sind nur bei 4 Trades erfasst. Damit lässt sich kein Zusammenhang zwischen Gefühl und Ergebnis auswerten.",
+   "wirkung": "",
+   "staerke": 6,
+   "empfehlung": "Bei jedem Live-Trade Emotion vor, während und nach dem Trade eintragen, Disziplin ehrlich bewerten."
+  }
+ ],
+ "experimente": [
+  "Exit-Labor: Ziel 1,5R und 2R gegen 1R vergleichen, danach mit den nächsten 10 Live-Trades prüfen",
+  "GBPCAD-Trade vom 12.04.2021 korrigieren und die Auswertung neu laden",
+  "Vier Wochen lang bei jedem Live-Trade Emotion und Disziplin eintragen",
+  "Zeitstopp bei 30 Tagen und Einstands-Stopp ab +0,5R im Exit-Labor testen"
+ ]
+}
