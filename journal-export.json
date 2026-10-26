@@ -1,7 +1,7 @@
 {
  "version": 1,
  "app": "Trading-Journal",
- "exportiert": "2026-10-26T17:58:39.843Z",
+ "exportiert": "2026-10-26T18:00:47.968Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -9817,12 +9817,12 @@
     {
      "share": 100,
      "targetR": 1,
-     "r": -11
+     "r": -1
     }
    ],
    "analysisDate": "2021-04-12",
    "dir": "short",
-   "r": -11,
+   "r": -1,
    "mfe": 0,
    "mfeDays": 0,
    "mae": -1,
@@ -9830,7 +9830,7 @@
    "days": 7,
    "exitReason": "SL",
    "discipline": 5,
-   "updatedAt": 1791561247857,
+   "updatedAt": 1793037625694,
    "createdAt": 1791561247857,
    "bilder": 1
   },
