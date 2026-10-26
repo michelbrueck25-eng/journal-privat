@@ -27,21 +27,21 @@
    "text": "Backtest: 79 % Treffer, Ø +0,66 R. Live: 46 % Treffer, Ø +0,08 R bei nur 13 abgeschlossenen Trades, also noch zu wenig für ein sicheres Urteil. Im September gab es vier Stopps in fünf Live-Trades.",
    "wirkung": "-0,58 R je Trade (Live gegenüber Backtest)",
    "staerke": 8,
-   "empfehlung": "Live-Trades weiter sammeln (Ziel 30) und prüfen, ob Einstiege und Ausführung dem Backtest entsprechen."
+   "empfehlung": "Live-Stopps und Einstiege mit dem Backtest-Regelwerk abgleichen, weiter Trades sammeln."
   },
   {
    "titel": "Gewinner laufen weiter, du steigst bei 1R aus",
    "text": "Von 120 Gewinnern mit Verlaufsdaten erreichten 32 mindestens 2R und 15 mindestens 3R, im Schnitt lag der Höchststand bei 1,84 R, realisiert wurden 1,02 R. Rechnet man ein festes Ziel durch (Schätzung, nimmt an, dass der Höchststand vor einem Stopp erreicht wurde): 1R = +0,59 R, 1,5R = +0,79 R, 2R = +0,81 R, danach wieder schwächer.",
    "wirkung": "+0,2 R je Trade (Schätzung)",
    "staerke": 7,
-   "empfehlung": "Im Exit-Labor 1,5R und 2R gegen 1R vergleichen. Ab 1,5R ist die Kurve flach, du musst also nicht auf 3R hoffen."
+   "empfehlung": "Take-Profit auf 2R setzen (mindestens 1,5R)."
   },
   {
    "titel": "Datenfehler: ein Trade mit -11 R",
    "text": "GBPCAD short vom 12.04.2021 steht mit -11 R, obwohl die maximale Gegenbewegung nur -1 R betrug. Das ist sehr wahrscheinlich ein Tippfehler. Er senkt die Backtest-Summe um 10 R (Ø +0,60 statt +0,66) und macht GBPCAD scheinbar negativ (-0,07 statt +0,71 Ø).",
    "wirkung": "+10 R Summe nach Korrektur",
    "staerke": 9,
-   "empfehlung": "Den Trade öffnen und das Ergebnis korrigieren (vermutlich -1 R)."
+   "empfehlung": "Den Trade öffnen und das Ergebnis auf −1 R korrigieren."
   },
   {
    "titel": "Verlierer waren oft kurz im Plus",
