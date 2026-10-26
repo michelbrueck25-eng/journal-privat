@@ -1,6 +1,6 @@
 {
  "typ": "verhalten",
- "stand": "2026-10-26T19:10:00+01:00",
+ "stand": "2026-10-26T19:40:00+01:00",
  "exportStand": "2026-10-26T17:43:16.343Z",
  "headline": "Im Backtest funktioniert deine Strategie (Ø +0,66 R, 79 % Treffer, 206 Trades), live bisher kaum (Ø +0,08 R, 46 %, nur 13 Trades). Größter Hebel im Backtest: Gewinner länger laufen lassen.",
  "kennzahlen": [
@@ -90,58 +90,122 @@
   {
    "prio": 1,
    "art": "Ändern",
-   "aenderung": "Take-Profit von 1R auf 2R setzen (1,5R ist die Untergrenze)",
-   "effekt": "+0,22 R je Trade, etwa +6 R pro Jahr",
-   "beleg": "150 Backtest-Trades mit Kursverlauf: Ø +0,60 R bei 1R, +0,81 bei 1,5R, +0,82 bei 2R. 32 von 120 Gewinnern liefen auf 2R oder mehr. Live (7 Trades): +0,29 R bei 2R statt 0,00 bei 1R."
+   "aenderung": "Live nur mit Daily-Bestätigung (OB-LTF) einsteigen",
+   "effekt": "Live-Schnitt rechnerisch von +0,08 auf +0,80 R",
+   "beleg": "Live: 5 Trades mit Daily-Bestätigung Ø +0,80 R, 8 ohne Ø −0,38 R. Backtest: mit Bestätigung Ø +1,03 R, ohne +0,54 R. Stichprobe live klein (13)."
   },
   {
    "prio": 2,
-   "art": "Korrigieren",
-   "aenderung": "GBPCAD short vom 12.04.2021 von −11 R auf −1 R korrigieren",
-   "effekt": "+10 R Summe, GBPCAD wird +0,71 statt −0,07",
-   "beleg": "Größte Gegenbewegung war nur −1 R, ein Ergebnis von −11 R ist sehr wahrscheinlich ein Eingabefehler. Bis dahin rechnet die App den Trade nicht mit."
+   "art": "Ändern",
+   "aenderung": "Weekly-Teil: Take-Profit von 1R auf 2R setzen",
+   "effekt": "+0,21 R je Weekly-Einstieg",
+   "beleg": "206 Weekly-Einstiege im Backtest: Ø +0,51 R bei 1R, +0,72 bei 1,5R und 2R. Danach flach."
   },
   {
    "prio": 3,
-   "art": "Lassen",
-   "aenderung": "Stopp nicht auf Einstand nachziehen",
-   "effekt": "vermeidet im ungünstigen Fall −41 R, Nutzen nur bis +12 R",
-   "beleg": "12 Verlierer lagen vorher mindestens +0,5 R im Plus. Aber 52 der 118 Gewinner mit ≥ +0,5 R fielen zwischendurch mindestens 0,3 R zurück und wären ausgestoppt worden."
+   "art": "Ändern",
+   "aenderung": "Daily-Teil: Take-Profit von 2R auf 3R setzen",
+   "effekt": "+0,28 R je Daily-Einstieg (4R: +0,39, weniger belastbar)",
+   "beleg": "56 Daily-Einstiege im Backtest: Ø +1,29 R bei 2R, +1,57 bei 3R, +1,68 bei 4R. Annahme: Höchststand wurde vor einem Stopp erreicht."
   },
   {
    "prio": 4,
-   "art": "Prüfen",
-   "aenderung": "Live-Trades gegen das Backtest-Regelwerk abgleichen (Stopp-Abstand, Einstiegszeitpunkt)",
-   "effekt": "Lücke von −0,58 R je Trade schließen",
-   "beleg": "Live: 46 % Treffer, Ø +0,08 R (13 Trades). Backtest: 79 %, Ø +0,66 R. Live-Trades laufen im Schnitt 10,8 Tage, im Backtest 19,6 Tage, Stopps werden live also früher getroffen."
+   "art": "Ändern",
+   "aenderung": "Bei Kombi-Einstiegen mehr Risiko auf den Daily-Teil legen (z. B. 30 % Weekly, 70 % Daily)",
+   "effekt": "rechnerisch +0,2 R je Kombi-Trade",
+   "beleg": "Im Backtest bringt der Daily-Teil Ø +1,29 R (55 Teile), der Weekly-Teil derselben Trades nur +0,26 R (57 Teile). Aufteilung 50/50 ergibt +0,78 R, 30/70 ergibt +0,98 R. Rechnerische Annahme."
   },
   {
    "prio": 5,
-   "art": "Ändern",
-   "aenderung": "Emotion und Disziplin bei jedem Live-Trade eintragen",
-   "effekt": "Voraussetzung für eine echte Verhaltensanalyse",
-   "beleg": "Disziplin steht überall auf 5, Emotionen sind nur bei 4 von 222 Trades erfasst."
+   "art": "Korrigieren",
+   "aenderung": "GBPCAD short vom 12.04.2021 von −11 R auf −1 R korrigieren",
+   "effekt": "+10 R Summe, GBPCAD wird +0,71 statt −0,07",
+   "beleg": "Größte Gegenbewegung war nur −1 R. Bis dahin rechnet die App den Trade nicht mit."
   },
   {
    "prio": 6,
-   "art": "Beobachten",
-   "aenderung": "Trades, die nach 40 Tagen weder Ziel noch Stopp erreicht haben, kritisch prüfen",
-   "effekt": "nicht berechenbar, Kurs am Tag 40 fehlt",
-   "beleg": "40 bis 59 Tage: Ø +0,12 R (13 Trades). 14 bis 29 Tage: Ø +0,76 R (73 Trades)."
+   "art": "Korrigieren",
+   "aenderung": "Bei CADJPY, GBPUSD und 4 Live-Trades fehlende Kriterien und Risiko nachtragen",
+   "effekt": "Auswertung wird belastbar",
+   "beleg": "CADJPY hat weder COT noch OB-Qualität und verstößt gegen dein Regelwerk. Bei 4 Live-Trades fehlt das Risiko."
   },
   {
    "prio": 7,
-   "art": "Lassen",
-   "aenderung": "Schwache Paare (AUDUSD, EURCHF) nicht aussortieren",
-   "effekt": "Ausschluss senkt die Summe um 7 R",
-   "beleg": "AUDUSD +0,14 R (18 Trades), EURCHF +0,38 R (12). Ohne beide steigt der Schnitt nur von +0,66 auf +0,73 R, die Summe fällt von +135 auf +128 R."
+   "art": "Ändern",
+   "aenderung": "Aco nicht mehr als Ausschlusskriterium nutzen",
+   "effekt": "kein Verlust, mehr passende Trades",
+   "beleg": "Backtest: Ø R in allen drei Aco-Zuständen zwischen +0,60 und +0,69 (206 Trades). Regel wird nur zur Hälfte eingehalten, ohne Unterschied im Ergebnis."
   },
   {
    "prio": 8,
    "art": "Lassen",
-   "aenderung": "Nach Verlusten normal weiterhandeln",
-   "effekt": "kein Handlungsbedarf",
-   "beleg": "Ø +0,69 R nach einem Verlust (43 Fälle), längste Verlustserie 3 Trades."
+   "aenderung": "Stopp nicht auf Einstand nachziehen",
+   "effekt": "vermeidet im ungünstigen Fall −41 R, Nutzen nur bis +12 R",
+   "beleg": "12 Verlierer lagen vorher ≥ +0,5 R im Plus. Aber 52 der 118 Gewinner mit ≥ +0,5 R fielen zwischendurch mindestens 0,3 R zurück."
+  },
+  {
+   "prio": 9,
+   "art": "Ändern",
+   "aenderung": "Emotion und Disziplin bei jedem Live-Trade eintragen",
+   "effekt": "Voraussetzung für Verhaltensanalyse",
+   "beleg": "Disziplin steht überall auf 5, Emotionen sind nur bei 4 von 222 Trades erfasst."
+  },
+  {
+   "prio": 10,
+   "art": "Lassen",
+   "aenderung": "Schwache Paare (AUDUSD, EURCHF) nicht aussortieren",
+   "effekt": "Ausschluss senkt die Summe um 7 R",
+   "beleg": "AUDUSD +0,14 R (18), EURCHF +0,38 R (12), beide positiv."
+  }
+ ],
+ "abweichungen": [
+  {
+   "thema": "Daily-Bestätigung (OB-LTF)",
+   "backtest": "47 von 206 Trades (23 %), Ø +1,03 R. Ohne: Ø +0,54 R (159)",
+   "live": "5 von 13 (38 %), Ø +0,80 R. Ohne: Ø −0,38 R (8 Trades)",
+   "bedeutung": "Größte Abweichung. Live-Trades ohne Daily-Bestätigung sind klar schlechter als im Backtest."
+  },
+  {
+   "thema": "COT als Pflichtkriterium",
+   "backtest": "206 von 206 erfüllt",
+   "live": "9 von 13 erfüllt, 2 ausgenommen (NQ, DJI), CADJPY ohne Eintrag (−1 R), GBPUSD mit Wert 73",
+   "bedeutung": "CADJPY hätte nach deinem Regelwerk nicht gehandelt werden dürfen."
+  },
+  {
+   "thema": "OB-Qualität eingetragen",
+   "backtest": "206 von 206",
+   "live": "11 von 13 (CADJPY und GBPUSD ohne Eintrag)",
+   "bedeutung": "Fehlende Einträge machen die Auswertung ungenau."
+  },
+  {
+   "thema": "Aco-Regel (Long nur überverkauft, Short nur überkauft)",
+   "backtest": "50 % eingehalten. Ø R je Zustand: überverkauft +0,69, neutral +0,67, überkauft +0,60",
+   "live": "6 von 13 eingehalten (46 %), Ø +0,08 R",
+   "bedeutung": "Im Backtest bringt die Aco-Regel keinen messbaren Unterschied, live wird sie auch nicht streng befolgt."
+  },
+  {
+   "thema": "Haltedauer bis Ausstieg",
+   "backtest": "Ø 19,6 Tage",
+   "live": "Ø 10,8 Tage",
+   "bedeutung": "Live werden Stopps früher getroffen, vor allem bei Weekly-Einstiegen."
+  },
+  {
+   "thema": "Risiko je Trade",
+   "backtest": "1 %: 164 Trades, 0,5 %: 42 Trades",
+   "live": "1 %: 8, 0,5 %: 1, ohne Angabe: 4",
+   "bedeutung": "Bei 4 Live-Trades fehlt das Risiko, die R-Werte sind dort nicht überprüfbar."
+  },
+  {
+   "thema": "JPY-Crosses",
+   "backtest": "EURJPY +0,46 R (13), AUDJPY +0,38 R (12), GBPJPY +1,10 R (10)",
+   "live": "5 Longs (EURJPY 2x, AUDJPY 2x, CADJPY), Ø −0,6 R",
+   "bedeutung": "Live läuft genau dort schlecht, wo der Backtest gut aussieht. Stichprobe klein."
+  },
+  {
+   "thema": "Optischer Vergleich der Charts",
+   "backtest": "nicht möglich",
+   "live": "nicht möglich",
+   "bedeutung": "Die Chart-Bilder liegen noch nicht im Repo. In den Einstellungen unter Privater GitHub-Sync „Chart-Bilder mitsenden“ auf „Nur Live-Trades“ stellen und senden."
   }
  ]
 }
