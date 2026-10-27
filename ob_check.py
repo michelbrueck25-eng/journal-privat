@@ -243,8 +243,18 @@ def main():
             chk.append(('warn', 'Kein Chart-Tool-Eintrag mit Zone: Zonenprüfung und Kurslage nicht möglich. Zeichne Zone und Position im Chart-Tool, dann prüfe ich sie.'))
         st = 'ungültig' if any(k == 'bad' for k, _ in chk) else 'prüfen' if any(k == 'warn' for k, _ in chk) else 'valide'
         pr.append({'id': t['id'], 'paar': sym[:3] + '/' + sym[3:], 'richtung': d, 'status': st, 'art': 'Limit' if t['status'] == 'limit' else 'Läuft', 'zone': z, 'checks': [{'t': k, 'text': x} for k, x in chk]})
-    A['pruefung'] = pr
-    A['pruefung_stand'] = NOW.astimezone().strftime('%Y-%m-%dT%H:%M')
+    # Persönliches (deine Positionen, Konflikte) nur ins private Repo, nie in die öffentliche ausblick.json
+    stand = NOW.astimezone().strftime('%Y-%m-%dT%H:%M')
+    PV = os.path.join(HOME, 'privat.json')
+    try: pv = json.load(open(PV, encoding='utf-8'))
+    except Exception: pv = {}
+    kf = pv.get('konflikte', {})
+    for e in A.get('empfehlungen', []):
+        if e.get('konflikt'): kf[str(e.get('paar')) + '|' + str(e.get('richtung'))] = e['konflikt']
+        e.pop('konflikt', None)
+    A.pop('pruefung', None); A.pop('pruefung_stand', None)
+    pv.update({'typ': 'privat', 'pruefung': pr, 'pruefung_stand': stand, 'konflikte': kf})
+    json.dump(pv, open(PV, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     json.dump(A, open(os.path.join(DATA, 'ausblick.json'), 'w'), ensure_ascii=False, indent=1)
     for p in pr: print(p['paar'], p['richtung'], p['art'], p['status'])
     for e in A.get('empfehlungen', []): print(e['paar'], e['ob']['status'], e['ob'].get('zone'), e['ob'].get('qualitaet'))

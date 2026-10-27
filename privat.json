@@ -1,0 +1,288 @@
+{
+ "typ": "privat",
+ "pruefung": [
+  {
+   "id": "muqsd09hq8867g",
+   "paar": "AUD/CAD",
+   "richtung": "long",
+   "status": "prüfen",
+   "art": "Läuft",
+   "zone": {},
+   "checks": [
+    {
+     "t": "ok",
+     "text": "COT AUD 6M-Index 100 (Stand 20.10.2026): im passenden Extrembereich, CAD 42."
+    },
+    {
+     "t": "warn",
+     "text": "Termine in den nächsten 5 Tagen: 28.10. 01:30 CPI y/y, 28.10. 14:45 BoC-Zinsentscheid."
+    },
+    {
+     "t": "ok",
+     "text": "Meine Einschätzung: long mit Überzeugung 4 von 10."
+    },
+    {
+     "t": "warn",
+     "text": "3 AUD-Positionen gleichzeitig, nach deiner Analyse sind mehr als 2 zu viel."
+    },
+    {
+     "t": "warn",
+     "text": "Kein Chart-Tool-Eintrag mit Zone: Zonenprüfung und Kurslage nicht möglich. Zeichne Zone und Position im Chart-Tool, dann prüfe ich sie."
+    }
+   ]
+  },
+  {
+   "id": "muvkm47gobd4xj",
+   "paar": "EUR/USD",
+   "richtung": "long",
+   "status": "prüfen",
+   "art": "Läuft",
+   "zone": {},
+   "checks": [
+    {
+     "t": "ok",
+     "text": "COT EUR 6M-Index 97 (Stand 20.10.2026): im passenden Extrembereich, USD 33."
+    },
+    {
+     "t": "warn",
+     "text": "Termine in den nächsten 5 Tagen: 28.10. 19:00 Fed-Zinsentscheid (Obergrenze), 29.10. 13:30 BIP q/q (1. Schätzung Q3), 29.10. 14:15 EZB-Zinsentscheid."
+    },
+    {
+     "t": "warn",
+     "text": "Meine Einschätzung: abwarten mit Überzeugung 3 von 10, also nicht in deiner Richtung."
+    },
+    {
+     "t": "warn",
+     "text": "Kein Chart-Tool-Eintrag mit Zone: Zonenprüfung und Kurslage nicht möglich. Zeichne Zone und Position im Chart-Tool, dann prüfe ich sie."
+    }
+   ]
+  },
+  {
+   "id": "mv4t28ngf89jec",
+   "paar": "GBP/CAD",
+   "richtung": "long",
+   "status": "ungültig",
+   "art": "Limit",
+   "zone": {
+    "zt": 1788134400000,
+    "zone": [
+     1.86109,
+     1.87604
+    ],
+    "entry": 1.87604,
+    "sl": 1.85959,
+    "tp": 1.89248,
+    "ebene": "D"
+   },
+   "checks": [
+    {
+     "t": "bad",
+     "text": "COT GBP 6M-Index 67 (Stand 20.10.2026): nicht mehr im Extrembereich für Long, CAD 42."
+    },
+    {
+     "t": "warn",
+     "text": "Termine in den nächsten 5 Tagen: 28.10. 14:45 BoC-Zinsentscheid."
+    },
+    {
+     "t": "warn",
+     "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
+    },
+    {
+     "t": "ok",
+     "text": "Kursstand 1.86923 vom 27.10.2026 (Quelle: Marktdaten 27.10.2026)."
+    },
+    {
+     "t": "warn",
+     "text": "Kurs hat den Limit-Preis seit 19.10.2026 erreicht, das Limit müsste ausgelöst sein. Status in der App prüfen."
+    },
+    {
+     "t": "warn",
+     "text": "Die Zone ist eine einzelne Weekly-Kerze, erfüllt aber meine Orderblock-Definition nicht (keine Bewegung über 1 ATR mit Strukturbruch)."
+    }
+   ]
+  },
+  {
+   "id": "mvdw1hkq56f3zc",
+   "paar": "AUD/NZD",
+   "richtung": "long",
+   "status": "prüfen",
+   "art": "Limit",
+   "zone": {
+    "zt": 1785715200000,
+    "zone": [
+     1.1913,
+     1.21021
+    ],
+    "entry": 1.21047,
+    "sl": 1.18938,
+    "tp": 1.23155,
+    "ebene": "W"
+   },
+   "checks": [
+    {
+     "t": "ok",
+     "text": "COT AUD 6M-Index 100 (Stand 20.10.2026): im passenden Extrembereich, NZD 89."
+    },
+    {
+     "t": "warn",
+     "text": "Termine in den nächsten 5 Tagen: 28.10. 01:30 CPI y/y, 28.10. 02:00 RBNZ-Zinsentscheid."
+    },
+    {
+     "t": "warn",
+     "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
+    },
+    {
+     "t": "warn",
+     "text": "3 AUD-Positionen gleichzeitig, nach deiner Analyse sind mehr als 2 zu viel."
+    },
+    {
+     "t": "ok",
+     "text": "Kursstand 1.23308 vom 27.10.2026 (Quelle: Marktdaten 27.10.2026)."
+    },
+    {
+     "t": "ok",
+     "text": "Kurs ist 3.4 Tages-ATR vom Limit entfernt."
+    }
+   ]
+  },
+  {
+   "id": "mvnskgcpurrrm4",
+   "paar": "NZD/JPY",
+   "richtung": "long",
+   "status": "prüfen",
+   "art": "Limit",
+   "zone": {
+    "zt": 1763337600000,
+    "zone": [
+     87.26536,
+     88.856
+    ],
+    "entry": 88.89143,
+    "sl": 87.10749,
+    "tp": 90.67538,
+    "ebene": "W"
+   },
+   "checks": [
+    {
+     "t": "ok",
+     "text": "COT NZD 6M-Index 89 (Stand 20.10.2026): im passenden Extrembereich, JPY 19 bestätigt gegenläufig."
+    },
+    {
+     "t": "warn",
+     "text": "Termine in den nächsten 5 Tagen: 28.10. 02:00 RBNZ-Zinsentscheid, 30.10. 00:30 BoJ-Zinsentscheid."
+    },
+    {
+     "t": "ok",
+     "text": "Meine Einschätzung: long mit Überzeugung 6 von 10."
+    },
+    {
+     "t": "ok",
+     "text": "Kursstand 90.023 vom 27.10.2026 (Quelle: Marktdaten 27.10.2026)."
+    },
+    {
+     "t": "ok",
+     "text": "Kurs ist 1.9 Tages-ATR vom Limit entfernt."
+    },
+    {
+     "t": "warn",
+     "text": "Die Zone ist eine einzelne Weekly-Kerze, erfüllt aber meine Orderblock-Definition nicht (keine Bewegung über 1 ATR mit Strukturbruch)."
+    }
+   ]
+  },
+  {
+   "id": "mvnsqjqbapzo4u",
+   "paar": "AUD/USD",
+   "richtung": "long",
+   "status": "prüfen",
+   "art": "Limit",
+   "zone": {
+    "zt": 1791763200000,
+    "zone": [
+     0.68956,
+     0.69821
+    ],
+    "entry": 0.69821,
+    "sl": 0.68869,
+    "tp": 0.70773,
+    "ebene": "W"
+   },
+   "checks": [
+    {
+     "t": "ok",
+     "text": "COT AUD 6M-Index 100 (Stand 20.10.2026): im passenden Extrembereich, USD 33."
+    },
+    {
+     "t": "warn",
+     "text": "Termine in den nächsten 5 Tagen: 28.10. 01:30 CPI y/y, 28.10. 19:00 Fed-Zinsentscheid (Obergrenze), 29.10. 13:30 BIP q/q (1. Schätzung Q3)."
+    },
+    {
+     "t": "warn",
+     "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
+    },
+    {
+     "t": "warn",
+     "text": "3 AUD-Positionen gleichzeitig, nach deiner Analyse sind mehr als 2 zu viel."
+    },
+    {
+     "t": "ok",
+     "text": "Kursstand 0.70337 vom 27.10.2026 (Quelle: Marktdaten 27.10.2026)."
+    },
+    {
+     "t": "ok",
+     "text": "Kurs ist 1.3 Tages-ATR vom Limit entfernt."
+    }
+   ]
+  },
+  {
+   "id": "mvnstr785at980",
+   "paar": "EUR/GBP",
+   "richtung": "long",
+   "status": "prüfen",
+   "art": "Limit",
+   "zone": {
+    "zt": 1740355200000,
+    "zone": [
+     0.82419997,
+     0.83050001
+    ],
+    "entry": 0.83051,
+    "sl": 0.82359,
+    "tp": 0.83743,
+    "ebene": "W"
+   },
+   "checks": [
+    {
+     "t": "ok",
+     "text": "COT EUR 6M-Index 97 (Stand 20.10.2026): im passenden Extrembereich, GBP 67."
+    },
+    {
+     "t": "warn",
+     "text": "Termine in den nächsten 5 Tagen: 29.10. 14:15 EZB-Zinsentscheid."
+    },
+    {
+     "t": "warn",
+     "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
+    },
+    {
+     "t": "ok",
+     "text": "Kursstand 0.83648 vom 27.10.2026 (Quelle: Marktdaten 27.10.2026)."
+    },
+    {
+     "t": "ok",
+     "text": "Kurs ist 1.8 Tages-ATR vom Limit entfernt."
+    },
+    {
+     "t": "warn",
+     "text": "Die Zone ist eine einzelne Weekly-Kerze, erfüllt aber meine Orderblock-Definition nicht (keine Bewegung über 1 ATR mit Strukturbruch)."
+    }
+   ]
+  }
+ ],
+ "pruefung_stand": "2026-10-27T14:08",
+ "konflikte": {
+  "AUD/JPY|long": "Du hast AUDCAD offen sowie Limits auf AUDNZD und AUDUSD. Mehr als 2 AUD-Positionen sind nach deiner Analyse zu viel: Streiche das AUDUSD-Limit oder halbiere es, bevor du AUD/JPY dazunimmst. Letzter AUD/JPY-Trade war am 07.09., die 5 Wochen Pause sind vorbei.",
+  "NZD/JPY|long": "NZD/JPY und AUD/JPY zusammen sind eine doppelte Yen-Wette. Nimm lieber nur eine der beiden mit vollem Risiko.",
+  "GBP/CHF|long": "Keiner. Das Paar hat keine offene Position.",
+  "EUR/CHF|long": "Euro-Risiko durch Frankreich spricht eher gegen diese Idee. Sie ist die schwächste der vier."
+ }
+}
