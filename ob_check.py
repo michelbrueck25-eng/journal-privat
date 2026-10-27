@@ -184,6 +184,12 @@ def main():
         if ob.get('zone'):
             f = fb.get(e['paar'] + '|' + e['richtung'] + '|' + '-'.join(str(x) for x in ob['zone']))
             if f: chk.append(('ok' if f['urteil'] == 'gut' else 'warn', 'Dein Urteil zu dieser Zone: ' + ('eigene Zone ' + str(f['eigene']) if f['urteil'] == 'eigen' else f['urteil']) + '.'))
+        if ob.get('einstieg') is not None:
+            f = lambda v: fmt(v, sym)
+            e['einstieg'] = (f"Weekly-Teil: Limit am Zonenrand {f(ob['einstieg'])} (Zone {f(ob['zone'][0])} bis {f(ob['zone'][1])}, Qualität {ob['qualitaet']})." +
+                             (f" Daily-Teil: Limit im Daily-Orderblock {f(ob['daily_ob'][0])} bis {f(ob['daily_ob'][1])} (Qualität {ob['daily_q']})." if ob.get('daily_ob') else ' Daily-Teil erst, wenn ein Daily-Orderblock in der Zone entsteht.'))
+            e['stopp'] = f"{f(ob['stopp'])}, 10 % der Zonenhöhe jenseits des Zonenrands. Nicht nachziehen."
+            e['ziel'] = f"Ziel 1: {f(ob['ziel1'])} (1 R), Ziel 2: {f(ob['ziel2'])} (2 R). Weekly-Teil zusätzlich laut Reiter KI Trades."
         ob['checks'] = [{'t': k, 'text': t} for k, t in chk]
         ob['status'] = 'ungültig' if any(k == 'bad' for k, _ in chk) else 'prüfen' if any(k == 'warn' for k, _ in chk) else 'valide'
         e['ob'] = ob
