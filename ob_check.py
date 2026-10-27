@@ -170,7 +170,7 @@ def main():
                 rng = o['hi'] - o['lo']
                 entry = o['hi'] if d == 'long' else o['lo']; sl = (o['lo'] - 0.1 * rng) if d == 'long' else (o['hi'] + 0.1 * rng)
                 R = abs(entry - sl); tp1 = entry + R if d == 'long' else entry - R; tp2 = entry + 2 * R if d == 'long' else entry - 2 * R
-                ob.update({'ebene': 'weekly', 'zone': [round(o['lo'], 5), round(o['hi'], 5)], 'qualitaet': o['q'], 'alter_wochen': o['age'], 'beruehrungen': o['touches'], 'bewegung_atr': o['disp_atr'], 'kurs': round(price, 5), 'kursstand': day(wk[-1][0]), 'abstand_atr': round(dist, 1), 'einstieg': round(entry, 5), 'stopp': round(sl, 5), 'ziel1': round(tp1, 5), 'ziel2': round(tp2, 5)})
+                ob.update({'ebene': 'weekly', 'zone': [round(o['lo'], 5), round(o['hi'], 5)], 'qualitaet': o['q'], 'alter_wochen': o['age'], 'beruehrungen': o['touches'], 'bewegung_atr': o['disp_atr'], 'kurs': round(price, 5), 'kursstand': day(wk[-1][0]), 'abstand_atr': round(dist, 1), 'zone_t': o['t'], 'einstieg': round(entry, 5), 'stopp': round(sl, 5), 'ziel1': round(tp1, 5), 'ziel2': round(tp2, 5)})
                 chk.append(('ok' if o['q'] in 'AB' else 'warn', f"Weekly-Orderblock {fmt(o['lo'], sym)} bis {fmt(o['hi'], sym)}, Qualität {o['q']} (Bewegung {o['disp_atr']} ATR, {o['touches']} Berührungen, {o['age']} Wochen alt)."))
                 chk.append(('ok' if dist <= 4 else 'warn', f'Kurs {fmt(price, sym)} ist {dist:.1f} Wochen-ATR von der Zone entfernt' + ('.' if dist <= 4 else ', der Limit wird lange nicht erreicht.')))
                 if dl:
@@ -216,7 +216,7 @@ def main():
             if pos and rects:
                 entry, sl = pos['entry'], pos['sl']; rect = min(rects, key=lambda r: abs(r['p0'] - entry)) if d == 'long' else min(rects, key=lambda r: abs(r['p1'] - entry))
                 top, bot = max(rect['p0'], rect['p1']), min(rect['p0'], rect['p1'])
-                z = {'zone': [bot, top], 'entry': round(entry, 5), 'sl': round(sl, 5), 'tp': round(pos['tp'], 5), 'ebene': pos.get('tf') or t.get('zone')}
+                z = {'zt': rect['t0'], 'zone': [bot, top], 'entry': round(entry, 5), 'sl': round(sl, 5), 'tp': round(pos['tp'], 5), 'ebene': pos.get('tf') or t.get('zone')}
                 if base:
                     last = base[-1]; price = last[4]; kd = day(last[0])
                     chk.append(('ok', f'Kursstand {fmt(price, sym)} vom {dmy(kd)} (Quelle: {src or srcd}).'))
