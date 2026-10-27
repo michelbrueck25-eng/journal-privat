@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-10-27T15:07:35.309Z",
+ "exportiert": "2026-10-27T15:21:49.698Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -8912,7 +8912,7 @@
    "entryDate": "2026-10-01",
    "r": 0,
    "discipline": 5,
-   "updatedAt": 1793104049270,
+   "updatedAt": 1793114472166,
    "createdAt": 1790934954984,
    "emoDuring": "ruhig",
    "emoLog": [
@@ -8923,6 +8923,11 @@
     },
     {
      "z": "2026-10-27T12:27:29.270Z",
+     "p": "emoDuring",
+     "v": "ruhig"
+    },
+    {
+     "z": "2026-10-27T15:21:12.166Z",
      "p": "emoDuring",
      "v": "ruhig"
     }
@@ -9851,7 +9856,7 @@
    "dir": "long",
    "entryDate": "2026-10-05",
    "emoBefore": "zuversichtlich",
-   "updatedAt": 1793104049271,
+   "updatedAt": 1793114472167,
    "createdAt": 1791224259951,
    "emoDuring": "ruhig",
    "emoLog": [
@@ -9862,6 +9867,11 @@
     },
     {
      "z": "2026-10-27T12:27:29.271Z",
+     "p": "emoDuring",
+     "v": "ruhig"
+    },
+    {
+     "z": "2026-10-27T15:21:12.167Z",
      "p": "emoDuring",
      "v": "ruhig"
     }
