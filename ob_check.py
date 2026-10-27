@@ -148,7 +148,17 @@ def main():
     A['lernen'] = {'n': len(fb), 'gut': sum(1 for f in fb.values() if f['urteil'] == 'gut'), 'schwach': sum(1 for f in fb.values() if f['urteil'] == 'schwach'), 'falsch': sum(1 for f in fb.values() if f['urteil'] == 'falsch'), 'eigene_zonen': [{'paar': f['paar'], 'meine': f['zone'], 'deine': f['eigene']} for f in fb.values() if f.get('eigene')]}
 
     # ---------- Empfehlungen ----------
-    for e in A.get('empfehlungen', []):
+    # Auch die übrigen Paare der Liste "Alle Paare" prüfen (Richtung bei Abwarten aus dem COT-Extrem der Basiswährung)
+    emp = {e['paar'] for e in A.get('empfehlungen', [])}
+    extras = []
+    for p in A.get('paare', []):
+        if p['paar'] in emp: continue
+        d0 = str(p.get('richtung', '')).lower(); b = p['paar'].replace('/', '')[:3]
+        if d0 not in ('long', 'short'):
+            cb = cot.get(b)
+            d0 = 'long' if cb and cb[0] >= 75 else 'short' if cb and cb[0] <= 25 else ''
+        if d0: extras.append({'paar': p['paar'], 'richtung': d0, '_p': p})
+    for e in A.get('empfehlungen', []) + extras:
         sym = e['paar'].replace('/', ''); d = e['richtung'].lower()
         wk, src = load_candles(sym, 'W', trades); dl, srcd = load_candles(sym, 'D', trades)
         chk = [(k, t) for k, t in cot_check(sym, d)]
@@ -193,6 +203,7 @@ def main():
         ob['checks'] = [{'t': k, 'text': t} for k, t in chk]
         ob['status'] = 'ungültig' if any(k == 'bad' for k, _ in chk) else 'prüfen' if any(k == 'warn' for k, _ in chk) else 'valide'
         e['ob'] = ob
+        if '_p' in e: ob['richtung'] = e['richtung']; e['_p']['ob'] = ob
 
     # ---------- Positionen ----------
     pr = []
