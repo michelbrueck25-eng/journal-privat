@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-10-28T07:52:52.260Z",
+ "exportiert": "2026-10-28T07:53:39.847Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -15285,7 +15285,7 @@
    "riskPct": 1,
    "dir": "long",
    "analysisDate": "2026-10-19",
-   "entryDate": "2026-10-19",
+   "entryDate": "2026-10-26",
    "chart": {
     "v": 2,
     "sym": "NZDJPY",
@@ -15746,7 +15746,7 @@
    "peak": 0,
    "mfeDays": 0,
    "lots": 0.09,
-   "status": "limit",
+   "status": "offen",
    "id": "mvnskgcpurrrm4",
    "crit": {
     "cmu8ifszl4jj3ts": "Überverkauft",
@@ -15766,7 +15766,7 @@
    ],
    "r": 0,
    "limitSet": true,
-   "updatedAt": 1792994912536,
+   "updatedAt": 1793174002698,
    "createdAt": 1792930584581,
    "limitAt": 1792994912536,
    "bilder": 0
