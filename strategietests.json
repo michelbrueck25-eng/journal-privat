@@ -1,0 +1,18 @@
+{
+ "typ": "strategietests",
+ "stand": "2026-10-29T10:19",
+ "tests": [
+  {
+   "id": "smvtc0ajx",
+   "name": "Weekly mit LTF",
+   "status": "laeuft",
+   "geprueft": "2026-10-29T10:19",
+   "urteil": "Test läuft.",
+   "kennzahlen": [],
+   "regeln": [],
+   "annahmen": [],
+   "schwaechen": [],
+   "naechste": ""
+  }
+ ]
+}
