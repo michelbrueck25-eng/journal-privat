@@ -9,8 +9,40 @@
    "geprueft": "2026-10-29T10:33",
    "zeitraum": "Daily: 08.09.2025 bis 28.10.2026 (Setups mit erster Zonenberührung in diesem Fenster); Weekly-Zonen aus Kerzen ab 08.11.2021",
    "daten": "11 Paare (AUDCAD, AUDJPY, AUDNZD, AUDUSD, EURCHF, EURGBP, EURUSD, GBPCAD, GBPCHF, NZDJPY, USDJPY), je 400 Tageskerzen und 260 Wochenkerzen; keine 4H- und keine 1H-Kerzen; COT aus cot.csv (kommerzielle Netto-Position, 26-Wochen-Index)",
-   "urteil": "Auf Daily-Zonen gibt es 332 Trades statt 87. Beste Variante: Trefferquote 52 %, Ø +0,20 R, Stopp 53 Pips, 2,5 Tage. Die Stabilität fehlt: Entwicklungshälfte 46 %, Prüfhälfte 60 %, einzelne Monate und Paare negativ. 50+ % in beiden Hälften schafft keine der 984 getesteten Varianten mit 300+ Trades. Dein Ziel von 1 bis 2 R im Schnitt ist mit diesen Daten nicht erreicht.",
+   "urteil": "Ziel 0,3 bis 0,5 R mit 50 % Trefferquote erreicht nur die COT-gefilterte Variante, und nur mit 65 Trades (95-%-Intervall 0,12 bis 0,65 R). Ohne Filter: 562 Trades, 95-%-Intervall für Ø R [0,10; 0,26], Profitfaktor 1,47, 10 von 12 Jahren positiv. Zufalls-Einstiege mit gleichem Risiko und Ziel: Ø -0,014 R (p = 0,000). Dein eigener Backtest (78 %, +0,65 R) liegt weit über diesem Wert und deine 15 Live-Trades (40 %, +0,07 R) darunter. Der Unterschied Backtest minus Live beträgt Ø 0,58 R (Intervall 0,07 bis 1,10 R).\n\nAuf Daily-Zonen gibt es 332 Trades statt 87. Beste Variante: Trefferquote 52 %, Ø +0,20 R, Stopp 53 Pips, 2,5 Tage. Die Stabilität fehlt: Entwicklungshälfte 46 %, Prüfhälfte 60 %, einzelne Monate und Paare negativ. 50+ % in beiden Hälften schafft keine der 984 getesteten Varianten mit 300+ Trades. Dein Ziel von 1 bis 2 R im Schnitt ist mit diesen Daten nicht erreicht.",
    "kennzahlen": [
+    {
+     "label": "Weekly-Quant.: Trades",
+     "wert": "562"
+    },
+    {
+     "label": "Weekly-Quant.: Trefferquote",
+     "wert": "53,2 %"
+    },
+    {
+     "label": "Weekly-Quant.: Ø R (Expectancy)",
+     "wert": "0,179"
+    },
+    {
+     "label": "Weekly-Quant.: 95-%-Intervall Ø R",
+     "wert": "0,10 bis 0,26"
+    },
+    {
+     "label": "Weekly-Quant.: Profitfaktor",
+     "wert": "1,47"
+    },
+    {
+     "label": "Weekly-Quant.: Max-Drawdown",
+     "wert": "12,3 R"
+    },
+    {
+     "label": "Weekly-Quant.: Längste Verlustserie",
+     "wert": "9"
+    },
+    {
+     "label": "Weekly-Quant.: Mit COT relativ",
+     "wert": "65 Trades, 62 %, Ø 0,38 R"
+    },
     {
      "label": "Trades (Daily-Zonen)",
      "wert": "332",
@@ -388,6 +420,699 @@
    ],
    "equityHinweis": "Daily-Zonen, beste Variante (332 Trades, kumulierte R nach Datum, nach 1 Pip Spread).",
    "tabellen": [
+    {
+     "titel": "Weekly-Quantifizierung: Je Jahr",
+     "spalten": [
+      "Gruppe",
+      "Trades",
+      "Ø R",
+      "Trefferquote",
+      "Profitfaktor"
+     ],
+     "zeilen": [
+      [
+       "2015",
+       5,
+       "0,26",
+       "60 %",
+       "1,65"
+      ],
+      [
+       "2016",
+       83,
+       "-0,00",
+       "42 %",
+       "1,00"
+      ],
+      [
+       "2017",
+       46,
+       "0,14",
+       "54 %",
+       "1,41"
+      ],
+      [
+       "2018",
+       58,
+       "0,17",
+       "55 %",
+       "1,50"
+      ],
+      [
+       "2019",
+       36,
+       "0,36",
+       "61 %",
+       "2,05"
+      ],
+      [
+       "2020",
+       59,
+       "-0,11",
+       "41 %",
+       "0,79"
+      ],
+      [
+       "2021",
+       44,
+       "0,16",
+       "48 %",
+       "1,45"
+      ],
+      [
+       "2022",
+       55,
+       "0,54",
+       "69 %",
+       "3,10"
+      ],
+      [
+       "2023",
+       43,
+       "0,33",
+       "63 %",
+       "2,24"
+      ],
+      [
+       "2024",
+       41,
+       "0,05",
+       "49 %",
+       "1,11"
+      ],
+      [
+       "2025",
+       54,
+       "0,20",
+       "54 %",
+       "1,50"
+      ],
+      [
+       "2026",
+       38,
+       "0,32",
+       "61 %",
+       "1,94"
+      ]
+     ]
+    },
+    {
+     "titel": "Weekly-Quantifizierung: Je Paar",
+     "spalten": [
+      "Gruppe",
+      "Trades",
+      "Ø R",
+      "Trefferquote",
+      "Profitfaktor"
+     ],
+     "zeilen": [
+      [
+       "AUDCAD",
+       52,
+       "0,14",
+       "56 %",
+       "1,44"
+      ],
+      [
+       "AUDJPY",
+       76,
+       "0,10",
+       "49 %",
+       "1,23"
+      ],
+      [
+       "AUDNZD",
+       48,
+       "0,25",
+       "56 %",
+       "1,74"
+      ],
+      [
+       "AUDUSD",
+       11,
+       "0,58",
+       "64 %",
+       "2,59"
+      ],
+      [
+       "EURCHF",
+       50,
+       "0,00",
+       "44 %",
+       "1,00"
+      ],
+      [
+       "EURGBP",
+       13,
+       "0,33",
+       "54 %",
+       "1,71"
+      ],
+      [
+       "EURUSD",
+       71,
+       "0,24",
+       "56 %",
+       "1,67"
+      ],
+      [
+       "GBPCAD",
+       70,
+       "0,12",
+       "51 %",
+       "1,31"
+      ],
+      [
+       "GBPCHF",
+       52,
+       "-0,07",
+       "42 %",
+       "0,87"
+      ],
+      [
+       "NZDJPY",
+       59,
+       "0,18",
+       "51 %",
+       "1,46"
+      ],
+      [
+       "USDJPY",
+       60,
+       "0,50",
+       "70 %",
+       "3,07"
+      ]
+     ]
+    },
+    {
+     "titel": "Weekly-Quantifizierung: Je Richtung",
+     "spalten": [
+      "Gruppe",
+      "Trades",
+      "Ø R",
+      "Trefferquote",
+      "Profitfaktor"
+     ],
+     "zeilen": [
+      [
+       "long",
+       256,
+       "0,15",
+       "52 %",
+       "1,39"
+      ],
+      [
+       "short",
+       306,
+       "0,20",
+       "54 %",
+       "1,54"
+      ]
+     ]
+    },
+    {
+     "titel": "Weekly-Quantifizierung: Entwicklung gegen Prüfung",
+     "spalten": [
+      "Gruppe",
+      "Trades",
+      "Ø R",
+      "Trefferquote",
+      "Profitfaktor"
+     ],
+     "zeilen": [
+      [
+       "bis 2022",
+       386,
+       "0,16",
+       "51,8 %",
+       "1,41"
+      ],
+      [
+       "ab 2023",
+       176,
+       "0,22",
+       "56,2 %",
+       "1,62"
+      ]
+     ]
+    },
+    {
+     "titel": "Weekly-Quantifizierung: Ausstieg",
+     "spalten": [
+      "Grund",
+      "Trades",
+      "Anteil"
+     ],
+     "zeilen": [
+      [
+       "TP",
+       162,
+       "29 %"
+      ],
+      [
+       "Zeit",
+       214,
+       "38 %"
+      ],
+      [
+       "SL",
+       186,
+       "33 %"
+      ]
+     ]
+    },
+    {
+     "titel": "Weekly-Quantifizierung: Alle 18 getesteten Varianten (Ziel, Haltetage, COT-Filter)",
+     "spalten": [
+      "Ziel",
+      "Tage",
+      "COT",
+      "Trades",
+      "Trefferquote",
+      "Ø R",
+      "95-%-Intervall"
+     ],
+     "zeilen": [
+      [
+       "1,0 R",
+       7,
+       "COT extrem",
+       29,
+       "62,1 %",
+       "0,190",
+       "[-0,14; 0,50]"
+      ],
+      [
+       "1,0 R",
+       7,
+       "ohne COT",
+       562,
+       "56,2 %",
+       "0,134",
+       "[0,07; 0,20]"
+      ],
+      [
+       "1,0 R",
+       7,
+       "COT relativ",
+       65,
+       "67,7 %",
+       "0,259",
+       "[0,05; 0,47]"
+      ],
+      [
+       "1,0 R",
+       10,
+       "COT extrem",
+       29,
+       "65,5 %",
+       "0,236",
+       "[-0,10; 0,56]"
+      ],
+      [
+       "1,0 R",
+       10,
+       "ohne COT",
+       562,
+       "57,3 %",
+       "0,131",
+       "[0,07; 0,20]"
+      ],
+      [
+       "1,0 R",
+       10,
+       "COT relativ",
+       65,
+       "66,2 %",
+       "0,257",
+       "[0,04; 0,48]"
+      ],
+      [
+       "1,5 R",
+       7,
+       "COT extrem",
+       29,
+       "62,1 %",
+       "0,414",
+       "[0,01; 0,81]"
+      ],
+      [
+       "1,5 R",
+       7,
+       "ohne COT",
+       562,
+       "54,1 %",
+       "0,180",
+       "[0,10; 0,26]"
+      ],
+      [
+       "1,5 R",
+       7,
+       "COT relativ",
+       65,
+       "67,7 %",
+       "0,403",
+       "[0,15; 0,67]"
+      ],
+      [
+       "1,5 R",
+       10,
+       "COT extrem",
+       29,
+       "65,5 %",
+       "0,477",
+       "[0,04; 0,87]"
+      ],
+      [
+       "1,5 R",
+       10,
+       "ohne COT",
+       562,
+       "53,2 %",
+       "0,179",
+       "[0,10; 0,26]"
+      ],
+      [
+       "1,5 R",
+       10,
+       "COT relativ",
+       65,
+       "61,5 %",
+       "0,383",
+       "[0,12; 0,65]"
+      ],
+      [
+       "2,0 R",
+       7,
+       "COT extrem",
+       29,
+       "55,2 %",
+       "0,378",
+       "[-0,01; 0,83]"
+      ],
+      [
+       "2,0 R",
+       7,
+       "ohne COT",
+       562,
+       "52,7 %",
+       "0,181",
+       "[0,09; 0,27]"
+      ],
+      [
+       "2,0 R",
+       7,
+       "COT relativ",
+       65,
+       "64,6 %",
+       "0,390",
+       "[0,13; 0,67]"
+      ],
+      [
+       "2,0 R",
+       10,
+       "COT extrem",
+       29,
+       "58,6 %",
+       "0,365",
+       "[-0,01; 0,80]"
+      ],
+      [
+       "2,0 R",
+       10,
+       "ohne COT",
+       562,
+       "51,2 %",
+       "0,183",
+       "[0,09; 0,27]"
+      ],
+      [
+       "2,0 R",
+       10,
+       "COT relativ",
+       65,
+       "58,5 %",
+       "0,366",
+       "[0,09; 0,66]"
+      ]
+     ]
+    },
+    {
+     "titel": "Weekly-Quantifizierung: Quelle: Backtest gegen Live",
+     "spalten": [
+      "Gruppe",
+      "Trades",
+      "Ø R",
+      "Trefferquote",
+      "Profitfaktor",
+      "Max-DD (R)",
+      "Längste Verlustserie"
+     ],
+     "zeilen": [
+      [
+       "backtest",
+       207,
+       "0,65",
+       "78 %",
+       "4,05",
+       "4,0",
+       3
+      ],
+      [
+       "live",
+       15,
+       "0,07",
+       "40 %",
+       "1,17",
+       "5,0",
+       7
+      ]
+     ]
+    },
+    {
+     "titel": "Weekly-Quantifizierung: Disziplin (1 bis 5)",
+     "spalten": [
+      "Gruppe",
+      "Trades",
+      "Ø R",
+      "Trefferquote",
+      "Profitfaktor",
+      "Max-DD (R)",
+      "Längste Verlustserie"
+     ],
+     "zeilen": [
+      [
+       "5",
+       209,
+       "0,61",
+       "76 %",
+       "3,73",
+       "4,0",
+       5
+      ]
+     ]
+    },
+    {
+     "titel": "Weekly-Quantifizierung: Schlussgrund",
+     "spalten": [
+      "Gruppe",
+      "Trades",
+      "Ø R",
+      "Trefferquote",
+      "Profitfaktor",
+      "Max-DD (R)",
+      "Längste Verlustserie"
+     ],
+     "zeilen": [
+      [
+       "SL",
+       50,
+       "-0,94",
+       "4 %",
+       "0,02",
+       "46,0",
+       26
+      ],
+      [
+       "TP",
+       162,
+       "1,11",
+       "99 %",
+       "–",
+       "0,0",
+       1
+      ]
+     ]
+    },
+    {
+     "titel": "Weekly-Quantifizierung: Kombi-Einstiege: Weekly-Teil gegen Daily-Teil",
+     "spalten": [
+      "Gruppe",
+      "Trades",
+      "Ø R",
+      "Trefferquote",
+      "Profitfaktor",
+      "Max-DD (R)",
+      "Längste Verlustserie"
+     ],
+     "zeilen": [
+      [
+       "Teil weekly",
+       67,
+       "0,22",
+       "57 %",
+       "1,65",
+       "7,0",
+       4
+      ],
+      [
+       "Teil daily",
+       63,
+       "1,19",
+       "71 %",
+       "6,00",
+       "2,0",
+       2
+      ]
+     ]
+    },
+    {
+     "titel": "Weekly-Quantifizierung: Ausstieg: festes Ziel gegen tatsächliches Ergebnis (nur Trades mit MFE/MAE)",
+     "spalten": [
+      "Variante",
+      "Trades",
+      "Ø R",
+      "Trefferquote"
+     ],
+     "zeilen": [
+      [
+       "Festes Ziel 0,5 R (Obergrenze)",
+       159,
+       "0,31",
+       "87 %"
+      ],
+      [
+       "Festes Ziel 1,0 R (Obergrenze)",
+       159,
+       "0,56",
+       "77 %"
+      ],
+      [
+       "Festes Ziel 1,5 R (Obergrenze)",
+       159,
+       "0,82",
+       "77 %"
+      ],
+      [
+       "Festes Ziel 2,0 R (Obergrenze)",
+       159,
+       "0,94",
+       "77 %"
+      ],
+      [
+       "Festes Ziel 3,0 R (Obergrenze)",
+       159,
+       "0,81",
+       "77 %"
+      ],
+      [
+       "Tatsächlich",
+       159,
+       "0,57",
+       "77 %"
+      ]
+     ]
+    },
+    {
+     "titel": "Weekly-Quantifizierung: Engerer Stopp: Anteil der Trades, der ihn überlebt (MAE)",
+     "spalten": [
+      "Stopp",
+      "Trades",
+      "Überlebt",
+      "Gewinner überleben"
+     ],
+     "zeilen": [
+      [
+       "Stopp bei -0,25 R",
+       159,
+       "43 %",
+       "54 %"
+      ],
+      [
+       "Stopp bei -0,50 R",
+       159,
+       "60 %",
+       "76 %"
+      ],
+      [
+       "Stopp bei -0,75 R",
+       159,
+       "70 %",
+       "89 %"
+      ],
+      [
+       "Stopp bei -1,00 R",
+       159,
+       "79 %",
+       "100 %"
+      ]
+     ]
+    },
+    {
+     "titel": "Weekly-Quantifizierung: Monte-Carlo: Challenge-Simulation (Ziel +10 %, max. Verlust -10 %, bis 120 Trades, 10.000 Läufe, Trades gezogen aus den eigenen Ergebnissen)",
+     "spalten": [
+      "Grundlage",
+      "Risiko je Trade",
+      "Ziel erreicht",
+      "Konto verloren",
+      "95-%-Drawdown"
+     ],
+     "zeilen": [
+      [
+       "Backtest-Ergebnisse",
+       "0,5 %",
+       "100 %",
+       "0 %",
+       "2,0 %"
+      ],
+      [
+       "Backtest-Ergebnisse",
+       "1,0 %",
+       "100 %",
+       "0 %",
+       "3,0 %"
+      ],
+      [
+       "Live-Ergebnisse (nur 15 Trades)",
+       "0,5 %",
+       "20 %",
+       "1 %",
+       "8,8 %"
+      ],
+      [
+       "Live-Ergebnisse (nur 15 Trades)",
+       "1,0 %",
+       "59 %",
+       "14 %",
+       "14,0 %"
+      ],
+      [
+       "Alle Trades",
+       "0,5 %",
+       "100 %",
+       "0 %",
+       "2,0 %"
+      ],
+      [
+       "Alle Trades",
+       "1,0 %",
+       "100 %",
+       "0 %",
+       "3,0 %"
+      ]
+     ]
+    },
     {
      "titel": "Varianten im Vergleich",
      "spalten": [
@@ -1053,10 +1778,14 @@
     "984 Varianten getestet: einzelne gute Ergebnisse können Zufall sein",
     "Entwicklungs- und Prüfhälfte widersprechen sich (46 % gegen 60 % Trefferquote)",
     "Keine 4H/1H-Bestätigung im Daily-Test, 4H-Daten kommen gerade im Repo an",
-    "Indizes und nicht gesendete Paare fehlen"
+    "Indizes und nicht gesendete Paare fehlen",
+    "Nur 21 Paare, Rohstoffe fehlen noch",
+    "Setups benachbarter Paare sind korreliert (USD-Wochen), die echte Unabhängigkeit ist kleiner als n",
+    "Mit COT-Filter nur 65 und 29 Trades und 18 Varianten getestet: die beste Variante kann Zufall sein",
+    "Die Charts zeigen den Verlauf nach dem Trade, das ist nur Illustration, kein Nachweis"
    ],
    "naechste": "Sobald alle 34 Instrumente im Repo sind (läuft seit 10:30): Daily-Zonen auf 18 bis 34 Instrumenten mit mehreren Jahren Tageskerzen testen, dann 4H-Bestätigung und Fib-Einstieg (50 bis 61,8 % des letzten Swings) als weitere Varianten. Erst damit zeigt sich, ob die Prüfhälfte (60 %) oder die Entwicklungshälfte (46 %) das Normal ist.",
-   "zusammenfassung": "Beste Variante mit mindestens 300 Trades: Daily-Zonen (Qualität A und B), Limit am Zonenrand, Stopp hinter der Zone plus 0,1 ATR, Ziel 1,5 R, Ausstieg nach 7 Tagen. 332 Trades über 11 Paare, 11.10.2025 bis 28.10.2026: Trefferquote 52 %, Ø +0,20 R nach 1 Pip Spread, Profitfaktor 1,42, Ø Stopp 53 Pips, Ø Haltedauer 2,5 Tage, Max-Drawdown 14,5 R, längste Verlustserie 8. Aber: In der Entwicklungshälfte (201 Trades) lag die Trefferquote bei 46 % mit Ø +0,05 R, in der Prüfhälfte (131 Trades) bei 60 % mit Ø +0,42 R. Die Monate schwanken zwischen -0,5 und +0,8 R, 4 Paare liegen bei Ø R unter null. Die Bedingung 50+ % in beiden Hälften erfüllt keine von 756 getesteten Daily-Varianten mit 300+ Trades. Das Ergebnis ist ein Kandidat, kein belegtes Optimum. Gleichzeitig ist es der erste Test mit ausreichender Stichprobe, und er liegt klar über der Wochen-Variante (Ø +0,12 bis +0,17 R bei 87 Trades, 140 Pips Stopp), mit deutlich kleinerem Stopp und kürzerer Haltedauer.",
+   "zusammenfassung": "Quantifizierung des Weekly-Teils: Der Weekly-Teil deiner Strategie (Wochen-Orderblock, erste Berührung am Tag, Einstieg an der Zonenkante, Stopp 0,1 ATR hinter der Zone, Ziel 1,5 R, Ausstieg nach 10 Tagen) hat auf 562 Setups einen kleinen, aber stabilen Vorteil: Trefferquote 53,2 %, Ø 0,179 R nach Spread. Der Vorteil ist in beiden Zeiträumen positiv (bis 2022: 0,16 R, ab 2023: 0,22 R). Mit COT-Filter (Basis gegen Quote relativ) steigen die Werte auf Ø 0,38 R bei 62 % Treffern (65 Trades), mit extremer COT-Lage auf Ø 0,48 R (29 Trades, zu wenige für sichere Aussagen).\n\nBeste Variante mit mindestens 300 Trades: Daily-Zonen (Qualität A und B), Limit am Zonenrand, Stopp hinter der Zone plus 0,1 ATR, Ziel 1,5 R, Ausstieg nach 7 Tagen. 332 Trades über 11 Paare, 11.10.2025 bis 28.10.2026: Trefferquote 52 %, Ø +0,20 R nach 1 Pip Spread, Profitfaktor 1,42, Ø Stopp 53 Pips, Ø Haltedauer 2,5 Tage, Max-Drawdown 14,5 R, längste Verlustserie 8. Aber: In der Entwicklungshälfte (201 Trades) lag die Trefferquote bei 46 % mit Ø +0,05 R, in der Prüfhälfte (131 Trades) bei 60 % mit Ø +0,42 R. Die Monate schwanken zwischen -0,5 und +0,8 R, 4 Paare liegen bei Ø R unter null. Die Bedingung 50+ % in beiden Hälften erfüllt keine von 756 getesteten Daily-Varianten mit 300+ Trades. Das Ergebnis ist ein Kandidat, kein belegtes Optimum. Gleichzeitig ist es der erste Test mit ausreichender Stichprobe, und er liegt klar über der Wochen-Variante (Ø +0,12 bis +0,17 R bei 87 Trades, 140 Pips Stopp), mit deutlich kleinerem Stopp und kürzerer Haltedauer.",
    "bilder": [
     {
      "pfad": "strategiebilder/smvtc0ajx_01.jpg",
@@ -1441,6 +2170,330 @@
      "titel": "GBPCAD Long 03.10.26",
      "ergebnis": "TP +1.48 R",
      "r": 1.48
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_01.jpg",
+     "titel": "EURUSD Long 04.11.15",
+     "ergebnis": "SL -1.00 R",
+     "r": -1.0
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_02.jpg",
+     "titel": "GBPCHF Long 08.01.16",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_03.jpg",
+     "titel": "NZDJPY Long 28.01.16",
+     "ergebnis": "SL -1.00 R",
+     "r": -1.0
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_04.jpg",
+     "titel": "EURCHF Long 23.02.16",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_05.jpg",
+     "titel": "USDJPY Short 22.04.16",
+     "ergebnis": "TP +1.50 R",
+     "r": 1.5
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_06.jpg",
+     "titel": "EURCHF Long 24.06.16",
+     "ergebnis": "Zeit +1.10 R",
+     "r": 1.1
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_07.jpg",
+     "titel": "AUDCAD Long 19.07.16",
+     "ergebnis": "Zeit +0.72 R",
+     "r": 0.72
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_08.jpg",
+     "titel": "GBPCAD Short 09.11.16",
+     "ergebnis": "Zeit +0.28 R",
+     "r": 0.28
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_09.jpg",
+     "titel": "EURUSD Short 08.12.16",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_10.jpg",
+     "titel": "GBPCAD Short 20.01.17",
+     "ergebnis": "Zeit +0.98 R",
+     "r": 0.98
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_11.jpg",
+     "titel": "USDJPY Short 09.05.17",
+     "ergebnis": "TP +1.50 R",
+     "r": 1.5
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_12.jpg",
+     "titel": "AUDCAD Short 18.07.17",
+     "ergebnis": "Zeit -0.20 R",
+     "r": -0.2
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_13.jpg",
+     "titel": "AUDCAD Short 20.09.17",
+     "ergebnis": "Zeit +0.43 R",
+     "r": 0.43
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_14.jpg",
+     "titel": "AUDCAD Short 30.11.17",
+     "ergebnis": "Zeit -0.38 R",
+     "r": -0.38
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_15.jpg",
+     "titel": "AUDJPY Long 14.02.18",
+     "ergebnis": "Zeit -0.36 R",
+     "r": -0.36
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_16.jpg",
+     "titel": "GBPCAD Long 03.04.18",
+     "ergebnis": "Zeit -0.38 R",
+     "r": -0.38
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_17.jpg",
+     "titel": "GBPCHF Long 16.05.18",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_18.jpg",
+     "titel": "AUDNZD Long 07.08.18",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_19.jpg",
+     "titel": "GBPCHF Short 05.10.18",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_20.jpg",
+     "titel": "AUDJPY Long 19.12.18",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_21.jpg",
+     "titel": "AUDJPY Short 17.04.19",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_22.jpg",
+     "titel": "EURCHF Long 05.08.19",
+     "ergebnis": "Zeit -0.34 R",
+     "r": -0.34
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_23.jpg",
+     "titel": "GBPCAD Short 11.10.19",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_24.jpg",
+     "titel": "EURCHF Long 23.01.20",
+     "ergebnis": "Zeit -0.11 R",
+     "r": -0.11
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_25.jpg",
+     "titel": "AUDCAD Short 03.03.20",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_26.jpg",
+     "titel": "EURUSD Short 27.03.20",
+     "ergebnis": "Zeit +0.32 R",
+     "r": 0.32
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_27.jpg",
+     "titel": "NZDJPY Short 03.06.20",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_28.jpg",
+     "titel": "AUDCAD Long 12.08.20",
+     "ergebnis": "Zeit +0.17 R",
+     "r": 0.17
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_29.jpg",
+     "titel": "GBPCHF Short 09.11.20",
+     "ergebnis": "Zeit -0.65 R",
+     "r": -0.65
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_30.jpg",
+     "titel": "AUDJPY Short 15.02.21",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_31.jpg",
+     "titel": "USDJPY Long 08.04.21",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_32.jpg",
+     "titel": "NZDJPY Short 23.07.21",
+     "ergebnis": "Zeit -0.14 R",
+     "r": -0.14
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_33.jpg",
+     "titel": "EURUSD Short 28.10.21",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_34.jpg",
+     "titel": "GBPCHF Short 16.12.21",
+     "ergebnis": "Zeit +0.04 R",
+     "r": 0.04
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_35.jpg",
+     "titel": "EURUSD Long 04.03.22",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_36.jpg",
+     "titel": "AUDJPY Short 19.04.22",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_37.jpg",
+     "titel": "EURUSD Short 05.07.22",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_38.jpg",
+     "titel": "AUDNZD Long 05.10.22",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_39.jpg",
+     "titel": "USDJPY Long 01.12.22",
+     "ergebnis": "Zeit +0.65 R",
+     "r": 0.65
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_40.jpg",
+     "titel": "AUDCAD Long 03.02.23",
+     "ergebnis": "Zeit -0.34 R",
+     "r": -0.34
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_41.jpg",
+     "titel": "EURUSD Long 11.07.23",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_42.jpg",
+     "titel": "GBPCAD Short 16.08.23",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_43.jpg",
+     "titel": "GBPCHF Short 03.11.23",
+     "ergebnis": "Zeit +0.53 R",
+     "r": 0.53
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_44.jpg",
+     "titel": "EURCHF Short 01.01.24",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_45.jpg",
+     "titel": "GBPCHF Short 21.03.24",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_46.jpg",
+     "titel": "AUDNZD Long 09.05.24",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_47.jpg",
+     "titel": "AUDCAD Long 05.08.24",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_48.jpg",
+     "titel": "EURUSD Short 20.01.25",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_49.jpg",
+     "titel": "NZDJPY Short 01.04.25",
+     "ergebnis": "SL -1.00 R",
+     "r": -1.0
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_50.jpg",
+     "titel": "NZDJPY Short 23.04.25",
+     "ergebnis": "Zeit -0.16 R",
+     "r": -0.16
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_51.jpg",
+     "titel": "EURCHF Long 25.08.25",
+     "ergebnis": "Zeit -0.02 R",
+     "r": -0.02
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_52.jpg",
+     "titel": "USDJPY Short 07.10.25",
+     "ergebnis": "Zeit +0.17 R",
+     "r": 0.17
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_53.jpg",
+     "titel": "USDJPY Long 05.12.25",
+     "ergebnis": "Zeit +0.65 R",
+     "r": 0.65
+    },
+    {
+     "pfad": "strategiebilder/meine-strategie_54.jpg",
+     "titel": "AUDJPY Long 17.02.26",
+     "ergebnis": "Zeit +0.91 R",
+     "r": 0.91
     }
    ],
    "ranking": {
@@ -1448,7 +2501,8 @@
     "wr": 46.3,
     "n": 201,
     "basis": "schwächere Hälfte (Entwicklung), gesamt Ø 0,20 R bei 52 %"
-   }
+   },
+   "_merged": true
   },
   {
    "id": "lab-vergleich",
