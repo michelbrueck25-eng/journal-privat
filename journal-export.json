@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-10-29T21:33:31.837Z",
+ "exportiert": "2026-10-29T21:34:22.048Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -129327,5 +129327,6 @@
  ],
  "forwardEntfernt": [
   "fw2-w-ohne-10-7"
- ]
+ ],
+ "forwardAktiv": []
 }
