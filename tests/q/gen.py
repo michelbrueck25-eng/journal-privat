@@ -1,5 +1,5 @@
 import sys,pickle,time,itertools,csv
-sys.path.insert(0,'/tmp/w/q')
+sys.path.insert(0,'/home/claude/journal-privat/tests/q')
 from fam import U,np,simulate,stats,configs,dstr,mk,atr,ema
 import bisect
 def rsi(c,n):
