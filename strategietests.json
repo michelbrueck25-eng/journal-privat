@@ -1,15 +1,15 @@
 {
  "typ": "strategietests",
- "stand": "2026-10-29T10:21",
+ "stand": "2026-10-29T10:25",
  "tests": [
   {
    "id": "smvtc0ajx",
    "name": "Weekly mit LTF",
    "status": "fertig",
-   "geprueft": "2026-10-29T10:21",
+   "geprueft": "2026-10-29T10:25",
    "zeitraum": "Daily: 08.09.2025 bis 28.10.2026 (Setups mit erster Zonenberührung in diesem Fenster); Weekly-Zonen aus Kerzen ab 08.11.2021",
    "daten": "11 Paare (AUDCAD, AUDJPY, AUDNZD, AUDUSD, EURCHF, EURGBP, EURUSD, GBPCAD, GBPCHF, NZDJPY, USDJPY), je 400 Tageskerzen und 260 Wochenkerzen; keine 4H- und keine 1H-Kerzen; COT aus cot.csv (kommerzielle Netto-Position, 26-Wochen-Index)",
-   "urteil": "Die Daily-Bestätigung verkleinert den Stopp deutlich (Ø 88 statt 140 Pips) und hält die Haltedauer bei etwa 6 Tagen. Ø R liegt bei +0,17 (Ziel 1,5 R, nach Spread) mit 50 % Trefferquote, also knapp unter deinem Ziel von 50+ und 1 bis 2 R. Mit nur 24 Trades und einem Ergebnis im 82. Perzentil der Zufallsbasis ist das kein belastbarer Vorteil. Der Einstieg am Zonenrand ohne LTF liegt bei +0,12 R (87 Trades), mit COT-Filter bei -0,12 R (36 Trades): der Filter hilft hier nicht.",
+   "urteil": "Raster-Suche über 228 Konfigurationen (Einstieg am Rand, in der Mitte oder mit Daily-Bestätigung; Ziel 1,0 bis 2,0 R; 7 oder 10 Tage; Break-even; COT; Zonenqualität). 18 erfüllen WR ab 50 % gesamt, in Entwicklung und Prüfung, bei mindestens 20 Trades. Das robusteste Ergebnis ist der Einstieg am Zonenrand mit Ziel 1,0 bis 1,5 R und 10 Tagen: 87 Trades, WR 53 bis 54 %, Ø +0,14 bis +0,16 R, in beiden Hälften WR über 50 %. Das ist aber ein Ø R um 0,15, nicht 1 bis 2, und der Stopp bleibt bei 140 Pips. Die Daily-Bestätigung mit kleinem Stopp zeigt in der Entwicklung WR 61 bis 65 %, in der Prüfung 0 % (nur 4 bis 6 Trades): das ist nicht belastbar. Bei 228 getesteten Varianten treffen einzelne durch Zufall, deshalb gilt kein Treffer als bewiesenes Optimum. Ein Optimum mit 50+ WR und 1 bis 2 R lässt sich mit diesen Daten nicht belegen.",
    "kennzahlen": [
     {
      "label": "Trades (B, Ziel 1,5 R)",
@@ -307,6 +307,88 @@
        "70 %"
       ]
      ]
+    },
+    {
+     "titel": "Raster-Suche (228 Konfigurationen, Bedingung: WR mindestens 50 % gesamt, mindestens 20 Trades)",
+     "spalten": [
+      "Konfiguration",
+      "Trades gesamt",
+      "Ø R gesamt",
+      "WR gesamt",
+      "Trades Entwicklung",
+      "WR Entwicklung",
+      "Trades Prüfung",
+      "WR Prüfung",
+      "Ø R Prüfung"
+     ],
+     "zeilen": [
+      [
+       "Einstieg am Zonenrand, Ziel 1,0 R, 10 Tage, alle Zonen",
+       87,
+       "+0,14",
+       "54 %",
+       53,
+       "51 %",
+       34,
+       "59 %",
+       "+0,19"
+      ],
+      [
+       "Einstieg am Zonenrand, Ziel 1,5 R, 10 Tage",
+       87,
+       "+0,16",
+       "53 %",
+       53,
+       "49 %",
+       34,
+       "59 %",
+       "+0,26"
+      ],
+      [
+       "Einstieg am Zonenrand, Ziel 1,0 R, nur Qualität A und B",
+       62,
+       "+0,12",
+       "53 %",
+       38,
+       "50 %",
+       24,
+       "58 %",
+       "+0,21"
+      ],
+      [
+       "Zonenmitte, Ziel 2,0 R, COT relativ",
+       20,
+       "+0,18",
+       "55 %",
+       18,
+       "50 %",
+       2,
+       "100 %",
+       "+1,98"
+      ],
+      [
+       "Daily-Bestätigung (1 Kerze), Ziel 1,5 R, 7 Tage, nur A und B",
+       26,
+       "+0,18",
+       "50 %",
+       20,
+       "65 %",
+       6,
+       "0 %",
+       "-0,55"
+      ],
+      [
+       "Daily-Bestätigung (3 Kerzen), Ziel 1,5 R, 7 Tage",
+       27,
+       "+0,15",
+       "52 %",
+       23,
+       "61 %",
+       4,
+       "0 %",
+       "-0,52"
+      ]
+     ]
     }
    ],
    "regeln": [
@@ -332,7 +414,7 @@
     "Mehrere Zonen desselben Paares können sich überlappen, Trades sind nicht ganz unabhängig",
     "Die Prüfperiode hat nur 9 Trades"
    ],
-   "naechste": "Journal 38.98 mit aktiver App und Twelve-Data-Key öffnen und „Marktdaten senden“ drücken: dann liegen 3000 Tages- und 4H-Kerzen je Paar im Repo und ich teste Weekly-Zonen aus 2021 bis heute mit 4H-Bestätigung. 1H-Kerzen müsste ich zusätzlich einbauen, falls du sie willst."
+   "naechste": "Marktdaten senden (Journal 38.98 mit aktiver App und Twelve-Data-Key): dann Raster-Suche auf 3000 Tages- und 4H-Kerzen je Paar, mehrere hundert Setups seit 2021 statt 87, mit echter 4H-Bestätigung und Test auf getrennten Jahren. Erst ab 150 und mehr Setups ist ein Optimum aussagekräftig."
   }
  ]
 }
