@@ -128,3 +128,9 @@ Intermarket: Gold/Silber-Verhältnis, Kupfer/Gold gegen AUD/JPY, Öl gegen CAD/N
 Statistik/Machine Learning: Regressions- und Entscheidungsbaum-Modelle auf Merkmalen (Rendite, Volatilität, COT, Saison), Hidden-Markov-Regime, Random Forest mit strenger Walk-forward-Validierung, Cluster-Regime, Ensemble-Signale (Abstimmung mehrerer Regeln, offen).
 Risiko/Portfolio: Volatilitäts-Zielsteuerung der Positionsgröße, Kelly-Bruchteil, Equity-Curve-Filter, Korrelationsbegrenzung, Drawdown-Bremse (verbessern Ergebnisse jeder Strategie, offen).
 Tiefere Zeitebenen (H1/H4) für Session-, Breakout- und Orderblock-Ideen: Daten ab H1 nötig (H4 liegt vor, H1 nicht).
+
+## Risiko-Empfehlung je Strategie und Profile (dauerhaft, 29.10.2026)
+- Jede Strategie bekommt `risiko` in forwardtest.json: empfohlenes Risiko pro Trade in % (Funded-Konto), erwarteter Drawdown (Median und 95. Perzentil in % bei diesem Risiko), geschätzte Rendite pro Monat, Annahmen. Berechnung: Monte-Carlo über die Trades (Neuziehen, 2.000 Jahre), Risiko so, dass der Drawdown im 95. Perzentil höchstens die Hälfte des erlaubten Gesamtverlusts beträgt, Deckel 1,5 % je Trade. Niedrige Winrate heißt bei gleicher Expectancy mehr Drawdown, also weniger Risiko; hohe Winrate erlaubt mehr.
+- Annahme Konto (vom Nutzer bestätigen, Alpha Capital/FTMO-typisch): maximaler Gesamtverlust 10 %, maximaler Tagesverlust 5 %. Sobald der Nutzer echte Regeln nennt, ersetzen sie die Annahme. Nie über dem Tagesverlust-Limit planen (gleichzeitige Trades beachten).
+- Profile systematisch testen: hohe Winrate (50 bis 70 %, kleines Ziel, weiter Stopp), niedrige Winrate mit hohem Ziel (30 bis 40 %, 3 bis 5 R), und alles dazwischen. 80 % Winrate gilt als unwahrscheinlich und wird misstrauisch geprüft.
+- Internet-Recherche zu veröffentlichten Strategien als Ideenquelle, Ergebnisse im Ideenkatalog vermerken. Pro Lauf sind bis zu 10 Strategien erwünscht (mindestens 5).
