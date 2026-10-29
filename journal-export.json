@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-10-29T15:42:06.490Z",
+ "exportiert": "2026-10-29T15:42:14.819Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -16923,6 +16923,9 @@
   "lab-donch",
   "lab-bb",
   "lab-engulf",
-  "lab-dailyob"
+  "lab-dailyob",
+  "lab-mtf",
+  "lab-squeeze",
+  "lab-trend"
  ]
 }
