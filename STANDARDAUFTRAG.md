@@ -101,3 +101,10 @@ Ausweitung der Strategie des Nutzers (Weekly-Orderblock): breiter streuen auf Da
 - Strategien mit Netto-Expectancy unter 0,15 R kommen gar nicht erst in den Forward-Test (auch nicht als Beobachtung). Sie werden nur im Bericht der Sitzung erwähnt.
 - Ideenbreite: nicht nur Standardmuster. Informationsquellen kombinieren (COT, Währungskorb, Saisonalität auf Korbebene, Makro, Volatilität). Immer Zufallsvergleich, Bootstrap-Intervall, Entwicklungs-/Prüfhälfte und Zahl der Varianten nennen.
 - Veröffentlichung: Strategien auf reinen Marktdaten werden (ohne Journal-Daten, Positionen, private Texte) als `forwardtest.json` samt `strategiezeichnungen/` und `strategiebilder/def_*` auch in das öffentliche Repo journal-daten kopiert, damit andere (Freund) sie in der App sehen. Die App holt bei fehlender privater Datei automatisch die öffentliche. Gruppe „Alter Test“ bleibt privat.
+
+## Haltedauer, Zeitebenen, Breite (dauerhaft, 29.10.2026)
+- Haltedauer: Richtwert bis 10 Tage, ausdrücklich erlaubt sind 3 bis 4 Wochen, auch auf Weekly. Harte Obergrenze etwa 2 Monate (rund 40 bis 45 Handelstage), nur ausreichend, wenn das Ergebnis deutlich besser ist. Längere Haltedauer bringt mehr Swap, das ist einzurechnen.
+- Zeitebene nie unter 1 Stunde (H1). Erlaubt sind H1, H4, Daily, Weekly.
+- Breite Ideensuche ohne Rücksicht auf Gewohnheiten: Seasonality (auch Rohstoffe wie Weizen), COT, Währungskorb, Trend/Umkehr, Volatilität, Fundamentales (Zinsen/Carry, Inflation, Arbeitsmarkt, Überraschungen aus den Wirtschaftsdaten), Kombinationen.
+- Datenlage: Preisdaten für Rohstoffe fehlen bis der Nutzer sie liefert („Rohstoffe sind da“). Historische Wirtschaftsdaten liegen nur für 2026 in wirtschaft.csv; für Fundamental-Backtests werden Historien ab 2015 gebraucht (Leitzinsen, CPI, Arbeitslosenquote). FRED ist über WebFetch nicht erreichbar; andere Quellen suchen oder den Nutzer um Dateien bitten.
+- COT-Familie (Commercials folgen, 156 Wochen, Top gegen Flop) ist über 108 Varianten im Median +0,12 R und 40 Varianten über 0,15 R; zu wenig Trades pro Jahr (3 bis 4 R). Ausbau auf mehr Instrumente und Kombination mit anderen Quellen für mehr Häufigkeit.
