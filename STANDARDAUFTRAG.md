@@ -96,3 +96,8 @@ Ausweitung der Strategie des Nutzers (Weekly-Orderblock): breiter streuen auf Da
 - Signale: Sobald eine Strategie im Forward-Test läuft und ein Setup erscheint, Signal mit Instrument, Richtung, Entry, Stop, Ziel, Risiko in R und Gültigkeit melden (PushNotification und Eintrag im Forward-Test).
 - Freigabe für Live nur nach Forward-Beweis: Mindestzahl Forward-Trades, Netto-Expectancy im Rahmen des Backtests, Drawdown im erwarteten Bereich. Kriterien vorher festlegen, nie nachträglich anpassen. Kein Live-Rat ohne diese Prüfung, keine Anlageberatung.
 - Zielbild: 3 bis 6 % pro Monat sind sehr gut; ein Verlustmonat oder Break-even ist akzeptabel. Mehr Rendite ist besser, aber nicht auf Kosten von Drawdown oder Überanpassung.
+
+## Mindestqualität und Veröffentlichung (dauerhaft, 29.10.2026)
+- Strategien mit Netto-Expectancy unter 0,15 R kommen gar nicht erst in den Forward-Test (auch nicht als Beobachtung). Sie werden nur im Bericht der Sitzung erwähnt.
+- Ideenbreite: nicht nur Standardmuster. Informationsquellen kombinieren (COT, Währungskorb, Saisonalität auf Korbebene, Makro, Volatilität). Immer Zufallsvergleich, Bootstrap-Intervall, Entwicklungs-/Prüfhälfte und Zahl der Varianten nennen.
+- Veröffentlichung: Strategien auf reinen Marktdaten werden (ohne Journal-Daten, Positionen, private Texte) als `forwardtest.json` samt `strategiezeichnungen/` und `strategiebilder/def_*` auch in das öffentliche Repo journal-daten kopiert, damit andere (Freund) sie in der App sehen. Die App holt bei fehlender privater Datei automatisch die öffentliche. Gruppe „Alter Test“ bleibt privat.
