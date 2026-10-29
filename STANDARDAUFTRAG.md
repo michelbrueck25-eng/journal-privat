@@ -76,3 +76,10 @@ Ausweitung der Strategie des Nutzers (Weekly-Orderblock): breiter streuen auf Da
 - Auswahlfelder sind eigene Kästchen mit sichtbarem Haken (.fw-box), keine nativen Checkboxen in summary.
 - Strategielisten sind innerhalb jeder Gruppe nach Expectancy absteigend sortiert.
 - Aktive Forward-Tests erscheinen immer oben in der Forward-Test-Ansicht.
+
+## Ziel: robuste Strategien und Portfolio (dauerhaft, ab 29.10.2026)
+- Mit jedem Lauf (ein bis zwei pro Tag) mindestens eine neue, nachhaltig erfolgreiche Strategie suchen und bauen. Nicht auf Orderblöcke beschränkt: alles, was sich testen lässt (Trend, Breakout, Mean-Reversion, COT, Makro, Saisonalität, Volatilität, Kerzenmuster, andere Zeitebenen).
+- Zielbild des Nutzers: bei niedrigem Risiko geringer Drawdown und etwa 3 bis 6 % pro Monat. Je Strategie angeben: Expectancy, Trades pro Jahr, R pro Jahr, max. Drawdown, Monats- und Jahresverteilung, daraus die geschätzte Monatsrendite bei 0,25 bis 1 % Risiko pro Trade.
+- Portfolio-Denken: Korrelation der Strategien (Monatsrenditen, gleichzeitige Drawdowns) berechnen und vorrangig Strategien suchen, die sich ergänzen (andere Paare, Zeitebenen, Logik). Eine Portfolio-Kurve (gleichgewichtet) mit Drawdown zeigen.
+- Strenge bleibt: Entwicklungs-/Testhälfte, kein Look-ahead, Zufallsbasis, Zahl der Varianten nennen, Mindestens 300 Trades. Ehrlich melden, wenn nichts Robustes gefunden wurde.
+- Neue Strategien kommen in forwardtest.json (Gruppe „Neue Strategien <Datum>“) mit bericht, plan und strategiezeichnungen. Dazu eine PushNotification (Pop-up) mit dem Kernergebnis.
