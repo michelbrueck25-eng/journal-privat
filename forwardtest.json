@@ -8,7 +8,7 @@
    "datum": "2026-10-29",
    "titel": "Forward-Test eingerichtet",
    "art": "Beobachtung",
-   "text": "18 Weekly-Varianten (Ziel 1, 1,5, 2 R; 7 und 10 Tage; ohne COT, COT relativ, COT extrem) sind eingetragen und warten auf den ersten Lauf. Dazu 10 geplante Erweiterungen auf Weekly und Daily. Ziel: die Expectancy steigern. Vorsicht: COT extrem hat nur 29, COT relativ nur 65 Backtest-Trades, die hohen Werte sind noch Hinweise."
+   "text": "18 Weekly-Varianten (Ziel 1, 1,5, 2 R; 7 und 10 Tage; ohne COT, COT relativ, COT extrem) sind eingetragen und warten auf den ersten Lauf. Dazu 10 geplante Erweiterungen auf Weekly und Daily. Ziel: die Expectancy steigern. Vorsicht: COT extrem hat nur 29, COT relativ nur 65 Backtest-Trades, die hohen Werte sind noch Hinweise. Ergänzt: verschachtelte Zonen (4H in Daily in Weekly, jeweils mit und ohne höhere Zeitebene), Blockregeln, alternative Stopps und Ziele sowie Ideen aus der Internet-Recherche."
   }
  ],
  "strategien": [
@@ -559,6 +559,166 @@
    "status": "geplant",
    "name": "Daily: Daily-Orderblock mit COT im Extrem",
    "beschreibung": "Zeitebene Daily. Daily-Orderblock mit COT im Extrem. Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x11",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "4H",
+   "status": "geplant",
+   "name": "4H: 4H-Orderblock innerhalb eines Daily-Orderblocks innerhalb eines Weekly-Orderblocks (volle Verschachtelung)",
+   "beschreibung": "Zeitebene 4H. 4H-Orderblock innerhalb eines Daily-Orderblocks innerhalb eines Weekly-Orderblocks (volle Verschachtelung). Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x12",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "4H",
+   "status": "geplant",
+   "name": "4H: 4H-Orderblock innerhalb eines Daily-Orderblocks, ohne Weekly-Zone",
+   "beschreibung": "Zeitebene 4H. 4H-Orderblock innerhalb eines Daily-Orderblocks, ohne Weekly-Zone. Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x13",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "4H",
+   "status": "geplant",
+   "name": "4H: 4H-Orderblock innerhalb eines Weekly-Orderblocks, ohne Daily-Zone",
+   "beschreibung": "Zeitebene 4H. 4H-Orderblock innerhalb eines Weekly-Orderblocks, ohne Daily-Zone. Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x14",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "Daily",
+   "status": "geplant",
+   "name": "Daily: Daily-Orderblock innerhalb eines Weekly-Orderblocks (Kombi)",
+   "beschreibung": "Zeitebene Daily. Daily-Orderblock innerhalb eines Weekly-Orderblocks (Kombi). Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x15",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "Daily",
+   "status": "geplant",
+   "name": "Daily: Daily-Orderblock ohne Weekly-Zone, nur mit COT-Filter",
+   "beschreibung": "Zeitebene Daily. Daily-Orderblock ohne Weekly-Zone, nur mit COT-Filter. Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x16",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "4H",
+   "status": "geplant",
+   "name": "4H: 4H-Orderblock allein mit Weekly-Trendrichtung",
+   "beschreibung": "Zeitebene 4H. 4H-Orderblock allein mit Weekly-Trendrichtung. Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x17",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "Weekly",
+   "status": "geplant",
+   "name": "Weekly: Blockregeln: kein Einstieg in der Woche von Fed, EZB oder NFP",
+   "beschreibung": "Zeitebene Weekly. Blockregeln: kein Einstieg in der Woche von Fed, EZB oder NFP. Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x18",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "Weekly",
+   "status": "geplant",
+   "name": "Weekly: Alternative Stopps: hinter dem Zonenextrem plus 0,5 ATR, oder an der Zonenmitte",
+   "beschreibung": "Zeitebene Weekly. Alternative Stopps: hinter dem Zonenextrem plus 0,5 ATR, oder an der Zonenmitte. Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x19",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "Daily",
+   "status": "geplant",
+   "name": "Daily: Alternative Ziele: nächstes Swing-Hoch/-Tief statt festes R",
+   "beschreibung": "Zeitebene Daily. Alternative Ziele: nächstes Swing-Hoch/-Tief statt festes R. Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x20",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "Daily",
+   "status": "geplant",
+   "name": "Daily: Strategien aus Internet-Recherche (z. B. Smart-Money-Konzepte, Fair-Value-Gaps, Liquiditäts-Sweeps vor der Zone), jeweils mit Quelle",
+   "beschreibung": "Zeitebene Daily. Strategien aus Internet-Recherche (z. B. Smart-Money-Konzepte, Fair-Value-Gaps, Liquiditäts-Sweeps vor der Zone), jeweils mit Quelle. Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
    "backtest": {},
    "forward": {
     "n": 0,
