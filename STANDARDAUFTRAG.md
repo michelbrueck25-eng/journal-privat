@@ -89,3 +89,10 @@ Ausweitung der Strategie des Nutzers (Weekly-Orderblock): breiter streuen auf Da
 - Alle Kennzahlen (Expectancy, R pro Jahr, Drawdown, Monatsrendite) gelten netto nach Kosten. Brutto und netto nebeneinander ausweisen und angeben, wie viel R die Kosten pro Trade kosten.
 - Lange Haltedauern (Weekly/Daily) bekommen den Swap voll angerechnet; Strategien, die nur brutto funktionieren, werden verworfen.
 - Fehlen echte Swap-Sätze, mit einer dokumentierten Annahme rechnen und sie im Bericht als Unsicherheit nennen. Echte Sätze vom Nutzer erfragen, sobald sie gebraucht werden.
+
+## Langfristiges Ziel: handelbares System (dauerhaft, 29.10.2026)
+- Ziel: Strategien, die nach bestandenem Forward-Test live handelbar sind. Nicht als Bot, sondern als Signale von Claude plus eine quantifizierte Anleitung, mit der der Nutzer die Trades auch ohne Claude selbst aufbauen kann.
+- Jede Strategie braucht dafür ein vollständiges, mechanisches Regelwerk (`regeln` in forwardtest.json): Universum und Zeitebene, Einstieg (exakte Bedingung, Orderart, Preis), Stop, Ziel, Positionsgröße (Risiko in %), Filter, Haltedauer/Ausstieg, Zeitpunkt der Prüfung, Beispiel mit echten Zahlen. So konkret, dass es ohne Interpretation nachgebaut werden kann.
+- Signale: Sobald eine Strategie im Forward-Test läuft und ein Setup erscheint, Signal mit Instrument, Richtung, Entry, Stop, Ziel, Risiko in R und Gültigkeit melden (PushNotification und Eintrag im Forward-Test).
+- Freigabe für Live nur nach Forward-Beweis: Mindestzahl Forward-Trades, Netto-Expectancy im Rahmen des Backtests, Drawdown im erwarteten Bereich. Kriterien vorher festlegen, nie nachträglich anpassen. Kein Live-Rat ohne diese Prüfung, keine Anlageberatung.
+- Zielbild: 3 bis 6 % pro Monat sind sehr gut; ein Verlustmonat oder Break-even ist akzeptabel. Mehr Rendite ist besser, aber nicht auf Kosten von Drawdown oder Überanpassung.
