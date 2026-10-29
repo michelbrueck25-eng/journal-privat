@@ -1,6 +1,6 @@
 {
  "typ": "strategietests",
- "stand": "2026-10-29T11:24",
+ "stand": "2026-10-29T13:46",
  "tests": [
   {
    "id": "smvtc0ajx",
@@ -19395,6 +19395,1285 @@
     "wr": 51.8,
     "n": 562,
     "basis": "schwächere Hälfte (Entwicklung bis 2022 gegen Prüfung ab 2023), ohne COT-Filter"
+   }
+  },
+  {
+   "id": "lab-dailyob",
+   "name": "Test: Daily-Orderblock (A Zonenkante, B Daily-Bestätigung, C 4H-Bestätigung)",
+   "status": "fertig",
+   "geprueft": "2026-10-29T13:46",
+   "zeitraum": "28.09.15 bis 28.10.26",
+   "daten": "29 Instrumente (AUDCAD, AUDCHF, AUDJPY, AUDNZD, AUDUSD, CADCHF, CADJPY, CHFJPY, EURAUD, EURCAD, EURCHF, EURGBP, EURJPY, EURNZD, EURUSD, GBPAUD, GBPCAD, GBPCHF, GBPJPY, GBPNZD, GBPUSD, GOLD, NZDCAD, NZDCHF, NZDJPY, NZDUSD, USDCAD, USDCHF, USDJPY), je 3000 Tageskerzen; 4H nur ca. 1,5 Jahre",
+   "zusammenfassung": "Zonen sind Tages-Orderblöcke (Regeln wie im Journal, erst nach der Bestätigung bekannt). Hauptvariante A: Einstieg an der Zonenkante (Limit, erste Berührung), Ziel 1,5 R, Zonenqualität AB: 5820 Trades, Trefferquote 43,8 %, Ø 0,046 R nach Spread, Profitfaktor 1,08.",
+   "urteil": "Hauptvariante gewählt aus 18 getesteten Varianten nach der schwächeren Hälfte (bis 10/2024: 0,04 R, ab 10/2024: 0,06 R). 95-%-Intervall für Ø R [0,01; 0,08], 9 von 12 Jahren positiv. Zufalls-Einstiege mit gleichem Risiko und Ziel: Ø -0,066 R (p = 0,000). Wegen der Auswahl aus 18 Varianten kann das Ergebnis der Hauptvariante zu gut ausfallen.",
+   "kennzahlen": [
+    {
+     "label": "Trades",
+     "wert": "5820"
+    },
+    {
+     "label": "Trefferquote",
+     "wert": "43,8 %"
+    },
+    {
+     "label": "Ø R",
+     "wert": "0,046"
+    },
+    {
+     "label": "95-%-Intervall",
+     "wert": "0,01 bis 0,08"
+    },
+    {
+     "label": "Profitfaktor",
+     "wert": "1,08"
+    },
+    {
+     "label": "Max-Drawdown",
+     "wert": "36,8 R"
+    },
+    {
+     "label": "Längste Verlustserie",
+     "wert": "18"
+    }
+   ],
+   "equity": [
+    0.5,
+    -1.17,
+    1.55,
+    0.81,
+    6.79,
+    -1.08,
+    25.67,
+    21.06,
+    19.37,
+    11.44,
+    21.92,
+    17.24,
+    13.04,
+    11.37,
+    4.7,
+    13.74,
+    12.12,
+    20.48,
+    25.76,
+    24.93,
+    24.67,
+    36.7,
+    32.76,
+    26.05,
+    14.38,
+    31.07,
+    32.13,
+    25.38,
+    25.8,
+    29.76,
+    35.55,
+    31.76,
+    27.02,
+    22.77,
+    30.97,
+    19.16,
+    19.9,
+    20.64,
+    15.81,
+    12.65,
+    21.68,
+    23.12,
+    38.66,
+    34.52,
+    29.2,
+    39.9,
+    48.17,
+    43.94,
+    43.88,
+    51.45,
+    46.37,
+    58.31,
+    58.53,
+    66.61,
+    61.09,
+    58.95,
+    47.05,
+    47.81,
+    58.57,
+    56.94,
+    53.43,
+    51.85,
+    51.45,
+    48.04,
+    49.89,
+    43.07,
+    36.29,
+    29.97,
+    41.41,
+    52.01,
+    60.29,
+    68.57,
+    77.02,
+    69.92,
+    75.34,
+    59.0,
+    59.74,
+    55.49,
+    53.04,
+    64.34,
+    67.59,
+    58.34,
+    51.59,
+    47.62,
+    38.79,
+    45.75,
+    52.79,
+    68.53,
+    62.44,
+    57.7,
+    53.84,
+    58.89,
+    57.02,
+    57.64,
+    75.78,
+    76.47,
+    76.83,
+    84.06,
+    79.73,
+    75.46,
+    75.54,
+    66.22,
+    66.41,
+    68.29,
+    81.14,
+    98.18,
+    97.96,
+    91.91,
+    92.44,
+    96.73,
+    93.0,
+    85.16,
+    75.82,
+    74.07,
+    71.92,
+    59.01,
+    55.51,
+    60.11,
+    60.47,
+    51.21,
+    67.67,
+    79.42,
+    76.8,
+    83.17,
+    87.04,
+    90.66,
+    100.31,
+    99.54,
+    92.72,
+    104.5,
+    106.91,
+    91.75,
+    100.3,
+    105.92,
+    112.99,
+    121.23,
+    125.47,
+    134.7,
+    125.39,
+    132.59,
+    136.95,
+    145.26,
+    135.98,
+    146.69,
+    166.57,
+    165.45,
+    159.05,
+    145.75,
+    147.13,
+    145.35,
+    141.56,
+    139.94,
+    139.47,
+    133.62,
+    131.83,
+    130.4,
+    128.59,
+    130.98,
+    124.33,
+    122.37,
+    115.62,
+    108.83,
+    105.94,
+    113.32,
+    109.1,
+    125.73,
+    125.12,
+    115.9,
+    114.79,
+    107.7,
+    114.45,
+    119.03,
+    113.29,
+    118.22,
+    121.56,
+    117.38,
+    132.31,
+    133.16,
+    132.58,
+    134.36,
+    136.22,
+    136.14,
+    147.11,
+    149.4,
+    151.74,
+    147.51,
+    147.59,
+    154.55,
+    172.77,
+    180.3,
+    183.06,
+    183.8,
+    185.09,
+    180.8,
+    176.57,
+    172.38,
+    177.96,
+    170.66,
+    162.35,
+    160.53,
+    156.65,
+    144.84,
+    145.53,
+    150.14,
+    143.38,
+    156.64,
+    146.39,
+    145.33,
+    146.97,
+    148.86,
+    160.97,
+    161.46,
+    157.01,
+    163.48,
+    166.56,
+    174.48,
+    163.61,
+    172.13,
+    179.11,
+    182.73,
+    177.59,
+    174.54,
+    172.67,
+    170.74,
+    170.09,
+    166.18,
+    175.51,
+    166.24,
+    177.34,
+    175.01,
+    170.37,
+    175.96,
+    181.37,
+    171.34,
+    167.0,
+    172.13,
+    185.28,
+    180.66,
+    190.74,
+    177.21,
+    172.47,
+    173.63,
+    173.16,
+    168.79,
+    172.27,
+    170.27,
+    158.91,
+    158.22,
+    156.28,
+    156.24,
+    148.18,
+    153.29,
+    164.27,
+    169.66,
+    180.96,
+    178.74,
+    175.34,
+    165.24,
+    169.17,
+    162.09,
+    161.28,
+    163.15,
+    168.87,
+    164.74,
+    162.72,
+    157.23,
+    157.93,
+    157.62,
+    159.67,
+    152.76,
+    158.3,
+    166.22,
+    171.64,
+    180.92,
+    189.07,
+    201.91,
+    216.6,
+    225.08,
+    234.55,
+    247.59,
+    260.35,
+    255.16,
+    267.58,
+    275.07,
+    264.29,
+    259.21,
+    259.13,
+    255.59,
+    264.89,
+    268.29,
+    278.9,
+    276.77,
+    270.46,
+    264.08,
+    272.05,
+    288.65,
+    279.75,
+    285.18,
+    275.45,
+    264.87,
+    261.94,
+    266.32,
+    265.87,
+    263.77,
+    265.92,
+    267.59,
+    268.94
+   ],
+   "equityHinweis": "Kumulierte R der Hauptvariante nach Datum.",
+   "tabellen": [
+    {
+     "titel": "Alle getesteten Varianten (Einstieg, Ziel, Zonenqualität)",
+     "spalten": [
+      "Einstieg",
+      "Ziel",
+      "Qualität",
+      "Trades",
+      "Trefferquote",
+      "Ø R",
+      "95-%-Intervall",
+      "Ø R bis 10/2024",
+      "Ø R ab 10/2024"
+     ],
+     "zeilen": [
+      [
+       "A",
+       "1,0 R",
+       "AB",
+       5820,
+       "52,5 %",
+       "0,033",
+       "[0,01; 0,06]",
+       "0,04",
+       "0,01"
+      ],
+      [
+       "A",
+       "1,0 R",
+       "alle",
+       7432,
+       "52,0 %",
+       "0,023",
+       "[0,00; 0,05]",
+       "0,03",
+       "0,01"
+      ],
+      [
+       "A",
+       "1,5 R",
+       "AB",
+       5820,
+       "43,8 %",
+       "0,046",
+       "[0,01; 0,08]",
+       "0,04",
+       "0,06"
+      ],
+      [
+       "A",
+       "1,5 R",
+       "alle",
+       7432,
+       "43,5 %",
+       "0,035",
+       "[0,01; 0,06]",
+       "0,03",
+       "0,05"
+      ],
+      [
+       "A",
+       "2,0 R",
+       "AB",
+       5820,
+       "39,3 %",
+       "0,056",
+       "[0,02; 0,09]",
+       "0,04",
+       "0,11"
+      ],
+      [
+       "A",
+       "2,0 R",
+       "alle",
+       7432,
+       "39,0 %",
+       "0,043",
+       "[0,01; 0,08]",
+       "0,03",
+       "0,08"
+      ],
+      [
+       "B",
+       "1,0 R",
+       "AB",
+       3490,
+       "47,2 %",
+       "-0,066",
+       "[-0,10; -0,03]",
+       "-0,09",
+       "0,00"
+      ],
+      [
+       "B",
+       "1,0 R",
+       "alle",
+       4428,
+       "47,2 %",
+       "-0,065",
+       "[-0,09; -0,04]",
+       "-0,08",
+       "-0,01"
+      ],
+      [
+       "B",
+       "1,5 R",
+       "AB",
+       3490,
+       "41,8 %",
+       "-0,047",
+       "[-0,08; -0,01]",
+       "-0,07",
+       "0,02"
+      ],
+      [
+       "B",
+       "1,5 R",
+       "alle",
+       4428,
+       "41,6 %",
+       "-0,055",
+       "[-0,08; -0,02]",
+       "-0,07",
+       "-0,00"
+      ],
+      [
+       "B",
+       "2,0 R",
+       "AB",
+       3490,
+       "39,6 %",
+       "-0,035",
+       "[-0,08; 0,01]",
+       "-0,06",
+       "0,05"
+      ],
+      [
+       "B",
+       "2,0 R",
+       "alle",
+       4428,
+       "39,3 %",
+       "-0,046",
+       "[-0,08; -0,01]",
+       "-0,07",
+       "0,02"
+      ],
+      [
+       "C",
+       "1,0 R",
+       "AB",
+       972,
+       "54,5 %",
+       "0,075",
+       "[0,02; 0,14]",
+       "–",
+       "0,08"
+      ],
+      [
+       "C",
+       "1,0 R",
+       "alle",
+       1158,
+       "53,4 %",
+       "0,048",
+       "[-0,01; 0,10]",
+       "–",
+       "0,05"
+      ],
+      [
+       "C",
+       "1,5 R",
+       "AB",
+       972,
+       "47,5 %",
+       "0,103",
+       "[0,03; 0,17]",
+       "–",
+       "0,10"
+      ],
+      [
+       "C",
+       "1,5 R",
+       "alle",
+       1158,
+       "46,7 %",
+       "0,071",
+       "[0,01; 0,14]",
+       "–",
+       "0,07"
+      ],
+      [
+       "C",
+       "2,0 R",
+       "AB",
+       972,
+       "43,9 %",
+       "0,117",
+       "[0,04; 0,19]",
+       "–",
+       "0,12"
+      ],
+      [
+       "C",
+       "2,0 R",
+       "alle",
+       1158,
+       "43,2 %",
+       "0,079",
+       "[0,01; 0,15]",
+       "–",
+       "0,08"
+      ]
+     ]
+    },
+    {
+     "titel": "Hauptvariante: je Jahr",
+     "spalten": [
+      "Gruppe",
+      "Trades",
+      "Ø R",
+      "Trefferquote",
+      "Profitfaktor"
+     ],
+     "zeilen": [
+      [
+       "2015",
+       7,
+       "-0,44",
+       "29 %",
+       "0,39"
+      ],
+      [
+       "2016",
+       490,
+       "0,07",
+       "45 %",
+       "1,13"
+      ],
+      [
+       "2017",
+       545,
+       "0,05",
+       "44 %",
+       "1,08"
+      ],
+      [
+       "2018",
+       507,
+       "0,01",
+       "42 %",
+       "1,01"
+      ],
+      [
+       "2019",
+       471,
+       "0,08",
+       "45 %",
+       "1,15"
+      ],
+      [
+       "2020",
+       483,
+       "-0,01",
+       "42 %",
+       "0,99"
+      ],
+      [
+       "2021",
+       448,
+       "0,07",
+       "44 %",
+       "1,13"
+      ],
+      [
+       "2022",
+       472,
+       "0,02",
+       "43 %",
+       "1,03"
+      ],
+      [
+       "2023",
+       482,
+       "0,04",
+       "43 %",
+       "1,07"
+      ],
+      [
+       "2024",
+       568,
+       "0,03",
+       "43 %",
+       "1,05"
+      ],
+      [
+       "2025",
+       631,
+       "-0,03",
+       "41 %",
+       "0,96"
+      ],
+      [
+       "2026",
+       716,
+       "0,16",
+       "50 %",
+       "1,31"
+      ]
+     ]
+    },
+    {
+     "titel": "Hauptvariante: je Paar",
+     "spalten": [
+      "Gruppe",
+      "Trades",
+      "Ø R",
+      "Trefferquote",
+      "Profitfaktor"
+     ],
+     "zeilen": [
+      [
+       "AUDCAD",
+       195,
+       "0,13",
+       "48 %",
+       "1,25"
+      ],
+      [
+       "AUDCHF",
+       188,
+       "0,21",
+       "51 %",
+       "1,42"
+      ],
+      [
+       "AUDJPY",
+       194,
+       "-0,02",
+       "41 %",
+       "0,96"
+      ],
+      [
+       "AUDNZD",
+       163,
+       "0,16",
+       "48 %",
+       "1,33"
+      ],
+      [
+       "AUDUSD",
+       219,
+       "-0,05",
+       "41 %",
+       "0,92"
+      ],
+      [
+       "CADCHF",
+       174,
+       "0,13",
+       "48 %",
+       "1,26"
+      ],
+      [
+       "CADJPY",
+       197,
+       "0,12",
+       "47 %",
+       "1,22"
+      ],
+      [
+       "CHFJPY",
+       198,
+       "0,08",
+       "44 %",
+       "1,15"
+      ],
+      [
+       "EURAUD",
+       208,
+       "0,02",
+       "42 %",
+       "1,04"
+      ],
+      [
+       "EURCAD",
+       182,
+       "-0,05",
+       "40 %",
+       "0,91"
+      ],
+      [
+       "EURCHF",
+       162,
+       "0,18",
+       "51 %",
+       "1,38"
+      ],
+      [
+       "EURGBP",
+       205,
+       "-0,00",
+       "42 %",
+       "0,99"
+      ],
+      [
+       "EURJPY",
+       211,
+       "0,09",
+       "46 %",
+       "1,16"
+      ],
+      [
+       "EURNZD",
+       175,
+       "0,08",
+       "46 %",
+       "1,16"
+      ],
+      [
+       "EURUSD",
+       190,
+       "0,03",
+       "45 %",
+       "1,06"
+      ],
+      [
+       "GBPAUD",
+       226,
+       "0,07",
+       "44 %",
+       "1,14"
+      ],
+      [
+       "GBPCAD",
+       222,
+       "0,03",
+       "44 %",
+       "1,06"
+      ],
+      [
+       "GBPCHF",
+       218,
+       "0,02",
+       "44 %",
+       "1,04"
+      ],
+      [
+       "GBPJPY",
+       230,
+       "-0,11",
+       "37 %",
+       "0,83"
+      ],
+      [
+       "GBPNZD",
+       192,
+       "0,17",
+       "49 %",
+       "1,34"
+      ],
+      [
+       "GBPUSD",
+       202,
+       "-0,02",
+       "40 %",
+       "0,97"
+      ],
+      [
+       "GOLD",
+       208,
+       "-0,14",
+       "36 %",
+       "0,77"
+      ],
+      [
+       "NZDCAD",
+       197,
+       "0,10",
+       "46 %",
+       "1,17"
+      ],
+      [
+       "NZDCHF",
+       184,
+       "0,12",
+       "45 %",
+       "1,23"
+      ],
+      [
+       "NZDJPY",
+       203,
+       "-0,09",
+       "38 %",
+       "0,86"
+      ],
+      [
+       "NZDUSD",
+       216,
+       "-0,01",
+       "41 %",
+       "0,99"
+      ],
+      [
+       "USDCAD",
+       217,
+       "0,02",
+       "43 %",
+       "1,04"
+      ],
+      [
+       "USDCHF",
+       223,
+       "0,02",
+       "43 %",
+       "1,04"
+      ],
+      [
+       "USDJPY",
+       221,
+       "0,15",
+       "46 %",
+       "1,29"
+      ]
+     ]
+    },
+    {
+     "titel": "Hauptvariante: Richtung",
+     "spalten": [
+      "Gruppe",
+      "Trades",
+      "Ø R",
+      "Trefferquote",
+      "Profitfaktor"
+     ],
+     "zeilen": [
+      [
+       "long",
+       2873,
+       "0,04",
+       "44 %",
+       "1,07"
+      ],
+      [
+       "short",
+       2947,
+       "0,05",
+       "44 %",
+       "1,10"
+      ]
+     ]
+    },
+    {
+     "titel": "Hauptvariante: Zonenqualität",
+     "spalten": [
+      "Gruppe",
+      "Trades",
+      "Ø R",
+      "Trefferquote",
+      "Profitfaktor"
+     ],
+     "zeilen": [
+      [
+       "A",
+       1853,
+       "0,12",
+       "47 %",
+       "1,22"
+      ],
+      [
+       "B",
+       3967,
+       "0,01",
+       "43 %",
+       "1,02"
+      ]
+     ]
+    }
+   ],
+   "regeln": [
+    "Zone: Tageskerze gegen die Richtung (oder Doji), danach innerhalb von 3 Kerzen mindestens 1,0 ATR Bewegung und Schluss über/unter dem 8-Kerzen-Extrem; Qualität A ab 2,0 ATR, B ab 1,2 ATR, sonst C",
+    "Zone gilt ab dem 4. Tag nach der Kerze, bis zu 60 Tage, verfällt bei Tagesschluss jenseits der Zone",
+    "Nur die erste Berührung zählt",
+    "A: Limit an der Zonenkante; B: Tagesschluss der Berührungskerze aus der Zone heraus, Einstieg zur nächsten Eröffnung; C: 4H-Schluss aus der Zone innerhalb von 3 Tagen nach der Berührung",
+    "Stopp 0,1 ATR hinter Zone (B/C: hinter dem Extrem der Berührung, höchstens 3 ATR), Ziel 1,0/1,5/2,0 R, Ausstieg nach 10 Tagen"
+   ],
+   "annahmen": [
+    "Stopp zuerst bei beidem in einer Kerze, 1 Pip Spread (Metalle grob geschätzt)",
+    "Variante C hat nur etwa 1,5 Jahre 4H-Daten und deshalb wenige Trades",
+    "Qualität nur aus der Bewegung, ohne Berührungszähler (der wäre Look-ahead)"
+   ],
+   "schwaechen": [
+    "Zonen benachbarter Paare sind korreliert",
+    "Auswahl der Hauptvariante aus vielen Varianten",
+    "Charts zeigen den Verlauf nach dem Einstieg und sind nur Illustration"
+   ],
+   "naechste": "Mit COT-Filter und Wochentrend-Filter kombinieren, wenn die Trefferquote unter 50 % bleibt.",
+   "bilder": [
+    {
+     "pfad": "strategiebilder/lab-dailyob_01.jpg",
+     "titel": "GBPUSD Short 12.11.15",
+     "ergebnis": "Zeit +0.50 R",
+     "r": 0.5
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_02.jpg",
+     "titel": "EURUSD Long 23.03.16",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_03.jpg",
+     "titel": "EURGBP Short 06.06.16",
+     "ergebnis": "SL -1.02 R",
+     "r": -1.02
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_04.jpg",
+     "titel": "EURJPY Long 03.08.16",
+     "ergebnis": "Zeit +0.34 R",
+     "r": 0.34
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_05.jpg",
+     "titel": "CADJPY Long 09.11.16",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_06.jpg",
+     "titel": "GBPAUD Short 19.01.17",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_07.jpg",
+     "titel": "AUDNZD Long 07.04.17",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_08.jpg",
+     "titel": "EURAUD Long 13.06.17",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_09.jpg",
+     "titel": "EURCAD Long 17.08.17",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_10.jpg",
+     "titel": "AUDCAD Long 03.11.17",
+     "ergebnis": "SL -1.02 R",
+     "r": -1.02
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_11.jpg",
+     "titel": "GBPNZD Short 15.01.18",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_12.jpg",
+     "titel": "GBPJPY Short 06.04.18",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_13.jpg",
+     "titel": "USDJPY Long 19.06.18",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_14.jpg",
+     "titel": "GBPNZD Long 20.09.18",
+     "ergebnis": "Zeit +1.17 R",
+     "r": 1.17
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_15.jpg",
+     "titel": "AUDCHF Short 28.11.18",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_16.jpg",
+     "titel": "EURAUD Short 06.02.19",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_17.jpg",
+     "titel": "NZDUSD Short 10.05.19",
+     "ergebnis": "TP +1.48 R",
+     "r": 1.48
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_18.jpg",
+     "titel": "GBPAUD Short 07.08.19",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_19.jpg",
+     "titel": "EURCHF Short 11.10.19",
+     "ergebnis": "TP +1.47 R",
+     "r": 1.47
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_20.jpg",
+     "titel": "AUDJPY Long 08.01.20",
+     "ergebnis": "SL -1.02 R",
+     "r": -1.02
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_21.jpg",
+     "titel": "EURJPY Short 10.03.20",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_22.jpg",
+     "titel": "NZDCHF Long 29.05.20",
+     "ergebnis": "TP +1.48 R",
+     "r": 1.48
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_23.jpg",
+     "titel": "GBPCAD Long 09.09.20",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_24.jpg",
+     "titel": "EURGBP Long 04.12.20",
+     "ergebnis": "TP +1.48 R",
+     "r": 1.48
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_25.jpg",
+     "titel": "AUDJPY Long 26.02.21",
+     "ergebnis": "TP +1.48 R",
+     "r": 1.48
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_26.jpg",
+     "titel": "AUDUSD Short 07.06.21",
+     "ergebnis": "SL -1.02 R",
+     "r": -1.02
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_27.jpg",
+     "titel": "EURJPY Short 25.08.21",
+     "ergebnis": "SL -1.03 R",
+     "r": -1.03
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_28.jpg",
+     "titel": "NZDUSD Long 22.11.21",
+     "ergebnis": "SL -1.02 R",
+     "r": -1.02
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_29.jpg",
+     "titel": "GBPCHF Short 26.01.22",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_30.jpg",
+     "titel": "NZDCHF Short 20.04.22",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_31.jpg",
+     "titel": "NZDUSD Short 16.06.22",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_32.jpg",
+     "titel": "EURUSD Short 29.09.22",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_33.jpg",
+     "titel": "AUDNZD Short 02.01.23",
+     "ergebnis": "SL -1.02 R",
+     "r": -1.02
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_34.jpg",
+     "titel": "EURJPY Short 17.03.23",
+     "ergebnis": "SL -1.00 R",
+     "r": -1.0
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_35.jpg",
+     "titel": "AUDCHF Short 12.06.23",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_36.jpg",
+     "titel": "NZDUSD Short 11.09.23",
+     "ergebnis": "SL -1.02 R",
+     "r": -1.02
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_37.jpg",
+     "titel": "NZDJPY Long 17.11.23",
+     "ergebnis": "TP +1.48 R",
+     "r": 1.48
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_38.jpg",
+     "titel": "AUDUSD Short 15.02.24",
+     "ergebnis": "SL -1.08 R",
+     "r": -1.08
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_39.jpg",
+     "titel": "GBPCAD Short 09.04.24",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_40.jpg",
+     "titel": "GOLD Short 20.06.24",
+     "ergebnis": "TP +1.50 R",
+     "r": 1.5
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_41.jpg",
+     "titel": "EURNZD Long 29.08.24",
+     "ergebnis": "TP +1.48 R",
+     "r": 1.48
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_42.jpg",
+     "titel": "GBPCHF Long 12.11.24",
+     "ergebnis": "SL -1.01 R",
+     "r": -1.01
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_43.jpg",
+     "titel": "NZDCHF Long 09.01.25",
+     "ergebnis": "SL -1.12 R",
+     "r": -1.12
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_44.jpg",
+     "titel": "NZDCAD Short 24.02.25",
+     "ergebnis": "TP +1.47 R",
+     "r": 1.47
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_45.jpg",
+     "titel": "EURCHF Short 24.04.25",
+     "ergebnis": "TP +1.45 R",
+     "r": 1.45
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_46.jpg",
+     "titel": "EURGBP Long 07.07.25",
+     "ergebnis": "TP +1.48 R",
+     "r": 1.48
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_47.jpg",
+     "titel": "AUDJPY Long 19.09.25",
+     "ergebnis": "TP +1.48 R",
+     "r": 1.48
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_48.jpg",
+     "titel": "AUDCHF Long 13.11.25",
+     "ergebnis": "SL -1.06 R",
+     "r": -1.06
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_49.jpg",
+     "titel": "CHFJPY Long 15.01.26",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_50.jpg",
+     "titel": "AUDJPY Long 02.03.26",
+     "ergebnis": "TP +1.49 R",
+     "r": 1.49
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_51.jpg",
+     "titel": "EURUSD Short 14.04.26",
+     "ergebnis": "SL -1.04 R",
+     "r": -1.04
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_52.jpg",
+     "titel": "USDCAD Long 28.05.26",
+     "ergebnis": "TP +1.48 R",
+     "r": 1.48
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_53.jpg",
+     "titel": "NZDUSD Short 14.07.26",
+     "ergebnis": "SL -1.02 R",
+     "r": -1.02
+    },
+    {
+     "pfad": "strategiebilder/lab-dailyob_54.jpg",
+     "titel": "AUDJPY Short 26.08.26",
+     "ergebnis": "SL -1.03 R",
+     "r": -1.03
+    }
+   ],
+   "ranking": {
+    "avg": 0.04,
+    "wr": 43.5,
+    "n": 5820,
+    "basis": "schwächere Hälfte (bis 10/2024 gegen ab 10/2024)"
    }
   }
  ]
