@@ -55,3 +55,8 @@ Jeder Test in strategietests.json bekommt zusätzlich zu urteil/kennzahlen:
 Die App (ab Journal39.05) zeigt beides. In der Anzeige heißt Ø R „Expectancy", die Trefferquote „Winrate".
 Öffentliche Kopie: bericht und plan nur bei reinen Marktdaten-Tests übernehmen, nie bei Tests aus den eigenen Trades des Nutzers.
 Ausweitung der Strategie des Nutzers (Weekly-Orderblock): breiter streuen auf Daily-Zonen, andere Zonentypen, Stop-Abstände, Ziele, Haltedauer, COT- und Trendfilter; Ergebnis je Variante mit Trades, Winrate, Expectancy, Profitfaktor, Entwicklung/Prüfung und Zahl der Varianten. Rechnung einmal auf dem vollständigen Universum (nach Metallen).
+
+## Varianten-Sets und Kurven (Auftrag des Nutzers, 29.10.)
+- Je Strategie immer ein Set aus 5 Tests, in dem nur der Filter wechselt (ohne COT, COT relativ stark, COT relativ schwach, COT im Extrem, COT plus Weekly-Trend), gleiche Regeln für Einstieg, Stopp, Ziel; danach dasselbe auf Daily-Zonen.
+- Ergebnis im Feld `varianten` des Tests: [{name, trades, wr, avg, pf, dd, rProJahr, equity:[kumulierte R je Trade in zeitlicher Reihenfolge], hinweis}]. Die App (ab Journal39.06) zeigt jede Variante aufklappbar mit Kurve der kumulierten R.
+- Immer ausweisen: R pro Jahr (Trades x Expectancy / Jahre) und Max-Drawdown. Hinweis im Bericht: Mehr Trades mit niedrigerer Expectancy können mehr Gesamt-R bringen, aber nur wenn die Trades nicht gleichzeitig laufen (Korrelation, gemeinsames Risiko) und der Drawdown tragbar bleibt.
