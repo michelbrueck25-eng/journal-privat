@@ -1774,6 +1774,7 @@
     "Weekly-Richtung und COT wurden als Filter getestet (htf, cot) und hatten bei Daily-Zonen keinen stabilen Vorteil"
    ],
    "schwaechen": [
+    "Neuaufbau am 29.10.: Die Weekly-Regel ohne COT-Filter ergibt +0,005 R (1.346 Trades) statt +0,18 R. Die früheren Zahlen konnten nicht reproduziert werden und sind unbestätigt. Mit COT relativ stark bleibt ein Vorteil (+0,174 R, 101 Trades).",
     "Nur etwa 13 Monate Tageskerzen und 11 Paare, ein Marktumfeld",
     "984 Varianten getestet: einzelne gute Ergebnisse können Zufall sein",
     "Entwicklungs- und Prüfhälfte widersprechen sich (46 % gegen 60 % Trefferquote)",
@@ -19139,6 +19140,7 @@
     "1 Pip Spread, JPY-Paare 0,01"
    ],
    "schwaechen": [
+    "Neuaufbau am 29.10.: Die Weekly-Regel ohne COT-Filter ergibt +0,005 R (1.346 Trades) statt +0,18 R. Die früheren Zahlen konnten nicht reproduziert werden und sind unbestätigt. Mit COT relativ stark bleibt ein Vorteil (+0,174 R, 101 Trades).",
     "Nur 21 Paare, Rohstoffe fehlen noch",
     "Setups benachbarter Paare sind korreliert (USD-Wochen), die echte Unabhängigkeit ist kleiner als n",
     "Mit COT-Filter nur 65 und 29 Trades und 18 Varianten getestet: die beste Variante kann Zufall sein",
