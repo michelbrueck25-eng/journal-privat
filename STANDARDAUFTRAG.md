@@ -110,3 +110,21 @@ Ausweitung der Strategie des Nutzers (Weekly-Orderblock): breiter streuen auf Da
 - COT-Familie (Commercials folgen, 156 Wochen, Top gegen Flop) ist über 108 Varianten im Median +0,12 R und 40 Varianten über 0,15 R; zu wenig Trades pro Jahr (3 bis 4 R). Ausbau auf mehr Instrumente und Kombination mit anderen Quellen für mehr Häufigkeit.
 
 Präzisierung Haltedauer (29.10.2026, spätere Angabe): bevorzugt 1 bis 2 Wochen, 3 bis 4 Wochen ebenfalls gut. Maximal 4 Wochen als Normalfall, bis 8 Wochen nur bei deutlich besserem Ergebnis. Diese Präzisierung ersetzt die Obergrenzen im Abschnitt davor.
+
+## Mindestens 5 Strategien pro Lauf und Ideenkatalog (dauerhaft, 29.10.2026)
+- Jeder Lauf liefert mindestens 5 neue, möglichst verschiedenartige Strategien (nach den Qualitätsregeln: netto mindestens 0,15 R, Kosten, Entwicklungs-/Prüfhälfte, Zufallsvergleich). Gibt es keine 5 gute, werden die 5 getesteten mit Ergebnis im Bericht genannt und nur die guten in den Forward-Test aufgenommen.
+- Ziel des Nutzers: etwa 10 parallel laufende, möglichst unkorrelierte Strategien, zusammen 3 bis 6 % im Monat bei geringem Drawdown. Portfolio-Korrelation und Gesamtkurve mitführen.
+- Die Ideensuche deckt das gesamte veröffentlichte Strategiespektrum ab (Ideenkatalog unten, laufend abarbeiten und Status pflegen).
+
+### Ideenkatalog (Status: getestet / offen / braucht Daten)
+Trend und Momentum: MA-Kreuzungen (getestet, negativ), Donchian/Turtle (getestet, negativ), Zeitreihen-Momentum 1/3/6/12 Monate (offen), Querschnitts-Währungsmomentum (getestet, ~0), ADX-Trendfilter, Parabolic SAR, Supertrend, Ichimoku (offen), Chandelier-/ATR-Trailing-Exits (offen), Pyramidisieren (offen).
+Mean-Reversion: Bollinger, RSI(2), Stochastik (getestet, ~0), Z-Score zum gleitenden Mittel, Pairs/Kointegration zwischen Währungspaaren und Dreiecksbeziehungen (EURUSD/GBPUSD/EURGBP), VWAP-Abweichung, Gap-Fill-Logik an Wochenöffnung (offen).
+Volatilität: Squeeze/NR7 (getestet, negativ), ATR-Expansion, Volatilitätsregime-Wechsel, Overnight-/Wochentagseffekte, Range-Breakout der asiatischen Session (braucht H1), London-Open-Breakout, Opening-Range-Breakout (H1, offen).
+Preisaktion/Struktur: Orderblöcke (getestet), Fair-Value-Gaps, Liquiditäts-Sweeps/Stop-Hunts, Break of Structure/CHoCH, Wyckoff-Federn, Pin-Bar/Engulfing an Wochen-Extremen, Rundzahlen (00/50-Level), Pivot-Punkte, Fibonacci-Rücksetzer, Elliott-ähnliche Zählungen (objektiv schwer), Chartmuster (Doppelboden, Flaggen) (offen).
+Positionierung/Sentiment: COT (Commercials folgen, getestet, positiv), COT Non-Commercial-Extreme als Kontraindikator, COT-Veränderungsrate, Retail-Sentiment (Long/Short-Verhältnisse, braucht Daten), Optionen-Risk-Reversals (braucht Daten), Put/Call (Indizes).
+Fundamentales/Makro: Carry/Zinsdifferenz, Zinsänderungsmomentum, Inflationsdifferenz/Realzins, Arbeitsmarkt, Überraschungsindex (Ist gegen Prognose), PPP-Bewertung (langfristig), Handelsbilanz, Zentralbankbilanzen, Leitzins-Erwartungen aus Swaps (braucht Historien, siehe oben).
+Saisonalität/Kalender: Währungs-Saisonalität (getestet, nicht robust), Monatswechsel, Quartals-/Jahresendflüsse, Wochentag, Ferienzeiten, Rohstoff-Saisonalität (Weizen, Mais, Erdgas, Benzin, Kaffee; braucht Kurse).
+Intermarket: Gold/Silber-Verhältnis, Kupfer/Gold gegen AUD/JPY, Öl gegen CAD/NOK, Aktienindizes (Risk-on/off) gegen JPY/CHF/AUD, Anleiherenditen gegen USD, VIX-Regime (braucht Kurse und Indizes), DXY-Korb gegen Einzelpaare.
+Statistik/Machine Learning: Regressions- und Entscheidungsbaum-Modelle auf Merkmalen (Rendite, Volatilität, COT, Saison), Hidden-Markov-Regime, Random Forest mit strenger Walk-forward-Validierung, Cluster-Regime, Ensemble-Signale (Abstimmung mehrerer Regeln, offen).
+Risiko/Portfolio: Volatilitäts-Zielsteuerung der Positionsgröße, Kelly-Bruchteil, Equity-Curve-Filter, Korrelationsbegrenzung, Drawdown-Bremse (verbessern Ergebnisse jeder Strategie, offen).
+Tiefere Zeitebenen (H1/H4) für Session-, Breakout- und Orderblock-Ideen: Daten ab H1 nötig (H4 liegt vor, H1 nicht).
