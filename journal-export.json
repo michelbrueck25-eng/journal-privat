@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-10-29T15:41:42.744Z",
+ "exportiert": "2026-10-29T15:41:49.262Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -16918,6 +16918,8 @@
   "lab-sweep",
   "smvtd2t9z",
   "lab-wkbreak",
-  "lab-pin"
+  "lab-pin",
+  "lab-inside",
+  "lab-donch"
  ]
 }
