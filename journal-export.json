@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-10-29T15:42:38.220Z",
+ "exportiert": "2026-10-29T15:42:52.687Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -16926,6 +16926,7 @@
   "lab-cot",
   "lab-macd",
   "lab-fib",
-  "lab-mr"
+  "lab-mr",
+  "lab-vergleich"
  ]
 }
