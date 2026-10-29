@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-10-29T15:42:14.819Z",
+ "exportiert": "2026-10-29T15:42:21.411Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -16906,14 +16906,7 @@
  },
  "obFeedback": [],
  "empfehlungenEdit": {},
- "strategien": [
-  {
-   "id": "smvtc0ajx",
-   "name": "Weekly mit LTF",
-   "text": "Überprüfe die Trades wie sonst auch mit COT und Weekly Orderblock. Es soll aber getestet werden, ob es sobald der preis in die Zone kommt eine Reaktion und Bestätigung im daily, 4h oder 1h gibt. teste auf struktubruch oder ähnlich. ziel ist es, dass niedrigerer SL und schneller. ungefähr bis 1 woche. im schnitt 1-2 rr und 50+ wr",
-   "erstellt": "2026-10-29T09:19:10.701Z"
-  }
- ],
+ "strategien": [],
  "strategienEntfernt": [
   "lab-sweep",
   "smvtd2t9z",
@@ -16926,6 +16919,8 @@
   "lab-dailyob",
   "lab-mtf",
   "lab-squeeze",
-  "lab-trend"
+  "lab-trend",
+  "lab-rsi2",
+  "smvtc0ajx"
  ]
 }
