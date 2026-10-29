@@ -1,6 +1,6 @@
 {
  "typ": "strategietests",
- "stand": "2026-10-29T13:46",
+ "stand": "2026-10-29T14:01",
  "tests": [
   {
    "id": "smvtc0ajx",
@@ -19401,7 +19401,7 @@
    "id": "lab-dailyob",
    "name": "Test: Daily-Orderblock (A Zonenkante, B Daily-Bestätigung, C 4H-Bestätigung)",
    "status": "fertig",
-   "geprueft": "2026-10-29T13:46",
+   "geprueft": "2026-10-29T14:01",
    "zeitraum": "28.09.15 bis 28.10.26",
    "daten": "29 Instrumente (AUDCAD, AUDCHF, AUDJPY, AUDNZD, AUDUSD, CADCHF, CADJPY, CHFJPY, EURAUD, EURCAD, EURCHF, EURGBP, EURJPY, EURNZD, EURUSD, GBPAUD, GBPCAD, GBPCHF, GBPJPY, GBPNZD, GBPUSD, GOLD, NZDCAD, NZDCHF, NZDJPY, NZDUSD, USDCAD, USDCHF, USDJPY), je 3000 Tageskerzen; 4H nur ca. 1,5 Jahre",
    "zusammenfassung": "Zonen sind Tages-Orderblöcke (Regeln wie im Journal, erst nach der Bestätigung bekannt). Hauptvariante A: Einstieg an der Zonenkante (Limit, erste Berührung), Ziel 1,5 R, Zonenqualität AB: 5820 Trades, Trefferquote 43,8 %, Ø 0,046 R nach Spread, Profitfaktor 1,08.",
