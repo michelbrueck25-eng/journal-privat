@@ -46,3 +46,12 @@ Die App (ab Journal38.98) hat in „KI Trades“ das Feld „Strategie-Labor“.
 
 ## Bild- und Marktanalyse (Auftrag des Nutzers, ab 29.10.)
 Alle Trade-Bilder (bilder/, auch die Backtest-Bilder) ansehen, nicht nur Stichproben. Fortschritt in bilder_analyse.json (privates Repo): {"stand","gesehen":<Anzahl>,"von":<Anzahl>,"bilder":[{"trade":"<id>","paar","dir","r","tags":{...},"notiz":"<ein Satz>"}]}. Pro Lauf mindestens 25 weitere Bilder, bis alle durch sind. Danach Tags mit Ergebnis (r) und den Kerzen aus marktdaten/ (Trend der höheren Zeitebene, Abstand zu Hoch/Tief, Zonenalter, Volatilität um das Datum) gegenrechnen und in analyse.json (muster, abweichungen) eintragen. Bei Trades, die vor dem ersten Datum der Marktdaten liegen, nur die Bilder verwenden und das so kennzeichnen.
+
+
+## Bericht und Trading-Plan je Test (Auftrag des Nutzers, 29.10., gilt dauerhaft)
+Jeder Test in strategietests.json bekommt zusätzlich zu urteil/kennzahlen:
+- `bericht`: Liste von Abschnitten {titel, text oder punkte[]}: Kurzfassung, Wie ich getestet habe, Vorteile, Nachteile und Grenzen, Empfehlung. Länger und konkreter als das Urteil, aber knapp.
+- `plan`: Wenn-Dann-Liste [{wenn, dann}], in der Reihenfolge des Handelsablaufs (Zone finden, Filter, Einstieg, Stop, Ziel, Zeitstopp, nach Stop, Serien, Risiko), nur aus getesteten Regeln abgeleitet.
+Die App (ab Journal39.05) zeigt beides. In der Anzeige heißt Ø R „Expectancy", die Trefferquote „Winrate".
+Öffentliche Kopie: bericht und plan nur bei reinen Marktdaten-Tests übernehmen, nie bei Tests aus den eigenen Trades des Nutzers.
+Ausweitung der Strategie des Nutzers (Weekly-Orderblock): breiter streuen auf Daily-Zonen, andere Zonentypen, Stop-Abstände, Ziele, Haltedauer, COT- und Trendfilter; Ergebnis je Variante mit Trades, Winrate, Expectancy, Profitfaktor, Entwicklung/Prüfung und Zahl der Varianten. Rechnung einmal auf dem vollständigen Universum (nach Metallen).

@@ -2502,7 +2502,93 @@
     "n": 201,
     "basis": "schwächere Hälfte (Entwicklung), gesamt Ø 0,20 R bei 52 %"
    },
-   "_merged": true
+   "_merged": true,
+   "bericht": [
+    {
+     "titel": "Kurzfassung",
+     "text": "Deine Weekly-Orderblock-Regeln allein, ohne dein Auge beim Auswählen der Zonen, haben auf 562 Setups in 21 Paaren eine positive Expectancy von etwa +0,16 bis +0,18 R bei rund 52 bis 53 % Winrate. Das reicht nicht für das Ziel 0,3 bis 0,5 R, ist aber deutlich besser als Zufall (Zufalls-Einstiege: −0,01 R). Mit COT-Filter steigt die Expectancy auf +0,38 R bei 61,5 % Winrate, aber nur auf 65 Trades."
+    },
+    {
+     "titel": "Wie ich getestet habe",
+     "punkte": [
+      "Regeln festgelegt: Weekly-Zone, Einstieg am Zonenrand, Stop 0,1 ATR hinter der Zone, Ziel 1,5 R, höchstens 10 Tage Haltedauer.",
+      "Automatisch auf allen geladenen Paaren Kerze für Kerze durchgespielt, ohne Blick in die Zukunft. Bei Stop und Ziel in derselben Kerze zählt der Stop zuerst.",
+      "Spread (1 Pip, bei Metallen grob geschätzt) abgezogen.",
+      "Daten zeitlich geteilt: erste 60 % Entwicklung, Rest Prüfung. Beide Hälften waren positiv (+0,158 und +0,223 R).",
+      "Vergleich mit 200 Läufen zufälliger Einstiege gleicher Haltedauer, dazu 95-%-Intervall per Bootstrap.",
+      "COT-Index mit Veröffentlichungsverzug (Bericht vom Dienstag erst ab Freitag nutzbar), damit der Filter nichts vorwegnimmt."
+     ]
+    },
+    {
+     "titel": "Vorteile",
+     "punkte": [
+      "Große Stichprobe (562 Trades), 10 von 12 Jahren positiv, Profitfaktor 1,47.",
+      "Positiv in beiden Datenhälften und klar besser als Zufall.",
+      "Regeln sind eindeutig und lassen sich ohne Ermessen prüfen."
+     ]
+    },
+    {
+     "titel": "Nachteile und Grenzen",
+     "punkte": [
+      "Expectancy liegt unter deinem Ziel von 0,3 bis 0,5 R.",
+      "Dein Backtest (78 % Treffer, +0,65 R) liegt weit über dem Regel-Test. Der Unterschied kommt vermutlich aus deiner Auswahl der Zonen, die ein Programm nicht abbildet, und teils aus Rückschau-Verzerrung beim Einzeichnen.",
+      "Die COT-Variante hat nur 65 Trades und ein breites Intervall (0,12 bis 0,65 R). Das ist ein Hinweis, kein Beleg.",
+      "Viele getestete Varianten erhöhen die Gefahr, dass ein guter Wert Zufall ist. Gewertet wird die Prüfungshälfte.",
+      "Metalle sind nur grob modelliert, Indizes fehlen."
+     ]
+    },
+    {
+     "titel": "Empfehlung",
+     "punkte": [
+      "Weekly-Zone mit Einstieg am Zonenrand beibehalten, es gibt einen messbaren Vorteil.",
+      "Nur dann handeln, wenn zusätzlich der COT-Filter passt (Commercials relativ stark oder im Extrem). Das ist der einzige Hebel, der in Richtung 0,3 R geht.",
+      "Live klein bleiben (Risiko je Trade niedrig halten), bis mindestens 30 Live-Trades mit diesen Regeln vorliegen. Deine bisherigen 13 Live-Trades (+0,08 R) liegen näher am Regel-Test als am Backtest.",
+      "Als Nächstes testen: Daily-Zonen, weitere Stop-Abstände und Ziele, Weekly-Trend-Filter."
+     ]
+    }
+   ],
+   "plan": [
+    {
+     "wenn": "Eine Weekly-Zone ist frisch (noch nicht berührt) und hat eine klare Bewegung weg davon",
+     "dann": "Zone vormerken, Richtung festlegen (Nachfrage = long, Angebot = short)"
+    },
+    {
+     "wenn": "Der Preis läuft an den Zonenrand",
+     "dann": "COT prüfen: Commercials der Basiswährung im oberen Bereich für long, im unteren für short (relativ zum Quote)"
+    },
+    {
+     "wenn": "COT passt nicht oder ist neutral",
+     "dann": "Kein Trade, oder nur mit halbem Risiko (Regel-Test ohne Filter hat nur +0,16 R)"
+    },
+    {
+     "wenn": "COT passt und der Preis berührt den Rand",
+     "dann": "Limit am Zonenrand, Stop 0,1 ATR hinter der Zone, Ziel 1,5 R"
+    },
+    {
+     "wenn": "Das Risiko je Trade ist größer als 3 ATR oder die Zone ist breit",
+     "dann": "Trade auslassen"
+    },
+    {
+     "wenn": "Das Ziel von 1,5 R ist erreicht",
+     "dann": "Gewinn mitnehmen (Test lief mit festem Ziel)"
+    },
+    {
+     "wenn": "Nach 10 Tagen ist weder Stop noch Ziel erreicht",
+     "dann": "Zum Marktpreis schließen"
+    },
+    {
+     "wenn": "Der Stop wird getroffen",
+     "dann": "Zone ist verbraucht, keinen zweiten Einstieg in dieselbe Zone, Verlust nicht ausgleichen"
+    },
+    {
+     "wenn": "Drei Verluste in Folge",
+     "dann": "Risiko je Trade halbieren, bis ein Gewinn kommt (längste Verlustserie im Test beachten)"
+    },
+    {
+     "wenn": "30 Live-Trades mit diesen Regeln liegen vor",
+     "dann": "Live-Expectancy gegen +0,16 R vergleichen und erst dann das Risiko erhöhen"
+    }
+   ]
   },
   {
    "id": "lab-vergleich",
@@ -19395,7 +19481,93 @@
     "wr": 51.8,
     "n": 562,
     "basis": "schwächere Hälfte (Entwicklung bis 2022 gegen Prüfung ab 2023), ohne COT-Filter"
-   }
+   },
+   "bericht": [
+    {
+     "titel": "Kurzfassung",
+     "text": "Deine Weekly-Orderblock-Regeln allein, ohne dein Auge beim Auswählen der Zonen, haben auf 562 Setups in 21 Paaren eine positive Expectancy von etwa +0,16 bis +0,18 R bei rund 52 bis 53 % Winrate. Das reicht nicht für das Ziel 0,3 bis 0,5 R, ist aber deutlich besser als Zufall (Zufalls-Einstiege: −0,01 R). Mit COT-Filter steigt die Expectancy auf +0,38 R bei 61,5 % Winrate, aber nur auf 65 Trades."
+    },
+    {
+     "titel": "Wie ich getestet habe",
+     "punkte": [
+      "Regeln festgelegt: Weekly-Zone, Einstieg am Zonenrand, Stop 0,1 ATR hinter der Zone, Ziel 1,5 R, höchstens 10 Tage Haltedauer.",
+      "Automatisch auf allen geladenen Paaren Kerze für Kerze durchgespielt, ohne Blick in die Zukunft. Bei Stop und Ziel in derselben Kerze zählt der Stop zuerst.",
+      "Spread (1 Pip, bei Metallen grob geschätzt) abgezogen.",
+      "Daten zeitlich geteilt: erste 60 % Entwicklung, Rest Prüfung. Beide Hälften waren positiv (+0,158 und +0,223 R).",
+      "Vergleich mit 200 Läufen zufälliger Einstiege gleicher Haltedauer, dazu 95-%-Intervall per Bootstrap.",
+      "COT-Index mit Veröffentlichungsverzug (Bericht vom Dienstag erst ab Freitag nutzbar), damit der Filter nichts vorwegnimmt."
+     ]
+    },
+    {
+     "titel": "Vorteile",
+     "punkte": [
+      "Große Stichprobe (562 Trades), 10 von 12 Jahren positiv, Profitfaktor 1,47.",
+      "Positiv in beiden Datenhälften und klar besser als Zufall.",
+      "Regeln sind eindeutig und lassen sich ohne Ermessen prüfen."
+     ]
+    },
+    {
+     "titel": "Nachteile und Grenzen",
+     "punkte": [
+      "Expectancy liegt unter deinem Ziel von 0,3 bis 0,5 R.",
+      "Dein Backtest (78 % Treffer, +0,65 R) liegt weit über dem Regel-Test. Der Unterschied kommt vermutlich aus deiner Auswahl der Zonen, die ein Programm nicht abbildet, und teils aus Rückschau-Verzerrung beim Einzeichnen.",
+      "Die COT-Variante hat nur 65 Trades und ein breites Intervall (0,12 bis 0,65 R). Das ist ein Hinweis, kein Beleg.",
+      "Viele getestete Varianten erhöhen die Gefahr, dass ein guter Wert Zufall ist. Gewertet wird die Prüfungshälfte.",
+      "Metalle sind nur grob modelliert, Indizes fehlen."
+     ]
+    },
+    {
+     "titel": "Empfehlung",
+     "punkte": [
+      "Weekly-Zone mit Einstieg am Zonenrand beibehalten, es gibt einen messbaren Vorteil.",
+      "Nur dann handeln, wenn zusätzlich der COT-Filter passt (Commercials relativ stark oder im Extrem). Das ist der einzige Hebel, der in Richtung 0,3 R geht.",
+      "Live klein bleiben (Risiko je Trade niedrig halten), bis mindestens 30 Live-Trades mit diesen Regeln vorliegen. Deine bisherigen 13 Live-Trades (+0,08 R) liegen näher am Regel-Test als am Backtest.",
+      "Als Nächstes testen: Daily-Zonen, weitere Stop-Abstände und Ziele, Weekly-Trend-Filter."
+     ]
+    }
+   ],
+   "plan": [
+    {
+     "wenn": "Eine Weekly-Zone ist frisch (noch nicht berührt) und hat eine klare Bewegung weg davon",
+     "dann": "Zone vormerken, Richtung festlegen (Nachfrage = long, Angebot = short)"
+    },
+    {
+     "wenn": "Der Preis läuft an den Zonenrand",
+     "dann": "COT prüfen: Commercials der Basiswährung im oberen Bereich für long, im unteren für short (relativ zum Quote)"
+    },
+    {
+     "wenn": "COT passt nicht oder ist neutral",
+     "dann": "Kein Trade, oder nur mit halbem Risiko (Regel-Test ohne Filter hat nur +0,16 R)"
+    },
+    {
+     "wenn": "COT passt und der Preis berührt den Rand",
+     "dann": "Limit am Zonenrand, Stop 0,1 ATR hinter der Zone, Ziel 1,5 R"
+    },
+    {
+     "wenn": "Das Risiko je Trade ist größer als 3 ATR oder die Zone ist breit",
+     "dann": "Trade auslassen"
+    },
+    {
+     "wenn": "Das Ziel von 1,5 R ist erreicht",
+     "dann": "Gewinn mitnehmen (Test lief mit festem Ziel)"
+    },
+    {
+     "wenn": "Nach 10 Tagen ist weder Stop noch Ziel erreicht",
+     "dann": "Zum Marktpreis schließen"
+    },
+    {
+     "wenn": "Der Stop wird getroffen",
+     "dann": "Zone ist verbraucht, keinen zweiten Einstieg in dieselbe Zone, Verlust nicht ausgleichen"
+    },
+    {
+     "wenn": "Drei Verluste in Folge",
+     "dann": "Risiko je Trade halbieren, bis ein Gewinn kommt (längste Verlustserie im Test beachten)"
+    },
+    {
+     "wenn": "30 Live-Trades mit diesen Regeln liegen vor",
+     "dann": "Live-Expectancy gegen +0,16 R vergleichen und erst dann das Risiko erhöhen"
+    }
+   ]
   },
   {
    "id": "lab-dailyob",
