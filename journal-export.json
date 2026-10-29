@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-10-29T21:43:49.925Z",
+ "exportiert": "2026-10-29T21:49:49.611Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -129369,7 +129369,25 @@
   "fw-x17",
   "fw-x18",
   "fw-x19",
-  "fw-x20"
+  "fw-x20",
+  "fw-w-15-10-cotextrem",
+  "fw-w-15-7-cotextrem",
+  "fw-w-15-7-cotrelativ",
+  "fw-w-20-7-cotrelativ",
+  "fw-w-15-10-cotrelativ",
+  "fw-w-20-7-cotextrem",
+  "fw-w-20-10-cotrelativ",
+  "fw-w-20-10-cotextrem",
+  "fw-w-10-7-cotrelativ",
+  "fw-w-10-10-cotrelativ",
+  "fw-w-10-10-cotextrem",
+  "fw-w-10-7-cotextrem",
+  "fw-w-20-10-ohnecot",
+  "fw-w-20-7-ohnecot",
+  "fw-w-15-7-ohnecot",
+  "fw-w-15-10-ohnecot",
+  "fw-w-10-7-ohnecot",
+  "fw-w-10-10-ohnecot"
  ],
  "forwardAktiv": [
   "fw3-k2",
