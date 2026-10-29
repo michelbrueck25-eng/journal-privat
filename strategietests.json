@@ -1,18 +1,338 @@
 {
  "typ": "strategietests",
- "stand": "2026-10-29T10:19",
+ "stand": "2026-10-29T10:21",
  "tests": [
   {
    "id": "smvtc0ajx",
    "name": "Weekly mit LTF",
-   "status": "laeuft",
-   "geprueft": "2026-10-29T10:19",
-   "urteil": "Test läuft.",
-   "kennzahlen": [],
-   "regeln": [],
-   "annahmen": [],
-   "schwaechen": [],
-   "naechste": ""
+   "status": "fertig",
+   "geprueft": "2026-10-29T10:21",
+   "zeitraum": "Daily: 08.09.2025 bis 28.10.2026 (Setups mit erster Zonenberührung in diesem Fenster); Weekly-Zonen aus Kerzen ab 08.11.2021",
+   "daten": "11 Paare (AUDCAD, AUDJPY, AUDNZD, AUDUSD, EURCHF, EURGBP, EURUSD, GBPCAD, GBPCHF, NZDJPY, USDJPY), je 400 Tageskerzen und 260 Wochenkerzen; keine 4H- und keine 1H-Kerzen; COT aus cot.csv (kommerzielle Netto-Position, 26-Wochen-Index)",
+   "urteil": "Die Daily-Bestätigung verkleinert den Stopp deutlich (Ø 88 statt 140 Pips) und hält die Haltedauer bei etwa 6 Tagen. Ø R liegt bei +0,17 (Ziel 1,5 R, nach Spread) mit 50 % Trefferquote, also knapp unter deinem Ziel von 50+ und 1 bis 2 R. Mit nur 24 Trades und einem Ergebnis im 82. Perzentil der Zufallsbasis ist das kein belastbarer Vorteil. Der Einstieg am Zonenrand ohne LTF liegt bei +0,12 R (87 Trades), mit COT-Filter bei -0,12 R (36 Trades): der Filter hilft hier nicht.",
+   "kennzahlen": [
+    {
+     "label": "Trades (B, Ziel 1,5 R)",
+     "wert": "24",
+     "hinweis": "unter 30, daher zu klein für ein Urteil"
+    },
+    {
+     "label": "Ø R nach Spread",
+     "wert": "+0,17",
+     "hinweis": "ohne Spread +0,19"
+    },
+    {
+     "label": "Trefferquote",
+     "wert": "50 %",
+     "hinweis": "Ziel war 50+"
+    },
+    {
+     "label": "Profitfaktor",
+     "wert": "1,53"
+    },
+    {
+     "label": "Max-Drawdown",
+     "wert": "4,8 R"
+    },
+    {
+     "label": "Längste Verlustserie",
+     "wert": "5"
+    },
+    {
+     "label": "Ø Stopp",
+     "wert": "88 Pips",
+     "hinweis": "Einstieg am Zonenrand: 140 Pips"
+    },
+    {
+     "label": "Ø Haltedauer",
+     "wert": "5,7 Tage",
+     "hinweis": "Maximal 7 Handelstage"
+    },
+    {
+     "label": "Zufallsbasis",
+     "wert": "Ø -0,02 R",
+     "hinweis": "B liegt im 82. Perzentil von 200 Läufen, 5 bis 95 %: -0,36 bis +0,30 R"
+    }
+   ],
+   "equity": [
+    0.1,
+    -0.6,
+    -1.63,
+    -2.66,
+    -3.69,
+    -3.88,
+    -2.7,
+    -1.52,
+    -0.33,
+    0.85,
+    1.81,
+    1.79,
+    3.27,
+    2.5,
+    1.49,
+    2.97,
+    3.71,
+    4.26,
+    5.35,
+    6.2,
+    5.93,
+    4.92,
+    4.66,
+    4.13
+   ],
+   "equityHinweis": "Kumulierte R je Trade (Variante B, Ziel 1,5 R), nach Datum sortiert. Überlappende Setups desselben Paares können enthalten sein.",
+   "tabellen": [
+    {
+     "titel": "Varianten im Vergleich",
+     "spalten": [
+      "Variante",
+      "Trades",
+      "Ø R",
+      "Trefferquote",
+      "Profitfaktor",
+      "Max-DD (R)",
+      "Längste Serie",
+      "Ø Haltedauer (Tage)",
+      "Ø Stopp (Pips)"
+     ],
+     "zeilen": [
+      [
+       "A: Einstieg am Zonenrand, kein LTF, Ziel 1,5 R",
+       87,
+       0.12,
+       "54 %",
+       1.39,
+       4.4,
+       5,
+       5.8,
+       139.8
+      ],
+      [
+       "A mit COT-Filter",
+       36,
+       -0.12,
+       "42 %",
+       0.67,
+       5.6,
+       6,
+       5.6,
+       145.9
+      ],
+      [
+       "B: Daily-Bestätigung, Ziel 1,0 R",
+       24,
+       0.1,
+       "50 %",
+       1.29,
+       4.8,
+       5,
+       5.3,
+       87.5
+      ],
+      [
+       "B: Daily-Bestätigung, Ziel 1,5 R",
+       24,
+       0.17,
+       "50 %",
+       1.53,
+       4.8,
+       5,
+       5.7,
+       87.5
+      ],
+      [
+       "B: Daily-Bestätigung, Ziel 2,0 R",
+       24,
+       0.12,
+       "46 %",
+       1.34,
+       5.6,
+       7,
+       5.8,
+       87.5
+      ],
+      [
+       "B mit COT-Filter, Ziel 1,5 R",
+       11,
+       0.19,
+       "45 %",
+       1.58,
+       2.0,
+       3,
+       6.7,
+       85.6
+      ]
+     ]
+    },
+    {
+     "titel": "Zeitliche Teilung, Richtung",
+     "spalten": [
+      "Variante",
+      "Trades",
+      "Ø R",
+      "Trefferquote",
+      "Profitfaktor",
+      "Max-DD (R)",
+      "Längste Serie",
+      "Ø Haltedauer (Tage)",
+      "Ø Stopp (Pips)"
+     ],
+     "zeilen": [
+      [
+       "B bis 2025-12-26 (Entwicklung)",
+       15,
+       0.1,
+       "47 %",
+       1.26,
+       4.8,
+       5,
+       5.5,
+       78.4
+      ],
+      [
+       "B ab 2025-12-26 (Prüfung)",
+       9,
+       0.29,
+       "56 %",
+       2.28,
+       1.0,
+       2,
+       5.9,
+       102.6
+      ],
+      [
+       "B Long",
+       13,
+       0.05,
+       "46 %",
+       1.14,
+       4.3,
+       7,
+       5.5,
+       94.5
+      ],
+      [
+       "B Short",
+       11,
+       0.32,
+       "55 %",
+       2.0,
+       2.7,
+       3,
+       5.9,
+       79.2
+      ]
+     ]
+    },
+    {
+     "titel": "Nach Zonenqualität (B)",
+     "spalten": [
+      "Variante",
+      "Trades",
+      "Ø R",
+      "Trefferquote",
+      "Profitfaktor",
+      "Max-DD (R)",
+      "Längste Serie",
+      "Ø Haltedauer (Tage)",
+      "Ø Stopp (Pips)"
+     ],
+     "zeilen": [
+      [
+       "B Zonenqualität A",
+       9,
+       0.17,
+       "44 %",
+       1.43,
+       2.5,
+       4,
+       5.0,
+       67.6
+      ],
+      [
+       "B Zonenqualität B",
+       7,
+       0.48,
+       "71 %",
+       5.24,
+       0.8,
+       2,
+       6.4,
+       114.3
+      ],
+      [
+       "B Zonenqualität C",
+       8,
+       -0.09,
+       "38 %",
+       0.8,
+       3.5,
+       5,
+       5.8,
+       86.5
+      ]
+     ]
+    },
+    {
+     "titel": "Obergrenze aus deinen Trades: engerer Stopp bei gleichem Einstieg (Legs, Ziel 1,5 R)",
+     "spalten": [
+      "Annahme",
+      "Legs",
+      "Ø R",
+      "Trefferquote"
+     ],
+     "zeilen": [
+      [
+       "Stopp halbiert (k=0,5), gleicher Einstieg",
+       112,
+       "-0,40",
+       "24 %"
+      ],
+      [
+       "Stopp 75 % (k=0,75)",
+       112,
+       "0,15",
+       "46 %"
+      ],
+      [
+       "Original-Stopp (k=1)",
+       112,
+       "0,67",
+       "69 %"
+      ],
+      [
+       "Original aus dem Journal",
+       112,
+       "0,77",
+       "70 %"
+      ]
+     ]
+    }
+   ],
+   "regeln": [
+    "Setup: Weekly-Orderblock in Trade-Richtung (find_obs aus ob_check, zum Zeitpunkt bekannt, nicht per Schluss verletzt)",
+    "Berührung: erste Daily-Kerze, die die Zone berührt",
+    "Bestätigung (B): innerhalb von 5 Handelstagen ein Daily-Schluss über dem Hoch (Long) bzw. unter dem Tief (Short) der letzten drei Kerzen vor der Berührung, Zone nicht per Schluss verletzt",
+    "Einstieg zum Schlusskurs der Bestätigungskerze, Stopp hinter dem Extrem seit der Berührung plus 0,1 ATR, kein Trade bei Stopp über 2,5 ATR",
+    "Ziel 1,0 / 1,5 / 2,0 R, Ausstieg spätestens nach 7 Handelstagen zum Schlusskurs",
+    "A (Vergleich): Limit am Zonenrand, Stopp hinter der Zone plus 0,1 ATR",
+    "COT: kommerzielle Netto-Position der Basiswährung über der der Quote (Long) bzw. darunter (Short), 26-Wochen-Index"
+   ],
+   "annahmen": [
+    "Spread 1 Pip je Trade, in R umgerechnet",
+    "Stopp und Ziel in derselben Kerze: Stopp zuerst",
+    "Struktur-Bruch vereinfacht als Schluss über/unter den letzten drei Daily-Kerzen; ein echtes Swing-Verfahren auf 4H/1H ist nicht getestet",
+    "Die Bestätigung kann mehrere Kerzen nach der Berührung kommen, ein Teil der Bewegung ist dann schon weg",
+    "Obergrenze aus Trades: MAE-Reihenfolge unbekannt, ein Stopp-Treffer zählt pessimistisch als Verlust"
+   ],
+   "schwaechen": [
+    "Nur 24 Trades (B) und 11 mit COT-Filter, unter der Grenze von 30",
+    "Nur gut ein Jahr Daily-Daten, ein einziges Marktumfeld",
+    "Keine 4H- und 1H-Kerzen, genau die Zeitebenen, die du testen wolltest",
+    "Mehrere Zonen desselben Paares können sich überlappen, Trades sind nicht ganz unabhängig",
+    "Die Prüfperiode hat nur 9 Trades"
+   ],
+   "naechste": "Journal 38.98 mit aktiver App und Twelve-Data-Key öffnen und „Marktdaten senden“ drücken: dann liegen 3000 Tages- und 4H-Kerzen je Paar im Repo und ich teste Weekly-Zonen aus 2021 bis heute mit 4H-Bestätigung. 1H-Kerzen müsste ich zusätzlich einbauen, falls du sie willst."
   }
  ]
 }
