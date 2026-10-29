@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-10-29T21:34:49.489Z",
+ "exportiert": "2026-10-29T21:35:09.857Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -129349,7 +129349,27 @@
   "fw2-w-extrem-15-7",
   "fw2-w-extrem-15-10",
   "fw2-w-extrem-20-7",
-  "fw2-w-extrem-20-10"
+  "fw2-w-extrem-20-10",
+  "fw-x1",
+  "fw-x2",
+  "fw-x3",
+  "fw-x4",
+  "fw-x5",
+  "fw-x6",
+  "fw-x7",
+  "fw-x8",
+  "fw-x9",
+  "fw-x10",
+  "fw-x11",
+  "fw-x12",
+  "fw-x13",
+  "fw-x14",
+  "fw-x15",
+  "fw-x16",
+  "fw-x17",
+  "fw-x18",
+  "fw-x19",
+  "fw-x20"
  ],
  "forwardAktiv": []
 }
