@@ -85,7 +85,7 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 1.86135 vom 29.10.2026 (Quelle: Marktdaten 29.10.2026)."
+     "text": "Kursstand 1.87025 vom 29.10.2026 (Quelle: Marktdaten 29.10.2026)."
     },
     {
      "t": "warn",
@@ -133,11 +133,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 1.25279 vom 29.10.2026 (Quelle: Marktdaten 29.10.2026)."
+     "text": "Kursstand 1.25021 vom 29.10.2026 (Quelle: Marktdaten 29.10.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 6.1 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 5.5 Tages-ATR vom Limit entfernt."
     }
    ]
   },
@@ -173,11 +173,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 88.629 vom 29.10.2026 (Quelle: Marktdaten 29.10.2026)."
+     "text": "Kursstand 88.824 vom 29.10.2026 (Quelle: Marktdaten 29.10.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 0.4 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 0.1 Tages-ATR vom Limit entfernt."
     },
     {
      "t": "warn",
@@ -221,11 +221,15 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 0.70405 vom 28.10.2026 (Quelle: Marktdaten 28.10.2026)."
+     "text": "Kursstand 0.70357 vom 29.10.2026 (Quelle: Marktdaten 29.10.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 1.6 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 1.5 Tages-ATR vom Limit entfernt."
+    },
+    {
+     "t": "warn",
+     "text": "Die Zone ist eine einzelne Weekly-Kerze, erfüllt aber meine Orderblock-Definition nicht (keine Bewegung über 1 ATR mit Strukturbruch)."
     }
    ]
   },
@@ -261,11 +265,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 0.83741 vom 28.10.2026 (Quelle: Marktdaten 28.10.2026)."
+     "text": "Kursstand 0.83490 vom 29.10.2026 (Quelle: Marktdaten 29.10.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 2.2 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 1.4 Tages-ATR vom Limit entfernt."
     },
     {
      "t": "warn",
@@ -274,7 +278,7 @@
    ]
   }
  ],
- "pruefung_stand": "2026-10-29T10:50",
+ "pruefung_stand": "2026-10-29T17:35",
  "konflikte": {
   "AUD/JPY|long": "Du hast AUDCAD offen sowie Limits auf AUDNZD und AUDUSD. Mehr als 2 AUD-Positionen sind nach deiner Analyse zu viel: Streiche das AUDUSD-Limit oder halbiere es, bevor du AUD/JPY dazunimmst. Letzter AUD/JPY-Trade war am 07.09., die 5 Wochen Pause sind vorbei.",
   "NZD/JPY|long": "NZD/JPY und AUD/JPY zusammen sind eine doppelte Yen-Wette. Nimm lieber nur eine der beiden mit vollem Risiko.",
