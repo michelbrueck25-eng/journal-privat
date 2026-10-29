@@ -1,0 +1,572 @@
+{
+ "typ": "forwardtest",
+ "stand": "2026-10-29T17:00",
+ "start": "2026-10-29",
+ "hinweis": "Forward-Test: Ab heute (29.10.2026) werden die Strategien nur mit neuen Kerzen weiterlaufen, ohne Rückschau. Claude prüft bei jedem Lauf neue Zonen, eröffnet und schließt Forward-Trades nach festen Regeln und meldet Abweichungen zum Backtest. Jede Strategie nennt ihre Zeitebene. Löschen entfernt sie dauerhaft aus dem Test.",
+ "feedback": [
+  {
+   "datum": "2026-10-29",
+   "titel": "Forward-Test eingerichtet",
+   "art": "Beobachtung",
+   "text": "18 Weekly-Varianten (Ziel 1, 1,5, 2 R; 7 und 10 Tage; ohne COT, COT relativ, COT extrem) sind eingetragen und warten auf den ersten Lauf. Dazu 10 geplante Erweiterungen auf Weekly und Daily. Ziel: die Expectancy steigern. Vorsicht: COT extrem hat nur 29, COT relativ nur 65 Backtest-Trades, die hohen Werte sind noch Hinweise."
+  }
+ ],
+ "strategien": [
+  {
+   "id": "fw-w-10-7-cotextrem",
+   "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
+   "tf": "Weekly",
+   "status": "wartet auf ersten Lauf",
+   "name": "Weekly-OB · Ziel 1,0 R · 7 Tage · COT extrem",
+   "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,0 R, spätestens nach 7 Tagen zum Marktpreis schließen. COT-Filter: COT extrem. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
+   "backtest": {
+    "n": 29,
+    "wr": 62.1,
+    "avg": 0.19
+   },
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "wr": null,
+    "avg": null,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-w-10-7-ohnecot",
+   "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
+   "tf": "Weekly",
+   "status": "wartet auf ersten Lauf",
+   "name": "Weekly-OB · Ziel 1,0 R · 7 Tage · ohne COT",
+   "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,0 R, spätestens nach 7 Tagen zum Marktpreis schließen. COT-Filter: ohne COT. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
+   "backtest": {
+    "n": 562,
+    "wr": 56.2,
+    "avg": 0.134
+   },
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "wr": null,
+    "avg": null,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-w-10-7-cotrelativ",
+   "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
+   "tf": "Weekly",
+   "status": "wartet auf ersten Lauf",
+   "name": "Weekly-OB · Ziel 1,0 R · 7 Tage · COT relativ",
+   "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,0 R, spätestens nach 7 Tagen zum Marktpreis schließen. COT-Filter: COT relativ. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
+   "backtest": {
+    "n": 65,
+    "wr": 67.7,
+    "avg": 0.259
+   },
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "wr": null,
+    "avg": null,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-w-10-10-cotextrem",
+   "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
+   "tf": "Weekly",
+   "status": "wartet auf ersten Lauf",
+   "name": "Weekly-OB · Ziel 1,0 R · 10 Tage · COT extrem",
+   "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,0 R, spätestens nach 10 Tagen zum Marktpreis schließen. COT-Filter: COT extrem. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
+   "backtest": {
+    "n": 29,
+    "wr": 65.5,
+    "avg": 0.236
+   },
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "wr": null,
+    "avg": null,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-w-10-10-ohnecot",
+   "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
+   "tf": "Weekly",
+   "status": "wartet auf ersten Lauf",
+   "name": "Weekly-OB · Ziel 1,0 R · 10 Tage · ohne COT",
+   "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,0 R, spätestens nach 10 Tagen zum Marktpreis schließen. COT-Filter: ohne COT. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
+   "backtest": {
+    "n": 562,
+    "wr": 57.3,
+    "avg": 0.131
+   },
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "wr": null,
+    "avg": null,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-w-10-10-cotrelativ",
+   "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
+   "tf": "Weekly",
+   "status": "wartet auf ersten Lauf",
+   "name": "Weekly-OB · Ziel 1,0 R · 10 Tage · COT relativ",
+   "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,0 R, spätestens nach 10 Tagen zum Marktpreis schließen. COT-Filter: COT relativ. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
+   "backtest": {
+    "n": 65,
+    "wr": 66.2,
+    "avg": 0.257
+   },
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "wr": null,
+    "avg": null,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-w-15-7-cotextrem",
+   "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
+   "tf": "Weekly",
+   "status": "wartet auf ersten Lauf",
+   "name": "Weekly-OB · Ziel 1,5 R · 7 Tage · COT extrem",
+   "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,5 R, spätestens nach 7 Tagen zum Marktpreis schließen. COT-Filter: COT extrem. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
+   "backtest": {
+    "n": 29,
+    "wr": 62.1,
+    "avg": 0.414
+   },
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "wr": null,
+    "avg": null,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-w-15-7-ohnecot",
+   "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
+   "tf": "Weekly",
+   "status": "wartet auf ersten Lauf",
+   "name": "Weekly-OB · Ziel 1,5 R · 7 Tage · ohne COT",
+   "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,5 R, spätestens nach 7 Tagen zum Marktpreis schließen. COT-Filter: ohne COT. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
+   "backtest": {
+    "n": 562,
+    "wr": 54.1,
+    "avg": 0.18
+   },
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "wr": null,
+    "avg": null,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-w-15-7-cotrelativ",
+   "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
+   "tf": "Weekly",
+   "status": "wartet auf ersten Lauf",
+   "name": "Weekly-OB · Ziel 1,5 R · 7 Tage · COT relativ",
+   "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,5 R, spätestens nach 7 Tagen zum Marktpreis schließen. COT-Filter: COT relativ. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
+   "backtest": {
+    "n": 65,
+    "wr": 67.7,
+    "avg": 0.403
+   },
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "wr": null,
+    "avg": null,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-w-15-10-cotextrem",
+   "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
+   "tf": "Weekly",
+   "status": "wartet auf ersten Lauf",
+   "name": "Weekly-OB · Ziel 1,5 R · 10 Tage · COT extrem",
+   "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,5 R, spätestens nach 10 Tagen zum Marktpreis schließen. COT-Filter: COT extrem. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
+   "backtest": {
+    "n": 29,
+    "wr": 65.5,
+    "avg": 0.477
+   },
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "wr": null,
+    "avg": null,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-w-15-10-ohnecot",
+   "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
+   "tf": "Weekly",
+   "status": "wartet auf ersten Lauf",
+   "name": "Weekly-OB · Ziel 1,5 R · 10 Tage · ohne COT",
+   "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,5 R, spätestens nach 10 Tagen zum Marktpreis schließen. COT-Filter: ohne COT. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
+   "backtest": {
+    "n": 562,
+    "wr": 53.2,
+    "avg": 0.179
+   },
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "wr": null,
+    "avg": null,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-w-15-10-cotrelativ",
+   "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
+   "tf": "Weekly",
+   "status": "wartet auf ersten Lauf",
+   "name": "Weekly-OB · Ziel 1,5 R · 10 Tage · COT relativ",
+   "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,5 R, spätestens nach 10 Tagen zum Marktpreis schließen. COT-Filter: COT relativ. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
+   "backtest": {
+    "n": 65,
+    "wr": 61.5,
+    "avg": 0.383
+   },
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "wr": null,
+    "avg": null,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-w-20-7-cotextrem",
+   "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
+   "tf": "Weekly",
+   "status": "wartet auf ersten Lauf",
+   "name": "Weekly-OB · Ziel 2,0 R · 7 Tage · COT extrem",
+   "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 2,0 R, spätestens nach 7 Tagen zum Marktpreis schließen. COT-Filter: COT extrem. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
+   "backtest": {
+    "n": 29,
+    "wr": 55.2,
+    "avg": 0.378
+   },
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "wr": null,
+    "avg": null,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-w-20-7-ohnecot",
+   "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
+   "tf": "Weekly",
+   "status": "wartet auf ersten Lauf",
+   "name": "Weekly-OB · Ziel 2,0 R · 7 Tage · ohne COT",
+   "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 2,0 R, spätestens nach 7 Tagen zum Marktpreis schließen. COT-Filter: ohne COT. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
+   "backtest": {
+    "n": 562,
+    "wr": 52.7,
+    "avg": 0.181
+   },
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "wr": null,
+    "avg": null,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-w-20-7-cotrelativ",
+   "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
+   "tf": "Weekly",
+   "status": "wartet auf ersten Lauf",
+   "name": "Weekly-OB · Ziel 2,0 R · 7 Tage · COT relativ",
+   "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 2,0 R, spätestens nach 7 Tagen zum Marktpreis schließen. COT-Filter: COT relativ. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
+   "backtest": {
+    "n": 65,
+    "wr": 64.6,
+    "avg": 0.39
+   },
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "wr": null,
+    "avg": null,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-w-20-10-cotextrem",
+   "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
+   "tf": "Weekly",
+   "status": "wartet auf ersten Lauf",
+   "name": "Weekly-OB · Ziel 2,0 R · 10 Tage · COT extrem",
+   "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 2,0 R, spätestens nach 10 Tagen zum Marktpreis schließen. COT-Filter: COT extrem. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
+   "backtest": {
+    "n": 29,
+    "wr": 58.6,
+    "avg": 0.365
+   },
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "wr": null,
+    "avg": null,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-w-20-10-ohnecot",
+   "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
+   "tf": "Weekly",
+   "status": "wartet auf ersten Lauf",
+   "name": "Weekly-OB · Ziel 2,0 R · 10 Tage · ohne COT",
+   "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 2,0 R, spätestens nach 10 Tagen zum Marktpreis schließen. COT-Filter: ohne COT. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
+   "backtest": {
+    "n": 562,
+    "wr": 51.2,
+    "avg": 0.183
+   },
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "wr": null,
+    "avg": null,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-w-20-10-cotrelativ",
+   "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
+   "tf": "Weekly",
+   "status": "wartet auf ersten Lauf",
+   "name": "Weekly-OB · Ziel 2,0 R · 10 Tage · COT relativ",
+   "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 2,0 R, spätestens nach 10 Tagen zum Marktpreis schließen. COT-Filter: COT relativ. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
+   "backtest": {
+    "n": 65,
+    "wr": 58.5,
+    "avg": 0.366
+   },
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "wr": null,
+    "avg": null,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x1",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "Weekly",
+   "status": "geplant",
+   "name": "Weekly: COT-Schwelle breiter (Commercials ab 35/65 statt 25/75), mehr Trades",
+   "beschreibung": "Zeitebene Weekly. COT-Schwelle breiter (Commercials ab 35/65 statt 25/75), mehr Trades. Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x2",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "Weekly",
+   "status": "geplant",
+   "name": "Weekly: Nur Zonen der Qualität A und B",
+   "beschreibung": "Zeitebene Weekly. Nur Zonen der Qualität A und B. Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x3",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "Weekly",
+   "status": "geplant",
+   "name": "Weekly: Stopp 0,25 ATR statt 0,1 ATR",
+   "beschreibung": "Zeitebene Weekly. Stopp 0,25 ATR statt 0,1 ATR. Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x4",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "Weekly",
+   "status": "geplant",
+   "name": "Weekly: Einstieg in der Zonenmitte statt am Rand",
+   "beschreibung": "Zeitebene Weekly. Einstieg in der Zonenmitte statt am Rand. Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x5",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "Weekly",
+   "status": "geplant",
+   "name": "Weekly: Mit Weekly-Trendfilter (nur mit dem Trend)",
+   "beschreibung": "Zeitebene Weekly. Mit Weekly-Trendfilter (nur mit dem Trend). Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x6",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "Weekly",
+   "status": "geplant",
+   "name": "Weekly: COT relativ plus Weekly-Trend",
+   "beschreibung": "Zeitebene Weekly. COT relativ plus Weekly-Trend. Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x7",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "Daily",
+   "status": "geplant",
+   "name": "Daily: Daily-Orderblock, Einstieg am Zonenrand, Ziel 1,5 R",
+   "beschreibung": "Zeitebene Daily. Daily-Orderblock, Einstieg am Zonenrand, Ziel 1,5 R. Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x8",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "Daily",
+   "status": "geplant",
+   "name": "Daily: Daily-Orderblock mit Daily-Bestätigung (Schluss aus der Zone)",
+   "beschreibung": "Zeitebene Daily. Daily-Orderblock mit Daily-Bestätigung (Schluss aus der Zone). Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x9",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "Daily",
+   "status": "geplant",
+   "name": "Daily: Daily-Orderblock mit COT relativ",
+   "beschreibung": "Zeitebene Daily. Daily-Orderblock mit COT relativ. Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  },
+  {
+   "id": "fw-x10",
+   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "tf": "Daily",
+   "status": "geplant",
+   "name": "Daily: Daily-Orderblock mit COT im Extrem",
+   "beschreibung": "Zeitebene Daily. Daily-Orderblock mit COT im Extrem. Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
+   "backtest": {},
+   "forward": {
+    "n": 0,
+    "offen": 0,
+    "equity": []
+   },
+   "offene": [],
+   "trades": []
+  }
+ ]
+}
