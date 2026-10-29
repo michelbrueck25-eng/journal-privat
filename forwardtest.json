@@ -2,13 +2,13 @@
  "typ": "forwardtest",
  "stand": "2026-10-29T17:00",
  "start": "2026-10-29",
- "hinweis": "Forward-Test: Ab heute (29.10.2026) werden die Strategien nur mit neuen Kerzen weiterlaufen, ohne Rückschau. Claude prüft bei jedem Lauf neue Zonen, eröffnet und schließt Forward-Trades nach festen Regeln und meldet Abweichungen zum Backtest. Jede Strategie nennt ihre Zeitebene. Löschen entfernt sie dauerhaft aus dem Test.",
+ "hinweis": "Hier stehen Strategien und Alternativen mit ihren Backtest-Zahlen (Trades, Winrate, Expectancy, Profitfaktor), kurzer Beschreibung und Regelwerk. Claude baut und prüft sie selbst. Erst wenn du eine Strategie für den Forward-Test auswählst, läuft sie ab dann mit neuen Kerzen weiter und bekommt Forward-Werte. Jede Strategie nennt ihre Zeitebene. Löschen entfernt sie dauerhaft.",
  "feedback": [
   {
    "datum": "2026-10-29",
-   "titel": "Forward-Test eingerichtet",
+   "titel": "Bereich eingerichtet: Strategien und Alternativen",
    "art": "Beobachtung",
-   "text": "18 Weekly-Varianten (Ziel 1, 1,5, 2 R; 7 und 10 Tage; ohne COT, COT relativ, COT extrem) sind eingetragen und warten auf den ersten Lauf. Dazu 10 geplante Erweiterungen auf Weekly und Daily. Ziel: die Expectancy steigern. Vorsicht: COT extrem hat nur 29, COT relativ nur 65 Backtest-Trades, die hohen Werte sind noch Hinweise. Ergänzt: verschachtelte Zonen (4H in Daily in Weekly, jeweils mit und ohne höhere Zeitebene), Blockregeln, alternative Stopps und Ziele sowie Ideen aus der Internet-Recherche."
+   "text": "Die 18 Weekly-Varianten stehen mit ihren Backtest-Zahlen drin. Dazu 20 Alternativen (verschachtelte Zonen 4H/Daily/Weekly mit und ohne höhere Zeitebene, Blockregeln, andere Stopps und Ziele, COT-Schwellen, Ideen aus der Internet-Recherche). Ihre Zahlen kommen mit dem nächsten vollständigen Lauf. Forward läuft erst für Strategien, die du auswählst."
   }
  ],
  "strategien": [
@@ -16,7 +16,7 @@
    "id": "fw-w-10-7-cotextrem",
    "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
    "tf": "Weekly",
-   "status": "wartet auf ersten Lauf",
+   "status": "Backtest vorhanden",
    "name": "Weekly-OB · Ziel 1,0 R · 7 Tage · COT extrem",
    "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,0 R, spätestens nach 7 Tagen zum Marktpreis schließen. COT-Filter: COT extrem. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
    "backtest": {
@@ -38,7 +38,7 @@
    "id": "fw-w-10-7-ohnecot",
    "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
    "tf": "Weekly",
-   "status": "wartet auf ersten Lauf",
+   "status": "Backtest vorhanden",
    "name": "Weekly-OB · Ziel 1,0 R · 7 Tage · ohne COT",
    "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,0 R, spätestens nach 7 Tagen zum Marktpreis schließen. COT-Filter: ohne COT. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
    "backtest": {
@@ -60,7 +60,7 @@
    "id": "fw-w-10-7-cotrelativ",
    "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
    "tf": "Weekly",
-   "status": "wartet auf ersten Lauf",
+   "status": "Backtest vorhanden",
    "name": "Weekly-OB · Ziel 1,0 R · 7 Tage · COT relativ",
    "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,0 R, spätestens nach 7 Tagen zum Marktpreis schließen. COT-Filter: COT relativ. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
    "backtest": {
@@ -82,7 +82,7 @@
    "id": "fw-w-10-10-cotextrem",
    "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
    "tf": "Weekly",
-   "status": "wartet auf ersten Lauf",
+   "status": "Backtest vorhanden",
    "name": "Weekly-OB · Ziel 1,0 R · 10 Tage · COT extrem",
    "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,0 R, spätestens nach 10 Tagen zum Marktpreis schließen. COT-Filter: COT extrem. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
    "backtest": {
@@ -104,7 +104,7 @@
    "id": "fw-w-10-10-ohnecot",
    "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
    "tf": "Weekly",
-   "status": "wartet auf ersten Lauf",
+   "status": "Backtest vorhanden",
    "name": "Weekly-OB · Ziel 1,0 R · 10 Tage · ohne COT",
    "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,0 R, spätestens nach 10 Tagen zum Marktpreis schließen. COT-Filter: ohne COT. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
    "backtest": {
@@ -126,7 +126,7 @@
    "id": "fw-w-10-10-cotrelativ",
    "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
    "tf": "Weekly",
-   "status": "wartet auf ersten Lauf",
+   "status": "Backtest vorhanden",
    "name": "Weekly-OB · Ziel 1,0 R · 10 Tage · COT relativ",
    "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,0 R, spätestens nach 10 Tagen zum Marktpreis schließen. COT-Filter: COT relativ. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
    "backtest": {
@@ -148,7 +148,7 @@
    "id": "fw-w-15-7-cotextrem",
    "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
    "tf": "Weekly",
-   "status": "wartet auf ersten Lauf",
+   "status": "Backtest vorhanden",
    "name": "Weekly-OB · Ziel 1,5 R · 7 Tage · COT extrem",
    "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,5 R, spätestens nach 7 Tagen zum Marktpreis schließen. COT-Filter: COT extrem. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
    "backtest": {
@@ -170,7 +170,7 @@
    "id": "fw-w-15-7-ohnecot",
    "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
    "tf": "Weekly",
-   "status": "wartet auf ersten Lauf",
+   "status": "Backtest vorhanden",
    "name": "Weekly-OB · Ziel 1,5 R · 7 Tage · ohne COT",
    "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,5 R, spätestens nach 7 Tagen zum Marktpreis schließen. COT-Filter: ohne COT. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
    "backtest": {
@@ -192,7 +192,7 @@
    "id": "fw-w-15-7-cotrelativ",
    "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
    "tf": "Weekly",
-   "status": "wartet auf ersten Lauf",
+   "status": "Backtest vorhanden",
    "name": "Weekly-OB · Ziel 1,5 R · 7 Tage · COT relativ",
    "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,5 R, spätestens nach 7 Tagen zum Marktpreis schließen. COT-Filter: COT relativ. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
    "backtest": {
@@ -214,7 +214,7 @@
    "id": "fw-w-15-10-cotextrem",
    "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
    "tf": "Weekly",
-   "status": "wartet auf ersten Lauf",
+   "status": "Backtest vorhanden",
    "name": "Weekly-OB · Ziel 1,5 R · 10 Tage · COT extrem",
    "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,5 R, spätestens nach 10 Tagen zum Marktpreis schließen. COT-Filter: COT extrem. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
    "backtest": {
@@ -236,7 +236,7 @@
    "id": "fw-w-15-10-ohnecot",
    "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
    "tf": "Weekly",
-   "status": "wartet auf ersten Lauf",
+   "status": "Backtest vorhanden",
    "name": "Weekly-OB · Ziel 1,5 R · 10 Tage · ohne COT",
    "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,5 R, spätestens nach 10 Tagen zum Marktpreis schließen. COT-Filter: ohne COT. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
    "backtest": {
@@ -258,7 +258,7 @@
    "id": "fw-w-15-10-cotrelativ",
    "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
    "tf": "Weekly",
-   "status": "wartet auf ersten Lauf",
+   "status": "Backtest vorhanden",
    "name": "Weekly-OB · Ziel 1,5 R · 10 Tage · COT relativ",
    "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 1,5 R, spätestens nach 10 Tagen zum Marktpreis schließen. COT-Filter: COT relativ. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
    "backtest": {
@@ -280,7 +280,7 @@
    "id": "fw-w-20-7-cotextrem",
    "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
    "tf": "Weekly",
-   "status": "wartet auf ersten Lauf",
+   "status": "Backtest vorhanden",
    "name": "Weekly-OB · Ziel 2,0 R · 7 Tage · COT extrem",
    "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 2,0 R, spätestens nach 7 Tagen zum Marktpreis schließen. COT-Filter: COT extrem. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
    "backtest": {
@@ -302,7 +302,7 @@
    "id": "fw-w-20-7-ohnecot",
    "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
    "tf": "Weekly",
-   "status": "wartet auf ersten Lauf",
+   "status": "Backtest vorhanden",
    "name": "Weekly-OB · Ziel 2,0 R · 7 Tage · ohne COT",
    "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 2,0 R, spätestens nach 7 Tagen zum Marktpreis schließen. COT-Filter: ohne COT. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
    "backtest": {
@@ -324,7 +324,7 @@
    "id": "fw-w-20-7-cotrelativ",
    "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
    "tf": "Weekly",
-   "status": "wartet auf ersten Lauf",
+   "status": "Backtest vorhanden",
    "name": "Weekly-OB · Ziel 2,0 R · 7 Tage · COT relativ",
    "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 2,0 R, spätestens nach 7 Tagen zum Marktpreis schließen. COT-Filter: COT relativ. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
    "backtest": {
@@ -346,7 +346,7 @@
    "id": "fw-w-20-10-cotextrem",
    "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
    "tf": "Weekly",
-   "status": "wartet auf ersten Lauf",
+   "status": "Backtest vorhanden",
    "name": "Weekly-OB · Ziel 2,0 R · 10 Tage · COT extrem",
    "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 2,0 R, spätestens nach 10 Tagen zum Marktpreis schließen. COT-Filter: COT extrem. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
    "backtest": {
@@ -368,7 +368,7 @@
    "id": "fw-w-20-10-ohnecot",
    "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
    "tf": "Weekly",
-   "status": "wartet auf ersten Lauf",
+   "status": "Backtest vorhanden",
    "name": "Weekly-OB · Ziel 2,0 R · 10 Tage · ohne COT",
    "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 2,0 R, spätestens nach 10 Tagen zum Marktpreis schließen. COT-Filter: ohne COT. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
    "backtest": {
@@ -390,7 +390,7 @@
    "id": "fw-w-20-10-cotrelativ",
    "gruppe": "Weekly-Orderblock, 18 Varianten (Ziel, Haltedauer, COT)",
    "tf": "Weekly",
-   "status": "wartet auf ersten Lauf",
+   "status": "Backtest vorhanden",
    "name": "Weekly-OB · Ziel 2,0 R · 10 Tage · COT relativ",
    "beschreibung": "Zeitebene Weekly. Frische Weekly-Orderblock-Zone, Limit-Einstieg am Zonenrand, Stopp 0,1 ATR hinter der Zone, Ziel 2,0 R, spätestens nach 10 Tagen zum Marktpreis schließen. COT-Filter: COT relativ. Alle Paare mit Marktdaten. Spread 1 Pip abgezogen.",
    "backtest": {
@@ -410,9 +410,9 @@
   },
   {
    "id": "fw-x1",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "Weekly",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "Weekly: COT-Schwelle breiter (Commercials ab 35/65 statt 25/75), mehr Trades",
    "beschreibung": "Zeitebene Weekly. COT-Schwelle breiter (Commercials ab 35/65 statt 25/75), mehr Trades. Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
    "backtest": {},
@@ -426,9 +426,9 @@
   },
   {
    "id": "fw-x2",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "Weekly",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "Weekly: Nur Zonen der Qualität A und B",
    "beschreibung": "Zeitebene Weekly. Nur Zonen der Qualität A und B. Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
    "backtest": {},
@@ -442,9 +442,9 @@
   },
   {
    "id": "fw-x3",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "Weekly",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "Weekly: Stopp 0,25 ATR statt 0,1 ATR",
    "beschreibung": "Zeitebene Weekly. Stopp 0,25 ATR statt 0,1 ATR. Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
    "backtest": {},
@@ -458,9 +458,9 @@
   },
   {
    "id": "fw-x4",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "Weekly",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "Weekly: Einstieg in der Zonenmitte statt am Rand",
    "beschreibung": "Zeitebene Weekly. Einstieg in der Zonenmitte statt am Rand. Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
    "backtest": {},
@@ -474,9 +474,9 @@
   },
   {
    "id": "fw-x5",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "Weekly",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "Weekly: Mit Weekly-Trendfilter (nur mit dem Trend)",
    "beschreibung": "Zeitebene Weekly. Mit Weekly-Trendfilter (nur mit dem Trend). Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
    "backtest": {},
@@ -490,9 +490,9 @@
   },
   {
    "id": "fw-x6",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "Weekly",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "Weekly: COT relativ plus Weekly-Trend",
    "beschreibung": "Zeitebene Weekly. COT relativ plus Weekly-Trend. Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
    "backtest": {},
@@ -506,9 +506,9 @@
   },
   {
    "id": "fw-x7",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "Daily",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "Daily: Daily-Orderblock, Einstieg am Zonenrand, Ziel 1,5 R",
    "beschreibung": "Zeitebene Daily. Daily-Orderblock, Einstieg am Zonenrand, Ziel 1,5 R. Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
    "backtest": {},
@@ -522,9 +522,9 @@
   },
   {
    "id": "fw-x8",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "Daily",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "Daily: Daily-Orderblock mit Daily-Bestätigung (Schluss aus der Zone)",
    "beschreibung": "Zeitebene Daily. Daily-Orderblock mit Daily-Bestätigung (Schluss aus der Zone). Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
    "backtest": {},
@@ -538,9 +538,9 @@
   },
   {
    "id": "fw-x9",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "Daily",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "Daily: Daily-Orderblock mit COT relativ",
    "beschreibung": "Zeitebene Daily. Daily-Orderblock mit COT relativ. Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
    "backtest": {},
@@ -554,9 +554,9 @@
   },
   {
    "id": "fw-x10",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "Daily",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "Daily: Daily-Orderblock mit COT im Extrem",
    "beschreibung": "Zeitebene Daily. Daily-Orderblock mit COT im Extrem. Wird mit dem nächsten vollständigen Lauf (Rohstoffe) im Backtest gerechnet und danach als Forward-Test gestartet.",
    "backtest": {},
@@ -570,9 +570,9 @@
   },
   {
    "id": "fw-x11",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "4H",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "4H: 4H-Orderblock innerhalb eines Daily-Orderblocks innerhalb eines Weekly-Orderblocks (volle Verschachtelung)",
    "beschreibung": "Zeitebene 4H. 4H-Orderblock innerhalb eines Daily-Orderblocks innerhalb eines Weekly-Orderblocks (volle Verschachtelung). Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
    "backtest": {},
@@ -586,9 +586,9 @@
   },
   {
    "id": "fw-x12",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "4H",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "4H: 4H-Orderblock innerhalb eines Daily-Orderblocks, ohne Weekly-Zone",
    "beschreibung": "Zeitebene 4H. 4H-Orderblock innerhalb eines Daily-Orderblocks, ohne Weekly-Zone. Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
    "backtest": {},
@@ -602,9 +602,9 @@
   },
   {
    "id": "fw-x13",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "4H",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "4H: 4H-Orderblock innerhalb eines Weekly-Orderblocks, ohne Daily-Zone",
    "beschreibung": "Zeitebene 4H. 4H-Orderblock innerhalb eines Weekly-Orderblocks, ohne Daily-Zone. Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
    "backtest": {},
@@ -618,9 +618,9 @@
   },
   {
    "id": "fw-x14",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "Daily",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "Daily: Daily-Orderblock innerhalb eines Weekly-Orderblocks (Kombi)",
    "beschreibung": "Zeitebene Daily. Daily-Orderblock innerhalb eines Weekly-Orderblocks (Kombi). Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
    "backtest": {},
@@ -634,9 +634,9 @@
   },
   {
    "id": "fw-x15",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "Daily",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "Daily: Daily-Orderblock ohne Weekly-Zone, nur mit COT-Filter",
    "beschreibung": "Zeitebene Daily. Daily-Orderblock ohne Weekly-Zone, nur mit COT-Filter. Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
    "backtest": {},
@@ -650,9 +650,9 @@
   },
   {
    "id": "fw-x16",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "4H",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "4H: 4H-Orderblock allein mit Weekly-Trendrichtung",
    "beschreibung": "Zeitebene 4H. 4H-Orderblock allein mit Weekly-Trendrichtung. Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
    "backtest": {},
@@ -666,9 +666,9 @@
   },
   {
    "id": "fw-x17",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "Weekly",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "Weekly: Blockregeln: kein Einstieg in der Woche von Fed, EZB oder NFP",
    "beschreibung": "Zeitebene Weekly. Blockregeln: kein Einstieg in der Woche von Fed, EZB oder NFP. Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
    "backtest": {},
@@ -682,9 +682,9 @@
   },
   {
    "id": "fw-x18",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "Weekly",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "Weekly: Alternative Stopps: hinter dem Zonenextrem plus 0,5 ATR, oder an der Zonenmitte",
    "beschreibung": "Zeitebene Weekly. Alternative Stopps: hinter dem Zonenextrem plus 0,5 ATR, oder an der Zonenmitte. Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
    "backtest": {},
@@ -698,9 +698,9 @@
   },
   {
    "id": "fw-x19",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "Daily",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "Daily: Alternative Ziele: nächstes Swing-Hoch/-Tief statt festes R",
    "beschreibung": "Zeitebene Daily. Alternative Ziele: nächstes Swing-Hoch/-Tief statt festes R. Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
    "backtest": {},
@@ -714,9 +714,9 @@
   },
   {
    "id": "fw-x20",
-   "gruppe": "Geplante Erweiterungen (Streuung)",
+   "gruppe": "Alternativen (Claude baut und prüft sie selbst)",
    "tf": "Daily",
-   "status": "geplant",
+   "status": "Backtest folgt",
    "name": "Daily: Strategien aus Internet-Recherche (z. B. Smart-Money-Konzepte, Fair-Value-Gaps, Liquiditäts-Sweeps vor der Zone), jeweils mit Quelle",
    "beschreibung": "Zeitebene Daily. Strategien aus Internet-Recherche (z. B. Smart-Money-Konzepte, Fair-Value-Gaps, Liquiditäts-Sweeps vor der Zone), jeweils mit Quelle. Wird im Backtest gerechnet (Entwicklung/Prüfung, Zufallsbasis) und danach als Forward-Test gestartet.",
    "backtest": {},
