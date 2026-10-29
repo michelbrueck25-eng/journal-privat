@@ -83,3 +83,9 @@ Ausweitung der Strategie des Nutzers (Weekly-Orderblock): breiter streuen auf Da
 - Portfolio-Denken: Korrelation der Strategien (Monatsrenditen, gleichzeitige Drawdowns) berechnen und vorrangig Strategien suchen, die sich ergänzen (andere Paare, Zeitebenen, Logik). Eine Portfolio-Kurve (gleichgewichtet) mit Drawdown zeigen.
 - Strenge bleibt: Entwicklungs-/Testhälfte, kein Look-ahead, Zufallsbasis, Zahl der Varianten nennen, Mindestens 300 Trades. Ehrlich melden, wenn nichts Robustes gefunden wurde.
 - Neue Strategien kommen in forwardtest.json (Gruppe „Neue Strategien <Datum>“) mit bericht, plan und strategiezeichnungen. Dazu eine PushNotification (Pop-up) mit dem Kernergebnis.
+
+## Handelskosten (dauerhaft, gilt für jeden Test)
+- Jeder Backtest rechnet realistische Kosten ein: Spread (je Instrument, bei Forex mindestens 1 Pip, Metalle/Indizes/Krypto höher und als Annahme genannt), Swap/Rollover pro Übernachtung (Richtung und Instrument beachten, Mittwoch dreifach), Kommission (Prop-Firm-Konto, z. B. Alpha Capital/FTMO: Annahme nennen) und Slippage bei Stopps (z. B. 0,2 Pip bzw. 5 % der ATR-Spanne).
+- Alle Kennzahlen (Expectancy, R pro Jahr, Drawdown, Monatsrendite) gelten netto nach Kosten. Brutto und netto nebeneinander ausweisen und angeben, wie viel R die Kosten pro Trade kosten.
+- Lange Haltedauern (Weekly/Daily) bekommen den Swap voll angerechnet; Strategien, die nur brutto funktionieren, werden verworfen.
+- Fehlen echte Swap-Sätze, mit einer dokumentierten Annahme rechnen und sie im Bericht als Unsicherheit nennen. Echte Sätze vom Nutzer erfragen, sobald sie gebraucht werden.
