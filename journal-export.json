@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-10-29T21:34:22.048Z",
+ "exportiert": "2026-10-29T21:34:49.489Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -129326,7 +129326,30 @@
   "lab-vergleich"
  ],
  "forwardEntfernt": [
-  "fw2-w-ohne-10-7"
+  "fw2-w-ohne-10-7",
+  "fw2-w-ohne-10-10",
+  "fw2-w-ohne-15-7",
+  "fw2-w-ohne-15-10",
+  "fw2-w-ohne-20-7",
+  "fw2-w-ohne-20-10",
+  "fw2-w-stark-10-7",
+  "fw2-w-stark-10-10",
+  "fw2-w-stark-15-7",
+  "fw2-w-stark-15-10",
+  "fw2-w-stark-20-7",
+  "fw2-w-stark-20-10",
+  "fw2-w-schwach-10-7",
+  "fw2-w-schwach-10-10",
+  "fw2-w-schwach-15-7",
+  "fw2-w-schwach-15-10",
+  "fw2-w-schwach-20-7",
+  "fw2-w-schwach-20-10",
+  "fw2-w-extrem-10-7",
+  "fw2-w-extrem-10-10",
+  "fw2-w-extrem-15-7",
+  "fw2-w-extrem-15-10",
+  "fw2-w-extrem-20-7",
+  "fw2-w-extrem-20-10"
  ],
  "forwardAktiv": []
 }
