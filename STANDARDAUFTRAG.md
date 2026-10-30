@@ -146,3 +146,6 @@ Nutzer erwartet: Bei jedem Marktdaten-Lauf (mindestens wöchentlich, besser täg
 
 ## Forward-Engine: Veröffentlichung (Nutzer 30.10.2026 19:52)
 Die Forward-Ergebnisse (Trades, offene Positionen, Kennzahlen, Equity, Testphase) werden bei jedem Lauf mit neuen Marktdaten aktualisiert UND in die öffentliche Kopie journal-daten/forwardtest.json geschrieben (nur Marktdaten-Strategien, ohne Journal-Daten/private Texte/Alter Test), damit der Freund sie sieht. Die App zeigt pro Strategie (antippen) die Kennzahlen, offene und geschlossene Trades als fließende Datensammlung. Bau ab 20:10-Lauf: tests/fwd.py + App-Anzeige (neue Version nach Standardverfahren liefern).
+
+## App-Anzeige aktive Forward-Tests (Nutzer 30.10.2026 19:53)
+Aktive Forward-Tests oben im Forward-Test-Fenster müssen antippbar sein. Beim Antippen öffnet sich die Strategie-Detailansicht mit zwei Abschnitten: A) Backtest (n, Winrate, Expectancy, PF, Drawdown, Jahres-/Monatswerte, Kosten, Regeln, Timeframe, Haltedauer) und B) Forward-Test (Testphase Start/Ende, alle laufend aktualisierten Kennzahlen, offene und geschlossene Trades, Equity, Abweichung zum Backtest). Layout-Regeln (feste Spalten, Sortierung) weiter beachten. In der nächsten App-Version umsetzen und liefern.
