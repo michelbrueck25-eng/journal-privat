@@ -1,7 +1,7 @@
 {
   "typ": "verhalten",
   "stand": "2026-10-30T06:32",
-  "exportStand": "2026-10-29T22:10:46.483Z",
+  "exportStand": "2026-10-30T12:54:32.680Z",
   "headline": "Im Backtest funktioniert deine Strategie (Ø +0,66 R, 79 % Treffer, 206 Trades), live bisher kaum (Ø +0,08 R, 46 %, nur 13 Trades). Größte Hebel: nur mit Daily-Bestätigung einsteigen, nach einem Trade im selben Paar 5 Wochen Pause, AUD-Positionen begrenzen.",
   "kennzahlen": [
     {
