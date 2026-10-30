@@ -137,3 +137,9 @@ Tiefere Zeitebenen (H1/H4) für Session-, Breakout- und Orderblock-Ideen: Daten 
 
 ## Forward-Engine (Auftrag des Nutzers 30.10.2026, hat Vorrang vor neuen Backtests)
 Nutzer erwartet: Bei jedem Marktdaten-Lauf (mindestens wöchentlich, besser täglich) alle Strategien in forwardAktiv (nie forwardEntfernt) automatisch auf neue Setups absuchen. Bauen: tests/fwd.py (neue Kerzen aus marktdaten/, mechanische regeln anwenden, offene Trades gegen Stop/Ziel prüfen und schließen, neue Setups mit Einstieg/Stop/Ziel/Risiko %/Gültigkeit in forwardtest.json bei forward/offene/trades eintragen, PushNotification bei Signal, öffentliche Kopie ohne Positionen aktualisieren). Datenstand der Marktdaten immer nennen (kommt aus „Marktdaten senden“ der App).
+
+## Forward-Test = reine Testphase (Präzisierung Nutzer 30.10.2026 19:50, ersetzt Push/Signal-Teil oben)
+- KEINE Push-Nachrichten für Setups/Signale. Strategien werden nur still getestet, Nutzer handelt sie noch nicht (er hat eine eigene Strategie).
+- Testphase 2 Monate (bis ca. 30.12.2026, pro Strategie ab Startdatum in forwardtest.json: feld "testStart", "testEnde"). Danach Status "Testphase beendet": Nutzer entscheidet (verlängern, Signale, verwerfen).
+- Bei jedem Lauf mit neuen Marktdaten: alle forwardAktiv-Strategien mechanisch nach Regeln durchlaufen, Trades eröffnen/schließen (auch hypothetisch ohne Einstieg durch Nutzer), vollständige Kennzahlen aktualisieren: Anzahl, Winrate, Expectancy (R), Profitfaktor, Durchschnitt Gewinn/Verlust R, Max-Drawdown, Haltedauer (Ø, Gewinner, Verlierer), Ø Zeit im Drawdown, Ø Zeit im Gewinn, MFE und MAE je Trade (Ø und Verteilung), längste Verlustserie, Equity-Kurve, Kosten (Spread/Swap), Abweichung zum Backtest, Zielerreichung vs. Stop-out-Quote. Offene Trades mit aktuellem MFE/MAE.
+- Datenstand der Marktdaten nennen (kommt aus „Marktdaten senden“).
