@@ -45,7 +45,7 @@
     },
     {
      "t": "warn",
-     "text": "Termine in den nächsten 5 Tagen: 29.10. 13:30 BIP q/q (1. Schätzung Q3), 29.10. 14:15 EZB-Zinsentscheid."
+     "text": "Termine in den nächsten 5 Tagen: 04.11. 11:00 CPI y/y (Schnellschätzung), 04.11. 11:00 Kern-CPI y/y (Schnellschätzung)."
     },
     {
      "t": "warn",
@@ -173,7 +173,7 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 88.824 vom 29.10.2026 (Quelle: Marktdaten 29.10.2026)."
+     "text": "Kursstand 88.851 vom 30.10.2026 (Quelle: Marktdaten 29.10.2026)."
     },
     {
      "t": "ok",
@@ -209,7 +209,7 @@
     },
     {
      "t": "warn",
-     "text": "Termine in den nächsten 5 Tagen: 29.10. 13:30 BIP q/q (1. Schätzung Q3), 03.11. 04:30 RBA-Zinsentscheid."
+     "text": "Termine in den nächsten 5 Tagen: 03.11. 04:30 RBA-Zinsentscheid."
     },
     {
      "t": "warn",
@@ -257,7 +257,7 @@
     },
     {
      "t": "warn",
-     "text": "Termine in den nächsten 5 Tagen: 29.10. 14:15 EZB-Zinsentscheid."
+     "text": "Termine in den nächsten 5 Tagen: 04.11. 11:00 CPI y/y (Schnellschätzung), 04.11. 11:00 Kern-CPI y/y (Schnellschätzung)."
     },
     {
      "t": "warn",
@@ -265,7 +265,7 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 0.83490 vom 29.10.2026 (Quelle: Marktdaten 29.10.2026)."
+     "text": "Kursstand 0.83475 vom 29.10.2026 (Quelle: Marktdaten 29.10.2026)."
     },
     {
      "t": "ok",
@@ -278,7 +278,7 @@
    ]
   }
  ],
- "pruefung_stand": "2026-10-29T17:35",
+ "pruefung_stand": "2026-10-30T06:32",
  "konflikte": {
   "AUD/JPY|long": "Du hast AUDCAD offen sowie Limits auf AUDNZD und AUDUSD. Mehr als 2 AUD-Positionen sind nach deiner Analyse zu viel: Streiche das AUDUSD-Limit oder halbiere es, bevor du AUD/JPY dazunimmst. Letzter AUD/JPY-Trade war am 07.09., die 5 Wochen Pause sind vorbei.",
   "NZD/JPY|long": "NZD/JPY und AUD/JPY zusammen sind eine doppelte Yen-Wette. Nimm lieber nur eine der beiden mit vollem Risiko.",
