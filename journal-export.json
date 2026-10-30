@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-10-30T08:23:59.855Z",
+ "exportiert": "2026-10-30T08:24:59.864Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -124782,7 +124782,7 @@
    "riskPct": 1,
    "dir": "long",
    "analysisDate": "2026-10-12",
-   "entryDate": "2026-10-14",
+   "entryDate": "2026-10-12",
    "chart": {
     "v": 2,
     "sym": "GBPUSD",
@@ -125215,24 +125215,34 @@
      445,
      10080,
      7,
-     857,
-     95,
-     923
+     886,
+     531,
+     923,
+     10080,
+     -29,
+     651,
+     385,
+     167,
+     10080,
+     -4,
+     330,
+     5,
+     1089
     ]
    },
    "zone": "weekly",
    "entry": 1.31548,
    "stop": 1.29968,
    "target": 1.33128,
-   "mfe": 1.16,
+   "mfe": 1.68,
    "mae": 0.11,
-   "peak": 1.16,
-   "mfeDays": 2,
+   "peak": 1.68,
+   "mfeDays": 7,
    "lots": 0.07,
    "status": "geschlossen",
    "id": "mv42oqsdeayii7",
    "crit": {
-    "cot": 73,
+    "cot": true,
     "cmu8ifszl4jj3ts": "Überverkauft"
    },
    "exits": [
@@ -125251,13 +125261,13 @@
     }
    ],
    "r": 1,
-   "updatedAt": 1793090230329,
+   "updatedAt": 1793348670141,
    "createdAt": 1791738269907,
    "limitSet": true,
    "limitAt": 1791782347605,
    "exitReason": "TP",
-   "exitDate": "2026-10-16",
-   "days": 2,
+   "exitDate": "2026-11-30",
+   "days": 49,
    "ctx": {
     "from": "2026-10-07",
     "to": "2026-10-23",
@@ -125750,7 +125760,7 @@
     "at": "2026-10-16"
    },
    "acoChart": {
-    "x": 5.6,
+    "x": 4.1,
     "ob": 80,
     "os": 20,
     "date": "2026-10-12",
@@ -125758,8 +125768,8 @@
    },
    "cotChart": {
     "A": {
-     "x": 86.35805964514911,
-     "d": "2026-10-06"
+     "x": 97.65595507738769,
+     "d": "2026-10-13"
     },
     "B": {
      "x": 44.87540628385699,
@@ -125776,6 +125786,7 @@
      "v": "ruhig"
     }
    ],
+   "discipline": 5,
    "bilder": 0
   },
   {
