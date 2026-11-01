@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-01T10:56:39.495Z",
+ "exportiert": "2026-11-01T10:57:15.276Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -129485,6 +129485,10 @@
   "fw6-g1",
   "fw6-p1",
   "fw6-p2",
-  "fw6-d1"
+  "fw6-d1",
+  "fw7-a2",
+  "fw7-a1",
+  "fw7-g1",
+  "fw7-h1"
  ]
 }
