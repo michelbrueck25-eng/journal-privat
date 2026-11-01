@@ -175,3 +175,6 @@ Auf Wunsch des Nutzers trotz E < 0,15 R. fwd.py rechnet sie (cfg.typ h4) sobald 
 
 ## Forward-Auswahl
 fwd.py testet NUR Strategien aus forwardAktiv in journal-export.json (die der Nutzer in der App aktiviert; die App pusht das automatisch). Nicht aktive oder gelöschte (forwardEntfernt) werden nicht getestet. Ohne Engine: fw3-k1..k3, fw4-s5, fw2-w-*.
+
+## Aufnahme ins Repo (Nutzerregel 01.11.2026)
+Neue Strategien kommen nur in forwardtest.json, wenn die Netto-Expectancy im Backtest mindestens 0,15 R beträgt. Darunter wird nichts eingetragen.
