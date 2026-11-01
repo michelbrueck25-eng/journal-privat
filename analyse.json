@@ -1,8 +1,8 @@
 {
   "typ": "verhalten",
-  "stand": "2026-10-30T06:32",
-  "exportStand": "2026-10-30T12:54:32.680Z",
-  "headline": "Im Backtest funktioniert deine Strategie (Ø +0,66 R, 79 % Treffer, 206 Trades), live bisher kaum (Ø +0,08 R, 46 %, nur 13 Trades). Größte Hebel: nur mit Daily-Bestätigung einsteigen, nach einem Trade im selben Paar 5 Wochen Pause, AUD-Positionen begrenzen.",
+  "stand": "2026-11-01T20:35",
+  "exportStand": "2026-11-01T18:18:17.913Z",
+  "headline": "Im Backtest funktioniert deine Strategie (Ø +0,65 R, 78 % Treffer, 207 Trades), live bisher kaum (Ø +0,08 R, 46 %, nur 13 Trades). Größte Hebel: nur mit Daily-Bestätigung einsteigen, nach einem Trade im selben Paar 5 Wochen Pause, AUD-Positionen begrenzen.",
   "kennzahlen": [
     {
       "label": "Backtest Ø R",
@@ -147,6 +147,13 @@
       "wirkung": "Auswertung nicht möglich",
       "staerke": 6,
       "empfehlung": "Felder beim Anlegen aus dem Chart-Tool mit ausfüllen, damit sich Live und Backtest vergleichen lassen"
+    },
+    {
+      "titel": "Live-Bestand wächst: 7 offene oder Limit-Positionen, alle Long",
+      "text": "Seit dem letzten Stand sind 5 neue Live-Positionen offen oder als Limit angelegt, alle long (AUDCAD, EURUSD, NZDJPY, GBPCAD, AUDNZD, AUDUSD, EURGBP). Geschlossen sind weiter 13 Trades, daher bleiben alle Kennzahlen unverändert. Bei 3 dieser Positionen fehlen Kriterien oder Risiko (Stichprobe klein, nur Beobachtung).",
+      "wirkung": "nicht schätzbar",
+      "staerke": 2,
+      "empfehlung": "Kriterien und Risiko bei offenen Positionen sofort eintragen, damit sie später auswertbar sind."
     }
   ],
   "tipps": [
@@ -263,6 +270,13 @@
       "aenderung": "Kombi-Einstiege (Weekly und Daily) beibehalten",
       "effekt": "+0,3 R je Trade gegenüber Einzelposition",
       "beleg": "Kombi +0,77 R (56 Trades), Einzelposition mit 1 % +0,47 R (109)."
+    },
+    {
+      "prio": 2,
+      "art": "Korrigieren",
+      "aenderung": "Beim geschlossenen GBPUSD-Live-Trade das Ausstiegsdatum (steht auf 30.11.2026, also in der Zukunft) und beim geschlossenen AUDJPY-Live-Trade (7.9., ohne Ausstiegsdatum) nachtragen",
+      "effekt": "Haltedauer und Zeit-Auswertungen werden korrekt; kein R-Effekt",
+      "beleg": "Export 01.11.: 2 von 13 geschlossenen Live-Trades mit fehlerhaftem oder fehlendem Ausstiegsdatum (Stichprobe klein, reiner Datenfehler)"
     }
   ],
   "abweichungen": [
