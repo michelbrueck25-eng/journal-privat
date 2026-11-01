@@ -169,3 +169,6 @@ Jeder Forward-Test (Forward-Test-Liste und Vergleich/Rangliste) öffnet beim Ant
 Jede Expectancy kennzeichnen als „E: +0,35 R“ (Doppelpunkt-Form) und IMMER „R pro Jahr“ danebenstellen (z. B. „E: +0,35 R · +19 R/Jahr“). Gilt für Antworten, Berichte, Push-Nachrichten und die App.
 ## Stilles Voraussetzungs-Protokoll (Vorschlag 01.11., wartet auf Freigabe des Nutzers)
 Statt „ungültig“-Hinweise: ob_check.py protokolliert je Trade still (Datum, COT-Index/Differenz, Bedingung erfüllt ja/nein, R laufend) in analyse.json; Auswertung nach ca. 50 Trades (gehalten vs. weggefallen), Frage vorab festgelegt. Bis zur Freigabe weiter keine „ungültig“-Hinweise in Antworten/Push mehr ausgeben.
+
+## Neue Forward-Gruppe 01.11.2026: fw8-h1..h3 (4h RSI(3)-Rücksetzer, Beobachtung)
+Auf Wunsch des Nutzers trotz E < 0,15 R. fwd.py rechnet sie (cfg.typ h4) sobald in forwardAktiv. 4h-Daten nur ca. 1,4 Jahre (3000 Kerzen); H1 nicht vorhanden. Ziel des Nutzers: 3–6 % pro Monat mit allen Strategien PARALLEL; Einzelstrategien liefern nur ca. 1 % pro Monat (Risiko laut Empfehlung), Portfolio-Rechnung (Summe R/Jahr × Risiko) bei Gelegenheit liefern.
