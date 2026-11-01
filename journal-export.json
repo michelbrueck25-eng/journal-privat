@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-01T11:27:04.237Z",
+ "exportiert": "2026-11-01T11:28:01.741Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -129476,22 +129476,22 @@
   "fw-w-10-10-ohnecot"
  ],
  "forwardAktiv": [
+  "fw3-k1",
   "fw3-k2",
   "fw3-k3",
-  "fw3-k1",
-  "fw5-c2",
-  "fw5-c1",
   "fw4-s5",
-  "fw6-g1",
+  "fw5-c1",
+  "fw5-c2",
+  "fw6-d1",
   "fw6-p1",
   "fw6-p2",
-  "fw6-d1",
-  "fw7-a2",
+  "fw6-g1",
   "fw7-a1",
+  "fw7-a2",
   "fw7-g1",
   "fw7-h1",
-  "fw8-h2",
   "fw8-h1",
+  "fw8-h2",
   "fw8-h3"
  ]
 }
