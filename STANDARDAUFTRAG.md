@@ -178,3 +178,6 @@ fwd.py testet NUR Strategien aus forwardAktiv in journal-export.json (die der Nu
 
 ## Aufnahme ins Repo (Nutzerregel 01.11.2026)
 Neue Strategien kommen nur in forwardtest.json, wenn die Netto-Expectancy im Backtest mindestens 0,15 R beträgt. Darunter wird nichts eingetragen.
+
+## Engine für jede Strategie (Nutzerregel 01.11.2026)
+Für jede Strategie, die in der App unter den Tests steht, gibt es eine Forward-Engine in `journal-daten/tests/fwd.py`. Neue Strategien werden nur mit Engine eingetragen. Wo die ursprüngliche Rechnung nicht reproduzierbar ist, bauen wir eine Nachbildung und vermerken die Abweichung in der Notiz. Stand: Engines für alle außer `fw-x1` bis `fw-x20` (Alternativen) und die Gruppe „Alter Test (Skripte verloren)“.
