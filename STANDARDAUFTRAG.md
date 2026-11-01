@@ -172,3 +172,6 @@ Statt „ungültig“-Hinweise: ob_check.py protokolliert je Trade still (Datum,
 
 ## Neue Forward-Gruppe 01.11.2026: fw8-h1..h3 (4h RSI(3)-Rücksetzer, Beobachtung)
 Auf Wunsch des Nutzers trotz E < 0,15 R. fwd.py rechnet sie (cfg.typ h4) sobald in forwardAktiv. 4h-Daten nur ca. 1,4 Jahre (3000 Kerzen); H1 nicht vorhanden. Ziel des Nutzers: 3–6 % pro Monat mit allen Strategien PARALLEL; Einzelstrategien liefern nur ca. 1 % pro Monat (Risiko laut Empfehlung), Portfolio-Rechnung (Summe R/Jahr × Risiko) bei Gelegenheit liefern.
+
+## Forward-Automatik (ab 01.11.2026)
+fwd.py testet automatisch ALLE Strategien mit Engine (FW-Dict + 4h-cfg), nicht nur forwardAktiv. Läuft in jedem Slot. Ohne Engine: fw3-k1..k3, fw4-s5, fw2-w-* (Weekly-OB-Neuaufbau).
