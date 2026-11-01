@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-01T13:09:05.138Z",
+ "exportiert": "2026-11-01T13:09:27.283Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -129508,13 +129508,21 @@
   "fw8-h1",
   "fw8-h2",
   "fw8-h3",
+  "fw9-s1",
+  "fw9-s2",
+  "fw9-s3",
   "fw10-o1",
-  "fw10-o3",
   "fw10-o2",
+  "fw10-o3",
   "fw10-o4",
   "fw10-o5",
   "fw10-o6",
   "fw10-o7",
-  "fw10-o8"
+  "fw10-o8",
+  "fw10-o9",
+  "fw10-o10",
+  "fw10-o11",
+  "fw10-o12",
+  "fw10-o13"
  ]
 }
