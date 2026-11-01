@@ -11,11 +11,11 @@
    "checks": [
     {
      "t": "ok",
-     "text": "COT AUD 6M-Index 100 (Stand 20.10.2026): im passenden Extrembereich, CAD 42."
+     "text": "COT AUD 6M-Index 98 (Stand 27.10.2026): im passenden Extrembereich, CAD 35."
     },
     {
      "t": "warn",
-     "text": "Termine in den nächsten 5 Tagen: 03.11. 04:30 RBA-Zinsentscheid."
+     "text": "Termine in den nächsten 5 Tagen: 03.11. 04:30 RBA-Zinsentscheid, 06.11. 14:30 Arbeitslosenquote, 06.11. 14:30 Beschäftigungsänderung."
     },
     {
      "t": "ok",
@@ -41,11 +41,11 @@
    "checks": [
     {
      "t": "ok",
-     "text": "COT EUR 6M-Index 97 (Stand 20.10.2026): im passenden Extrembereich, USD 33."
+     "text": "COT EUR 6M-Index 100 (Stand 27.10.2026): im passenden Extrembereich, USD 37."
     },
     {
      "t": "warn",
-     "text": "Termine in den nächsten 5 Tagen: 04.11. 11:00 CPI y/y (Schnellschätzung), 04.11. 11:00 Kern-CPI y/y (Schnellschätzung)."
+     "text": "Termine in den nächsten 5 Tagen: 04.11. 11:00 CPI y/y (Schnellschätzung), 04.11. 11:00 Kern-CPI y/y (Schnellschätzung), 06.11. 14:30 Arbeitslosenquote, 06.11. 14:30 Non-Farm Payrolls."
     },
     {
      "t": "warn",
@@ -77,7 +77,11 @@
    "checks": [
     {
      "t": "bad",
-     "text": "COT GBP 6M-Index 67 (Stand 20.10.2026): nicht mehr im Extrembereich für Long, CAD 42."
+     "text": "COT GBP 6M-Index 60 (Stand 27.10.2026): nicht mehr im Extrembereich für Long, CAD 35."
+    },
+    {
+     "t": "warn",
+     "text": "Termine in den nächsten 5 Tagen: 05.11. 13:00 BoE-Zinsentscheid, 06.11. 14:30 Arbeitslosenquote, 06.11. 14:30 Beschäftigungsänderung."
     },
     {
      "t": "warn",
@@ -85,7 +89,7 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 1.87025 vom 29.10.2026 (Quelle: Marktdaten 29.10.2026)."
+     "text": "Kursstand 1.87022 vom 01.11.2026 (Quelle: Marktdaten 01.11.2026)."
     },
     {
      "t": "warn",
@@ -117,7 +121,7 @@
    "checks": [
     {
      "t": "ok",
-     "text": "COT AUD 6M-Index 100 (Stand 20.10.2026): im passenden Extrembereich, NZD 89."
+     "text": "COT AUD 6M-Index 98 (Stand 27.10.2026): im passenden Extrembereich, NZD 88."
     },
     {
      "t": "warn",
@@ -133,11 +137,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 1.25021 vom 29.10.2026 (Quelle: Marktdaten 29.10.2026)."
+     "text": "Kursstand 1.24659 vom 01.11.2026 (Quelle: Marktdaten 01.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 5.5 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 5.2 Tages-ATR vom Limit entfernt."
     }
    ]
   },
@@ -161,11 +165,11 @@
    "checks": [
     {
      "t": "ok",
-     "text": "COT NZD 6M-Index 89 (Stand 20.10.2026): im passenden Extrembereich, JPY 19 bestätigt gegenläufig."
+     "text": "COT NZD 6M-Index 88 (Stand 27.10.2026): im passenden Extrembereich, JPY 7 bestätigt gegenläufig."
     },
     {
      "t": "warn",
-     "text": "Termine in den nächsten 5 Tagen: 30.10. 00:30 BoJ-Zinsentscheid, 03.11. 22:45 Arbeitslosenquote."
+     "text": "Termine in den nächsten 5 Tagen: 03.11. 22:45 Arbeitslosenquote."
     },
     {
      "t": "ok",
@@ -173,11 +177,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 88.851 vom 30.10.2026 (Quelle: Marktdaten 29.10.2026)."
+     "text": "Kursstand 88.792 vom 01.11.2026 (Quelle: Marktdaten 01.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 0.1 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 0.2 Tages-ATR vom Limit entfernt."
     },
     {
      "t": "warn",
@@ -205,11 +209,11 @@
    "checks": [
     {
      "t": "ok",
-     "text": "COT AUD 6M-Index 100 (Stand 20.10.2026): im passenden Extrembereich, USD 33."
+     "text": "COT AUD 6M-Index 98 (Stand 27.10.2026): im passenden Extrembereich, USD 37."
     },
     {
      "t": "warn",
-     "text": "Termine in den nächsten 5 Tagen: 03.11. 04:30 RBA-Zinsentscheid."
+     "text": "Termine in den nächsten 5 Tagen: 03.11. 04:30 RBA-Zinsentscheid, 06.11. 14:30 Arbeitslosenquote, 06.11. 14:30 Non-Farm Payrolls."
     },
     {
      "t": "warn",
@@ -221,11 +225,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 0.70357 vom 29.10.2026 (Quelle: Marktdaten 29.10.2026)."
+     "text": "Kursstand 0.70245 vom 01.11.2026 (Quelle: Marktdaten 01.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 1.5 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 1.2 Tages-ATR vom Limit entfernt."
     },
     {
      "t": "warn",
@@ -253,11 +257,11 @@
    "checks": [
     {
      "t": "ok",
-     "text": "COT EUR 6M-Index 97 (Stand 20.10.2026): im passenden Extrembereich, GBP 67."
+     "text": "COT EUR 6M-Index 100 (Stand 27.10.2026): im passenden Extrembereich, GBP 60."
     },
     {
      "t": "warn",
-     "text": "Termine in den nächsten 5 Tagen: 04.11. 11:00 CPI y/y (Schnellschätzung), 04.11. 11:00 Kern-CPI y/y (Schnellschätzung)."
+     "text": "Termine in den nächsten 5 Tagen: 04.11. 11:00 CPI y/y (Schnellschätzung), 04.11. 11:00 Kern-CPI y/y (Schnellschätzung), 05.11. 13:00 BoE-Zinsentscheid."
     },
     {
      "t": "warn",
@@ -265,11 +269,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 0.83475 vom 29.10.2026 (Quelle: Marktdaten 29.10.2026)."
+     "text": "Kursstand 0.83624 vom 01.11.2026 (Quelle: Marktdaten 01.11.2026)."
     },
     {
-     "t": "ok",
-     "text": "Kurs ist 1.4 Tages-ATR vom Limit entfernt."
+     "t": "warn",
+     "text": "Kurs hat den Limit-Preis seit 31.10.2026 erreicht, das Limit müsste ausgelöst sein. Status in der App prüfen."
     },
     {
      "t": "warn",
@@ -278,7 +282,7 @@
    ]
   }
  ],
- "pruefung_stand": "2026-10-30T17:47",
+ "pruefung_stand": "2026-11-01T20:11",
  "konflikte": {
   "AUD/JPY|long": "Du hast AUDCAD offen sowie Limits auf AUDNZD und AUDUSD. Mehr als 2 AUD-Positionen sind nach deiner Analyse zu viel: Streiche das AUDUSD-Limit oder halbiere es, bevor du AUD/JPY dazunimmst. Letzter AUD/JPY-Trade war am 07.09., die 5 Wochen Pause sind vorbei.",
   "NZD/JPY|long": "NZD/JPY und AUD/JPY zusammen sind eine doppelte Yen-Wette. Nimm lieber nur eine der beiden mit vollem Risiko.",
