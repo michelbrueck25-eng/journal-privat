@@ -164,3 +164,8 @@ Abrufbar sind nur die vom Nutzer im Chat gesendeten Links (exakt so, andere URLs
 
 ## Layout-Regel Detailfenster (Nutzer 01.11.2026, "Immer")
 Jeder Forward-Test (Forward-Test-Liste und Vergleich/Rangliste) öffnet beim Antippen direkt darunter ein Detailfenster (fwBody ab Journal39.21): Sektionen A) Backtest, B) Forward-Test, Risiko-Empfehlung, Regeln, Bericht, Bilder als Kennzahlen-Felder über die GANZE Breite (keine Lücke rechts, Spaltenzahl = Anzahl der Felder je Zeile), kein Fließtext (Stichpunkte, Felder, Jahres-Raster), Bilder groß in voller Breite. Neue Inhalte immer in dieser Form liefern.
+
+## Schreibweise von Kennzahlen (Nutzer 01.11.2026, "Immer")
+Jede Expectancy kennzeichnen als „E: +0,35 R“ (Doppelpunkt-Form) und IMMER „R pro Jahr“ danebenstellen (z. B. „E: +0,35 R · +19 R/Jahr“). Gilt für Antworten, Berichte, Push-Nachrichten und die App.
+## Stilles Voraussetzungs-Protokoll (Vorschlag 01.11., wartet auf Freigabe des Nutzers)
+Statt „ungültig“-Hinweise: ob_check.py protokolliert je Trade still (Datum, COT-Index/Differenz, Bedingung erfüllt ja/nein, R laufend) in analyse.json; Auswertung nach ca. 50 Trades (gehalten vs. weggefallen), Frage vorab festgelegt. Bis zur Freigabe weiter keine „ungültig“-Hinweise in Antworten/Push mehr ausgeben.
