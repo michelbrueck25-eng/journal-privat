@@ -191,3 +191,6 @@ tests/fundall.py rechnet jede Strategie mit Engine (57) über die ganze Historie
 
 ## Sweep-/Liquiditäts-Tests (Nutzer 02.11.2026)
 tests/sweeps.py, sweeps2.py, sweeps3.py: Sweep von Vortags-/Vorwochen-/Freitags-/Asia-/London-/NY-Hoch/Tief, Kerze sweept Vorkerze und schließt zurück, Daily-Sweep + 4H-Engulfing, Weekly-Sweep + Daily-Engulfing, jeweils Umkehr und Fortsetzung, Ziel 1–3 R, 28 FX-Paare (4H nur 1,4 Jahre, D 11 Jahre). Ergebnis: alle E < 0 (−0,05 bis −0,31 R); Basis (gleiche Regeln ohne Sweep-Bedingung, Zufall) liegt gleich (D −0,13, 4H −0,24), der Sweep bringt keinen Vorteil. Grenze: nur 4H/D/W, keine 15-Min-/1h-Daten, Stopp-vor-Ziel in derselben Kerze verzerrt kurze Ziele negativ. Intraday-ICT (5/15 Min, NY-Session) ist damit NICHT widerlegt, nur nicht testbar. Braucht 15-Min/1h-Kerzen (Nutzer müsste liefern).
+
+## BOS + Retest in Orderblock (Nutzer 02.11.2026)
+tests/bos_ob.py: Strukturbruch (Pivot w=3), letzte Gegenkerze als OB, Einstieg Mitte/Rand per Limit oder nach Bestätigungskerze, Ziel 1–3 R, Daily (11 J) und 4H (1,4 J), mit/ohne SMA100-Trend, 28 FX-Paare. Alle E < 0 (D −0,04 bis −0,18, 4H −0,13 bis −0,34), n 2.300–5.100. Die Daily-OB-Familie mit Qualitätsfilter (E +0,3 bis +0,5 R) bleibt der einzige OB-Ansatz mit Vorteil. LTF-Reaktion (5/15 Min) nicht testbar ohne Minutenkerzen.
