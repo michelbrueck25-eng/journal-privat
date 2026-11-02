@@ -89,7 +89,7 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 1.87022 vom 01.11.2026 (Quelle: Marktdaten 01.11.2026)."
+     "text": "Kursstand 1.87523 vom 02.11.2026 (Quelle: Marktdaten 02.11.2026)."
     },
     {
      "t": "warn",
@@ -137,11 +137,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 1.24659 vom 01.11.2026 (Quelle: Marktdaten 01.11.2026)."
+     "text": "Kursstand 1.24580 vom 02.11.2026 (Quelle: Marktdaten 02.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 5.2 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 5.1 Tages-ATR vom Limit entfernt."
     }
    ]
   },
@@ -177,11 +177,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 88.792 vom 01.11.2026 (Quelle: Marktdaten 01.11.2026)."
+     "text": "Kursstand 88.825 vom 02.11.2026 (Quelle: Marktdaten 02.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 0.2 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 0.1 Tages-ATR vom Limit entfernt."
     },
     {
      "t": "warn",
@@ -225,11 +225,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 0.70245 vom 01.11.2026 (Quelle: Marktdaten 01.11.2026)."
+     "text": "Kursstand 0.70099 vom 02.11.2026 (Quelle: Marktdaten 02.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 1.2 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 0.8 Tages-ATR vom Limit entfernt."
     },
     {
      "t": "warn",
@@ -269,7 +269,7 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 0.83624 vom 01.11.2026 (Quelle: Marktdaten 01.11.2026)."
+     "text": "Kursstand 0.83568 vom 02.11.2026 (Quelle: Marktdaten 02.11.2026)."
     },
     {
      "t": "warn",
@@ -282,7 +282,7 @@
    ]
   }
  ],
- "pruefung_stand": "2026-11-02T10:31",
+ "pruefung_stand": "2026-11-02T14:53",
  "konflikte": {
   "AUD/JPY|long": "Du hast AUDCAD offen sowie Limits auf AUDNZD und AUDUSD. Mehr als 2 AUD-Positionen sind nach deiner Analyse zu viel: Streiche das AUDUSD-Limit oder halbiere es, bevor du AUD/JPY dazunimmst. Letzter AUD/JPY-Trade war am 07.09., die 5 Wochen Pause sind vorbei.",
   "NZD/JPY|long": "NZD/JPY und AUD/JPY zusammen sind eine doppelte Yen-Wette. Nimm lieber nur eine der beiden mit vollem Risiko.",
