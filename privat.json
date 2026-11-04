@@ -15,7 +15,7 @@
     },
     {
      "t": "warn",
-     "text": "Termine in den nächsten 5 Tagen: 03.11. 04:30 RBA-Zinsentscheid, 06.11. 14:30 Arbeitslosenquote, 06.11. 14:30 Beschäftigungsänderung."
+     "text": "Termine in den nächsten 5 Tagen: 06.11. 14:30 Arbeitslosenquote, 06.11. 14:30 Beschäftigungsänderung."
     },
     {
      "t": "ok",
@@ -89,7 +89,7 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 1.87523 vom 02.11.2026 (Quelle: Marktdaten 02.11.2026)."
+     "text": "Kursstand 1.87915 vom 03.11.2026 (Quelle: Marktdaten 02.11.2026)."
     },
     {
      "t": "warn",
@@ -125,10 +125,6 @@
     },
     {
      "t": "warn",
-     "text": "Termine in den nächsten 5 Tagen: 03.11. 04:30 RBA-Zinsentscheid, 03.11. 22:45 Arbeitslosenquote."
-    },
-    {
-     "t": "warn",
      "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
     },
     {
@@ -137,11 +133,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 1.24580 vom 02.11.2026 (Quelle: Marktdaten 02.11.2026)."
+     "text": "Kursstand 1.24248 vom 03.11.2026 (Quelle: Marktdaten 02.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 5.1 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 4.4 Tages-ATR vom Limit entfernt."
     }
    ]
   },
@@ -168,20 +164,16 @@
      "text": "COT NZD 6M-Index 88 (Stand 27.10.2026): im passenden Extrembereich, JPY 7 bestätigt gegenläufig."
     },
     {
-     "t": "warn",
-     "text": "Termine in den nächsten 5 Tagen: 03.11. 22:45 Arbeitslosenquote."
-    },
-    {
      "t": "ok",
      "text": "Meine Einschätzung: long mit Überzeugung 6 von 10."
     },
     {
      "t": "ok",
-     "text": "Kursstand 88.825 vom 02.11.2026 (Quelle: Marktdaten 02.11.2026)."
+     "text": "Kursstand 88.632 vom 03.11.2026 (Quelle: Marktdaten 02.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 0.1 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 0.4 Tages-ATR vom Limit entfernt."
     },
     {
      "t": "warn",
@@ -213,7 +205,7 @@
     },
     {
      "t": "warn",
-     "text": "Termine in den nächsten 5 Tagen: 03.11. 04:30 RBA-Zinsentscheid, 06.11. 14:30 Arbeitslosenquote, 06.11. 14:30 Non-Farm Payrolls."
+     "text": "Termine in den nächsten 5 Tagen: 06.11. 14:30 Arbeitslosenquote, 06.11. 14:30 Non-Farm Payrolls."
     },
     {
      "t": "warn",
@@ -225,55 +217,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 0.70099 vom 02.11.2026 (Quelle: Marktdaten 02.11.2026)."
-    },
-    {
-     "t": "ok",
-     "text": "Kurs ist 0.8 Tages-ATR vom Limit entfernt."
+     "text": "Kursstand 0.69682 vom 03.11.2026 (Quelle: Marktdaten 02.11.2026)."
     },
     {
      "t": "warn",
-     "text": "Die Zone ist eine einzelne Weekly-Kerze, erfüllt aber meine Orderblock-Definition nicht (keine Bewegung über 1 ATR mit Strukturbruch)."
-    }
-   ]
-  },
-  {
-   "id": "mvnstr785at980",
-   "paar": "EUR/GBP",
-   "richtung": "long",
-   "status": "prüfen",
-   "art": "Limit",
-   "zone": {
-    "zt": 1740355200000,
-    "zone": [
-     0.82419997,
-     0.83050001
-    ],
-    "entry": 0.83051,
-    "sl": 0.82359,
-    "tp": 0.83743,
-    "ebene": "W"
-   },
-   "checks": [
-    {
-     "t": "ok",
-     "text": "COT EUR 6M-Index 100 (Stand 27.10.2026): im passenden Extrembereich, GBP 60."
-    },
-    {
-     "t": "warn",
-     "text": "Termine in den nächsten 5 Tagen: 04.11. 11:00 CPI y/y (Schnellschätzung), 04.11. 11:00 Kern-CPI y/y (Schnellschätzung), 05.11. 13:00 BoE-Zinsentscheid."
-    },
-    {
-     "t": "warn",
-     "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
-    },
-    {
-     "t": "ok",
-     "text": "Kursstand 0.83568 vom 02.11.2026 (Quelle: Marktdaten 02.11.2026)."
-    },
-    {
-     "t": "warn",
-     "text": "Kurs hat den Limit-Preis seit 31.10.2026 erreicht, das Limit müsste ausgelöst sein. Status in der App prüfen."
+     "text": "Kurs hat den Limit-Preis seit 03.11.2026 erreicht, das Limit müsste ausgelöst sein. Status in der App prüfen."
     },
     {
      "t": "warn",
@@ -282,7 +230,7 @@
    ]
   }
  ],
- "pruefung_stand": "2026-11-03T20:11",
+ "pruefung_stand": "2026-11-04T06:30",
  "konflikte": {
   "AUD/JPY|long": "Du hast AUDCAD offen sowie Limits auf AUDNZD und AUDUSD. Mehr als 2 AUD-Positionen sind nach deiner Analyse zu viel: Streiche das AUDUSD-Limit oder halbiere es, bevor du AUD/JPY dazunimmst. Letzter AUD/JPY-Trade war am 07.09., die 5 Wochen Pause sind vorbei.",
   "NZD/JPY|long": "NZD/JPY und AUD/JPY zusammen sind eine doppelte Yen-Wette. Nimm lieber nur eine der beiden mit vollem Risiko.",
