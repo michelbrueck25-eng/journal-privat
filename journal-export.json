@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-05T15:35:03.948Z",
+ "exportiert": "2026-11-06T11:07:02.531Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -86595,7 +86595,7 @@
    "entryDate": "2026-10-01",
    "r": 0,
    "discipline": 5,
-   "updatedAt": 1793695359192,
+   "updatedAt": 1793957909609,
    "createdAt": 1790934954984,
    "emoDuring": "frustriert",
    "emoLog": [
@@ -86681,6 +86681,11 @@
     },
     {
      "z": "2026-11-03T08:42:39.192Z",
+     "p": "emoDuring",
+     "v": "frustriert"
+    },
+    {
+     "z": "2026-11-06T09:38:29.609Z",
      "p": "emoDuring",
      "v": "frustriert"
     }
@@ -95392,7 +95397,7 @@
    "dir": "long",
    "entryDate": "2026-10-05",
    "emoBefore": "zuversichtlich",
-   "updatedAt": 1793695359196,
+   "updatedAt": 1793957909613,
    "createdAt": 1791224259951,
    "emoDuring": "frustriert",
    "emoLog": [
@@ -95478,6 +95483,11 @@
     },
     {
      "z": "2026-11-03T08:42:39.196Z",
+     "p": "emoDuring",
+     "v": "frustriert"
+    },
+    {
+     "z": "2026-11-06T09:38:29.613Z",
      "p": "emoDuring",
      "v": "frustriert"
     }
@@ -128348,10 +128358,10 @@
    ],
    "r": 0,
    "limitSet": true,
-   "updatedAt": 1793695359198,
+   "updatedAt": 1793957909618,
    "createdAt": 1792930584581,
    "limitAt": 1792994912536,
-   "emoDuring": "ruhig",
+   "emoDuring": "frustriert",
    "emoLog": [
     {
      "z": "2026-10-28T17:23:18.952Z",
@@ -128417,6 +128427,11 @@
      "z": "2026-11-03T08:42:39.198Z",
      "p": "emoDuring",
      "v": "ruhig"
+    },
+    {
+     "z": "2026-11-06T09:38:29.618Z",
+     "p": "emoDuring",
+     "v": "frustriert"
     }
    ],
    "bilder": 0
