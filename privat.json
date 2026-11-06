@@ -89,7 +89,7 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 1.87915 vom 03.11.2026 (Quelle: Marktdaten 02.11.2026)."
+     "text": "Kursstand 1.88445 vom 06.11.2026 (Quelle: Marktdaten 02.11.2026)."
     },
     {
      "t": "warn",
@@ -133,11 +133,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 1.24248 vom 03.11.2026 (Quelle: Marktdaten 02.11.2026)."
+     "text": "Kursstand 1.23984 vom 06.11.2026 (Quelle: Marktdaten 02.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 4.4 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 3.7 Tages-ATR vom Limit entfernt."
     }
    ]
   },
@@ -169,11 +169,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 88.632 vom 03.11.2026 (Quelle: Marktdaten 02.11.2026)."
+     "text": "Kursstand 87.707 vom 06.11.2026 (Quelle: Marktdaten 02.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 0.4 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 1.7 Tages-ATR vom Limit entfernt."
     },
     {
      "t": "warn",
@@ -185,7 +185,7 @@
    "id": "mvnsqjqbapzo4u",
    "paar": "AUD/USD",
    "richtung": "long",
-   "status": "prüfen",
+   "status": "ungültig",
    "art": "Limit",
    "zone": {
     "zt": 1791763200000,
@@ -217,11 +217,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 0.69682 vom 03.11.2026 (Quelle: Marktdaten 02.11.2026)."
+     "text": "Kursstand 0.68712 vom 06.11.2026 (Quelle: Marktdaten 02.11.2026)."
     },
     {
-     "t": "warn",
-     "text": "Kurs hat den Limit-Preis seit 03.11.2026 erreicht, das Limit müsste ausgelöst sein. Status in der App prüfen."
+     "t": "bad",
+     "text": "Schlusskurs bereits jenseits des Stopps (06.11.2026): Setup ist ungültig."
     },
     {
      "t": "warn",
@@ -230,7 +230,7 @@
    ]
   }
  ],
- "pruefung_stand": "2026-11-06T10:30",
+ "pruefung_stand": "2026-11-06T14:41",
  "konflikte": {
   "AUD/JPY|long": "Du hast AUDCAD offen sowie Limits auf AUDNZD und AUDUSD. Mehr als 2 AUD-Positionen sind nach deiner Analyse zu viel: Streiche das AUDUSD-Limit oder halbiere es, bevor du AUD/JPY dazunimmst. Letzter AUD/JPY-Trade war am 07.09., die 5 Wochen Pause sind vorbei.",
   "NZD/JPY|long": "NZD/JPY und AUD/JPY zusammen sind eine doppelte Yen-Wette. Nimm lieber nur eine der beiden mit vollem Risiko.",
