@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-07T15:29:46.943Z",
+ "exportiert": "2026-11-07T15:31:46.949Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -131132,6 +131132,54 @@
    "updatedAt": 1794057501305,
    "createdAt": 1794057501305,
    "bilder": 0
+  },
+  {
+   "source": "live",
+   "status": "geschlossen",
+   "instrument": "NQ",
+   "profile": "m1",
+   "riskPct": 1,
+   "crit": {
+    "cot": true,
+    "cmu8ifszl4jj3ts": "Überverkauft"
+   },
+   "id": "mw6k11aa93zf13",
+   "zone": "weekly",
+   "exits": [
+    {
+     "share": 100,
+     "targetR": 1,
+     "r": -1
+    }
+   ],
+   "accounts": [
+    {
+     "id": "amu5dpzt54g2e1e",
+     "swap": -2.28
+    }
+   ],
+   "analysisDate": "2026-11-02",
+   "dir": "long",
+   "entryDate": "2026-10-15",
+   "exitDate": "2026-10-30",
+   "r": -1,
+   "mfe": 0.5,
+   "mfeDays": 5,
+   "mae": -1,
+   "peak": 0.5,
+   "days": 15,
+   "exitReason": "SL",
+   "discipline": 5,
+   "updatedAt": 1794065392289,
+   "createdAt": 1794065392289,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mw6k11aa93zf13_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
+   "bilder": 1
   }
  ],
  "reviews": {},
