@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-07T12:53:38.117Z",
+ "exportiert": "2026-11-07T12:54:38.126Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -125362,19 +125362,24 @@
      167,
      10080,
      -4,
-     330,
-     5,
-     1089
+     86,
+     449,
+     1089,
+     10080,
+     -2,
+     -370,
+     1130,
+     83
     ]
    },
    "zone": "weekly",
    "entry": 1.31548,
    "stop": 1.29968,
    "target": 1.33128,
-   "mfe": 1.68,
+   "mfe": 2.2,
    "mae": 0.11,
-   "peak": 1.68,
-   "mfeDays": 7,
+   "peak": 2.2,
+   "mfeDays": 21,
    "lots": 0.07,
    "status": "geschlossen",
    "id": "mv42oqsdeayii7",
@@ -125398,7 +125403,7 @@
     }
    ],
    "r": 1,
-   "updatedAt": 1793348670141,
+   "updatedAt": 1794056053345,
    "createdAt": 1791738269907,
    "limitSet": true,
    "limitAt": 1791782347605,
