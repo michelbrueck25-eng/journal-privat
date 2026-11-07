@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-07T15:32:46.951Z",
+ "exportiert": "2026-11-07T15:35:47.079Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -131180,10 +131180,78 @@
     }
    ],
    "bilder": 1
+  },
+  {
+   "source": "live",
+   "status": "geschlossen",
+   "instrument": "NQ",
+   "profile": "m1",
+   "riskPct": 1,
+   "crit": {
+    "cot": true,
+    "cmu8ifszl4jj3ts": "Überverkauft",
+    "ob": "A"
+   },
+   "id": "mw6k7t4usll0qd",
+   "zone": "weekly",
+   "exits": [
+    {
+     "share": 100,
+     "targetR": null,
+     "r": -1
+    }
+   ],
+   "accounts": [
+    {
+     "id": "amu5dpzt54g2e1e",
+     "swap": -0.3
+    }
+   ],
+   "analysisDate": "2026-11-02",
+   "dir": "long",
+   "entryDate": "2026-11-04",
+   "exitDate": "2026-11-06",
+   "r": -1,
+   "mfe": 2,
+   "mfeDays": 1,
+   "mae": -1,
+   "peak": 2,
+   "days": 2,
+   "exitReason": "SL",
+   "discipline": 3,
+   "fx": "F",
+   "emoBefore": "ruhig",
+   "emoDuring": "gierig",
+   "emoAfter": "frustriert",
+   "deviation": "Habe gedacht, dass der Markt nach der impulsiven Bewegung locker auf 3:1 kann und bin vom Plan 2:1 abgewichen und hätte so gewonnen",
+   "lesson": "Immer fix als 2:1",
+   "lessonConfirmed": true,
+   "updatedAt": 1794065671487,
+   "createdAt": 1794065671487,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mw6k7t4usll0qd_0.jpg",
+     "phase": "nachher",
+     "caption": "Exit"
+    }
+   ],
+   "bilder": 1
   }
  ],
  "reviews": {},
- "learnings": [],
+ "learnings": [
+  {
+   "id": "lmw6kdnpgsji2v5",
+   "createdAt": 1794065671492,
+   "pinned": false,
+   "type": "key",
+   "cat": "setup",
+   "prio": "mittel",
+   "date": "2026-11-06",
+   "text": "Immer fix als 2:1",
+   "tradeId": "mw6k7t4usll0qd"
+  }
+ ],
  "exitLabor": {
   "w": {
    "split": false,
