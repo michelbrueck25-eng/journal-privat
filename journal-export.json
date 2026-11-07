@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-07T15:35:47.079Z",
+ "exportiert": "2026-11-07T15:37:47.181Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -129347,6 +129347,425 @@
    "discipline": 5,
    "updatedAt": 1794054938238,
    "createdAt": 1794054938238,
+   "ctx": {
+    "from": "2026-10-29",
+    "to": "2026-11-13",
+    "curs": [
+     "AUD",
+     "USD"
+    ],
+    "ev": [
+     {
+      "d": "2026-10-29",
+      "time": "13:30",
+      "cur": "USD",
+      "title": "Kern-PCE m/m",
+      "actual": "0.3%",
+      "forecast": "0.3%",
+      "previous": "0.2%",
+      "impact": "medium",
+      "ph": 0
+     },
+     {
+      "d": "2026-10-29",
+      "time": "13:30",
+      "cur": "USD",
+      "title": "BIP q/q (1. Schätzung)",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "impact": "high",
+      "ph": 0
+     },
+     {
+      "d": "2026-10-29",
+      "time": "13:30",
+      "cur": "USD",
+      "title": "BIP q/q (1. Schätzung Q3)",
+      "actual": "3.4%",
+      "forecast": "3.2%",
+      "previous": "2.2%",
+      "impact": "high",
+      "ph": 0
+     },
+     {
+      "d": "2026-10-29",
+      "time": "13:30",
+      "cur": "USD",
+      "title": "Kern-PCE y/y",
+      "actual": "3.1%",
+      "forecast": "3.1%",
+      "previous": "3.0%",
+      "impact": "medium",
+      "ph": 0
+     },
+     {
+      "d": "2026-10-30",
+      "time": "13:30",
+      "cur": "USD",
+      "title": "Beschäftigungskostenindex q/q",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "impact": "high",
+      "ph": 0
+     },
+     {
+      "d": "2026-10-30",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Arbeitskostenindex q/q (Q3)",
+      "actual": "0.8%",
+      "forecast": "0.8%",
+      "previous": "0.9%",
+      "impact": "medium",
+      "ph": 0
+     },
+     {
+      "d": "2026-11-02",
+      "time": "16:00",
+      "cur": "USD",
+      "title": "ISM Verarbeitendes Gewerbe PMI",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "impact": "high",
+      "ph": 0
+     },
+     {
+      "d": "2026-11-02",
+      "time": "16:00",
+      "cur": "USD",
+      "title": "ISM Manufacturing PMI",
+      "actual": "55.5",
+      "forecast": "54.7",
+      "previous": "54.5",
+      "impact": "medium",
+      "ph": 0
+     },
+     {
+      "d": "2026-11-03",
+      "time": "04:30",
+      "cur": "AUD",
+      "title": "RBA-Zinsentscheid (Cash Rate)",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "impact": "high",
+      "ph": 0
+     },
+     {
+      "d": "2026-11-03",
+      "time": "04:30",
+      "cur": "AUD",
+      "title": "RBA-Zinsentscheid",
+      "actual": "4.85%",
+      "forecast": "4.85%",
+      "previous": "4.60%",
+      "impact": "high",
+      "ph": 0
+     },
+     {
+      "d": "2026-11-03",
+      "time": "16:00",
+      "cur": "USD",
+      "title": "JOLTS Stellenangebote",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "impact": "medium",
+      "ph": 0
+     },
+     {
+      "d": "2026-11-04",
+      "time": "14:15",
+      "cur": "USD",
+      "title": "ADP Beschäftigungsänderung",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "impact": "medium",
+      "ph": 0
+     },
+     {
+      "d": "2026-11-04",
+      "time": "14:15",
+      "cur": "USD",
+      "title": "ADP Beschäftigung",
+      "actual": "86K",
+      "forecast": "65K",
+      "previous": "90K",
+      "impact": "medium",
+      "ph": 0
+     },
+     {
+      "d": "2026-11-04",
+      "time": "16:00",
+      "cur": "USD",
+      "title": "ISM Dienstleistungs-PMI",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "impact": "high",
+      "ph": 0
+     },
+     {
+      "d": "2026-11-04",
+      "time": "16:00",
+      "cur": "USD",
+      "title": "ISM Dienstleistungen PMI",
+      "actual": "54.5",
+      "forecast": "54.8",
+      "previous": "54.9",
+      "impact": "medium",
+      "ph": 0
+     },
+     {
+      "d": "2026-11-06",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Arbeitslosenquote",
+      "actual": "4.1%",
+      "forecast": "4.2%",
+      "previous": "4.2%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-06",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Durchschn. Stundenlöhne m/m",
+      "actual": "0.4%",
+      "forecast": "0.3%",
+      "previous": "0.3%",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-06",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Non-Farm Payrolls",
+      "actual": "165K",
+      "forecast": "65K",
+      "previous": "60K",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-06",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Durchschnittlicher Stundenlohn m/m",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-10",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "CPI m/m",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "impact": "high",
+      "ph": 2
+     },
+     {
+      "d": "2026-11-10",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "CPI y/y",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "impact": "high",
+      "ph": 2
+     },
+     {
+      "d": "2026-11-10",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Kern-CPI m/m",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "impact": "high",
+      "ph": 2
+     },
+     {
+      "d": "2026-11-10",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Kern-CPI y/y",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "impact": "high",
+      "ph": 2
+     },
+     {
+      "d": "2026-11-13",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "PPI m/m",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "impact": "medium",
+      "ph": 2
+     }
+    ],
+    "lage": [
+     {
+      "titel": "US-PCE September: Gesamt 3,6 Prozent y/y (Vormonat 3,4), Kern 3,1 Prozent y/y und 0,3 Prozent m/m, jeweils wie erwartet, BIP Q3 3,4 Prozent, Dezember-Erhöhung der Fed zu rund 80 Prozent eingepreist, Gewichtung ist eine Schätzung",
+      "datum": "2026-10-29",
+      "eff": {
+       "USD": 1
+      }
+     },
+     {
+      "titel": "BoJ lässt Leitzins bei 1,25 Prozent, Abstimmung 8 zu 1 (Takata dagegen), hebt Inflationsprognose an, Yen legt zeitweise zu",
+      "datum": "2026-10-30",
+      "eff": {
+       "USD": -0.3
+      }
+     },
+     {
+      "titel": "Eurozone: BIP im dritten Quartal +0,4 Prozent, Prognose 0,2 Prozent",
+      "datum": "2026-10-30",
+      "eff": {
+       "USD": -0.2
+      }
+     },
+     {
+      "titel": "Deutschland: Inflation (CPI) sinkt im Oktober auf 2,8 Prozent y/y",
+      "datum": "2026-10-30",
+      "eff": {
+       "USD": 0.2
+      }
+     },
+     {
+      "titel": "Wall Street Freitag: Nasdaq -2,9 Prozent, S&P 500 -1,8 Prozent, Ausverkauf bei KI-Aktien, Intel fällt fast 30 Prozent",
+      "datum": "2026-11-02",
+      "eff": {
+       "AUD": -1,
+       "USD": 0.5
+      }
+     },
+     {
+      "titel": "Hormus: Tanker von Haftminen getroffen, Brent bei 117,64 USD (+2,4 Prozent am Freitag, rund +14 Prozent im Oktober)",
+      "datum": "2026-11-02",
+      "eff": {
+       "USD": 0.2
+      }
+     },
+     {
+      "titel": "US-Industrie: ISM Manufacturing im Oktober 55,5 statt 54,7 erwartet",
+      "datum": "2026-11-02",
+      "eff": {
+       "USD": 0.5
+      }
+     },
+     {
+      "titel": "RBA erhoeht den Leitzins um 25 Basispunkte auf 4,85 Prozent (hoechster Stand seit 18 Jahren), Vorstand uneinig, Signal einer Pause",
+      "datum": "2026-11-03",
+      "eff": {
+       "AUD": 0.5
+      }
+     },
+     {
+      "titel": "Brent faellt am Montag um rund 7,6 Prozent auf 104,77 USD, WTI -7,4 Prozent auf 96,46 USD: Hoffnung auf US-Iran-Verhandlungen (Trump-Aussagen, Gespraeche Iran-Katar)",
+      "datum": "2026-11-03",
+      "eff": {
+       "USD": -0.2
+      }
+     },
+     {
+      "titel": "Fed-Zinserwartung: Dezember-Erhoehung um 25 Basispunkte zu 76,6 Prozent eingepreist (Vortag 70,7), 2-jaehrige Rendite 4,59 Prozent, Fed bei 3,75 bis 4,00 Prozent mit zwei Gegenstimmen fuer sofortige Erhoehung",
+      "datum": "2026-11-03",
+      "eff": {
+       "USD": 0.5
+      }
+     },
+     {
+      "titel": "Gold fiel unter 4.000 USD (rund 30 Prozent unter dem Januar-Hoch von 5.598,75), Erholung Richtung 3.907, naechstes Ziel nach unten 3.748,81",
+      "datum": "2026-11-03",
+      "eff": {
+       "USD": 0.2
+      }
+     },
+     {
+      "titel": "US-Angriff auf Qeshm (Iran) Stunden nach dem 7,6-Prozent-Absturz von Brent, Oelpreis laut Schlagzeilen wieder gestuetzt, CAD erholt",
+      "datum": "2026-11-03",
+      "eff": {
+       "USD": 0.2
+      }
+     },
+     {
+      "titel": "USA: ADP-Beschäftigung Oktober +86.000, leicht über Erwartung",
+      "datum": "2026-11-04",
+      "eff": {
+       "USD": 0.5
+      }
+     },
+     {
+      "titel": "USA: Demokraten gewinnen laut Reuters beide Kammern, Öl steigt wieder, Iran-Gespräche offen",
+      "datum": "2026-11-04",
+      "eff": {
+       "USD": -1
+      }
+     },
+     {
+      "titel": "USA: ISM Dienstleistungen Oktober 54,5, leicht unter Erwartung",
+      "datum": "2026-11-04",
+      "eff": {
+       "USD": -0.5
+      }
+     },
+     {
+      "titel": "Gold springt über 4.000 Dollar, Dollar auf Ein-Monats-Tief nach Midterms, Fed-Erhöhung im Dezember zu etwa 83 Prozent eingepreist",
+      "datum": "2026-11-04",
+      "eff": {
+       "USD": -1.5
+      }
+     },
+     {
+      "titel": "Wall Street und Europa steigen nach Midterms, Rendite fällt, Dollar schwach, Brent unter 102 Dollar",
+      "datum": "2026-11-04",
+      "eff": {
+       "USD": -1.5
+      }
+     },
+     {
+      "titel": "Ölpreis bricht ein: Brent fällt 8,7 Prozent auf 94,62 Dollar, erstmals seit Ende August unter 100",
+      "datum": "2026-11-05",
+      "eff": {
+       "USD": -0.5
+      }
+     },
+     {
+      "titel": "Tech-Crash: Nasdaq fällt 5,5 Prozent in die Korrektur, Dow minus 3,4 Prozent, Asien bricht heute ein, Yen gefragt",
+      "datum": "2026-11-06",
+      "eff": {
+       "USD": 0.5,
+       "AUD": -1.5
+      }
+     },
+     {
+      "titel": "USA: Arbeitsmarkt Oktober deutlich stärker, 165.000 Stellen, Arbeitslosenquote 4,1 Prozent",
+      "datum": "2026-11-06",
+      "eff": {
+       "USD": 1.5
+      }
+     }
+    ],
+    "at": "2026-11-07"
+   },
    "bilder": 0
   },
   {
