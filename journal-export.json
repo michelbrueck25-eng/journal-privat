@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-07T13:06:45.661Z",
+ "exportiert": "2026-11-07T13:07:43.055Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -126461,7 +126461,7 @@
    "riskPct": 1,
    "dir": "long",
    "analysisDate": "2026-10-12",
-   "entryDate": "2026-10-12",
+   "entryDate": "2026-10-14",
    "chart": {
     "v": 2,
     "sym": "GBPCAD",
@@ -126923,7 +126923,7 @@
      ]
     }
    ],
-   "status": "limit",
+   "status": "offen",
    "id": "mv4t28ngf89jec",
    "crit": {
     "cot": 86
@@ -126936,7 +126936,7 @@
    ],
    "limitSet": true,
    "limitAt": 1791782557536,
-   "updatedAt": 1791782557537,
+   "updatedAt": 1794056806731,
    "createdAt": 1791782557537,
    "bilder": 0
   },
