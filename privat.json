@@ -7,11 +7,21 @@
    "richtung": "long",
    "status": "prüfen",
    "art": "Läuft",
-   "zone": {},
+   "zone": {
+    "zt": 1747008000000,
+    "zone": [
+     1.10751,
+     1.12296
+    ],
+    "entry": 1.12302,
+    "sl": 1.10603,
+    "tp": 1.14002,
+    "ebene": "W"
+   },
    "checks": [
     {
      "t": "ok",
-     "text": "COT EUR 6M-Index 100 (Stand 27.10.2026): im passenden Extrembereich, USD 37."
+     "text": "COT EUR 6M-Index 100 (Stand 03.11.2026): im passenden Extrembereich, USD 36."
     },
     {
      "t": "warn",
@@ -22,44 +32,12 @@
      "text": "Meine Einschätzung: abwarten mit Überzeugung 3 von 10, also nicht in deiner Richtung."
     },
     {
-     "t": "warn",
-     "text": "Kein Chart-Tool-Eintrag mit Zone: Zonenprüfung und Kurslage nicht möglich. Zeichne Zone und Position im Chart-Tool, dann prüfe ich sie."
-    }
-   ]
-  },
-  {
-   "id": "mv4t28ngf89jec",
-   "paar": "GBP/CAD",
-   "richtung": "long",
-   "status": "ungültig",
-   "art": "Läuft",
-   "zone": {
-    "zt": 1788134400000,
-    "zone": [
-     1.86109,
-     1.87604
-    ],
-    "entry": 1.87604,
-    "sl": 1.85959,
-    "tp": 1.89248,
-    "ebene": "D"
-   },
-   "checks": [
-    {
-     "t": "bad",
-     "text": "COT GBP 6M-Index 60 (Stand 27.10.2026): nicht mehr im Extrembereich für Long, CAD 35."
-    },
-    {
-     "t": "warn",
-     "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
+     "t": "ok",
+     "text": "Kursstand 1.11415 vom 08.11.2026 (Quelle: Marktdaten 08.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kursstand 1.88445 vom 06.11.2026 (Quelle: Marktdaten 07.11.2026)."
-    },
-    {
-     "t": "ok",
-     "text": "Kurs ist 1.1 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 1.3 Tages-ATR vom Limit entfernt."
     },
     {
      "t": "warn",
@@ -87,19 +65,23 @@
    "checks": [
     {
      "t": "ok",
-     "text": "COT AUD 6M-Index 98 (Stand 27.10.2026): im passenden Extrembereich, NZD 88."
+     "text": "COT AUD 6M-Index 99 (Stand 03.11.2026): im passenden Extrembereich, NZD 92."
     },
     {
      "t": "warn",
      "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
     },
     {
-     "t": "ok",
-     "text": "Kursstand 1.23984 vom 06.11.2026 (Quelle: Marktdaten 07.11.2026)."
+     "t": "warn",
+     "text": "3 AUD-Positionen gleichzeitig, nach deiner Analyse sind mehr als 2 zu viel."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 3.7 Tages-ATR vom Limit entfernt."
+     "text": "Kursstand 1.23854 vom 08.11.2026 (Quelle: Marktdaten 08.11.2026)."
+    },
+    {
+     "t": "ok",
+     "text": "Kurs ist 3.8 Tages-ATR vom Limit entfernt."
     }
    ]
   },
@@ -107,23 +89,23 @@
    "id": "mvnskgcpurrrm4",
    "paar": "NZD/JPY",
    "richtung": "long",
-   "status": "prüfen",
+   "status": "valide",
    "art": "Läuft",
    "zone": {
     "zt": 1763337600000,
     "zone": [
      87.26536,
-     88.856
+     87.748
     ],
-    "entry": 88.89143,
-    "sl": 87.10749,
-    "tp": 90.67538,
+    "entry": 87.7431,
+    "sl": 87.21759,
+    "tp": 88.79413,
     "ebene": "W"
    },
    "checks": [
     {
      "t": "ok",
-     "text": "COT NZD 6M-Index 88 (Stand 27.10.2026): im passenden Extrembereich, JPY 7 bestätigt gegenläufig."
+     "text": "COT NZD 6M-Index 92 (Stand 03.11.2026): im passenden Extrembereich, JPY 8 bestätigt gegenläufig."
     },
     {
      "t": "ok",
@@ -131,20 +113,154 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 87.707 vom 06.11.2026 (Quelle: Marktdaten 07.11.2026)."
+     "text": "Kursstand 87.862 vom 08.11.2026 (Quelle: Marktdaten 08.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 1.7 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 0.2 Tages-ATR vom Limit entfernt."
+    }
+   ]
+  },
+  {
+   "id": "mw7vephsidhmpa",
+   "paar": "AUD/JPY",
+   "richtung": "long",
+   "status": "prüfen",
+   "art": "Limit",
+   "zone": {
+    "zt": 1769472000000,
+    "zone": [
+     106.11189,
+     107.08862
+    ],
+    "entry": 107.09096,
+    "sl": 106.02907,
+    "tp": 109.21476,
+    "ebene": "W"
+   },
+   "checks": [
+    {
+     "t": "ok",
+     "text": "COT AUD 6M-Index 99 (Stand 03.11.2026): im passenden Extrembereich, JPY 8 bestätigt gegenläufig."
+    },
+    {
+     "t": "ok",
+     "text": "Meine Einschätzung: long mit Überzeugung 7 von 10."
     },
     {
      "t": "warn",
-     "text": "Die Zone ist eine einzelne Weekly-Kerze, erfüllt aber meine Orderblock-Definition nicht (keine Bewegung über 1 ATR mit Strukturbruch)."
+     "text": "3 AUD-Positionen gleichzeitig, nach deiner Analyse sind mehr als 2 zu viel."
+    },
+    {
+     "t": "ok",
+     "text": "Kursstand 108.821 vom 08.11.2026 (Quelle: Marktdaten 08.11.2026)."
+    },
+    {
+     "t": "ok",
+     "text": "Kurs ist 2.0 Tages-ATR vom Limit entfernt."
+    }
+   ]
+  },
+  {
+   "id": "mw7vgudb19ecj6",
+   "paar": "AUD/CAD",
+   "richtung": "long",
+   "status": "prüfen",
+   "art": "Limit",
+   "zone": {
+    "zt": 1774828800000,
+    "zone": [
+     0.94642,
+     0.95402
+    ],
+    "entry": 0.95412,
+    "sl": 0.94565,
+    "tp": 0.97106,
+    "ebene": "W"
+   },
+   "checks": [
+    {
+     "t": "ok",
+     "text": "COT AUD 6M-Index 99 (Stand 03.11.2026): im passenden Extrembereich, CAD 20 bestätigt gegenläufig."
+    },
+    {
+     "t": "ok",
+     "text": "Meine Einschätzung: long mit Überzeugung 4 von 10."
+    },
+    {
+     "t": "warn",
+     "text": "3 AUD-Positionen gleichzeitig, nach deiner Analyse sind mehr als 2 zu viel."
+    },
+    {
+     "t": "ok",
+     "text": "Kursstand 0.97021 vom 08.11.2026 (Quelle: Marktdaten 08.11.2026)."
+    },
+    {
+     "t": "ok",
+     "text": "Kurs ist 2.6 Tages-ATR vom Limit entfernt."
+    }
+   ]
+  },
+  {
+   "id": "mw7w6316quj3p2",
+   "paar": "NZD/CAD",
+   "richtung": "long",
+   "status": "prüfen",
+   "art": "Limit",
+   "zone": {
+    "zt": 1665360000000,
+    "zone": [
+     0.76239997,
+     0.7701
+    ],
+    "entry": 0.77011,
+    "sl": 0.76163,
+    "tp": 0.78709,
+    "ebene": "D"
+   },
+   "checks": [
+    {
+     "t": "ok",
+     "text": "COT NZD 6M-Index 92 (Stand 03.11.2026): im passenden Extrembereich, CAD 20 bestätigt gegenläufig."
+    },
+    {
+     "t": "warn",
+     "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
+    },
+    {
+     "t": "ok",
+     "text": "Kursstand 0.78333 vom 08.11.2026 (Quelle: Marktdaten 08.11.2026)."
+    },
+    {
+     "t": "ok",
+     "text": "Kurs ist 2.5 Tages-ATR vom Limit entfernt."
+    }
+   ]
+  },
+  {
+   "id": "mw7wxnv8jmw308",
+   "paar": "NIK/KEI",
+   "richtung": "long",
+   "status": "prüfen",
+   "art": "Limit",
+   "zone": {},
+   "checks": [
+    {
+     "t": "warn",
+     "text": "COT für NIK fehlt."
+    },
+    {
+     "t": "warn",
+     "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
+    },
+    {
+     "t": "warn",
+     "text": "Kein Chart-Tool-Eintrag mit Zone: Zonenprüfung und Kurslage nicht möglich. Zeichne Zone und Position im Chart-Tool, dann prüfe ich sie."
     }
    ]
   }
  ],
- "pruefung_stand": "2026-11-07T20:10",
+ "pruefung_stand": "2026-11-08T20:13",
  "konflikte": {
   "AUD/JPY|long": "Du hast AUDCAD offen sowie Limits auf AUDNZD und AUDUSD. Mehr als 2 AUD-Positionen sind nach deiner Analyse zu viel: Streiche das AUDUSD-Limit oder halbiere es, bevor du AUD/JPY dazunimmst. Letzter AUD/JPY-Trade war am 07.09., die 5 Wochen Pause sind vorbei.",
   "NZD/JPY|long": "NZD/JPY und AUD/JPY zusammen sind eine doppelte Yen-Wette. Nimm lieber nur eine der beiden mit vollem Risiko.",
