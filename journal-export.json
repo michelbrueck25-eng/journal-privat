@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-08T13:11:20.094Z",
+ "exportiert": "2026-11-08T13:13:17.506Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -95384,7 +95384,7 @@
    "dir": "long",
    "entryDate": "2026-10-05",
    "emoBefore": "zuversichtlich",
-   "updatedAt": 1794054259754,
+   "updatedAt": 1794143551971,
    "createdAt": 1791224259951,
    "emoDuring": "frustriert",
    "emoLog": [
@@ -95480,6 +95480,11 @@
     },
     {
      "z": "2026-11-07T12:24:19.754Z",
+     "p": "emoDuring",
+     "v": "frustriert"
+    },
+    {
+     "z": "2026-11-08T13:12:31.971Z",
      "p": "emoDuring",
      "v": "frustriert"
     }
@@ -128878,7 +128883,7 @@
    ],
    "r": 0,
    "limitSet": true,
-   "updatedAt": 1794054259755,
+   "updatedAt": 1794143551974,
    "createdAt": 1792930584581,
    "limitAt": 1792994912536,
    "emoDuring": "frustriert",
@@ -128955,6 +128960,11 @@
     },
     {
      "z": "2026-11-07T12:24:19.755Z",
+     "p": "emoDuring",
+     "v": "frustriert"
+    },
+    {
+     "z": "2026-11-08T13:12:31.974Z",
      "p": "emoDuring",
      "v": "frustriert"
     }
@@ -131589,8 +131599,16 @@
    "days": 15,
    "exitReason": "SL",
    "discipline": 5,
-   "updatedAt": 1794065392289,
+   "updatedAt": 1794143551975,
    "createdAt": 1794065392289,
+   "emoAfter": "frustriert",
+   "emoLog": [
+    {
+     "z": "2026-11-08T13:12:31.975Z",
+     "p": "emoAfter",
+     "v": "frustriert"
+    }
+   ],
    "bilderListe": [
     {
      "pfad": "bilder/mw6k11aa93zf13_0.jpg",
