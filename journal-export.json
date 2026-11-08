@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-08T14:04:09.262Z",
+ "exportiert": "2026-11-08T14:14:30.170Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -134587,6 +134587,37 @@
    "updatedAt": 1794145948722,
    "createdAt": 1794145948722,
    "bilder": 0
+  },
+  {
+   "source": "live",
+   "status": "limit",
+   "instrument": "NIKKEI",
+   "profile": "m1",
+   "riskPct": 1,
+   "crit": {
+    "cot": true
+   },
+   "id": "mw7wxnv8jmw308",
+   "zone": "weekly",
+   "exits": [],
+   "accounts": [
+    {
+     "id": "amu5dpzt54g2e1e"
+    }
+   ],
+   "analysisDate": "2026-11-02",
+   "dir": "long",
+   "limitSet": false,
+   "updatedAt": 1794147260154,
+   "createdAt": 1794147260154,
+   "bilderListe": [
+    {
+     "pfad": "bilder/mw7wxnv8jmw308_0.jpg",
+     "phase": "vorher",
+     "caption": "Weekly"
+    }
+   ],
+   "bilder": 1
   }
  ],
  "reviews": {},
