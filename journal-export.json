@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-08T14:56:27.840Z",
+ "exportiert": "2026-11-08T14:57:27.835Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -131121,14 +131121,14 @@
    "lots": 0.2,
    "days": 1,
    "status": "geschlossen",
-   "r": -1.46,
+   "r": -1,
    "exitReason": "SL",
    "exitDate": "2026-11-06",
    "exits": [
     {
      "share": 100,
      "targetR": 1,
-     "r": -1.46
+     "r": -1
     }
    ],
    "id": "mw6dyzfs5x9egk",
@@ -131141,7 +131141,7 @@
     }
    ],
    "discipline": 5,
-   "updatedAt": 1794054938238,
+   "updatedAt": 1794149799736,
    "createdAt": 1794054938238,
    "ctx": {
     "from": "2026-10-29",
