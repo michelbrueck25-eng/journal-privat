@@ -72,10 +72,6 @@
      "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
     },
     {
-     "t": "warn",
-     "text": "3 AUD-Positionen gleichzeitig, nach deiner Analyse sind mehr als 2 zu viel."
-    },
-    {
      "t": "ok",
      "text": "Kursstand 1.23854 vom 08.11.2026 (Quelle: Marktdaten 08.11.2026)."
     },
@@ -125,7 +121,7 @@
    "id": "mw7vephsidhmpa",
    "paar": "AUD/JPY",
    "richtung": "long",
-   "status": "prüfen",
+   "status": "valide",
    "art": "Limit",
    "zone": {
     "zt": 1769472000000,
@@ -148,56 +144,12 @@
      "text": "Meine Einschätzung: long mit Überzeugung 7 von 10."
     },
     {
-     "t": "warn",
-     "text": "3 AUD-Positionen gleichzeitig, nach deiner Analyse sind mehr als 2 zu viel."
-    },
-    {
      "t": "ok",
      "text": "Kursstand 108.821 vom 08.11.2026 (Quelle: Marktdaten 08.11.2026)."
     },
     {
      "t": "ok",
      "text": "Kurs ist 2.0 Tages-ATR vom Limit entfernt."
-    }
-   ]
-  },
-  {
-   "id": "mw7vgudb19ecj6",
-   "paar": "AUD/CAD",
-   "richtung": "long",
-   "status": "prüfen",
-   "art": "Limit",
-   "zone": {
-    "zt": 1774828800000,
-    "zone": [
-     0.94642,
-     0.95402
-    ],
-    "entry": 0.95412,
-    "sl": 0.94565,
-    "tp": 0.97106,
-    "ebene": "W"
-   },
-   "checks": [
-    {
-     "t": "ok",
-     "text": "COT AUD 6M-Index 99 (Stand 03.11.2026): im passenden Extrembereich, CAD 20 bestätigt gegenläufig."
-    },
-    {
-     "t": "ok",
-     "text": "Meine Einschätzung: long mit Überzeugung 4 von 10."
-    },
-    {
-     "t": "warn",
-     "text": "3 AUD-Positionen gleichzeitig, nach deiner Analyse sind mehr als 2 zu viel."
-    },
-    {
-     "t": "ok",
-     "text": "Kursstand 0.97021 vom 08.11.2026 (Quelle: Marktdaten 08.11.2026)."
-    },
-    {
-     "t": "ok",
-     "text": "Kurs ist 2.6 Tages-ATR vom Limit entfernt."
     }
    ]
   },
@@ -236,31 +188,9 @@
      "text": "Kurs ist 2.5 Tages-ATR vom Limit entfernt."
     }
    ]
-  },
-  {
-   "id": "mw7wxnv8jmw308",
-   "paar": "NIK/KEI",
-   "richtung": "long",
-   "status": "prüfen",
-   "art": "Limit",
-   "zone": {},
-   "checks": [
-    {
-     "t": "warn",
-     "text": "COT für NIK fehlt."
-    },
-    {
-     "t": "warn",
-     "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
-    },
-    {
-     "t": "warn",
-     "text": "Kein Chart-Tool-Eintrag mit Zone: Zonenprüfung und Kurslage nicht möglich. Zeichne Zone und Position im Chart-Tool, dann prüfe ich sie."
-    }
-   ]
   }
  ],
- "pruefung_stand": "2026-11-09T06:30",
+ "pruefung_stand": "2026-11-09T10:31",
  "konflikte": {
   "AUD/JPY|long": "Du hast AUDCAD offen sowie Limits auf AUDNZD und AUDUSD. Mehr als 2 AUD-Positionen sind nach deiner Analyse zu viel: Streiche das AUDUSD-Limit oder halbiere es, bevor du AUD/JPY dazunimmst. Letzter AUD/JPY-Trade war am 07.09., die 5 Wochen Pause sind vorbei.",
   "NZD/JPY|long": "NZD/JPY und AUD/JPY zusammen sind eine doppelte Yen-Wette. Nimm lieber nur eine der beiden mit vollem Risiko.",
