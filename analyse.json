@@ -1,8 +1,8 @@
 {
  "typ": "verhalten",
- "stand": "2026-11-05T17:31:42+01:00",
- "exportStand": "2026-11-05T15:35:03.948Z",
- "headline": "Im Backtest funktioniert deine Strategie (Ø +0,65 R, 78 % Treffer, 207 Trades), live bisher kaum (Ø +0,08 R, 46 %, nur 13 Trades). Größte Hebel: nur mit Daily-Bestätigung einsteigen, nach einem Trade im selben Paar 5 Wochen Pause, AUD-Positionen begrenzen.",
+ "stand": "2026-11-09T06:50:00+01:00",
+ "exportStand": "2026-11-08T22:10:02.071Z",
+ "headline": "Backtest: Ø +0,65 R, 78 % Treffer (207 Trades). Live: Ø -0,13 R, 39 % (18 Trades, Stand 09.11.). Die früheren Tipps gelten weiter, die Stichprobe live bleibt klein (unter 20), Tiefenmuster erst ab mehr Trades belastbar.",
  "kennzahlen": [
   {
    "label": "Backtest Ø R",
@@ -14,11 +14,11 @@
   },
   {
    "label": "Live Ø R",
-   "wert": "+0,08 (13 Trades)"
+   "wert": "-0,13 (18 Trades)"
   },
   {
    "label": "Live Trefferquote",
-   "wert": "46 %"
+   "wert": "39 %"
   }
  ],
  "muster": [
