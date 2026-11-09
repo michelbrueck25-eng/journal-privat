@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-09T06:05:21.168Z",
+ "exportiert": "2026-11-09T06:07:21.271Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -134101,9 +134101,10 @@
      "id": "amu5dpzt54g2e1e"
     }
    ],
-   "limitSet": false,
-   "updatedAt": 1794144673378,
+   "limitSet": true,
+   "updatedAt": 1794204412511,
    "createdAt": 1794144673378,
+   "limitAt": 1794204412511,
    "bilder": 0
   },
   {
