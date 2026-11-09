@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-09T06:11:29.789Z",
+ "exportiert": "2026-11-09T06:13:31.070Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -86728,7 +86728,7 @@
    "entryDate": "2026-10-01",
    "r": -1,
    "discipline": 5,
-   "updatedAt": 1794054550710,
+   "updatedAt": 1794204805010,
    "createdAt": 1790934954984,
    "emoDuring": "frustriert",
    "emoLog": [
@@ -86826,6 +86826,11 @@
      "z": "2026-11-07T12:24:19.751Z",
      "p": "emoDuring",
      "v": "frustriert"
+    },
+    {
+     "z": "2026-11-09T06:13:25.010Z",
+     "p": "emoAfter",
+     "v": "frustriert"
     }
    ],
    "exits": [
@@ -86843,6 +86848,7 @@
    "days": 33,
    "exitReason": "SL",
    "lesson": "Deutlich stärkeren OB nehmen",
+   "emoAfter": "frustriert",
    "bilderListe": [
     {
      "pfad": "bilder/muqsd09hq8867g_0.jpg",
@@ -95574,7 +95580,7 @@
    "dir": "long",
    "entryDate": "2026-09-28",
    "emoBefore": "zuversichtlich",
-   "updatedAt": 1794144027699,
+   "updatedAt": 1794204805013,
    "createdAt": 1791224259951,
    "emoDuring": "frustriert",
    "emoLog": [
@@ -95675,6 +95681,11 @@
     },
     {
      "z": "2026-11-08T13:12:31.971Z",
+     "p": "emoDuring",
+     "v": "frustriert"
+    },
+    {
+     "z": "2026-11-09T06:13:25.013Z",
      "p": "emoDuring",
      "v": "frustriert"
     }
@@ -127824,7 +127835,7 @@
    ],
    "limitSet": true,
    "limitAt": 1791782557536,
-   "updatedAt": 1794143851099,
+   "updatedAt": 1794204805015,
    "createdAt": 1791782557537,
    "cotChart": {
     "A": {
@@ -128928,6 +128939,14 @@
     ],
     "at": "2026-11-08"
    },
+   "emoAfter": "zuversichtlich",
+   "emoLog": [
+    {
+     "z": "2026-11-09T06:13:25.015Z",
+     "p": "emoAfter",
+     "v": "zuversichtlich"
+    }
+   ],
    "bilder": 0
   },
   {
@@ -130878,7 +130897,7 @@
    ],
    "r": 0,
    "limitSet": true,
-   "updatedAt": 1794145795138,
+   "updatedAt": 1794204805017,
    "createdAt": 1792930584581,
    "limitAt": 1792994912536,
    "emoDuring": "frustriert",
@@ -130960,6 +130979,11 @@
     },
     {
      "z": "2026-11-08T13:12:31.974Z",
+     "p": "emoDuring",
+     "v": "frustriert"
+    },
+    {
+     "z": "2026-11-09T06:13:25.017Z",
      "p": "emoDuring",
      "v": "frustriert"
     }
@@ -131350,7 +131374,7 @@
     }
    ],
    "discipline": 5,
-   "updatedAt": 1794149799736,
+   "updatedAt": 1794204805019,
    "createdAt": 1794054938238,
    "ctx": {
     "from": "2026-10-29",
@@ -131771,6 +131795,14 @@
     ],
     "at": "2026-11-07"
    },
+   "emoAfter": "Genervt",
+   "emoLog": [
+    {
+     "z": "2026-11-09T06:13:25.019Z",
+     "p": "emoAfter",
+     "v": "Genervt"
+    }
+   ],
    "bilder": 0
   },
   {
