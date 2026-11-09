@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-09T15:21:24.338Z",
+ "exportiert": "2026-11-09T15:27:33.634Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -401,18 +401,6 @@
     "at": "2026-10-13"
    },
    "fuDone": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mu6tvozslxn8a4_0.jpg",
-     "phase": "nachher",
-     "caption": "Weekly"
-    },
-    {
-     "pfad": "bilder/mu6tvozslxn8a4_1.jpg",
-     "phase": "nachher",
-     "caption": "Daily"
-    }
-   ],
    "bilder": 2
   },
   {
@@ -948,13 +936,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mua34xlkz4o64m_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -1481,13 +1462,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muaa34ges93sa3_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -2200,13 +2174,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mue42an0po93nh_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -2921,13 +2888,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mufk4palh4c89y_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -3383,13 +3343,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mufq7wtf5ys1t6_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -3832,13 +3785,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muftu0tb35jk1x_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -4279,13 +4225,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muiickj9rfa63v_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -4802,13 +4741,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muitj420h1uvyq_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -5263,13 +5195,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muq00w5pnsl7yq_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -6344,13 +6269,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muwdgemzwuuyb1_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -6682,13 +6600,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muwdnyslpg2ai7_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -7158,13 +7069,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv14v1r573w1qt_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -7667,13 +7571,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mua2axxrn5zt1b_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -8214,13 +8111,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muaa7fzh99d4gx_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -8752,13 +8642,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mub6s4w1p1wmtj_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -8796,9 +8679,7 @@
     "v": 2,
     "sym": "GBPUSD",
     "tf": "W",
-    "pids": [
-     "bpo9nn06rf"
-    ],
+    "pids": [],
     "fx": 100000,
     "drs": [
      {
@@ -8832,23 +8713,6 @@
       "p0": 1.230615,
       "t1": 1742465776176,
       "p1": 1.210241
-     },
-     {
-      "id": "bpo9nn06rf",
-      "type": "pos",
-      "dir": "long",
-      "t0": 1728607881520,
-      "t1": 1735226577475,
-      "entry": 1.254741,
-      "sl": 1.227291,
-      "tp": 1.3096410000000005,
-      "rrk": 2,
-      "tf": "W",
-      "man": {
-       "t1": true
-      },
-      "risk": null,
-      "tpEst": true
      }
     ],
     "cs": [
@@ -9280,13 +9144,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mufk7bo9nn06rf_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -9576,13 +9433,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muftqkf3gjxe7v_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -10505,13 +10355,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mugovl9k92rkrt_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -11003,13 +10846,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mugps5l9jblegr_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -11577,13 +11413,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mugqezl8vrm2tf_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -12449,13 +12278,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mujl1mh2k4ykc6_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -13190,13 +13012,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mujltp7z6v6g5s_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -13552,13 +13367,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mumnvcy5d1kduq_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -14025,13 +13833,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/murhqpumr1psoj_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -14585,13 +14386,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/murhv8vm12ab83_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -15046,13 +14840,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muwe12tnp744rh_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -15548,13 +15335,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muwe4gyevmun8g_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -16006,13 +15786,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv157uas7r24qc_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -16582,13 +16355,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv15kxmahf8m0a_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -18049,13 +17815,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mub6o2fwis6r2q_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -18660,13 +18419,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mubrkohb1rgl6i_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -19354,13 +19106,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mufk16gxedglko_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -19938,13 +19683,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muft99goljjjj3_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -20640,13 +20378,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muituztk8zhqaf_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -20970,13 +20701,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mujysic0o11f9k_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -21435,13 +21159,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mulf7s9ts171bv_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -21903,13 +21620,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muq1etbo9cvus3_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -22332,13 +22042,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/murgxs5tlzn06f_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -22987,13 +22690,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv26i2efaoaofd_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -23221,13 +22917,6 @@
     "at": "2026-10-13"
    },
    "fuDone": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mu5dqw2cwb8j4c_0.jpg",
-     "phase": "vorher",
-     "caption": "Weekly"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -23302,18 +22991,6 @@
    "riskPct": 1,
    "zone": "weekly",
    "fuDone": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mu6sia1s3qam1d_0.jpg",
-     "phase": "nachher",
-     "caption": "Daily"
-    },
-    {
-     "pfad": "bilder/mu6sia1s3qam1d_1.jpg",
-     "phase": "nachher",
-     "caption": "Daily"
-    }
-   ],
    "bilder": 2
   },
   {
@@ -23561,13 +23238,6 @@
     "lage": [],
     "at": "2026-10-13"
    },
-   "bilderListe": [
-    {
-     "pfad": "bilder/mu6u1iuwz8q6s1_0.jpg",
-     "phase": "nachher",
-     "caption": "Weekly"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -23890,13 +23560,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muab2e7un5dtid_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -24483,13 +24146,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mub6zq1b5kjjrr_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -25205,13 +24861,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mubribh4p0ywon_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -25536,13 +25185,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mucqwlarszeicv_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -26132,13 +25774,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mucr7c7vjthjoc_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -30349,13 +29984,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mufj7hv21oqawn_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -31060,13 +30688,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mufu0d7jt06yry_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -31926,13 +31547,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muih6bxr5qrzed_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -32553,13 +32167,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mujkvrvlut3scw_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -33003,13 +32610,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muq271mbzxvlb8_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -33354,13 +32954,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muvmp9rl502tzy_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -33950,13 +33543,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muwbw7mq7pkz4s_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -34436,13 +34022,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muwee83lvdqfez_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -34940,13 +34519,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv15063rblq2at_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -35604,13 +35176,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv26wu9km3kazi_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -36585,18 +36150,6 @@
    "discipline": 5,
    "deviation": "COT hat sich geändert und dann auf BE manuell raus",
    "exitDate": "2026-10-05",
-   "bilderListe": [
-    {
-     "pfad": "bilder/mu6un8dfwnto75_0.jpg",
-     "phase": "vorher",
-     "caption": "Weekly"
-    },
-    {
-     "pfad": "bilder/mu6un8dfwnto75_1.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 2
   },
   {
@@ -36893,13 +36446,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muaaqcjtrpetig_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -37199,13 +36745,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mucqt30ydnnxyj_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -37787,13 +37326,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mufpo025m53ymh_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -38415,13 +37947,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muftimvynclo40_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -38924,13 +38449,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muitmqd60ydtx1_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -39448,13 +38966,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muiu6wo8fggb4c_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -40171,13 +39682,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mujls8g0y593gv_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -40589,13 +40093,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muq05mjy20o3of_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -41246,13 +40743,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muq363mi8al0l3_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -41614,13 +41104,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muq3mlapni4gfi_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -42077,13 +41560,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/murh7w88msa21s_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -42561,13 +42037,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/murhnrq9dab2cg_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -42615,13 +42084,6 @@
      "z": "2026-11-08T13:12:31.975Z",
      "p": "emoAfter",
      "v": "frustriert"
-    }
-   ],
-   "bilderListe": [
-    {
-     "pfad": "bilder/mw6k11aa93zf13_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
     }
    ],
    "bilder": 1
@@ -43153,13 +42615,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muaatywf6iktci_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -43582,13 +43037,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mub7u9mw9035ay_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -43902,13 +43350,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mub7yrh9q7oak8_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -44773,13 +44214,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mudx45vim0x7pv_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -45357,13 +44791,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mumjho9diq2d9b_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -46002,13 +45429,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mumnnxbhswissl_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -46422,13 +45842,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/murggyyl13i0sh_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -46764,13 +46177,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/murgpnl06nsvlz_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -47249,13 +46655,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv26c76rbsbw7p_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -47811,13 +47210,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mufqcdvku9bqn3_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -48304,13 +47696,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mugqaogzkrq433_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -48848,13 +48233,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muihcv656gsy2u_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -49231,13 +48609,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muiuh068x810d8_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -49957,13 +49328,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mujzyva2v94l79_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -50504,13 +49868,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mumj62qysy6886_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -51000,13 +50357,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mumnyl444mey6d_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -51493,13 +50843,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muvlzrzwfoorjf_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -51944,13 +51287,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muvmd69cyixr8x_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -52602,13 +51938,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muvmslin231eo2_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -53905,13 +53234,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muvmvnvtxcc8jd_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -54324,13 +53646,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv15yn178alss0_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -57451,18 +56766,6 @@
    },
    "zone": "weekly",
    "fuDone": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mu6swm8ynuk152_0.jpg",
-     "phase": "nachher",
-     "caption": "Weekly"
-    },
-    {
-     "pfad": "bilder/mu6swm8ynuk152_1.jpg",
-     "phase": "nachher",
-     "caption": "Daily"
-    }
-   ],
    "bilder": 2
   },
   {
@@ -57690,13 +56993,6 @@
     ],
     "at": "2026-10-13"
    },
-   "bilderListe": [
-    {
-     "pfad": "bilder/mu6ud7awrbclxi_0.jpg",
-     "phase": "nachher",
-     "caption": "Weekly"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -57773,23 +57069,6 @@
    "exitReason": "SL",
    "discipline": 5,
    "lesson": "Schaue nicht so oft drauf",
-   "bilderListe": [
-    {
-     "pfad": "bilder/mu6uj7qjb7nftl_0.jpg",
-     "phase": "vorher",
-     "caption": "Weekly"
-    },
-    {
-     "pfad": "bilder/mu6uj7qjb7nftl_1.jpg",
-     "phase": "vorher",
-     "caption": "Daily"
-    },
-    {
-     "pfad": "bilder/mu6uj7qjb7nftl_2.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 3
   },
   {
@@ -58160,13 +57439,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muab9hnnt0iv3l_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -58605,13 +57877,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muabcnwl5ojf72_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -59357,13 +58622,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mugpl8scp3wqrf_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -59826,13 +59084,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mugq7l8vuab6sj_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -60415,13 +59666,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muiimb42hlejiq_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -60814,13 +60058,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mulfvppe43ymrx_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -61189,13 +60426,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mumjcbrq3jocau_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -61235,9 +60465,7 @@
     "v": 2,
     "sym": "USDJPY",
     "tf": "W",
-    "pids": [
-     "bpci7cofhu"
-    ],
+    "pids": [],
     "fx": 1000,
     "drs": [
      {
@@ -61247,23 +60475,6 @@
       "p0": 101.318843,
       "t1": 1593115613037,
       "p1": 98.969969
-     },
-     {
-      "id": "bpci7cofhu",
-      "type": "pos",
-      "dir": "long",
-      "t0": 1583713821091,
-      "t1": 1593471741519,
-      "entry": 101.371429,
-      "sl": 97.98835,
-      "tp": 108.13758700000002,
-      "rrk": 2,
-      "tf": "W",
-      "man": {
-       "t1": true
-      },
-      "risk": null,
-      "tpEst": true
      }
     ],
     "cs": [
@@ -62040,13 +61251,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mummqoci7cofhu_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -62580,13 +61784,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muvmjyf9jir9h7_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -63267,13 +62464,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muvmyl3qb1i3xo_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -64242,13 +63432,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muwcsgbudixy7r_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -64657,13 +63840,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muwdqvm9dbpz9s_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -65068,13 +64244,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muwduzgfj6rgmw_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -65668,13 +64837,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv25tww6rr2nlr_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -66549,13 +65711,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mucrcwt3tcb6ck_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -67140,13 +66295,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mufpyx8ag564zc_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -67724,13 +66872,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muft3twve9wjbt_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -68302,13 +67443,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mufu37x7wv2x1g_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -68813,13 +67947,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mugot45q82lxz7_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -69174,13 +68301,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muquuosvk8j86e_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -69605,13 +68725,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muwd58krw1470k_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -70000,13 +69113,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muwdj1ns38hjgh_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -70638,13 +69744,6 @@
    ],
    "peak": 0.1,
    "plan": "Nur Weekly",
-   "bilderListe": [
-    {
-     "pfad": "bilder/mu6ughdt7ff9sa_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -71247,13 +70346,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muaaehrjpgsxo6_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -72114,13 +71206,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mudx08qvmfrv5i_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -72672,13 +71757,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mudyhdehz38y77_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -73098,13 +72176,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mufrgmlbpmgjff_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -73758,13 +72829,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muk0elpo2o02tb_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -74257,13 +73321,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/murgcd3s5tpmw1_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -74903,13 +73960,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/murh1l82qt01t9_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -75297,13 +74347,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muwdc8eoc9bo2k_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -75624,13 +74667,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv15vhupb19ur5_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -76257,13 +75293,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv266ta8jrtafo_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -77084,13 +76113,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mua3a6e9uye027_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -77614,13 +76636,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mua3gxc2bjvqgs_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -78111,13 +77126,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mua3jjnveamyjo_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -78659,13 +77667,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mua9ycnbrlv281_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -79004,13 +78005,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mubrcybg36uct7_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -79587,13 +78581,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mufs9kogirlf1d_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -79973,13 +78960,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mugpq7ckn0ik4r_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -80624,13 +79604,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mujld12kjv0sjp_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -81210,13 +80183,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muk0hg5ncdbr1h_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -81628,13 +80594,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mumjnw535ctyeg_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -82061,13 +81020,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muq1a08707kon0_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -82443,13 +81395,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mur3ed1ktho5o8_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -82941,13 +81886,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/murhgwr4xog7bp_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -83420,13 +82358,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muri0fqu64yd16_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -83725,13 +82656,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muvmn1ejvzz820_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -84209,13 +83133,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv25ywe5k6zr33_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -85817,13 +84734,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv2764f6vci4h7_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -87398,18 +86308,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mua2kmlhmh20wc_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    },
-    {
-     "pfad": "bilder/mua2kmlhmh20wc_1.jpg",
-     "phase": "nachher",
-     "caption": "Weekly"
-    }
-   ],
    "bilder": 2
   },
   {
@@ -87953,13 +86851,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mudxf6uil84ovc_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -88707,13 +87598,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mudxif6gqhg33h_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -89345,13 +88229,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mudyce3gsdet9x_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -90131,13 +89008,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muftezax6x82c3_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -90438,13 +89308,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muihhieybbb44r_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -90989,13 +89852,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mujklvlcdqjzyx_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -91433,13 +90289,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mulg59lyxqsyt7_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -91851,13 +90700,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mumjlyunk1z46q_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -92441,13 +91283,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/murhk3490q41tw_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -92865,13 +91700,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv15f86xq4sx1r_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -93891,13 +92719,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv15i2ne91hdpe_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -94577,13 +93398,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv15nh1yizhb9c_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -95015,13 +93829,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv2610ktajwhuh_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -95780,13 +94587,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv26eku3cl63mp_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -96636,13 +95436,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv26uket24wo0b_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -106020,13 +104813,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mua2wevxdl97hb_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -106485,13 +105271,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muaalksiur45rp_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -107155,13 +105934,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mub7o6oky3rjg0_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -107796,13 +106568,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mufizvtzn1zfir_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -108460,13 +107225,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mufs3cdx6f1oqw_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -109063,13 +107821,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muftlvedarf997_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -109532,13 +108283,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mugpvea6n551da_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -110048,13 +108792,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muiu27smxf2hg9_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -110674,13 +109411,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mujlxmg6p7aw97_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -111286,13 +110016,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mujzxlnyeke80k_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -111594,13 +110317,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muleuw8tpbsy5c_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -111904,13 +110620,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mumnrkabe75tw0_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -112219,13 +110928,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mur3032yxfhe1p_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -112788,13 +111490,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muwe82sx02sld1_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -113212,13 +111907,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muwebu2bq6xoft_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -113745,13 +112433,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv15ctrdzu6697_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -114087,13 +112768,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv1627hgun9fp5_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -114143,13 +112817,6 @@
    "lessonConfirmed": true,
    "updatedAt": 1794065671487,
    "createdAt": 1794065671487,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mw6k7t4usll0qd_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -114192,13 +112859,6 @@
    "peak": 2.5,
    "zone": "weekly",
    "fuDone": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mu6u6owhe7xx9t_0.jpg",
-     "phase": "nachher",
-     "caption": "Weekly"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -116572,18 +115232,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mua2qkugxhv99k_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    },
-    {
-     "pfad": "bilder/mua2qkugxhv99k_1.jpg",
-     "phase": "nachher",
-     "caption": "Weekly"
-    }
-   ],
    "bilder": 2
   },
   {
@@ -117035,13 +115683,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mua3d6azxnj1gw_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -117713,13 +116354,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mucr2lvhrwasd6_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -118336,13 +116970,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mufs6eek7yphzx_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -118847,13 +117474,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muiiuziqdk94wp_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -119213,13 +117833,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muiucyx5x03k3h_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -119520,13 +118133,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mujm2l3maqm1sf_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -119564,13 +118170,6 @@
    "notes": "Bin nicht rein, weil der EURJPY letzte Woche schon zu schwach war und ich nicht nochmal unnötig einen Prozent riskieren wollte.",
    "updatedAt": 1790584404851,
    "createdAt": 1790584404851,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mukzm4l7fi7jtk_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -119965,13 +118564,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mulg0p5z1s4s7z_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -120448,13 +119040,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muq0wlpy8kwsc1_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -120603,18 +119188,6 @@
    "exitReason": "SL",
    "lesson": "Deutlich stärkeren OB nehmen",
    "emoAfter": "frustriert",
-   "bilderListe": [
-    {
-     "pfad": "bilder/muqsd09hq8867g_0.jpg",
-     "phase": "vorher",
-     "caption": "Weekly"
-    },
-    {
-     "pfad": "bilder/muqsd09hq8867g_1.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 2
   },
   {
@@ -120938,13 +119511,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mur38ftdya9ons_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -121273,13 +119839,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muwdzbkb73of3h_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -121763,13 +120322,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv15a0kres4i6h_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -122614,13 +121166,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv26s6sfps7tgh_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -123309,13 +121854,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mugoxp8rmj0aml_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -123684,13 +122222,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muity4ngagz1u2_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -124014,13 +122545,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mujyxjzyb9ui3e_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -124357,13 +122881,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muk0345afyytf3_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -124757,13 +123274,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muk07e20vftlga_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -125145,13 +123655,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muk0arrjl2uv4f_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -125718,13 +124221,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mumo2m78snomaa_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -125777,18 +124273,6 @@
      "z": "2026-10-27T08:37:10.328Z",
      "p": "emoAfter",
      "v": "frustriert"
-    }
-   ],
-   "bilderListe": [
-    {
-     "pfad": "bilder/muqs4lmpa4s72w_0.jpg",
-     "phase": "vorher",
-     "caption": "Weekly"
-    },
-    {
-     "pfad": "bilder/muqs4lmpa4s72w_1.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
     }
    ],
    "bilder": 2
@@ -126235,13 +124719,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muqthkujvde8f5_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -126758,13 +125235,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv25w3jnov9qxh_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -127361,13 +125831,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mub756udlz6v7f_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -127879,13 +126342,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mufrcjkruljsvf_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -128185,13 +126641,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mugpiapdj7jagb_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -128537,13 +126986,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muitr5tfooecfb_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -128917,13 +127359,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mujm67i2obwmzn_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -129381,13 +127816,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mujm95sw0cwcj4_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -129706,13 +128134,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mujzux791kgirk_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -130594,13 +129015,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muq1shp2lgi9uq_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -131081,13 +129495,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muquizxkyafohi_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -131565,13 +129972,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/murgs82m3ge4og_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -131899,13 +130299,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muvljtwuz25ibb_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -132259,13 +130652,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muwd0n73k9olnl_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -132603,13 +130989,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/muwemg88wlfxkn_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -132953,13 +131332,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv128c603grah0_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -133407,13 +131779,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv14q8hqqeghuj_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   },
   {
@@ -134291,13 +132656,6 @@
     ]
    },
    "chartAuto": true,
-   "bilderListe": [
-    {
-     "pfad": "bilder/mv15r6o5ndsdz6_0.jpg",
-     "phase": "nachher",
-     "caption": "Exit"
-    }
-   ],
    "bilder": 1
   }
  ],
