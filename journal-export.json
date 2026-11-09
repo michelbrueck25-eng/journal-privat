@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-09T21:40:11.793Z",
+ "exportiert": "2026-11-09T21:41:09.294Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -69683,12 +69683,12 @@
    "entry": 87.743,
    "stop": 87.218,
    "target": 88.794,
-   "mfe": 0.38,
-   "mae": -0.36,
-   "peak": 0.38,
-   "mfeDays": 1,
+   "mfe": 2.37,
+   "mae": -0.5,
+   "peak": 2.37,
+   "mfeDays": 4,
    "lots": 0.31,
-   "status": "offen",
+   "status": "geschlossen",
    "id": "mvnskgcpurrrm4",
    "crit": {
     "cmu8ifszl4jj3ts": "Überverkauft",
@@ -69697,8 +69697,8 @@
    "exits": [
     {
      "share": 100,
-     "targetR": 1,
-     "r": null
+     "targetR": 2,
+     "r": 2
     }
    ],
    "accounts": [
@@ -69706,9 +69706,9 @@
      "id": "amu5dpzt54g2e1e"
     }
    ],
-   "r": 0,
+   "r": 2,
    "limitSet": true,
-   "updatedAt": 1794204805017,
+   "updatedAt": 1794260414564,
    "createdAt": 1792930584581,
    "limitAt": 1792994912536,
    "emoDuring": "frustriert",
@@ -69799,6 +69799,483 @@
      "v": "frustriert"
     }
    ],
+   "exitReason": "TP",
+   "exitDate": "2026-11-09",
+   "days": 7,
+   "ctx": {
+    "from": "2026-10-26",
+    "to": "2026-11-16",
+    "curs": [
+     "NZD",
+     "JPY",
+     "USD"
+    ],
+    "ev": [
+     {
+      "d": "2026-10-27",
+      "time": "15:00",
+      "cur": "USD",
+      "title": "Verbrauchervertrauen (Conference Board)",
+      "actual": "91.7",
+      "forecast": "81.2",
+      "previous": "81.9",
+      "impact": "medium",
+      "ph": 0
+     },
+     {
+      "d": "2026-10-28",
+      "time": "02:00",
+      "cur": "NZD",
+      "title": "RBNZ-Zinsentscheid",
+      "actual": "2.75%",
+      "forecast": "3.00%",
+      "previous": "2.75%",
+      "impact": "high",
+      "ph": 0
+     },
+     {
+      "d": "2026-10-28",
+      "time": "19:00",
+      "cur": "USD",
+      "title": "Fed-Zinsentscheid (Obergrenze)",
+      "actual": "4.00%",
+      "forecast": "4.00%",
+      "previous": "4.00%",
+      "impact": "high",
+      "ph": 0
+     },
+     {
+      "d": "2026-10-29",
+      "time": "13:30",
+      "cur": "USD",
+      "title": "Kern-PCE m/m",
+      "actual": "0.3%",
+      "forecast": "0.3%",
+      "previous": "0.2%",
+      "impact": "medium",
+      "ph": 0
+     },
+     {
+      "d": "2026-10-29",
+      "time": "13:30",
+      "cur": "USD",
+      "title": "BIP q/q (1. Schätzung Q3)",
+      "actual": "3.4%",
+      "forecast": "3.2%",
+      "previous": "2.2%",
+      "impact": "high",
+      "ph": 0
+     },
+     {
+      "d": "2026-10-29",
+      "time": "13:30",
+      "cur": "USD",
+      "title": "Kern-PCE y/y",
+      "actual": "3.1%",
+      "forecast": "3.1%",
+      "previous": "3.0%",
+      "impact": "medium",
+      "ph": 0
+     },
+     {
+      "d": "2026-10-30",
+      "time": "00:30",
+      "cur": "JPY",
+      "title": "Arbeitslosenquote",
+      "actual": "",
+      "forecast": "2.5%",
+      "previous": "2.5%",
+      "impact": "medium",
+      "ph": 0
+     },
+     {
+      "d": "2026-10-30",
+      "time": "00:30",
+      "cur": "JPY",
+      "title": "BoJ-Zinsentscheid",
+      "actual": "1.25%",
+      "forecast": "1.25%",
+      "previous": "1.25%",
+      "impact": "high",
+      "ph": 0
+     },
+     {
+      "d": "2026-10-30",
+      "time": "00:30",
+      "cur": "JPY",
+      "title": "Kern-CPI y/y (Tokio)",
+      "actual": "",
+      "forecast": "2.6%",
+      "previous": "2.7%",
+      "impact": "medium",
+      "ph": 0
+     },
+     {
+      "d": "2026-10-30",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Arbeitskostenindex q/q (Q3)",
+      "actual": "0.8%",
+      "forecast": "0.8%",
+      "previous": "0.9%",
+      "impact": "medium",
+      "ph": 0
+     },
+     {
+      "d": "2026-11-02",
+      "time": "16:00",
+      "cur": "USD",
+      "title": "ISM Manufacturing PMI",
+      "actual": "55.5",
+      "forecast": "54.7",
+      "previous": "54.5",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-03",
+      "time": "22:45",
+      "cur": "NZD",
+      "title": "Arbeitslosenquote",
+      "actual": "5.7%",
+      "forecast": "",
+      "previous": "5.6%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-04",
+      "time": "14:15",
+      "cur": "USD",
+      "title": "ADP Beschäftigung",
+      "actual": "86K",
+      "forecast": "65K",
+      "previous": "90K",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-04",
+      "time": "16:00",
+      "cur": "USD",
+      "title": "ISM Dienstleistungen PMI",
+      "actual": "54.5",
+      "forecast": "54.8",
+      "previous": "54.9",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-06",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Arbeitslosenquote",
+      "actual": "4.1%",
+      "forecast": "4.2%",
+      "previous": "4.2%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-06",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Durchschn. Stundenlöhne m/m",
+      "actual": "0.4%",
+      "forecast": "0.3%",
+      "previous": "0.3%",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-06",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Non-Farm Payrolls",
+      "actual": "165K",
+      "forecast": "65K",
+      "previous": "60K",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-10",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "CPI m/m",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "impact": "high",
+      "ph": 2
+     },
+     {
+      "d": "2026-11-10",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "CPI y/y",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "impact": "high",
+      "ph": 2
+     },
+     {
+      "d": "2026-11-10",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Kern-CPI m/m",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "impact": "high",
+      "ph": 2
+     },
+     {
+      "d": "2026-11-10",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Kern-CPI y/y",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "impact": "high",
+      "ph": 2
+     },
+     {
+      "d": "2026-11-12",
+      "time": "03:00",
+      "cur": "NZD",
+      "title": "Inflationserwartungen (Q4)",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "impact": "medium",
+      "ph": 2
+     },
+     {
+      "d": "2026-11-13",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "PPI m/m",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "impact": "medium",
+      "ph": 2
+     },
+     {
+      "d": "2026-11-16",
+      "time": "00:50",
+      "cur": "JPY",
+      "title": "BIP q/q (Q3",
+      "actual": "vorläufig)",
+      "forecast": "",
+      "previous": "",
+      "impact": "medium",
+      "ph": 2
+     }
+    ],
+    "lage": [
+     {
+      "titel": "Brasilien: Lula gewinnt die Stichwahl mit rund 51,8 Prozent gegen Flávio Bolsonaro, Märkte öffnen am Montag",
+      "datum": "2026-10-26",
+      "eff": {
+       "USD": 0.5,
+       "JPY": 0.5
+      }
+     },
+     {
+      "titel": "Japan: Finanzministerin Katayama kündigt entschlossene Maßnahmen am Devisenmarkt an, USD/JPY über 157,50",
+      "datum": "2026-10-27",
+      "eff": {
+       "JPY": 1.5,
+       "USD": -0.5
+      }
+     },
+     {
+      "titel": "RBNZ überrascht und hält den OCR bei 2,75 Prozent, Abstimmung 4 zu 3, erwartet war eine Erhöhung auf 3,00 Prozent, Neuseeland-Dollar fällt",
+      "datum": "2026-10-28",
+      "eff": {
+       "NZD": -2.5
+      }
+     },
+     {
+      "titel": "Fed hält bei 3,75 bis 4,00 Prozent, Abstimmung 10 zu 2, Cook und Hammack wollten erhöhen, Dezember-Erhöhung zu rund 80 Prozent (CME FedWatch 79,6 Prozent nach dem PCE) eingepreist",
+      "datum": "2026-10-28",
+      "eff": {
+       "USD": 0.3,
+       "JPY": -0.3
+      }
+     },
+     {
+      "titel": "US-PCE September: Gesamt 3,6 Prozent y/y (Vormonat 3,4), Kern 3,1 Prozent y/y und 0,3 Prozent m/m, jeweils wie erwartet, BIP Q3 3,4 Prozent, Dezember-Erhöhung der Fed zu rund 80 Prozent eingepreist, Gewichtung ist eine Schätzung",
+      "datum": "2026-10-29",
+      "eff": {
+       "USD": 1
+      }
+     },
+     {
+      "titel": "BoJ lässt Leitzins bei 1,25 Prozent, Abstimmung 8 zu 1 (Takata dagegen), hebt Inflationsprognose an, Yen legt zeitweise zu",
+      "datum": "2026-10-30",
+      "eff": {
+       "JPY": 1,
+       "USD": -0.3
+      }
+     },
+     {
+      "titel": "Eurozone: BIP im dritten Quartal +0,4 Prozent, Prognose 0,2 Prozent",
+      "datum": "2026-10-30",
+      "eff": {
+       "USD": -0.2
+      }
+     },
+     {
+      "titel": "Deutschland: Inflation (CPI) sinkt im Oktober auf 2,8 Prozent y/y",
+      "datum": "2026-10-30",
+      "eff": {
+       "USD": 0.2
+      }
+     },
+     {
+      "titel": "Wall Street Freitag: Nasdaq -2,9 Prozent, S&P 500 -1,8 Prozent, Ausverkauf bei KI-Aktien, Intel fällt fast 30 Prozent",
+      "datum": "2026-11-02",
+      "eff": {
+       "JPY": 1,
+       "USD": 0.5
+      }
+     },
+     {
+      "titel": "Hormus: Tanker von Haftminen getroffen, Brent bei 117,64 USD (+2,4 Prozent am Freitag, rund +14 Prozent im Oktober)",
+      "datum": "2026-11-02",
+      "eff": {
+       "JPY": -0.5,
+       "USD": 0.2
+      }
+     },
+     {
+      "titel": "US-Industrie: ISM Manufacturing im Oktober 55,5 statt 54,7 erwartet",
+      "datum": "2026-11-02",
+      "eff": {
+       "USD": 0.5
+      }
+     },
+     {
+      "titel": "Brent faellt am Montag um rund 7,6 Prozent auf 104,77 USD, WTI -7,4 Prozent auf 96,46 USD: Hoffnung auf US-Iran-Verhandlungen (Trump-Aussagen, Gespraeche Iran-Katar)",
+      "datum": "2026-11-03",
+      "eff": {
+       "JPY": 0.5,
+       "USD": -0.2
+      }
+     },
+     {
+      "titel": "Fed-Zinserwartung: Dezember-Erhoehung um 25 Basispunkte zu 76,6 Prozent eingepreist (Vortag 70,7), 2-jaehrige Rendite 4,59 Prozent, Fed bei 3,75 bis 4,00 Prozent mit zwei Gegenstimmen fuer sofortige Erhoehung",
+      "datum": "2026-11-03",
+      "eff": {
+       "USD": 0.5
+      }
+     },
+     {
+      "titel": "US-Angriff auf Qeshm (Iran) Stunden nach dem 7,6-Prozent-Absturz von Brent, Oelpreis laut Schlagzeilen wieder gestuetzt, CAD erholt",
+      "datum": "2026-11-03",
+      "eff": {
+       "JPY": -0.3,
+       "USD": 0.2
+      }
+     },
+     {
+      "titel": "USA: ADP-Beschäftigung Oktober +86.000, leicht über Erwartung",
+      "datum": "2026-11-04",
+      "eff": {
+       "USD": 0.5
+      }
+     },
+     {
+      "titel": "USA: Demokraten gewinnen laut Reuters beide Kammern, Öl steigt wieder, Iran-Gespräche offen",
+      "datum": "2026-11-04",
+      "eff": {
+       "USD": -1
+      }
+     },
+     {
+      "titel": "USA: ISM Dienstleistungen Oktober 54,5, leicht unter Erwartung",
+      "datum": "2026-11-04",
+      "eff": {
+       "USD": -0.5
+      }
+     },
+     {
+      "titel": "Gold springt über 4.000 Dollar, Dollar auf Ein-Monats-Tief nach Midterms, Fed-Erhöhung im Dezember zu etwa 83 Prozent eingepreist",
+      "datum": "2026-11-04",
+      "eff": {
+       "USD": -1.5,
+       "JPY": 0.5
+      }
+     },
+     {
+      "titel": "Wall Street und Europa steigen nach Midterms, Rendite fällt, Dollar schwach, Brent unter 102 Dollar",
+      "datum": "2026-11-04",
+      "eff": {
+       "USD": -1.5,
+       "JPY": 0.3
+      }
+     },
+     {
+      "titel": "Ölpreis bricht ein: Brent fällt 8,7 Prozent auf 94,62 Dollar, erstmals seit Ende August unter 100",
+      "datum": "2026-11-05",
+      "eff": {
+       "USD": -0.5,
+       "JPY": 1
+      }
+     },
+     {
+      "titel": "Neuseeland: Arbeitslosenquote steigt im dritten Quartal auf 5,7 Prozent",
+      "datum": "2026-11-03",
+      "eff": {
+       "NZD": -1.5
+      }
+     },
+     {
+      "titel": "Tech-Crash: Nasdaq fällt 5,5 Prozent in die Korrektur, Dow minus 3,4 Prozent, Asien bricht heute ein, Yen gefragt",
+      "datum": "2026-11-06",
+      "eff": {
+       "JPY": 2,
+       "USD": 0.5,
+       "NZD": -1
+      }
+     },
+     {
+      "titel": "USA: Arbeitsmarkt Oktober deutlich stärker, 165.000 Stellen, Arbeitslosenquote 4,1 Prozent",
+      "datum": "2026-11-06",
+      "eff": {
+       "USD": 1.5
+      }
+     },
+     {
+      "titel": "Wochenschluss 6.11.: Brent 97,75 USD (Wochenverlust 13,6 Prozent, groesster seit Covid), Gold 4.079,50 USD (plus 5,0 Prozent), Silber 51,97 USD, EUR/USD 1,1140",
+      "datum": "2026-11-09",
+      "eff": {
+       "USD": 0.5,
+       "JPY": 0.5
+      }
+     },
+     {
+      "titel": "Fed-Zinserwartung: Dezember-Erhoehung nach den starken Arbeitsmarktdaten (165.000 Stellen, Arbeitslosenquote 4,1 Prozent) bei rund 78 Prozent",
+      "datum": "2026-11-09",
+      "eff": {
+       "USD": 0.8
+      }
+     },
+     {
+      "titel": "USA: Mittwoch 11.11. Veterans Day, Banken und Anleihemarkt geschlossen, Aktienboerse offen, dazu BoE-Chef Bailey spricht heute um 18:25 Berlin",
+      "datum": "2026-11-09",
+      "eff": {
+       "USD": 0
+      }
+     }
+    ],
+    "at": "2026-11-09"
+   },
    "bilder": 0
   },
   {
