@@ -82,42 +82,6 @@
    ]
   },
   {
-   "id": "mvnskgcpurrrm4",
-   "paar": "NZD/JPY",
-   "richtung": "long",
-   "status": "valide",
-   "art": "Läuft",
-   "zone": {
-    "zt": 1763337600000,
-    "zone": [
-     87.26536,
-     87.748
-    ],
-    "entry": 87.7431,
-    "sl": 87.21759,
-    "tp": 88.79413,
-    "ebene": "W"
-   },
-   "checks": [
-    {
-     "t": "ok",
-     "text": "COT NZD 6M-Index 92 (Stand 03.11.2026): im passenden Extrembereich, JPY 8 bestätigt gegenläufig."
-    },
-    {
-     "t": "ok",
-     "text": "Meine Einschätzung: long mit Überzeugung 6 von 10."
-    },
-    {
-     "t": "ok",
-     "text": "Kursstand 88.706 vom 09.11.2026 (Quelle: Marktdaten 09.11.2026)."
-    },
-    {
-     "t": "ok",
-     "text": "Kurs ist 1.3 Tages-ATR vom Limit entfernt."
-    }
-   ]
-  },
-  {
    "id": "mvdw1hkq56f3zc",
    "paar": "AUD/NZD",
    "richtung": "long",
@@ -190,7 +154,7 @@
    ]
   }
  ],
- "pruefung_stand": "2026-11-09T20:12",
+ "pruefung_stand": "2026-11-10T06:31",
  "konflikte": {
   "AUD/JPY|long": "Du hast AUDCAD offen sowie Limits auf AUDNZD und AUDUSD. Mehr als 2 AUD-Positionen sind nach deiner Analyse zu viel: Streiche das AUDUSD-Limit oder halbiere es, bevor du AUD/JPY dazunimmst. Letzter AUD/JPY-Trade war am 07.09., die 5 Wochen Pause sind vorbei.",
   "NZD/JPY|long": "NZD/JPY und AUD/JPY zusammen sind eine doppelte Yen-Wette. Nimm lieber nur eine der beiden mit vollem Risiko.",
