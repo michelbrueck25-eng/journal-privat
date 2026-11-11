@@ -1,8 +1,8 @@
 {
  "typ": "verhalten",
- "stand": "2026-11-09T06:50:00+01:00",
- "exportStand": "2026-11-08T22:10:02.071Z",
- "headline": "Backtest: Ø +0,65 R, 78 % Treffer (207 Trades). Live: Ø -0,13 R, 39 % (18 Trades, Stand 09.11.). Die früheren Tipps gelten weiter, die Stichprobe live bleibt klein (unter 20), Tiefenmuster erst ab mehr Trades belastbar.",
+ "stand": "2026-11-11T17:35:00+01:00",
+ "exportStand": "2026-11-10T07:17:00.121Z",
+ "headline": "Backtest: Ø +0,65 R, 78 % Treffer (207 Trades). Live: Ø -0,13 R, 39 % (18 Trades, Stand 11.11.). Seit dem letzten Export kein neuer geschlossener Trade. Offen: EUR/USD Long und NZD/JPY Long, Limits in AUD/JPY, AUD/NZD und NZD/CAD. Nach dem heißen US-CPI läuft der Dollar gegen den EUR/USD-Long, AUD und NZD stehen wegen schwächerer Aktien unter Druck.",
  "kennzahlen": [
   {
    "label": "Backtest Ø R",
