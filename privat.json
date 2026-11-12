@@ -29,7 +29,7 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 1.10955 vom 12.11.2026 (Quelle: Marktdaten 09.11.2026)."
+     "text": "Kursstand 1.10955 vom 12.11.2026 (Quelle: Marktdaten 12.11.2026)."
     },
     {
      "t": "ok",
@@ -69,7 +69,7 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 109.034 vom 12.11.2026 (Quelle: Marktdaten 09.11.2026)."
+     "text": "Kursstand 109.034 vom 12.11.2026 (Quelle: Marktdaten 12.11.2026)."
     },
     {
      "t": "ok",
@@ -105,7 +105,7 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 88.783 vom 12.11.2026 (Quelle: Marktdaten 09.11.2026)."
+     "text": "Kursstand 88.783 vom 12.11.2026 (Quelle: Marktdaten 12.11.2026)."
     },
     {
      "t": "ok",
@@ -145,7 +145,7 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 1.22813 vom 12.11.2026 (Quelle: Marktdaten 09.11.2026)."
+     "text": "Kursstand 1.22813 vom 12.11.2026 (Quelle: Marktdaten 12.11.2026)."
     },
     {
      "t": "ok",
@@ -185,7 +185,7 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 0.79253 vom 12.11.2026 (Quelle: Marktdaten 09.11.2026)."
+     "text": "Kursstand 0.79253 vom 12.11.2026 (Quelle: Marktdaten 12.11.2026)."
     },
     {
      "t": "ok",
@@ -194,7 +194,7 @@
    ]
   }
  ],
- "pruefung_stand": "2026-11-12T10:30",
+ "pruefung_stand": "2026-11-12T14:42",
  "konflikte": {
   "AUD/JPY|long": "Du hast AUDCAD offen sowie Limits auf AUDNZD und AUDUSD. Mehr als 2 AUD-Positionen sind nach deiner Analyse zu viel: Streiche das AUDUSD-Limit oder halbiere es, bevor du AUD/JPY dazunimmst. Letzter AUD/JPY-Trade war am 07.09., die 5 Wochen Pause sind vorbei.",
   "NZD/JPY|long": "NZD/JPY und AUD/JPY zusammen sind eine doppelte Yen-Wette. Nimm lieber nur eine der beiden mit vollem Risiko.",
