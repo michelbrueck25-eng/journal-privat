@@ -29,11 +29,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 1.12031 vom 09.11.2026 (Quelle: Marktdaten 09.11.2026)."
+     "text": "Kursstand 1.10955 vom 12.11.2026 (Quelle: Marktdaten 09.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 0.4 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 1.8 Tages-ATR vom Limit entfernt."
     },
     {
      "t": "warn",
@@ -69,11 +69,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 109.194 vom 09.11.2026 (Quelle: Marktdaten 09.11.2026)."
+     "text": "Kursstand 109.034 vom 12.11.2026 (Quelle: Marktdaten 09.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 2.4 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 2.2 Tages-ATR vom Limit entfernt."
     }
    ]
   },
@@ -105,11 +105,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 88.706 vom 09.11.2026 (Quelle: Marktdaten 09.11.2026)."
+     "text": "Kursstand 88.783 vom 12.11.2026 (Quelle: Marktdaten 09.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 0.8 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 1.0 Tages-ATR vom Limit entfernt."
     },
     {
      "t": "warn",
@@ -145,11 +145,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 1.23094 vom 09.11.2026 (Quelle: Marktdaten 09.11.2026)."
+     "text": "Kursstand 1.22813 vom 12.11.2026 (Quelle: Marktdaten 09.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 2.4 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 2.3 Tages-ATR vom Limit entfernt."
     }
    ]
   },
@@ -185,16 +185,16 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 0.79214 vom 09.11.2026 (Quelle: Marktdaten 09.11.2026)."
+     "text": "Kursstand 0.79253 vom 12.11.2026 (Quelle: Marktdaten 09.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 3.5 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 3.7 Tages-ATR vom Limit entfernt."
     }
    ]
   }
  ],
- "pruefung_stand": "2026-11-12T06:31",
+ "pruefung_stand": "2026-11-12T10:30",
  "konflikte": {
   "AUD/JPY|long": "Du hast AUDCAD offen sowie Limits auf AUDNZD und AUDUSD. Mehr als 2 AUD-Positionen sind nach deiner Analyse zu viel: Streiche das AUDUSD-Limit oder halbiere es, bevor du AUD/JPY dazunimmst. Letzter AUD/JPY-Trade war am 07.09., die 5 Wochen Pause sind vorbei.",
   "NZD/JPY|long": "NZD/JPY und AUD/JPY zusammen sind eine doppelte Yen-Wette. Nimm lieber nur eine der beiden mit vollem Risiko.",
