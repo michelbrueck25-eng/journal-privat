@@ -2,46 +2,6 @@
  "typ": "privat",
  "pruefung": [
   {
-   "id": "muvkm47gobd4xj",
-   "paar": "EUR/USD",
-   "richtung": "long",
-   "status": "prüfen",
-   "art": "Läuft",
-   "zone": {
-    "zt": 1747008000000,
-    "zone": [
-     1.10751,
-     1.12296
-    ],
-    "entry": 1.12302,
-    "sl": 1.10603,
-    "tp": 1.14002,
-    "ebene": "W"
-   },
-   "checks": [
-    {
-     "t": "ok",
-     "text": "COT EUR 6M-Index 100 (Stand 03.11.2026): im passenden Extrembereich, USD 36."
-    },
-    {
-     "t": "warn",
-     "text": "Meine Einschätzung: abwarten mit Überzeugung 3 von 10, also nicht in deiner Richtung."
-    },
-    {
-     "t": "ok",
-     "text": "Kursstand 1.10955 vom 12.11.2026 (Quelle: Marktdaten 12.11.2026)."
-    },
-    {
-     "t": "ok",
-     "text": "Kurs ist 1.8 Tages-ATR vom Limit entfernt."
-    },
-    {
-     "t": "warn",
-     "text": "Die Zone ist eine einzelne Weekly-Kerze, erfüllt aber meine Orderblock-Definition nicht (keine Bewegung über 1 ATR mit Strukturbruch)."
-    }
-   ]
-  },
-  {
    "id": "mw7vephsidhmpa",
    "paar": "AUD/JPY",
    "richtung": "long",
@@ -69,11 +29,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 109.034 vom 12.11.2026 (Quelle: Marktdaten 12.11.2026)."
+     "text": "Kursstand 108.710 vom 13.11.2026 (Quelle: Marktdaten 13.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 2.2 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 1.9 Tages-ATR vom Limit entfernt."
     }
    ]
   },
@@ -105,11 +65,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 88.783 vom 12.11.2026 (Quelle: Marktdaten 12.11.2026)."
+     "text": "Kursstand 88.565 vom 13.11.2026 (Quelle: Marktdaten 13.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 1.0 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 0.7 Tages-ATR vom Limit entfernt."
     },
     {
      "t": "warn",
@@ -145,11 +105,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 1.22813 vom 12.11.2026 (Quelle: Marktdaten 12.11.2026)."
+     "text": "Kursstand 1.22707 vom 13.11.2026 (Quelle: Marktdaten 13.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 2.3 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 2.2 Tages-ATR vom Limit entfernt."
     }
    ]
   },
@@ -185,16 +145,16 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 0.79253 vom 12.11.2026 (Quelle: Marktdaten 12.11.2026)."
+     "text": "Kursstand 0.78907 vom 13.11.2026 (Quelle: Marktdaten 13.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 3.7 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 3.2 Tages-ATR vom Limit entfernt."
     }
    ]
   }
  ],
- "pruefung_stand": "2026-11-12T17:31",
+ "pruefung_stand": "2026-11-13T15:39",
  "konflikte": {
   "AUD/JPY|long": "Du hast AUDCAD offen sowie Limits auf AUDNZD und AUDUSD. Mehr als 2 AUD-Positionen sind nach deiner Analyse zu viel: Streiche das AUDUSD-Limit oder halbiere es, bevor du AUD/JPY dazunimmst. Letzter AUD/JPY-Trade war am 07.09., die 5 Wochen Pause sind vorbei.",
   "NZD/JPY|long": "NZD/JPY und AUD/JPY zusammen sind eine doppelte Yen-Wette. Nimm lieber nur eine der beiden mit vollem Risiko.",
