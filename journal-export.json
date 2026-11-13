@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-13T12:19:48.116Z",
+ "exportiert": "2026-11-13T12:21:45.712Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -5293,7 +5293,7 @@
   },
   {
    "source": "live",
-   "status": "offen",
+   "status": "geschlossen",
    "instrument": "EURUSD",
    "profile": "m1",
    "riskPct": 1,
@@ -5305,7 +5305,13 @@
    },
    "id": "muvkm47gobd4xj",
    "zone": "weekly",
-   "exits": [],
+   "exits": [
+    {
+     "share": 100,
+     "targetR": 1,
+     "r": -1
+    }
+   ],
    "accounts": [
     {
      "id": "amu5dpzt54g2e1e"
@@ -5315,7 +5321,7 @@
    "dir": "long",
    "entryDate": "2026-09-28",
    "emoBefore": "zuversichtlich",
-   "updatedAt": 1794299882061,
+   "updatedAt": 1794572388647,
    "createdAt": 1791224259951,
    "emoDuring": "ruhig",
    "emoLog": [
@@ -6026,10 +6032,687 @@
    "stop": 1.10603,
    "target": 1.14002,
    "mfe": 0.23,
-   "mae": -0.68,
+   "mae": -1,
    "peak": 0.23,
    "mfeDays": 1,
    "lots": 0.06,
+   "r": -1,
+   "exitReason": "SL",
+   "exitDate": "2026-11-12",
+   "days": 45,
+   "ctx": {
+    "from": "2026-09-21",
+    "to": "2026-11-19",
+    "curs": [
+     "EUR",
+     "USD"
+    ],
+    "ev": [
+     {
+      "d": "2026-09-30",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Kern-PCE m/m",
+      "actual": "0.2%",
+      "forecast": "0.3%",
+      "previous": "0.1%",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-01",
+      "time": "11:00",
+      "cur": "EUR",
+      "title": "Arbeitslosenquote",
+      "actual": "6.4%",
+      "forecast": "6.4%",
+      "previous": "6.4%",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-02",
+      "time": "11:00",
+      "cur": "EUR",
+      "title": "CPI y/y (Schnellschätzung)",
+      "actual": "3.8%",
+      "forecast": "3.7%",
+      "previous": "3.2%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-02",
+      "time": "11:00",
+      "cur": "EUR",
+      "title": "Kern-CPI y/y (Schnellschätzung)",
+      "actual": "2.5%",
+      "forecast": "2.5%",
+      "previous": "2.4%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-02",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Arbeitslosenquote",
+      "actual": "4.2%",
+      "forecast": "4.1%",
+      "previous": "4.1%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-02",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Durchschn. Stundenlöhne m/m",
+      "actual": "0.1%",
+      "forecast": "0.3%",
+      "previous": "0.3%",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-02",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Non-Farm Payrolls",
+      "actual": "29K",
+      "forecast": "89K",
+      "previous": "133K",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-05",
+      "time": "16:00",
+      "cur": "USD",
+      "title": "ISM-Dienstleistungen PMI",
+      "actual": "54.9",
+      "forecast": "55.1",
+      "previous": "55.4",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-06",
+      "time": "11:00",
+      "cur": "EUR",
+      "title": "Einzelhandelsumsätze m/m",
+      "actual": "0.1%",
+      "forecast": "0.2%",
+      "previous": "-0.6%",
+      "impact": "low",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-13",
+      "time": "08:00",
+      "cur": "EUR",
+      "title": "Deutschland HVPI y/y (final)",
+      "actual": "3.3%",
+      "forecast": "3.3%",
+      "previous": "2.9%",
+      "impact": "low",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-13",
+      "time": "08:00",
+      "cur": "EUR",
+      "title": "Deutschland CPI m/m (final)",
+      "actual": "0.6%",
+      "forecast": "0.6%",
+      "previous": "0.6%",
+      "impact": "low",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-13",
+      "time": "12:00",
+      "cur": "USD",
+      "title": "NFIB Small Business Index",
+      "actual": "97.9",
+      "forecast": "98.1",
+      "previous": "98.7",
+      "impact": "low",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-14",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "CPI m/m",
+      "actual": "0.6%",
+      "forecast": "0.6%",
+      "previous": "0.4%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-14",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "CPI y/y",
+      "actual": "3.7%",
+      "forecast": "3.6%",
+      "previous": "3.4%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-14",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Kern-CPI m/m",
+      "actual": "0.3%",
+      "forecast": "0.2%",
+      "previous": "0.3%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-14",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Kern-CPI y/y",
+      "actual": "2.6%",
+      "forecast": "2.5%",
+      "previous": "2.4%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-15",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "PPI m/m",
+      "actual": "1.3%",
+      "forecast": "0.6%",
+      "previous": "0.4%",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-15",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Einzelhandelsumsätze m/m",
+      "actual": "0.8%",
+      "forecast": "0.3%",
+      "previous": "1.2%",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-15",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Kern-Einzelhandelsumsätze m/m",
+      "actual": "0.9%",
+      "forecast": "0.5%",
+      "previous": "1.4%",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-16",
+      "time": "11:00",
+      "cur": "EUR",
+      "title": "CPI y/y (Endgültig)",
+      "actual": "3.8%",
+      "forecast": "3.8%",
+      "previous": "3.8%",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-16",
+      "time": "11:00",
+      "cur": "EUR",
+      "title": "Kern-CPI y/y (Endgültig)",
+      "actual": "2.5%",
+      "forecast": "2.5%",
+      "previous": "2.5%",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-22",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Erstanträge auf Arbeitslosenhilfe",
+      "actual": "194K",
+      "forecast": "200K",
+      "previous": "199K",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-23",
+      "time": "10:00",
+      "cur": "EUR",
+      "title": "Composite-PMI (vorläufig)",
+      "actual": "51.9",
+      "forecast": "52.7",
+      "previous": "53.1",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-23",
+      "time": "15:45",
+      "cur": "USD",
+      "title": "Composite-PMI (vorläufig)",
+      "actual": "57.6",
+      "forecast": "",
+      "previous": "58.4",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-26",
+      "time": "10:00",
+      "cur": "EUR",
+      "title": "Deutschland Ifo-Geschäftsklima",
+      "actual": "90.2",
+      "forecast": "90.0",
+      "previous": "89.9",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-27",
+      "time": "15:00",
+      "cur": "USD",
+      "title": "Verbrauchervertrauen (Conference Board)",
+      "actual": "91.7",
+      "forecast": "81.2",
+      "previous": "81.9",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-28",
+      "time": "19:00",
+      "cur": "USD",
+      "title": "Fed-Zinsentscheid (Obergrenze)",
+      "actual": "4.00%",
+      "forecast": "4.00%",
+      "previous": "4.00%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-29",
+      "time": "13:30",
+      "cur": "USD",
+      "title": "Kern-PCE m/m",
+      "actual": "0.3%",
+      "forecast": "0.3%",
+      "previous": "0.2%",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-29",
+      "time": "13:30",
+      "cur": "USD",
+      "title": "BIP q/q (1. Schätzung Q3)",
+      "actual": "3.4%",
+      "forecast": "3.2%",
+      "previous": "2.2%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-29",
+      "time": "13:30",
+      "cur": "USD",
+      "title": "Kern-PCE y/y",
+      "actual": "3.1%",
+      "forecast": "3.1%",
+      "previous": "3.0%",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-29",
+      "time": "14:15",
+      "cur": "EUR",
+      "title": "EZB-Zinsentscheid",
+      "actual": "2.65%",
+      "forecast": "2.65%",
+      "previous": "2.65%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-30",
+      "time": "08:00",
+      "cur": "EUR",
+      "title": "Deutschland BIP q/q (vorläufig Q3)",
+      "actual": "",
+      "forecast": "0.1%",
+      "previous": "0.3%",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-30",
+      "time": "11:00",
+      "cur": "EUR",
+      "title": "Arbeitslosenquote",
+      "actual": "",
+      "forecast": "6.4%",
+      "previous": "6.4%",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-30",
+      "time": "11:00",
+      "cur": "EUR",
+      "title": "BIP q/q (1. Schätzung Q3)",
+      "actual": "0.4%",
+      "forecast": "0.2%",
+      "previous": "0.6%",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-30",
+      "time": "14:00",
+      "cur": "EUR",
+      "title": "Deutschland HVPI y/y (vorläufig)",
+      "actual": "",
+      "forecast": "",
+      "previous": "3.3%",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-10-30",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Arbeitskostenindex q/q (Q3)",
+      "actual": "0.8%",
+      "forecast": "0.8%",
+      "previous": "0.9%",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-02",
+      "time": "16:00",
+      "cur": "USD",
+      "title": "ISM Manufacturing PMI",
+      "actual": "55.5",
+      "forecast": "54.7",
+      "previous": "54.5",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-04",
+      "time": "11:00",
+      "cur": "EUR",
+      "title": "CPI y/y (Schnellschätzung)",
+      "actual": "4.0%",
+      "forecast": "4.0%",
+      "previous": "3.8%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-04",
+      "time": "11:00",
+      "cur": "EUR",
+      "title": "Kern-CPI y/y (Schnellschätzung)",
+      "actual": "2.5%",
+      "forecast": "2.5%",
+      "previous": "2.5%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-04",
+      "time": "14:15",
+      "cur": "USD",
+      "title": "ADP Beschäftigung",
+      "actual": "86K",
+      "forecast": "65K",
+      "previous": "90K",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-04",
+      "time": "16:00",
+      "cur": "USD",
+      "title": "ISM Dienstleistungen PMI",
+      "actual": "54.5",
+      "forecast": "54.8",
+      "previous": "54.9",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-06",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Arbeitslosenquote",
+      "actual": "4.1%",
+      "forecast": "4.2%",
+      "previous": "4.2%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-06",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Durchschn. Stundenlöhne m/m",
+      "actual": "0.4%",
+      "forecast": "0.3%",
+      "previous": "0.3%",
+      "impact": "medium",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-06",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Non-Farm Payrolls",
+      "actual": "165K",
+      "forecast": "65K",
+      "previous": "60K",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-10",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "CPI m/m",
+      "actual": "0.4%",
+      "forecast": "0.3%",
+      "previous": "0.6%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-10",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "CPI y/y",
+      "actual": "",
+      "forecast": "3.9%",
+      "previous": "3.7%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-10",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Kern-CPI m/m",
+      "actual": "0.3%",
+      "forecast": "0.2%",
+      "previous": "0.3%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-10",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "Kern-CPI y/y",
+      "actual": "",
+      "forecast": "2.8%",
+      "previous": "2.6%",
+      "impact": "high",
+      "ph": 1
+     },
+     {
+      "d": "2026-11-13",
+      "time": "14:30",
+      "cur": "USD",
+      "title": "PPI m/m",
+      "actual": "",
+      "forecast": "0.4%",
+      "previous": "1.3%",
+      "impact": "medium",
+      "ph": 2
+     }
+    ],
+    "lage": [
+     {
+      "titel": "USA und China verlängern Zollwaffenruhe bis 10. Januar 2027",
+      "datum": "2026-10-05",
+      "eff": {
+       "USD": 0.5
+      }
+     },
+     {
+      "titel": "Fed hält bei 3,75 bis 4,00 Prozent, Abstimmung 10 zu 2, Cook und Hammack wollten erhöhen, Dezember-Erhöhung zu rund 80 Prozent (CME FedWatch 79,6 Prozent nach dem PCE) eingepreist",
+      "datum": "2026-10-28",
+      "eff": {
+       "USD": 0.3
+      }
+     },
+     {
+      "titel": "BoJ lässt Leitzins bei 1,25 Prozent, Abstimmung 8 zu 1 (Takata dagegen), hebt Inflationsprognose an, Yen legt zeitweise zu",
+      "datum": "2026-10-30",
+      "eff": {
+       "USD": -0.3
+      }
+     },
+     {
+      "titel": "Eurozone: BIP im dritten Quartal +0,4 Prozent, Prognose 0,2 Prozent",
+      "datum": "2026-10-30",
+      "eff": {
+       "EUR": 0.6,
+       "USD": -0.2
+      }
+     },
+     {
+      "titel": "Deutschland: Inflation (CPI) sinkt im Oktober auf 2,8 Prozent y/y",
+      "datum": "2026-10-30",
+      "eff": {
+       "EUR": -0.5,
+       "USD": 0.2
+      }
+     },
+     {
+      "titel": "Eurozone: Inflation steigt im Oktober auf 4,0 Prozent, Kern 2,5 Prozent, EZB-Erhöhung im Dezember wahrscheinlicher",
+      "datum": "2026-11-04",
+      "eff": {
+       "EUR": 1
+      }
+     },
+     {
+      "titel": "USA: Demokraten gewinnen laut Reuters beide Kammern, Öl steigt wieder, Iran-Gespräche offen",
+      "datum": "2026-11-04",
+      "eff": {
+       "USD": -1
+      }
+     },
+     {
+      "titel": "Gold springt über 4.000 Dollar, Dollar auf Ein-Monats-Tief nach Midterms, Fed-Erhöhung im Dezember zu etwa 83 Prozent eingepreist",
+      "datum": "2026-11-04",
+      "eff": {
+       "USD": -1.5,
+       "EUR": 0.5
+      }
+     },
+     {
+      "titel": "Wall Street und Europa steigen nach Midterms, Rendite fällt, Dollar schwach, Brent unter 102 Dollar",
+      "datum": "2026-11-04",
+      "eff": {
+       "USD": -1.5,
+       "EUR": 1
+      }
+     },
+     {
+      "titel": "Ölpreis bricht ein: Brent fällt 8,7 Prozent auf 94,62 Dollar, erstmals seit Ende August unter 100",
+      "datum": "2026-11-05",
+      "eff": {
+       "USD": -0.5,
+       "EUR": 0.5
+      }
+     },
+     {
+      "titel": "Tech-Crash: Nasdaq fällt 5,5 Prozent in die Korrektur, Dow minus 3,4 Prozent, Asien bricht heute ein, Yen gefragt",
+      "datum": "2026-11-06",
+      "eff": {
+       "USD": 0.5
+      }
+     },
+     {
+      "titel": "USA: Arbeitsmarkt Oktober deutlich stärker, 165.000 Stellen, Arbeitslosenquote 4,1 Prozent",
+      "datum": "2026-11-06",
+      "eff": {
+       "USD": 1.5
+      }
+     },
+     {
+      "titel": "Wochenschluss 6.11.: Brent 97,75 USD (Wochenverlust 13,6 Prozent, groesster seit Covid), Gold 4.079,50 USD (plus 5,0 Prozent), Silber 51,97 USD, EUR/USD 1,1140",
+      "datum": "2026-11-09",
+      "eff": {
+       "USD": 0.5,
+       "EUR": 0
+      }
+     },
+     {
+      "titel": "US-CPI Oktober ueber Erwartung (0,4 Prozent m/m, Kern 0,3 Prozent) und Fed-Gouverneur Waller haelt 50 Basispunkte im Dezember fuer denkbar. Dollar-Index plus 0,36 Prozent auf 102,04, Zweijahresrendite plus 12 Basispunkte auf 4,68 Prozent",
+      "datum": "2026-11-10",
+      "eff": {
+       "USD": 1.8,
+       "EUR": -0.6
+      }
+     },
+     {
+      "titel": "Dollar-Index plus 0,63 Prozent auf 102,85, hoechster Stand seit 14. Oktober. USD/JPY 159,58 knapp unter 160, EUR/USD 1,1099, GBP/USD 1,328, AUD/USD 0,6845, NZD/USD 0,5564. Goldman erwartet nach Dezember eine weitere Fed-Erhoehung Anfang 2027",
+      "datum": "2026-11-12",
+      "eff": {
+       "USD": 1.5,
+       "EUR": -0.8
+      }
+     },
+     {
+      "titel": "Dollar-Index 103,02, hoechster Stand seit April 2025. USD/JPY 159,83, EUR/USD 1,1096, GBP/USD 1,3266, AUD/USD 0,6847, NZD/USD 0,5559. BoJ-Mitglied Asada spricht sich gegen eine baldige Zinserhoehung aus, das schwaecht den Yen trotz der Warnung aus dem Finanzministerium",
+      "datum": "2026-11-12",
+      "eff": {
+       "USD": 1.5,
+       "EUR": -0.8
+      }
+     }
+    ],
+    "at": "2026-11-13"
+   },
    "bilder": 0
   },
   {
