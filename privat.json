@@ -5,7 +5,7 @@
    "id": "mw7vephsidhmpa",
    "paar": "AUD/JPY",
    "richtung": "long",
-   "status": "valide",
+   "status": "prüfen",
    "art": "Limit",
    "zone": {
     "zt": 1769472000000,
@@ -22,6 +22,10 @@
     {
      "t": "ok",
      "text": "COT AUD 6M-Index 99 (Stand 03.11.2026): im passenden Extrembereich, JPY 8 bestätigt gegenläufig."
+    },
+    {
+     "t": "warn",
+     "text": "Termine in den nächsten 5 Tagen: 19.11. 01:30 Arbeitslosenquote, 19.11. 01:30 Beschäftigungsänderung."
     },
     {
      "t": "ok",
@@ -101,6 +105,10 @@
     },
     {
      "t": "warn",
+     "text": "Termine in den nächsten 5 Tagen: 19.11. 01:30 Arbeitslosenquote, 19.11. 01:30 Beschäftigungsänderung."
+    },
+    {
+     "t": "warn",
      "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
     },
     {
@@ -154,7 +162,7 @@
    ]
   }
  ],
- "pruefung_stand": "2026-11-13T17:41",
+ "pruefung_stand": "2026-11-14T06:30",
  "konflikte": {
   "AUD/JPY|long": "Du hast AUDCAD offen sowie Limits auf AUDNZD und AUDUSD. Mehr als 2 AUD-Positionen sind nach deiner Analyse zu viel: Streiche das AUDUSD-Limit oder halbiere es, bevor du AUD/JPY dazunimmst. Letzter AUD/JPY-Trade war am 07.09., die 5 Wochen Pause sind vorbei.",
   "NZD/JPY|long": "NZD/JPY und AUD/JPY zusammen sind eine doppelte Yen-Wette. Nimm lieber nur eine der beiden mit vollem Risiko.",
