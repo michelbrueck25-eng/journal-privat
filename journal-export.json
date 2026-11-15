@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-15T13:41:33.163Z",
+ "exportiert": "2026-11-15T13:53:28.359Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -6581,9 +6581,9 @@
       "time": "14:30",
       "cur": "USD",
       "title": "PPI m/m",
-      "actual": "",
+      "actual": "0.3%",
       "forecast": "0.4%",
-      "previous": "1.3%",
+      "previous": "1.4%",
       "impact": "medium",
       "ph": 2
      }
@@ -6601,29 +6601,6 @@
       "datum": "2026-10-28",
       "eff": {
        "USD": 0.3
-      }
-     },
-     {
-      "titel": "BoJ lässt Leitzins bei 1,25 Prozent, Abstimmung 8 zu 1 (Takata dagegen), hebt Inflationsprognose an, Yen legt zeitweise zu",
-      "datum": "2026-10-30",
-      "eff": {
-       "USD": -0.3
-      }
-     },
-     {
-      "titel": "Eurozone: BIP im dritten Quartal +0,4 Prozent, Prognose 0,2 Prozent",
-      "datum": "2026-10-30",
-      "eff": {
-       "EUR": 0.6,
-       "USD": -0.2
-      }
-     },
-     {
-      "titel": "Deutschland: Inflation (CPI) sinkt im Oktober auf 2,8 Prozent y/y",
-      "datum": "2026-10-30",
-      "eff": {
-       "EUR": -0.5,
-       "USD": 0.2
       }
      },
      {
@@ -6687,31 +6664,22 @@
       }
      },
      {
-      "titel": "US-CPI Oktober ueber Erwartung (0,4 Prozent m/m, Kern 0,3 Prozent) und Fed-Gouverneur Waller haelt 50 Basispunkte im Dezember fuer denkbar. Dollar-Index plus 0,36 Prozent auf 102,04, Zweijahresrendite plus 12 Basispunkte auf 4,68 Prozent",
-      "datum": "2026-11-10",
+      "titel": "USD/JPY ueber 160, erstmals seit September, danach 159,89. Finanzministerin Katayama warnt, nennt 160 aber ausdruecklich keinen offiziellen Ausloeser. Juli-Hoch 163,99 loeste damals die gemeinsame Intervention aus. US-Zweijahresrendite 4,86 Prozent nach plus 34 Basispunkten in zwei Sitzungen",
+      "datum": "2026-11-13",
       "eff": {
-       "USD": 1.8,
-       "EUR": -0.6
+       "USD": 0.5
       }
      },
      {
-      "titel": "Dollar-Index plus 0,63 Prozent auf 102,85, hoechster Stand seit 14. Oktober. USD/JPY 159,58 knapp unter 160, EUR/USD 1,1099, GBP/USD 1,328, AUD/USD 0,6845, NZD/USD 0,5564. Goldman erwartet nach Dezember eine weitere Fed-Erhoehung Anfang 2027",
-      "datum": "2026-11-12",
-      "eff": {
-       "USD": 1.5,
-       "EUR": -0.8
-      }
-     },
-     {
-      "titel": "Dollar-Index 103,02, hoechster Stand seit April 2025. USD/JPY 159,83, EUR/USD 1,1096, GBP/USD 1,3266, AUD/USD 0,6847, NZD/USD 0,5559. BoJ-Mitglied Asada spricht sich gegen eine baldige Zinserhoehung aus, das schwaecht den Yen trotz der Warnung aus dem Finanzministerium",
-      "datum": "2026-11-12",
+      "titel": "Wochenschluss 13.11.: Dollar-Index 103,21 und damit plus 0,9 Prozent auf Wochensicht, die beste Woche seit September. EUR/USD 1,1053 (minus 0,8 Prozent in der Woche, tiefster Stand seit April 2025), AUD/USD 0,6789 und schwaechste G10-Waehrung mit minus 3,4 Prozent im Monat, USD/JPY 159,99. Zweijahresrendite plus 34 Basispunkte auf 4,86 Prozent",
+      "datum": "2026-11-14",
       "eff": {
        "USD": 1.5,
        "EUR": -0.8
       }
      }
     ],
-    "at": "2026-11-13"
+    "at": "2026-11-15"
    },
    "bilder": 0
   },
