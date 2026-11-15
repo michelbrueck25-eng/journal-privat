@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-15T19:06:53.843Z",
+ "exportiert": "2026-11-15T19:07:53.845Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -5309,19 +5309,20 @@
     {
      "share": 100,
      "targetR": 1,
-     "r": -1
+     "r": -0.43
     }
    ],
    "accounts": [
     {
-     "id": "amu5dpzt54g2e1e"
+     "id": "amu5dpzt54g2e1e",
+     "swap": -27
     }
    ],
    "analysisDate": "2026-09-28",
    "dir": "long",
    "entryDate": "2026-09-28",
    "emoBefore": "zuversichtlich",
-   "updatedAt": 1794572388647,
+   "updatedAt": 1794769622071,
    "createdAt": 1791224259951,
    "emoDuring": "ruhig",
    "emoLog": [
@@ -6036,7 +6037,7 @@
    "peak": 0.23,
    "mfeDays": 1,
    "lots": 0.06,
-   "r": -1,
+   "r": -0.43,
    "exitReason": "SL",
    "exitDate": "2026-11-12",
    "days": 45,
@@ -55669,7 +55670,7 @@
    ],
    "ctx": {
     "from": "2026-10-07",
-    "to": "2026-12-02",
+    "to": "2026-11-16",
     "curs": [
      "GBP",
      "CAD",
@@ -56099,11 +56100,11 @@
       "time": "14:30",
       "cur": "USD",
       "title": "CPI m/m",
-      "actual": "",
-      "forecast": "",
-      "previous": "",
+      "actual": "0.4%",
+      "forecast": "0.3%",
+      "previous": "0.6%",
       "impact": "high",
-      "ph": 1
+      "ph": 2
      },
      {
       "d": "2026-11-10",
@@ -56111,21 +56112,21 @@
       "cur": "USD",
       "title": "CPI y/y",
       "actual": "",
-      "forecast": "",
-      "previous": "",
+      "forecast": "3.9%",
+      "previous": "3.7%",
       "impact": "high",
-      "ph": 1
+      "ph": 2
      },
      {
       "d": "2026-11-10",
       "time": "14:30",
       "cur": "USD",
       "title": "Kern-CPI m/m",
-      "actual": "",
-      "forecast": "",
-      "previous": "",
+      "actual": "0.3%",
+      "forecast": "0.2%",
+      "previous": "0.3%",
       "impact": "high",
-      "ph": 1
+      "ph": 2
      },
      {
       "d": "2026-11-10",
@@ -56133,10 +56134,10 @@
       "cur": "USD",
       "title": "Kern-CPI y/y",
       "actual": "",
-      "forecast": "",
-      "previous": "",
+      "forecast": "2.8%",
+      "previous": "2.6%",
       "impact": "high",
-      "ph": 1
+      "ph": 2
      },
      {
       "d": "2026-11-12",
@@ -56144,21 +56145,21 @@
       "cur": "GBP",
       "title": "BIP q/q (Q3",
       "actual": "vorläufig)",
-      "forecast": "",
-      "previous": "",
+      "forecast": "0.7%",
+      "previous": "0.7%",
       "impact": "medium",
-      "ph": 1
+      "ph": 2
      },
      {
       "d": "2026-11-13",
       "time": "14:30",
       "cur": "USD",
       "title": "PPI m/m",
-      "actual": "",
-      "forecast": "",
-      "previous": "",
+      "actual": "0.3%",
+      "forecast": "0.4%",
+      "previous": "1.4%",
       "impact": "medium",
-      "ph": 1
+      "ph": 2
      },
      {
       "d": "2026-11-16",
@@ -56169,7 +56170,7 @@
       "forecast": "",
       "previous": "",
       "impact": "high",
-      "ph": 1
+      "ph": 2
      },
      {
       "d": "2026-11-16",
@@ -56180,7 +56181,7 @@
       "forecast": "",
       "previous": "",
       "impact": "high",
-      "ph": 1
+      "ph": 2
      },
      {
       "d": "2026-11-16",
@@ -56191,7 +56192,7 @@
       "forecast": "",
       "previous": "",
       "impact": "high",
-      "ph": 1
+      "ph": 2
      },
      {
       "d": "2026-11-16",
@@ -56202,46 +56203,10 @@
       "forecast": "",
       "previous": "",
       "impact": "medium",
-      "ph": 1
-     },
-     {
-      "d": "2026-11-18",
-      "time": "08:00",
-      "cur": "GBP",
-      "title": "Kern-CPI y/y",
-      "actual": "",
-      "forecast": "",
-      "previous": "",
-      "impact": "high",
-      "ph": 1
-     },
-     {
-      "d": "2026-11-25",
-      "time": "14:30",
-      "cur": "USD",
-      "title": "Kern-PCE m/m",
-      "actual": "",
-      "forecast": "",
-      "previous": "",
-      "impact": "medium",
-      "ph": 1
+      "ph": 2
      }
     ],
     "lage": [
-     {
-      "titel": "Brasilien: Lula gewinnt die Stichwahl mit rund 51,8 Prozent gegen Flávio Bolsonaro, Märkte öffnen am Montag",
-      "datum": "2026-10-26",
-      "eff": {
-       "USD": 0.5
-      }
-     },
-     {
-      "titel": "Japan: Finanzministerin Katayama kündigt entschlossene Maßnahmen am Devisenmarkt an, USD/JPY über 157,50",
-      "datum": "2026-10-27",
-      "eff": {
-       "USD": -0.5
-      }
-     },
      {
       "titel": "BoC erhöht den Leitzins um 25 Basispunkte auf 2,50 Prozent, weitere Schritte möglich, nächster Entscheid 9.12.",
       "datum": "2026-10-28",
@@ -56257,97 +56222,10 @@
       }
      },
      {
-      "titel": "US-PCE September: Gesamt 3,6 Prozent y/y (Vormonat 3,4), Kern 3,1 Prozent y/y und 0,3 Prozent m/m, jeweils wie erwartet, BIP Q3 3,4 Prozent, Dezember-Erhöhung der Fed zu rund 80 Prozent eingepreist, Gewichtung ist eine Schätzung",
-      "datum": "2026-10-29",
-      "eff": {
-       "USD": 1
-      }
-     },
-     {
-      "titel": "BoJ lässt Leitzins bei 1,25 Prozent, Abstimmung 8 zu 1 (Takata dagegen), hebt Inflationsprognose an, Yen legt zeitweise zu",
-      "datum": "2026-10-30",
-      "eff": {
-       "USD": -0.3
-      }
-     },
-     {
-      "titel": "Eurozone: BIP im dritten Quartal +0,4 Prozent, Prognose 0,2 Prozent",
-      "datum": "2026-10-30",
-      "eff": {
-       "USD": -0.2
-      }
-     },
-     {
-      "titel": "Deutschland: Inflation (CPI) sinkt im Oktober auf 2,8 Prozent y/y",
-      "datum": "2026-10-30",
-      "eff": {
-       "USD": 0.2
-      }
-     },
-     {
-      "titel": "Wall Street Freitag: Nasdaq -2,9 Prozent, S&P 500 -1,8 Prozent, Ausverkauf bei KI-Aktien, Intel fällt fast 30 Prozent",
-      "datum": "2026-11-02",
-      "eff": {
-       "USD": 0.5
-      }
-     },
-     {
-      "titel": "Hormus: Tanker von Haftminen getroffen, Brent bei 117,64 USD (+2,4 Prozent am Freitag, rund +14 Prozent im Oktober)",
-      "datum": "2026-11-02",
-      "eff": {
-       "CAD": 0.5,
-       "USD": 0.2
-      }
-     },
-     {
-      "titel": "US-Industrie: ISM Manufacturing im Oktober 55,5 statt 54,7 erwartet",
-      "datum": "2026-11-02",
-      "eff": {
-       "USD": 0.5
-      }
-     },
-     {
-      "titel": "Brent faellt am Montag um rund 7,6 Prozent auf 104,77 USD, WTI -7,4 Prozent auf 96,46 USD: Hoffnung auf US-Iran-Verhandlungen (Trump-Aussagen, Gespraeche Iran-Katar)",
-      "datum": "2026-11-03",
-      "eff": {
-       "CAD": -1,
-       "USD": -0.2
-      }
-     },
-     {
-      "titel": "Fed-Zinserwartung: Dezember-Erhoehung um 25 Basispunkte zu 76,6 Prozent eingepreist (Vortag 70,7), 2-jaehrige Rendite 4,59 Prozent, Fed bei 3,75 bis 4,00 Prozent mit zwei Gegenstimmen fuer sofortige Erhoehung",
-      "datum": "2026-11-03",
-      "eff": {
-       "USD": 0.5
-      }
-     },
-     {
-      "titel": "US-Angriff auf Qeshm (Iran) Stunden nach dem 7,6-Prozent-Absturz von Brent, Oelpreis laut Schlagzeilen wieder gestuetzt, CAD erholt",
-      "datum": "2026-11-03",
-      "eff": {
-       "CAD": 0.5,
-       "USD": 0.2
-      }
-     },
-     {
-      "titel": "USA: ADP-Beschäftigung Oktober +86.000, leicht über Erwartung",
-      "datum": "2026-11-04",
-      "eff": {
-       "USD": 0.5
-      }
-     },
-     {
       "titel": "USA: Demokraten gewinnen laut Reuters beide Kammern, Öl steigt wieder, Iran-Gespräche offen",
       "datum": "2026-11-04",
       "eff": {
        "USD": -1
-      }
-     },
-     {
-      "titel": "USA: ISM Dienstleistungen Oktober 54,5, leicht unter Erwartung",
-      "datum": "2026-11-04",
-      "eff": {
-       "USD": -0.5
       }
      },
      {
@@ -56411,22 +56289,28 @@
       }
      },
      {
-      "titel": "Fed-Zinserwartung: Dezember-Erhoehung nach den starken Arbeitsmarktdaten (165.000 Stellen, Arbeitslosenquote 4,1 Prozent) bei rund 78 Prozent",
-      "datum": "2026-11-09",
+      "titel": "Britisches BIP im dritten Quartal plus 0,7 Prozent zum Vorquartal, wie erwartet, nach 0,5 Prozent im zweiten Quartal. Einige Oekonomen erwarten im Schlussquartal weniger Wachstum wegen hoher Energiepreise und Kreditkosten",
+      "datum": "2026-11-12",
       "eff": {
-       "USD": 0.8
+       "GBP": 0.4
       }
      },
      {
-      "titel": "USA: Mittwoch 11.11. Veterans Day, Banken und Anleihemarkt geschlossen, Aktienboerse offen, dazu BoE-Chef Bailey spricht heute um 18:25 Berlin",
-      "datum": "2026-11-09",
+      "titel": "USD/JPY ueber 160, erstmals seit September, danach 159,89. Finanzministerin Katayama warnt, nennt 160 aber ausdruecklich keinen offiziellen Ausloeser. Juli-Hoch 163,99 loeste damals die gemeinsame Intervention aus. US-Zweijahresrendite 4,86 Prozent nach plus 34 Basispunkten in zwei Sitzungen",
+      "datum": "2026-11-13",
       "eff": {
-       "USD": 0,
-       "GBP": 0.5
+       "USD": 0.5
+      }
+     },
+     {
+      "titel": "Wochenschluss 13.11.: Dollar-Index 103,21 und damit plus 0,9 Prozent auf Wochensicht, die beste Woche seit September. EUR/USD 1,1053 (minus 0,8 Prozent in der Woche, tiefster Stand seit April 2025), AUD/USD 0,6789 und schwaechste G10-Waehrung mit minus 3,4 Prozent im Monat, USD/JPY 159,99. Zweijahresrendite plus 34 Basispunkte auf 4,86 Prozent",
+      "datum": "2026-11-14",
+      "eff": {
+       "USD": 1.5
       }
      }
     ],
-    "at": "2026-11-09"
+    "at": "2026-11-15"
    },
    "emoAfter": "zuversichtlich",
    "emoLog": [
