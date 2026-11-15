@@ -25,7 +25,7 @@
     },
     {
      "t": "warn",
-     "text": "Termine in den nächsten 5 Tagen: 19.11. 01:30 Arbeitslosenquote, 19.11. 01:30 Beschäftigungsänderung."
+     "text": "Termine in den nächsten 5 Tagen: 19.11. 01:30 Arbeitslosenquote, 19.11. 01:30 Beschäftigungsänderung, 20.11. 00:30 Kern-CPI y/y (landesweit)."
     },
     {
      "t": "ok",
@@ -33,11 +33,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 108.710 vom 13.11.2026 (Quelle: Marktdaten 13.11.2026)."
+     "text": "Kursstand 108.216 vom 15.11.2026 (Quelle: Marktdaten 13.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 1.9 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 1.4 Tages-ATR vom Limit entfernt."
     }
    ]
   },
@@ -64,16 +64,20 @@
      "text": "COT NZD 6M-Index 92 (Stand 03.11.2026): im passenden Extrembereich, JPY 8 bestätigt gegenläufig."
     },
     {
+     "t": "warn",
+     "text": "Termine in den nächsten 5 Tagen: 20.11. 00:30 Kern-CPI y/y (landesweit)."
+    },
+    {
      "t": "ok",
      "text": "Meine Einschätzung: long mit Überzeugung 6 von 10."
     },
     {
      "t": "ok",
-     "text": "Kursstand 88.565 vom 13.11.2026 (Quelle: Marktdaten 13.11.2026)."
+     "text": "Kursstand 88.189 vom 15.11.2026 (Quelle: Marktdaten 13.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 0.7 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 0.1 Tages-ATR vom Limit entfernt."
     },
     {
      "t": "warn",
@@ -113,11 +117,11 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 1.22707 vom 13.11.2026 (Quelle: Marktdaten 13.11.2026)."
+     "text": "Kursstand 1.22711 vom 15.11.2026 (Quelle: Marktdaten 13.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 2.2 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 2.4 Tages-ATR vom Limit entfernt."
     }
    ]
   },
@@ -153,16 +157,16 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 0.78907 vom 13.11.2026 (Quelle: Marktdaten 13.11.2026)."
+     "text": "Kursstand 0.78792 vom 15.11.2026 (Quelle: Marktdaten 13.11.2026)."
     },
     {
      "t": "ok",
-     "text": "Kurs ist 3.2 Tages-ATR vom Limit entfernt."
+     "text": "Kurs ist 3.5 Tages-ATR vom Limit entfernt."
     }
    ]
   }
  ],
- "pruefung_stand": "2026-11-14T20:10",
+ "pruefung_stand": "2026-11-15T20:11",
  "konflikte": {
   "AUD/JPY|long": "Du hast AUDCAD offen sowie Limits auf AUDNZD und AUDUSD. Mehr als 2 AUD-Positionen sind nach deiner Analyse zu viel: Streiche das AUDUSD-Limit oder halbiere es, bevor du AUD/JPY dazunimmst. Letzter AUD/JPY-Trade war am 07.09., die 5 Wochen Pause sind vorbei.",
   "NZD/JPY|long": "NZD/JPY und AUD/JPY zusammen sind eine doppelte Yen-Wette. Nimm lieber nur eine der beiden mit vollem Risiko.",
