@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-16T06:13:37.848Z",
+ "exportiert": "2026-11-16T06:17:37.988Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -134892,9 +134892,10 @@
      "id": "amu5dpzt54g2e1e"
     }
    ],
-   "limitSet": false,
-   "updatedAt": 1794776673189,
+   "limitSet": true,
+   "updatedAt": 1794809841518,
    "createdAt": 1794776673189,
+   "limitAt": 1794809841518,
    "bilder": 0
   },
   {
@@ -135127,9 +135128,10 @@
      "id": "amu5dpzt54g2e1e"
     }
    ],
-   "limitSet": false,
-   "updatedAt": 1794776794522,
+   "limitSet": true,
+   "updatedAt": 1794809815372,
    "createdAt": 1794776794522,
+   "limitAt": 1794809815372,
    "bilder": 0
   }
  ],
