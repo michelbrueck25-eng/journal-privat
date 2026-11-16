@@ -32,8 +32,12 @@
      "text": "Meine Einschätzung: long mit Überzeugung 7 von 10."
     },
     {
+     "t": "warn",
+     "text": "3 AUD-Positionen gleichzeitig, nach deiner Analyse sind mehr als 2 zu viel."
+    },
+    {
      "t": "ok",
-     "text": "Kursstand 108.216 vom 15.11.2026 (Quelle: Marktdaten 13.11.2026)."
+     "text": "Kursstand 108.216 vom 15.11.2026 (Quelle: Marktdaten 15.11.2026)."
     },
     {
      "t": "ok",
@@ -73,7 +77,7 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 88.189 vom 15.11.2026 (Quelle: Marktdaten 13.11.2026)."
+     "text": "Kursstand 88.189 vom 15.11.2026 (Quelle: Marktdaten 15.11.2026)."
     },
     {
      "t": "ok",
@@ -82,46 +86,6 @@
     {
      "t": "warn",
      "text": "Die Zone ist eine einzelne Weekly-Kerze, erfüllt aber meine Orderblock-Definition nicht (keine Bewegung über 1 ATR mit Strukturbruch)."
-    }
-   ]
-  },
-  {
-   "id": "mvdw1hkq56f3zc",
-   "paar": "AUD/NZD",
-   "richtung": "long",
-   "status": "prüfen",
-   "art": "Limit",
-   "zone": {
-    "zt": 1785715200000,
-    "zone": [
-     1.1913,
-     1.21021
-    ],
-    "entry": 1.21047,
-    "sl": 1.18938,
-    "tp": 1.23155,
-    "ebene": "W"
-   },
-   "checks": [
-    {
-     "t": "ok",
-     "text": "COT AUD 6M-Index 99 (Stand 03.11.2026): im passenden Extrembereich, NZD 92."
-    },
-    {
-     "t": "warn",
-     "text": "Termine in den nächsten 5 Tagen: 19.11. 01:30 Arbeitslosenquote, 19.11. 01:30 Beschäftigungsänderung."
-    },
-    {
-     "t": "warn",
-     "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
-    },
-    {
-     "t": "ok",
-     "text": "Kursstand 1.22711 vom 15.11.2026 (Quelle: Marktdaten 13.11.2026)."
-    },
-    {
-     "t": "ok",
-     "text": "Kurs ist 2.4 Tages-ATR vom Limit entfernt."
     }
    ]
   },
@@ -157,16 +121,180 @@
     },
     {
      "t": "ok",
-     "text": "Kursstand 0.78792 vom 15.11.2026 (Quelle: Marktdaten 13.11.2026)."
+     "text": "Kursstand 0.78792 vom 15.11.2026 (Quelle: Marktdaten 15.11.2026)."
     },
     {
      "t": "ok",
      "text": "Kurs ist 3.5 Tages-ATR vom Limit entfernt."
     }
    ]
+  },
+  {
+   "id": "mwibgszthe3ore",
+   "paar": "EUR/CHF",
+   "richtung": "long",
+   "status": "valide",
+   "art": "Limit",
+   "zone": {
+    "zt": 1794009600000,
+    "zone": [
+     0.91216,
+     0.91534
+    ],
+    "entry": 0.91536,
+    "sl": 0.91184,
+    "tp": 0.92241,
+    "ebene": "D"
+   },
+   "checks": [
+    {
+     "t": "ok",
+     "text": "COT EUR 6M-Index 100 (Stand 03.11.2026): im passenden Extrembereich, CHF 0 bestätigt gegenläufig."
+    },
+    {
+     "t": "ok",
+     "text": "Meine Einschätzung: long mit Überzeugung 5 von 10."
+    },
+    {
+     "t": "ok",
+     "text": "Kursstand 0.92367 vom 15.11.2026 (Quelle: Marktdaten 15.11.2026)."
+    },
+    {
+     "t": "ok",
+     "text": "Kurs ist 2.0 Tages-ATR vom Limit entfernt."
+    }
+   ]
+  },
+  {
+   "id": "mwibotdnetx4nm",
+   "paar": "AUD/CAD",
+   "richtung": "long",
+   "status": "prüfen",
+   "art": "Limit",
+   "zone": {
+    "zt": 1774828800000,
+    "zone": [
+     0.95109,
+     0.95592
+    ],
+    "entry": 0.95595,
+    "sl": 0.95065,
+    "tp": 0.96655,
+    "ebene": "D"
+   },
+   "checks": [
+    {
+     "t": "ok",
+     "text": "COT AUD 6M-Index 99 (Stand 03.11.2026): im passenden Extrembereich, CAD 20 bestätigt gegenläufig."
+    },
+    {
+     "t": "warn",
+     "text": "Termine in den nächsten 5 Tagen: 16.11. 14:30 CPI m/m, 19.11. 01:30 Arbeitslosenquote, 19.11. 01:30 Beschäftigungsänderung."
+    },
+    {
+     "t": "ok",
+     "text": "Meine Einschätzung: long mit Überzeugung 4 von 10."
+    },
+    {
+     "t": "warn",
+     "text": "3 AUD-Positionen gleichzeitig, nach deiner Analyse sind mehr als 2 zu viel."
+    },
+    {
+     "t": "ok",
+     "text": "Kursstand 0.96682 vom 15.11.2026 (Quelle: Marktdaten 15.11.2026)."
+    },
+    {
+     "t": "ok",
+     "text": "Kurs ist 1.8 Tages-ATR vom Limit entfernt."
+    }
+   ]
+  },
+  {
+   "id": "mwibrfdxncf1fv",
+   "paar": "AUD/USD",
+   "richtung": "long",
+   "status": "prüfen",
+   "art": "Limit",
+   "zone": {
+    "zt": 1767916800000,
+    "zone": [
+     0.66651,
+     0.67037
+    ],
+    "entry": 0.6704,
+    "sl": 0.66623,
+    "tp": 0.67873,
+    "ebene": "D"
+   },
+   "checks": [
+    {
+     "t": "ok",
+     "text": "COT AUD 6M-Index 99 (Stand 03.11.2026): im passenden Extrembereich, USD 36."
+    },
+    {
+     "t": "warn",
+     "text": "Termine in den nächsten 5 Tagen: 19.11. 01:30 Arbeitslosenquote, 19.11. 01:30 Beschäftigungsänderung."
+    },
+    {
+     "t": "warn",
+     "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
+    },
+    {
+     "t": "warn",
+     "text": "3 AUD-Positionen gleichzeitig, nach deiner Analyse sind mehr als 2 zu viel."
+    },
+    {
+     "t": "ok",
+     "text": "Kursstand 0.67771 vom 15.11.2026 (Quelle: Marktdaten 15.11.2026)."
+    },
+    {
+     "t": "ok",
+     "text": "Kurs ist 1.5 Tages-ATR vom Limit entfernt."
+    }
+   ]
+  },
+  {
+   "id": "mwibtvh7hhwfmn",
+   "paar": "CAD/CHF",
+   "richtung": "short",
+   "status": "prüfen",
+   "art": "Limit",
+   "zone": {
+    "zt": 1793232000000,
+    "zone": [
+     0.59008,
+     0.59295
+    ],
+    "entry": 0.59008,
+    "sl": 0.59324,
+    "tp": 0.58377,
+    "ebene": "D"
+   },
+   "checks": [
+    {
+     "t": "ok",
+     "text": "COT CAD 6M-Index 20 (Stand 03.11.2026): im passenden Extrembereich, CHF 0."
+    },
+    {
+     "t": "warn",
+     "text": "Termine in den nächsten 5 Tagen: 16.11. 14:30 CPI m/m."
+    },
+    {
+     "t": "warn",
+     "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
+    },
+    {
+     "t": "ok",
+     "text": "Kursstand 0.58739 vom 15.11.2026 (Quelle: Marktdaten 15.11.2026)."
+    },
+    {
+     "t": "ok",
+     "text": "Kurs ist 0.8 Tages-ATR vom Limit entfernt."
+    }
+   ]
   }
  ],
- "pruefung_stand": "2026-11-15T20:11",
+ "pruefung_stand": "2026-11-16T06:30",
  "konflikte": {
   "AUD/JPY|long": "Du hast AUDCAD offen sowie Limits auf AUDNZD und AUDUSD. Mehr als 2 AUD-Positionen sind nach deiner Analyse zu viel: Streiche das AUDUSD-Limit oder halbiere es, bevor du AUD/JPY dazunimmst. Letzter AUD/JPY-Trade war am 07.09., die 5 Wochen Pause sind vorbei.",
   "NZD/JPY|long": "NZD/JPY und AUD/JPY zusammen sind eine doppelte Yen-Wette. Nimm lieber nur eine der beiden mit vollem Risiko.",
