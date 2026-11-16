@@ -2,50 +2,6 @@
  "typ": "privat",
  "pruefung": [
   {
-   "id": "mw7vephsidhmpa",
-   "paar": "AUD/JPY",
-   "richtung": "long",
-   "status": "prüfen",
-   "art": "Limit",
-   "zone": {
-    "zt": 1769472000000,
-    "zone": [
-     106.11189,
-     107.08862
-    ],
-    "entry": 107.09096,
-    "sl": 106.02907,
-    "tp": 109.21476,
-    "ebene": "W"
-   },
-   "checks": [
-    {
-     "t": "ok",
-     "text": "COT AUD 6M-Index 99 (Stand 03.11.2026): im passenden Extrembereich, JPY 8 bestätigt gegenläufig."
-    },
-    {
-     "t": "warn",
-     "text": "Termine in den nächsten 5 Tagen: 19.11. 01:30 Arbeitslosenquote, 19.11. 01:30 Beschäftigungsänderung, 20.11. 00:30 Kern-CPI y/y (landesweit)."
-    },
-    {
-     "t": "ok",
-     "text": "Meine Einschätzung: long mit Überzeugung 7 von 10."
-    },
-    {
-     "t": "warn",
-     "text": "3 AUD-Positionen gleichzeitig, nach deiner Analyse sind mehr als 2 zu viel."
-    },
-    {
-     "t": "ok",
-     "text": "Kursstand 108.216 vom 15.11.2026 (Quelle: Marktdaten 15.11.2026)."
-    },
-    {
-     "t": "ok",
-     "text": "Kurs ist 1.4 Tages-ATR vom Limit entfernt."
-    }
-   ]
-  },
-  {
    "id": "mvnskgcpurrrm4",
    "paar": "NZD/JPY",
    "richtung": "long",
@@ -196,10 +152,6 @@
      "text": "Meine Einschätzung: long mit Überzeugung 4 von 10."
     },
     {
-     "t": "warn",
-     "text": "3 AUD-Positionen gleichzeitig, nach deiner Analyse sind mehr als 2 zu viel."
-    },
-    {
      "t": "ok",
      "text": "Kursstand 0.96682 vom 15.11.2026 (Quelle: Marktdaten 15.11.2026)."
     },
@@ -240,10 +192,6 @@
      "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
     },
     {
-     "t": "warn",
-     "text": "3 AUD-Positionen gleichzeitig, nach deiner Analyse sind mehr als 2 zu viel."
-    },
-    {
      "t": "ok",
      "text": "Kursstand 0.67771 vom 15.11.2026 (Quelle: Marktdaten 15.11.2026)."
     },
@@ -252,49 +200,9 @@
      "text": "Kurs ist 1.5 Tages-ATR vom Limit entfernt."
     }
    ]
-  },
-  {
-   "id": "mwibtvh7hhwfmn",
-   "paar": "CAD/CHF",
-   "richtung": "short",
-   "status": "prüfen",
-   "art": "Limit",
-   "zone": {
-    "zt": 1793232000000,
-    "zone": [
-     0.59008,
-     0.59295
-    ],
-    "entry": 0.59008,
-    "sl": 0.59324,
-    "tp": 0.58377,
-    "ebene": "D"
-   },
-   "checks": [
-    {
-     "t": "ok",
-     "text": "COT CAD 6M-Index 20 (Stand 03.11.2026): im passenden Extrembereich, CHF 0."
-    },
-    {
-     "t": "warn",
-     "text": "Termine in den nächsten 5 Tagen: 16.11. 14:30 CPI m/m."
-    },
-    {
-     "t": "warn",
-     "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
-    },
-    {
-     "t": "ok",
-     "text": "Kursstand 0.58739 vom 15.11.2026 (Quelle: Marktdaten 15.11.2026)."
-    },
-    {
-     "t": "ok",
-     "text": "Kurs ist 0.8 Tages-ATR vom Limit entfernt."
-    }
-   ]
   }
  ],
- "pruefung_stand": "2026-11-16T06:30",
+ "pruefung_stand": "2026-11-16T10:30",
  "konflikte": {
   "AUD/JPY|long": "Du hast AUDCAD offen sowie Limits auf AUDNZD und AUDUSD. Mehr als 2 AUD-Positionen sind nach deiner Analyse zu viel: Streiche das AUDUSD-Limit oder halbiere es, bevor du AUD/JPY dazunimmst. Letzter AUD/JPY-Trade war am 07.09., die 5 Wochen Pause sind vorbei.",
   "NZD/JPY|long": "NZD/JPY und AUD/JPY zusammen sind eine doppelte Yen-Wette. Nimm lieber nur eine der beiden mit vollem Risiko.",
