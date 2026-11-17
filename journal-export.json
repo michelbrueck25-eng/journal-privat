@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-16T20:48:54.495Z",
+ "exportiert": "2026-11-17T07:13:22.081Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -5322,7 +5322,7 @@
    "dir": "long",
    "entryDate": "2026-09-28",
    "emoBefore": "zuversichtlich",
-   "updatedAt": 1794769622071,
+   "updatedAt": 1794899561921,
    "createdAt": 1791224259951,
    "emoDuring": "ruhig",
    "emoLog": [
@@ -5440,6 +5440,11 @@
      "z": "2026-11-10T08:38:02.061Z",
      "p": "emoDuring",
      "v": "ruhig"
+    },
+    {
+     "z": "2026-11-17T07:12:41.921Z",
+     "p": "emoAfter",
+     "v": "genervt"
     }
    ],
    "chart": {
@@ -6682,6 +6687,7 @@
     ],
     "at": "2026-11-15"
    },
+   "emoAfter": "genervt",
    "bilder": 0
   },
   {
@@ -70200,10 +70206,10 @@
    ],
    "r": 0.87,
    "limitSet": true,
-   "updatedAt": 1794294926433,
+   "updatedAt": 1794899561923,
    "createdAt": 1792930584581,
    "limitAt": 1792994912536,
-   "emoDuring": "ruhig",
+   "emoDuring": "frustriert",
    "emoLog": [
     {
      "z": "2026-10-28T17:23:18.952Z",
@@ -70294,6 +70300,11 @@
      "z": "2026-11-10T07:15:26.433Z",
      "p": "emoDuring",
      "v": "ruhig"
+    },
+    {
+     "z": "2026-11-17T07:12:41.923Z",
+     "p": "emoDuring",
+     "v": "frustriert"
     }
    ],
    "exitReason": "Manuell",
