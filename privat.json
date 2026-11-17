@@ -21,7 +21,7 @@
    "checks": [
     {
      "t": "ok",
-     "text": "COT NZD 6M-Index 92 (Stand 03.11.2026): im passenden Extrembereich, JPY 8 bestätigt gegenläufig."
+     "text": "COT NZD 6M-Index 87 (Stand 10.11.2026): im passenden Extrembereich, JPY 3 bestätigt gegenläufig."
     },
     {
      "t": "warn",
@@ -29,7 +29,7 @@
     },
     {
      "t": "ok",
-     "text": "Meine Einschätzung: long mit Überzeugung 6 von 10."
+     "text": "Meine Einschätzung: long mit Überzeugung 4 von 10."
     },
     {
      "t": "ok",
@@ -65,7 +65,7 @@
    "checks": [
     {
      "t": "ok",
-     "text": "COT NZD 6M-Index 92 (Stand 03.11.2026): im passenden Extrembereich, CAD 20 bestätigt gegenläufig."
+     "text": "COT NZD 6M-Index 87 (Stand 10.11.2026): im passenden Extrembereich, CAD 4 bestätigt gegenläufig."
     },
     {
      "t": "warn",
@@ -101,11 +101,11 @@
    "checks": [
     {
      "t": "ok",
-     "text": "COT EUR 6M-Index 100 (Stand 03.11.2026): im passenden Extrembereich, CHF 0 bestätigt gegenläufig."
+     "text": "COT EUR 6M-Index 90 (Stand 10.11.2026): im passenden Extrembereich, CHF 0 bestätigt gegenläufig."
     },
     {
      "t": "ok",
-     "text": "Meine Einschätzung: long mit Überzeugung 5 von 10."
+     "text": "Meine Einschätzung: long mit Überzeugung 6 von 10."
     },
     {
      "t": "ok",
@@ -137,7 +137,7 @@
    "checks": [
     {
      "t": "ok",
-     "text": "COT AUD 6M-Index 99 (Stand 03.11.2026): im passenden Extrembereich, CAD 20 bestätigt gegenläufig."
+     "text": "COT AUD 6M-Index 100 (Stand 10.11.2026): im passenden Extrembereich, CAD 4 bestätigt gegenläufig."
     },
     {
      "t": "warn",
@@ -145,7 +145,7 @@
     },
     {
      "t": "ok",
-     "text": "Meine Einschätzung: long mit Überzeugung 4 von 10."
+     "text": "Meine Einschätzung: long mit Überzeugung 5 von 10."
     },
     {
      "t": "ok",
@@ -177,15 +177,15 @@
    "checks": [
     {
      "t": "ok",
-     "text": "COT AUD 6M-Index 99 (Stand 03.11.2026): im passenden Extrembereich, USD 36."
+     "text": "COT AUD 6M-Index 100 (Stand 10.11.2026): im passenden Extrembereich, USD 36."
     },
     {
      "t": "warn",
      "text": "Termine in den nächsten 5 Tagen: 19.11. 01:30 Arbeitslosenquote, 19.11. 01:30 Beschäftigungsänderung."
     },
     {
-     "t": "warn",
-     "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
+     "t": "ok",
+     "text": "Meine Einschätzung: long mit Überzeugung 5 von 10."
     },
     {
      "t": "ok",
@@ -198,7 +198,7 @@
    ]
   }
  ],
- "pruefung_stand": "2026-11-17T06:31",
+ "pruefung_stand": "2026-11-17T10:31",
  "konflikte": {
   "AUD/JPY|long": "Du hast AUDCAD offen sowie Limits auf AUDNZD und AUDUSD. Mehr als 2 AUD-Positionen sind nach deiner Analyse zu viel: Streiche das AUDUSD-Limit oder halbiere es, bevor du AUD/JPY dazunimmst. Letzter AUD/JPY-Trade war am 07.09., die 5 Wochen Pause sind vorbei.",
   "NZD/JPY|long": "NZD/JPY und AUD/JPY zusammen sind eine doppelte Yen-Wette. Nimm lieber nur eine der beiden mit vollem Risiko.",

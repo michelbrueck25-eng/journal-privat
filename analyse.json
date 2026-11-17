@@ -1,8 +1,8 @@
 {
  "typ": "verhalten",
- "stand": "2026-11-16T10:35:00+01:00",
- "exportStand": "2026-11-16T06:17:37.988Z",
- "headline": "Backtest: Ø +0,65 R, 78 % Treffer (207 Trades). Live: Ø -0,13 R, 37 % (19 Trades, Stand 16.11.). Kein neuer geschlossener Trade. Offen: NZD/JPY Long. Limits: EUR/CHF, AUD/USD, AUD/CAD und NZD/CAD, das CAD/CHF-Limit ist wieder raus. Vier von fünf offenen Sachen hängen an AUD oder NZD, beide stehen heute durch schwache China-Daten unter Druck. Weiter zu prüfen: NZD/JPY hat Ausstiegsdatum 21.11. und 0,87 R, obwohl offen; GBP/USD ist mit TP geschlossen, Datum 30.11. liegt in der Zukunft; EUR/USD steht mit -0,43 R, Exit-Grund aber SL.",
+ "stand": "2026-11-17T10:35:00+01:00",
+ "exportStand": "2026-11-17T07:20:22.111Z",
+ "headline": "Backtest: Ø +0,65 R, 78 % Treffer (207 Trades). Live: Ø -0,13 R, 37 % (19 Trades, Stand 17.11.). Kein neuer geschlossener Trade. Offen und als Limit: NZDJPY long, NZDCAD long, EURCHF long, AUDCAD long, AUDUSD long. Nach deiner Methode stehen die Commercials gut zu dir: AUD 100, EUR 94, NZD 87 oben, CHF 0 und JPY 3 unten. Der Kurs läuft aber gegen alle vier AUD- und NZD-Positionen, und beim NZD/JPY liegt das Jahrestief 87,23 direkt unter dem Kurs. Weiter zu prüfen: NZD/JPY hat Ausstiegsdatum 21.11. und 0,87 R, obwohl offen; GBP/USD ist mit TP geschlossen, Datum 30.11. liegt in der Zukunft; EUR/USD steht mit -0,43 R, Exit-Grund aber SL.",
  "kennzahlen": [
   {
    "label": "Backtest Ø R",
