@@ -69,10 +69,6 @@
     },
     {
      "t": "warn",
-     "text": "Termine in den nächsten 5 Tagen: 16.11. 14:30 CPI m/m."
-    },
-    {
-     "t": "warn",
      "text": "Das Paar steht nicht auf meiner Favoritenliste, die Position hängt allein an deiner Zone."
     },
     {
@@ -145,7 +141,7 @@
     },
     {
      "t": "warn",
-     "text": "Termine in den nächsten 5 Tagen: 16.11. 14:30 CPI m/m, 19.11. 01:30 Arbeitslosenquote, 19.11. 01:30 Beschäftigungsänderung."
+     "text": "Termine in den nächsten 5 Tagen: 19.11. 01:30 Arbeitslosenquote, 19.11. 01:30 Beschäftigungsänderung."
     },
     {
      "t": "ok",
@@ -202,7 +198,7 @@
    ]
   }
  ],
- "pruefung_stand": "2026-11-16T10:30",
+ "pruefung_stand": "2026-11-17T06:31",
  "konflikte": {
   "AUD/JPY|long": "Du hast AUDCAD offen sowie Limits auf AUDNZD und AUDUSD. Mehr als 2 AUD-Positionen sind nach deiner Analyse zu viel: Streiche das AUDUSD-Limit oder halbiere es, bevor du AUD/JPY dazunimmst. Letzter AUD/JPY-Trade war am 07.09., die 5 Wochen Pause sind vorbei.",
   "NZD/JPY|long": "NZD/JPY und AUD/JPY zusammen sind eine doppelte Yen-Wette. Nimm lieber nur eine der beiden mit vollem Risiko.",
