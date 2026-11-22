@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-22T12:05:02.497Z",
+ "exportiert": "2026-11-22T12:06:00.919Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -70186,7 +70186,7 @@
    "peak": 1.38,
    "mfeDays": 0,
    "lots": 0.18,
-   "status": "offen",
+   "status": "geschlossen",
    "id": "mvnskgcpurrrm4",
    "crit": {
     "cmu8ifszl4jj3ts": "Überverkauft",
@@ -70206,7 +70206,7 @@
    ],
    "r": 0.87,
    "limitSet": true,
-   "updatedAt": 1795273490609,
+   "updatedAt": 1795349129439,
    "createdAt": 1792930584581,
    "limitAt": 1792994912536,
    "emoDuring": "frustriert",
@@ -134525,7 +134525,7 @@
    "riskPct": 1,
    "dir": "long",
    "analysisDate": "2026-11-09",
-   "entryDate": "2026-11-09",
+   "entryDate": "2026-11-16",
    "chart": {
     "v": 2,
     "sym": "AUDCAD",
@@ -134897,7 +134897,7 @@
    "peak": 0,
    "mfeDays": 0,
    "lots": 0.29,
-   "status": "limit",
+   "status": "offen",
    "id": "mwibotdnetx4nm",
    "crit": {
     "cot": true
@@ -134909,7 +134909,7 @@
     }
    ],
    "limitSet": true,
-   "updatedAt": 1794809841518,
+   "updatedAt": 1795349132493,
    "createdAt": 1794776673189,
    "limitAt": 1794809841518,
    "bilder": 0
