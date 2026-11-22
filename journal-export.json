@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-21T15:04:46.131Z",
+ "exportiert": "2026-11-22T12:05:02.497Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -70206,7 +70206,7 @@
    ],
    "r": 0.87,
    "limitSet": true,
-   "updatedAt": 1794899561923,
+   "updatedAt": 1795273490609,
    "createdAt": 1792930584581,
    "limitAt": 1792994912536,
    "emoDuring": "frustriert",
@@ -70303,6 +70303,11 @@
     },
     {
      "z": "2026-11-17T07:12:41.923Z",
+     "p": "emoDuring",
+     "v": "frustriert"
+    },
+    {
+     "z": "2026-11-21T15:04:50.609Z",
      "p": "emoDuring",
      "v": "frustriert"
     }
