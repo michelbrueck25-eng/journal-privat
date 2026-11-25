@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-22T12:11:00.942Z",
+ "exportiert": "2026-11-25T15:42:43.779Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -217,6 +217,17 @@
     "type": "challenge",
     "size": 10000,
     "maxDD": 6,
+    "ddType": "statisch",
+    "active": true,
+    "defaultOn": true,
+    "tx": []
+   },
+   {
+    "id": "amwrsq1se81c8gd",
+    "name": "Demo",
+    "type": "privat",
+    "size": 100000,
+    "maxDD": 10,
     "ddType": "statisch",
     "active": true,
     "defaultOn": true,
