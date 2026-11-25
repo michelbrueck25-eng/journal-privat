@@ -1,7 +1,7 @@
 {
  "version": 2,
  "app": "Trading-Journal",
- "exportiert": "2026-11-25T15:42:43.779Z",
+ "exportiert": "2026-11-25T15:44:41.289Z",
  "einstellungen": {
   "baseRisk": 1,
   "maxRisk": 2,
@@ -212,21 +212,21 @@
   "activeProfile": "pmwrsjd4zflgbhf",
   "accounts": [
    {
-    "id": "amu5dpzt54g2e1e",
-    "name": "ACG-10K",
-    "type": "challenge",
-    "size": 10000,
-    "maxDD": 6,
+    "id": "amwrsq1se81c8gd",
+    "name": "Demo",
+    "type": "privat",
+    "size": 100000,
+    "maxDD": 10,
     "ddType": "statisch",
     "active": true,
     "defaultOn": true,
     "tx": []
    },
    {
-    "id": "amwrsq1se81c8gd",
-    "name": "Demo",
-    "type": "privat",
-    "size": 100000,
+    "id": "amwwamuro3idj6j",
+    "name": "10k",
+    "type": "challenge",
+    "size": 10000,
     "maxDD": 10,
     "ddType": "statisch",
     "active": true,
@@ -253,11 +253,7 @@
     "cmu8ifszl4jj3ts": "Überverkauft"
    },
    "profile": "m1",
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e"
-    }
-   ],
+   "accounts": [],
    "analysisDate": "2026-08-17",
    "instrument": "AUDCHF",
    "dir": "long",
@@ -5388,12 +5384,7 @@
      "r": -0.43
     }
    ],
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e",
-     "swap": -27
-    }
-   ],
+   "accounts": [],
    "analysisDate": "2026-09-28",
    "dir": "long",
    "entryDate": "2026-09-28",
@@ -23776,13 +23767,7 @@
     "cmu8ifszl4jj3ts": "Neutral"
    },
    "profile": "m1",
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e",
-     "resultEur": 100,
-     "riskPct": 1
-    }
-   ],
+   "accounts": [],
    "analysisDate": "2026-08-03",
    "instrument": "AUDJPY",
    "dir": "long",
@@ -24009,11 +23994,7 @@
     "cmu8ifszl4jj3ts": "Überkauft"
    },
    "profile": "m1",
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e"
-    }
-   ],
+   "accounts": [],
    "analysisDate": "2026-07-27",
    "instrument": "NQ",
    "dir": "long",
@@ -24095,11 +24076,7 @@
     "cmu8ifszl4jj3ts": "Überverkauft"
    },
    "profile": "m1",
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e"
-    }
-   ],
+   "accounts": [],
    "analysisDate": "2026-08-31",
    "instrument": "EURJPY",
    "dir": "long",
@@ -37345,12 +37322,7 @@
     "cmu8ifszl4jj3ts": "Neutral"
    },
    "profile": "m1",
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e",
-     "riskPct": 0.5
-    }
-   ],
+   "accounts": [],
    "analysisDate": "2026-09-14",
    "instrument": "GBPCHF",
    "dir": "short",
@@ -43376,12 +43348,7 @@
      "r": -1
     }
    ],
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e",
-     "swap": -2.28
-    }
-   ],
+   "accounts": [],
    "analysisDate": "2026-11-02",
    "dir": "long",
    "entryDate": "2026-10-15",
@@ -55749,11 +55716,7 @@
     "cot": 86
    },
    "zone": "daily",
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e"
-    }
-   ],
+   "accounts": [],
    "limitSet": true,
    "limitAt": 1791782557536,
    "updatedAt": 1794769715745,
@@ -57609,12 +57572,7 @@
     "cmu8ifszl4jj3ts": "Neutral"
    },
    "profile": "m1",
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e",
-     "riskPct": 1
-    }
-   ],
+   "accounts": [],
    "analysisDate": "2026-08-10",
    "instrument": "EURCAD",
    "dir": "long",
@@ -57904,12 +57862,7 @@
     "cmu8ifszl4jj3ts": "Überverkauft"
    },
    "profile": "m1",
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e",
-     "riskPct": 0.5
-    }
-   ],
+   "accounts": [],
    "analysisDate": "2026-08-24",
    "instrument": "EURUSD",
    "dir": "long",
@@ -58139,12 +58092,7 @@
     "cmu8ifszl4jj3ts": "Neutral"
    },
    "profile": "m1",
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e",
-     "riskPct": 1
-    }
-   ],
+   "accounts": [],
    "analysisDate": "2026-09-07",
    "instrument": "AUDJPY",
    "dir": "long",
@@ -70275,11 +70223,7 @@
      "r": 0.87
     }
    ],
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e"
-    }
-   ],
+   "accounts": [],
    "r": 0.87,
    "limitSet": true,
    "updatedAt": 1795349129439,
@@ -70883,11 +70827,7 @@
     "cmu8ifszl4jj3ts": "Neutral"
    },
    "profile": "m1",
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e"
-    }
-   ],
+   "accounts": [],
    "analysisDate": "2026-09-07",
    "instrument": "DJI",
    "dir": "long",
@@ -76550,11 +76490,7 @@
    "id": "mu6sq00o9kar10",
    "crit": {},
    "profile": "m1",
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e"
-    }
-   ],
+   "accounts": [],
    "analysisDate": "2026-07-27",
    "instrument": "CADJPY",
    "dir": "long",
@@ -86186,11 +86122,7 @@
    "crit": {
     "cot": true
    },
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e"
-    }
-   ],
+   "accounts": [],
    "discipline": 5,
    "updatedAt": 1794204805019,
    "createdAt": 1794054938238,
@@ -96872,14 +96804,7 @@
      "r": 1
     }
    ],
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e",
-     "riskPct": 1,
-     "swap": -1.35,
-     "resultEur": 100
-    }
-   ],
+   "accounts": [],
    "r": 1,
    "updatedAt": 1794056053345,
    "createdAt": 1791738269907,
@@ -113861,12 +113786,7 @@
      "r": -1
     }
    ],
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e",
-     "swap": -0.3
-    }
-   ],
+   "accounts": [],
    "analysisDate": "2026-11-02",
    "dir": "long",
    "entryDate": "2026-11-04",
@@ -113908,12 +113828,7 @@
     "cmu8ifszl4jj3ts": "Überverkauft"
    },
    "profile": "m1",
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e",
-     "riskPct": 0.5
-    }
-   ],
+   "accounts": [],
    "analysisDate": "2026-08-24",
    "instrument": "OEL",
    "dir": "long",
@@ -120216,12 +120131,7 @@
    },
    "id": "muqsd09hq8867g",
    "zone": "weekly",
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e",
-     "riskPct": 0.5
-    }
-   ],
+   "accounts": [],
    "analysisDate": "2026-09-14",
    "dir": "long",
    "entryDate": "2026-10-01",
@@ -125511,14 +125421,7 @@
      "r": -1
     }
    ],
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e",
-     "riskPct": 1,
-     "swap": 8.71,
-     "resultEur": -95
-    }
-   ],
+   "accounts": [],
    "analysisDate": "2026-09-28",
    "dir": "long",
    "entryDate": "2026-09-30",
@@ -134465,13 +134368,9 @@
      "r": -1
     }
    ],
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e"
-    }
-   ],
+   "accounts": [],
    "limitSet": true,
-   "updatedAt": 1795349401571,
+   "updatedAt": 1795621382733,
    "createdAt": 1794776673189,
    "limitAt": 1794809841518,
    "r": -1,
@@ -134708,11 +134607,7 @@
      "r": -1
     }
    ],
-   "accounts": [
-    {
-     "id": "amu5dpzt54g2e1e"
-    }
-   ],
+   "accounts": [],
    "limitSet": true,
    "updatedAt": 1795349412487,
    "createdAt": 1794776794522,
