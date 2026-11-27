@@ -1,12 +1,12 @@
 {
  "typ": "verhalten",
- "stand": "2026-11-27T06:30:00+01:00",
- "exportStand": "2026-11-26T20:33:11.895Z",
- "headline": "Backtest: Ø +0,67 R, 75 % Treffer (267 Teile). Live: Ø -0,12 R, 35 % (29 Teile, Stand 26.11.). Fuenf neue geschlossene Live-Teile seit dem 17.11., der Abstand zum Backtest bleibt mit -0,80 R je Teil der groesste Befund. Der Datenfehler mit -11 R ist korrigiert, GBPCAD steht jetzt bei +0,50 R (20 Teile). Neu und gegen den alten Befund: nach einem Verlust liegt der naechste Live-Teil bei Ø -0,52 R (18 Teile) gegenueber +0,49 R nach einem Gewinn (10 Teile) - schwache Stichprobe, aber beobachten. Keine offenen oder Limit-Positionen mehr im Export, also nichts beim Broker einzutragen.",
+ "stand": "2026-11-27T20:30:00+01:00",
+ "exportStand": "2026-11-27T08:29:00.691Z",
+ "headline": "Backtest: Ø +0,67 R, 75 % Treffer (263 Teile). Live: Ø -0,13 R, 36 % (28 Teile, Export 27.11. 09:29). Neuer und klarster Befund dieses Laufs: die Zeitebene trennt sauber. Live-Daily-Teile liegen bei Ø +0,17 R (11 Teile), Live-Weekly-Teile bei Ø -0,23 R (15 Teile) - im Backtest dasselbe Vorzeichen mit Daily +1,29 R (56) gegen Weekly +0,50 R (204). Die Exit-Simulation ueber 172 Teile mit Verlauf bestaetigt dein eigenes Learning vom 6.11.: ein festes Ziel von 2 R bringt +0,87 R gegen +0,51 R tatsaechlich. Datenfehler: GBPUSD hat das Ausstiegsdatum 30.11.2026, also in der Zukunft.",
  "kennzahlen": [
   {
    "label": "Backtest Ø R",
-   "wert": "+0,67 (267 Teile)"
+   "wert": "+0,67 (263 Teile)"
   },
   {
    "label": "Backtest Trefferquote",
@@ -14,338 +14,243 @@
   },
   {
    "label": "Backtest Profitfaktor",
-   "wert": "3,73"
+   "wert": "3,72"
   },
   {
    "label": "Live Ø R",
-   "wert": "-0,12 (29 Teile)"
+   "wert": "-0,13 (28 Teile)"
   },
   {
    "label": "Live Trefferquote",
-   "wert": "35 %"
+   "wert": "36 %"
   },
   {
    "label": "Live Profitfaktor",
    "wert": "0,78"
   },
   {
-   "label": "Risiko je Teil",
-   "wert": "0,5 bis 1,0 %, Median 0,5 %"
+   "label": "Live Daily gegen Weekly",
+   "wert": "+0,17 R (11) gegen -0,23 R (15)"
+  },
+  {
+   "label": "Backtest Daily gegen Weekly",
+   "wert": "+1,29 R (56) gegen +0,50 R (204)"
+  },
+  {
+   "label": "E: -0,13 R live",
+   "wert": "-0,13 R - 3,6 R/Jahr bei 28 Teilen in 12 Monaten"
+  },
+  {
+   "label": "E: +0,67 R Backtest",
+   "wert": "+0,67 R - 176 R/Jahr bei 263 Teilen"
+  },
+  {
+   "label": "Risiko je Trade live",
+   "wert": "1 %: 18, 0,5 %: 2, ohne Angabe: 4"
   },
   {
    "label": "Ausreisser (r < -3 oder > 10)",
-   "wert": "keine mehr, Korrektur wirkt"
+   "wert": "keine"
   }
  ],
  "muster": [
   {
-   "titel": "Live weicht stark vom Backtest ab",
-   "text": "Backtest 267 Teile mit Ø +0,67 R und 75 % Treffern, live 29 Teile mit Ø -0,12 R und 35 %. Der Unterschied steckt nicht in den Verlusten (live Ø -0,86 R, Backtest -1,00 R), sondern in der Trefferquote. Live liegt der durchschnittliche beste Zwischenstand bei 1,11 R, im Backtest bei 1,79 R. Die Live-Stichprobe ist mit 29 Teilen weiter klein, die Richtung des Befunds ist aber seit Wochen stabil.",
+   "titel": "Die Zeitebene trennt Gewinn und Verlust",
+   "text": "Live liegen die 11 Daily-Teile bei Ø +0,17 R und 46 Prozent Treffern, die 15 Weekly-Teile bei Ø -0,23 R und 33 Prozent. Im Backtest zeigt sich dasselbe Vorzeichen viel deutlicher: Daily Ø +1,29 R bei 56 Teilen und Profitfaktor 6,5, Weekly Ø +0,50 R bei 204 Teilen und Profitfaktor 3,0. Der Unterschied steckt in den Gewinnern, nicht in den Verlusten: der durchschnittliche Gewinner liegt im Backtest-Daily bei +1,98 R, im Backtest-Weekly nur bei +1,01 R, waehrend der Verlust in beiden Faellen genau -1,00 R ist. Beide Stichproben sind gross genug fuer die Aussage, live sind 11 und 15 Teile aber knapp.",
+   "wirkung": "+0,40 R je Teil (Schaetzung, Live-Daily gegenueber Live-Weekly)",
+   "staerke": 8,
+   "empfehlung": "Bei Kombi-Einstiegen den Hauptteil des Risikos auf die Daily-Ebene legen."
+  },
+  {
+   "titel": "Live weicht um 0,80 R je Teil vom Backtest ab",
+   "text": "Backtest 263 Teile mit Ø +0,67 R und 75 Prozent Treffern, live 28 Teile mit Ø -0,13 R und 36 Prozent. Der Unterschied liegt nicht in der Verlusthoehe (live Ø -0,91 R, Backtest -1,00 R) und nicht in der Gewinnhoehe (live +1,29 R, Backtest +1,22 R), sondern allein in der Trefferquote: 36 gegen 75 Prozent. Die Live-Stichprobe ist mit 28 Teilen klein, die Richtung ist aber seit mehreren Wochen unveraendert.",
    "wirkung": "-0,80 R je Teil (Live gegenueber Backtest)",
    "staerke": 8,
-   "empfehlung": "Live-Stopps und Einstiege mit dem Backtest-Regelwerk abgleichen, weiter Trades sammeln."
+   "empfehlung": "Vor jedem Einstieg die Kriterienliste des Profils COT-Swing abhaken, besonders die Daily-Bestaetigung."
   },
   {
-   "titel": "Gewinner laufen weiter, du steigst bei 1R aus",
-   "text": "Exit-Ziel-Simulation ueber 295 Teile mit Hoch- und Tiefstand: echtes Ergebnis Ø +0,60 R. Ein festes Ziel von 2 R ergibt +0,85 R, 3 R ergibt +0,85 R, 1,5 R ergibt +0,69 R, 4 R nur noch +0,79 R und 5 R +0,71 R. Das Optimum liegt also breit zwischen 2 und 3 R. Die Simulation nutzt den im Nachhinein bekannten Hoechststand und ist damit eine Obergrenze.",
-   "wirkung": "+0,25 R je Teil (Schaetzung, Obergrenze)",
+   "titel": "Das feste Ziel von 2 R ist rechnerisch das Optimum",
+   "text": "Exit-Simulation ueber 172 Teile mit Hoch- und Tiefstand: tatsaechliches Ergebnis Ø +0,51 R. Ein festes Ziel von 1,5 R ergibt +0,76 R, 2 R ergibt +0,87 R, 2,5 R ergibt +0,74 R, 3 R ergibt +0,73 R, 4 R nur +0,61 R und 5 R +0,53 R. Das Optimum liegt klar bei 2 R und faellt darueber ab. Das deckt sich mit deinem eigenen Learning vom 6. November, Immer fix als 2:1. Die Simulation nutzt den im Nachhinein bekannten Hoechststand und ist damit eine Obergrenze.",
+   "wirkung": "+0,36 R je Teil (Schaetzung, Obergrenze)",
    "staerke": 7,
-   "empfehlung": "Take-Profit auf 2R setzen (mindestens 1,5R)."
+   "empfehlung": "Take-Profit fest auf 2 R, nicht hoeher."
   },
   {
-   "titel": "Verlierer waren oft kurz im Plus",
-   "text": "Von 31 Verlierern mit Verlaufsdaten lagen 12 (39 %) vorher mindestens +0,5 R im Plus. Ein Einstands-Stopp würde diese retten, aber auch viele Gewinner ausstoppen, die zwischendurch zurückfielen.",
-   "wirkung": "Einstands-Stopp lohnt nicht",
+   "titel": "Daily-Bestaetigung ist der wirksamste Filter",
+   "text": "Live: 5 Trades mit eingetragener Daily-Bestaetigung liegen bei Ø +0,80 R, die 18 ohne bei Ø -0,53 R. Backtest: 48 Trades mit Bestaetigung Ø +1,03 R, 163 ohne Ø +0,54 R. Der Filter wirkt in beiden Datensaetzen in dieselbe Richtung und live deutlich staerker. Einwand: live sind es nur 5 Trades und bei 18 von 23 fehlt der Eintrag ueberhaupt, der Vergleich mischt also Nicht-Erfuellung und fehlende Dokumentation.",
+   "wirkung": "+1,33 R je Trade (Schaetzung, sehr kleine Stichprobe)",
+   "staerke": 6,
+   "empfehlung": "Nur mit Daily-Bestaetigung einsteigen und das Kriterium bei jedem Trade eintragen."
+  },
+  {
+   "titel": "Haltedauer: das Fenster 11 bis 20 Tage ist das beste",
+   "text": "Nach Teilen: 4 bis 10 Tage Ø +0,66 R bei 76 Prozent Treffern (117 Teile), 11 bis 20 Tage Ø +0,76 R bei 81 Prozent (59), ab 21 Tagen Ø +0,49 R bei 64 Prozent (101), unter 4 Tagen Ø -0,11 R (9 Teile, zu klein fuer eine Aussage). Das Fenster 11 bis 20 Tage passt zur Vorgabe von ein bis vier Wochen. Live liegt die mittlere Haltedauer bei 14,9 Tagen, im Backtest bei 19,3 Tagen.",
+   "wirkung": "-0,27 R je Teil (ab 21 Tagen gegenueber 11 bis 20 Tagen)",
    "staerke": 5,
-   "empfehlung": "Stopp nicht nachziehen."
+   "empfehlung": "Trades ab 40 Tagen ohne Zielnaehe schliessen."
   },
   {
-   "titel": "Lange Trades sind schwächer",
-   "text": "Haltedauer nach Teilen: 4 bis 10 Tage Ø +0,66 R (117), 11 bis 20 Tage Ø +0,75 R (60), ab 21 Tagen Ø +0,49 R mit 64 % Treffern (101), unter 4 Tagen Ø -0,11 R (9, zu klein). Das Fenster 11 bis 20 Tage ist das beste und passt zur Vorgabe von ein bis vier Wochen.",
-   "wirkung": "-0,26 R je Teil (ab 21 Tagen gegenueber 11 bis 20 Tagen)",
+   "titel": "Kombi-Einstiege schlagen Einzelteile",
+   "text": "122 Teile aus Kombi-Trades liegen bei Ø +0,74 R, 173 Einzelteile bei Ø +0,50 R. Die Risikoaufteilung ist bei 60 von 61 Kombis genau 0,5 Prozent Weekly und 0,5 Prozent Daily, also eine starre Haelfte-Haelfte-Teilung. Da die Daily-Ebene in beiden Datensaetzen besser laeuft, verschenkt die starre Teilung Ertrag.",
+   "wirkung": "+0,24 R je Kombi-Teil",
+   "staerke": 6,
+   "empfehlung": "Risikoaufteilung von 50 zu 50 auf etwa 30 Prozent Weekly und 70 Prozent Daily aendern."
+  },
+  {
+   "titel": "Einstands-Stopp lohnt sich nicht",
+   "text": "Von 44 Verlierern mit Verlaufsdaten lagen 19 (43 Prozent) vorher mindestens +0,5 R im Plus, aber nur 2 (5 Prozent) mindestens +1,0 R. Ein Einstands-Stopp ab +1 R wuerde also fast nie greifen, einer ab +0,5 R wuerde viele Gewinner ausstoppen die zwischendurch zurueckfielen.",
+   "wirkung": "kein messbarer Vorteil",
    "staerke": 5,
-   "empfehlung": "Trades nach 40 Tagen ohne Ziel kritisch prüfen."
+   "empfehlung": "Stopp nicht auf Einstand nachziehen."
   },
   {
-   "titel": "Live-Longs auf JPY-Crosses",
-   "text": "Live: 5 Long-Trades auf JPY-Crosses (EURJPY 2x, AUDJPY 2x, CADJPY), davon 1 Gewinner, Ø -0,6 R. Im Backtest laufen EURJPY (+0,46 R) und AUDJPY (+0,38 R) positiv. Mit 5 Trades ist das nur ein Hinweis, kein Beleg.",
-   "wirkung": "-0,6 R je Trade (Live, n=5)",
+   "titel": "Nach einem Verlust laeuft es schlechter",
+   "text": "Live chronologisch nach Ausstiegsdatum: der naechste Teil nach einem Verlust liegt bei Ø -0,22 R mit 36 Prozent Treffern (14 Teile), nach einem Gewinn bei Ø +0,51 R mit 56 Prozent (9 Teile). Der Abstand ist mit 0,73 R gross, die Stichprobe nach Gewinnen mit 9 Teilen aber unter der Schwelle von 8 nur knapp darueber. Beobachten, nicht als Regel setzen.",
+   "wirkung": "-0,73 R je Teil nach Verlust (Schaetzung, schwache Stichprobe)",
    "staerke": 4,
-   "empfehlung": "Vor einem JPY-Cross-Long prüfen, ob Zinsdifferenz und Risikostimmung noch passen."
+   "empfehlung": "Nach einem Verlust die Kriterienliste bewusst abhaken statt sofort nachzusetzen."
   },
   {
-   "titel": "Paare unterscheiden sich deutlich",
-   "text": "Stark im Backtest: GBPJPY +1,10 R (10 Trades, 100 %), EURUSD +1,09 R (16, 94 %), NZDCHF +0,91 R, USDCHF +0,83 R, GBPUSD +0,80 R. Schwach: AUDUSD +0,14 R (18 Trades, 56 %) und EURCHF +0,38 R (12, 58 %).",
-   "wirkung": "AUDUSD -0,5 R unter dem Schnitt",
-   "staerke": 4,
-   "empfehlung": "Behalten, die Paare bleiben positiv."
-  },
-  {
-   "titel": "Nach Verlusten wird es live schlechter, nicht besser",
-   "text": "Live chronologisch sortiert: der Teil nach einem Verlust liegt bei Ø -0,52 R mit 17 % Treffern (18 Teile), der Teil nach einem Gewinn bei Ø +0,49 R mit 60 % Treffern (10 Teile). Das dreht den frueheren Befund, dass kein Serienmuster vorliegt. Vorsicht: 18 und 10 Teile sind wenig, und beide Gruppen liegen innerhalb derselben schwachen Live-Phase, das Muster kann also auch nur der Marktphase folgen.",
-   "wirkung": "-1,0 R Unterschied je Teil (Schaetzung, schwache Stichprobe)",
-   "staerke": 4,
-   "empfehlung": "Gut so, beibehalten."
-  },
-  {
-   "titel": "Zu wenig Verhaltensdaten",
-   "text": "Disziplin steht überall auf 5, Emotionen sind nur bei 4 Trades erfasst. Damit lässt sich kein Zusammenhang zwischen Gefühl und Ergebnis auswerten.",
-   "wirkung": "",
-   "staerke": 6,
-   "empfehlung": "Bei jedem Live-Trade Emotion vor, während und nach dem Trade eintragen, Disziplin ehrlich bewerten."
-  },
-  {
-   "titel": "Wiedereinstieg ins gleiche Paar und die gleiche Richtung innerhalb von 5 Wochen",
-   "text": "Backtest: erster Einstieg Ø +0,79 R (86 %, 29 Trades), Wiedereinstieg nach 36 bis 90 Tagen +0,54 R (74 %, 35), nach über 90 Tagen +0,67 R (79 %, 124), innerhalb von 35 Tagen nur +0,45 R (68 %, 19). Live: beide Wiedereinstiege unter 35 Tagen sind Stopps (EURJPY, AUDJPY). Beispiel Backtest: EURCHF Long wurde im Okt und Nov 2021 dreimal hintereinander ausgestoppt. Live: EURJPY hatte drei Trades in vier Wochen.",
-   "wirkung": "-0,34 R je Trade gegenüber dem ersten Einstieg",
-   "staerke": 7,
-   "empfehlung": "Nach einem Trade im gleichen Paar und gleicher Richtung 5 Wochen Pause oder halbes Risiko"
-  },
-  {
-   "titel": "Daily-Teilposition trägt das Ergebnis",
-   "text": "Im Backtest liegt der Daily-Teil bei Ø +1,25 R mit Profitfaktor 6,07 (57 Teile), der Weekly-Teil bei Ø +0,51 R (207). Live ist es ebenso, nur auf schwachem Niveau: Daily Ø +0,17 R (11 Teile), Weekly Ø -0,21 R (16). Kombi-Einstiege liegen mit Ø +0,74 R ueber Einzelpositionen mit Ø +0,50 R.",
-   "wirkung": "+0,24 R je Teil durch Kombi-Einstieg",
-   "staerke": 7,
-   "empfehlung": "Kombi-Einstieg (Weekly und Daily) bevorzugen, Risiko mehr auf den Daily-Teil"
-  },
-  {
-   "titel": "Auffällig gute 0,5-%-Einzelpositionen im Backtest",
-   "text": "42 Backtest-Trades mit 0,5 % Risiko und nur einer Position: 41 Gewinner (97 %), Ø +0,95 R. Gleich aufgebaute Trades mit 1 % Risiko gewinnen nur zu 72 % (+0,47 R). Das sieht nach einer Auswahl im Rückblick aus.",
-   "wirkung": "vermutlich zu optimistisch",
-   "staerke": 6,
-   "empfehlung": "Diese 42 Trades prüfen: waren Einstieg und Stop zum Zeitpunkt der Entscheidung schon festgelegt?"
-  },
-  {
-   "titel": "AUD als Basiswährung und AUDUSD sind die schwächsten Bereiche",
-   "text": "Nach Teilen ab 8 Stueck: AUDUSD Ø +0,05 R (22), AUDJPY Ø +0,19 R (21), EURJPY Ø +0,30 R (20) am unteren Ende. Oben USDCHF Ø +0,94 R (18), EURUSD Ø +0,98 R (26), GBPJPY Ø +1,17 R bei 100 % Treffern (12, auffaellig und zu klein). Der Gesamtschnitt liegt bei +0,60 R.",
-   "wirkung": "-0,55 R je Teil bei AUDUSD gegenueber dem Schnitt",
-   "staerke": 6,
-   "empfehlung": "AUDUSD nur mit halbem Risiko, bei JPY-Kreuzen auf Wiedereinstiege verzichten"
-  },
-  {
-   "titel": "Live fast nur Long",
-   "text": "19 von 20 Live-Trades sind Long (einziger Short: GBPCHF, 0 R). Im Backtest sind 49 % Short, mit Ø +0,61 R und 77 % Treffer fast so gut wie Long (+0,69 R, 79 %).",
-   "wirkung": "Short-Setups fehlen live",
+   "titel": "Live wird fast nur long gehandelt",
+   "text": "Live 22 Long- gegen 2 Short-Trades, also 92 Prozent Long. Im Backtest ist es ausgeglichen mit 109 Long und 102 Short bei praktisch gleichem Ergebnis. Die Live-Longs liegen bei Ø -0,10 R je Teil (27 Teile), der einzige Short-Teil bei -1,00 R. In einem Jahr mit steigendem Dollar und fallenden Rohstoffwaehrungen ist eine reine Long-Ausrichtung in Crosses ein struktureller Gegenwind.",
+   "wirkung": "nicht quantifizierbar bei 2 Shorts",
    "staerke": 5,
-   "empfehlung": "Short-Setups im Live-Betrieb gezielt prüfen und eintragen, auch wenn du sie nicht handelst"
-  },
-  {
-   "titel": "Haltedauer: ab 30 Tagen sinkt die Trefferquote",
-   "text": "Backtest: 11 bis 30 Tage Ø +0,76 R (84 %, 82 Trades), 31 bis 60 Tage nur +0,20 R (59 %, 22), über 60 Tage +0,61 R (67 %, 9). Gewinner dauern im Schnitt 18 Tage, Verlierer 25 Tage. Die Dauer ist erst nach dem Ausstieg bekannt, es ist also ein Warnsignal, keine Regel.",
-   "wirkung": "-0,5 R bei 31 bis 60 Tagen",
-   "staerke": 5,
-   "empfehlung": "Nach 30 Tagen ohne Fortschritt Position prüfen. Für das Entspannt-Ziel in der App ein Limit um 30 Tage wählen"
-  },
-  {
-   "titel": "September und November sind schwach, aber nicht verlässlich",
-   "text": "Backtest: September +0,21 R (57 %, 21 Trades), November +0,19 R (56 %, 18); alle anderen Monate +0,55 bis +0,97 R, Dezember 94 % Treffer. Pro Jahr uneinheitlich: September 2020 und 2021 gewonnen, 2022 und 2024 verloren.",
-   "wirkung": "-0,5 R in diesen zwei Monaten",
-   "staerke": 3,
-   "empfehlung": "Nur beobachten, keine Regel daraus machen (zu wenige Trades pro Jahr)"
-  },
-  {
-   "titel": "Live-Verlierer: Kurs läuft mit vielen roten Wochenkerzen in die Zone",
-   "text": "In 5 von 7 Live-Verlusten (EURUSD, DJI, EURJPY zweimal, AUDJPY) fielen vor dem Einstieg drei bis sechs Wochenkerzen in Folge in die Zone. Backtest-Gewinner zeigen aber dasselbe Bild (GBPUSD 2025, EURUSD 2024, GBPJPY 2025). Es unterscheidet Gewinner und Verlierer also nicht sicher.",
-   "wirkung": "unklar",
-   "staerke": 3,
-   "empfehlung": "Nicht als Regel nutzen. Beobachten, ob eine Rejection-Kerze (langer Docht) vor dem Einstieg einen Unterschied macht und das als Feld erfassen"
-  },
-  {
-   "titel": "Neue Live-Trades haben unvollständige Daten",
-   "text": "Die 6 neuesten Trades (aus dem Chart-Tool) haben keine Felder OB-Qualität, OB-HTF und OB-LTF. 5 Live-Trades haben kein Risiko, 2 keine Zone, CADJPY keine Kriterien. Bei GBPUSD steht beim COT-Kriterium die Zahl 73 statt Ja/Nein. Emotion ist nur bei 4 von 222 Trades erfasst.",
-   "wirkung": "Auswertung nicht möglich",
-   "staerke": 6,
-   "empfehlung": "Felder beim Anlegen aus dem Chart-Tool mit ausfüllen, damit sich Live und Backtest vergleichen lassen"
-  },
-  {
-   "titel": "Live-Bestand wächst: 7 offene oder Limit-Positionen, alle Long",
-   "text": "Seit dem letzten Stand sind 5 neue Live-Positionen offen oder als Limit angelegt, alle long (AUDCAD, EURUSD, NZDJPY, GBPCAD, AUDNZD, AUDUSD, EURGBP). Geschlossen sind weiter 13 Trades, daher bleiben alle Kennzahlen unverändert. Bei 3 dieser Positionen fehlen Kriterien oder Risiko (Stichprobe klein, nur Beobachtung).",
-   "wirkung": "nicht schätzbar",
-   "staerke": 2,
-   "empfehlung": "Kriterien und Risiko bei offenen Positionen sofort eintragen, damit sie später auswertbar sind."
-  },
-  {
-   "titel": "Einstiegs-Varianten bringen keinen Vorteil",
-   "text": "Alle geschlossenen Trades mit eingezeichneter Zone und 4H-Kursen neu durchgespielt, Spread-Annahme 1 Pip und 2 Pip bei JPY-Kreuzen. Echter Einstieg Ø +0,81 R bei 84,5 % Treffern (116 Trades). Variante A, Strukturbruch auf 4H in der Zone, Ø +0,03 R (22 Trades). Variante B, Limit in der Zonenmitte, Ø +0,62 R (22). Variante C, Bestaetigungskerze in der Zone, Ø -0,15 R (27). Keine Variante ist besser, also bleibt der Einstieg wie er ist. Einschraenkung: 119 Trades hatten keine verwertbare Zone, kein CRV oder keine Kurse, und bei 89 bis 94 der uebrigen Trades kam es in der Variante nie zum Einstieg, weil die 4H-Daten nur rund 1,4 Jahre zurueckreichen und die meisten Trades aelter sind.",
-   "wirkung": "kein Vorteil, echter Einstieg bleibt vorn",
-   "staerke": 5,
-   "empfehlung": "Einstiegsregel unveraendert lassen und erneut rechnen, sobald mehr 4H-Historie vorliegt."
+   "empfehlung": "Short-Setups aktiv suchen, das Regelwerk erlaubt sie symmetrisch."
   }
  ],
  "tipps": [
   {
    "prio": 1,
    "art": "Ändern",
-   "aenderung": "Live nur mit Daily-Bestätigung (OB-LTF) einsteigen",
-   "effekt": "Live-Schnitt rechnerisch von +0,08 auf +0,80 R",
-   "beleg": "Live: 5 Trades mit Daily-Bestätigung Ø +0,80 R, 8 ohne Ø −0,38 R. Backtest: mit Bestätigung Ø +1,03 R, ohne +0,54 R. Stichprobe live klein (13)."
+   "aenderung": "Bei Kombi-Einstiegen die Risikoaufteilung von 0,5 zu 0,5 Prozent auf etwa 0,3 Prozent Weekly und 0,7 Prozent Daily umstellen",
+   "effekt": "+0,16 R je Kombi-Trade (Schaetzung aus Live-Daily +0,17 R gegen Live-Weekly -0,23 R und Backtest-Daily +1,29 R gegen Weekly +0,50 R)",
+   "beleg": "60 von 61 Kombis stehen heute starr auf 0,5 zu 0,5 Prozent. Live 11 Daily-Teile Ø +0,17 R gegen 15 Weekly-Teile Ø -0,23 R, Backtest 56 gegen 204 Teile mit +1,29 gegen +0,50 R."
   },
   {
    "prio": 2,
    "art": "Ändern",
-   "aenderung": "Weekly-Teil: Take-Profit von 1R auf 2R setzen",
-   "effekt": "+0,25 R je Teil (Simulation ueber 295 Teile: echt +0,60 R, Ziel 2R +0,85 R)",
-   "beleg": "295 Teile mit Hoch- und Tiefstand. Ziel 1,5R +0,69, 2R +0,85, 3R +0,85, 4R +0,79. Hindsight-Obergrenze.",
-   "exit": true
+   "exit": true,
+   "aenderung": "Take-Profit fest auf 2 R setzen und nicht hoeher",
+   "effekt": "+0,36 R je Teil (Simulation ueber 172 Teile: tatsaechlich +0,51 R, Ziel 2 R +0,87 R)",
+   "beleg": "172 Teile mit Hoch- und Tiefstand. Ziel 1,5 R +0,76 R, 2 R +0,87 R, 2,5 R +0,74 R, 3 R +0,73 R, 4 R +0,61 R. Hindsight-Obergrenze. Deckt sich mit dem Learning vom 6.11."
   },
   {
    "prio": 3,
    "art": "Ändern",
-   "aenderung": "Daily-Teil: Take-Profit von 2R auf 3R setzen",
-   "effekt": "+0,25 R je Teil, zwischen 2R und 3R praktisch gleich (0,847 gegen 0,854 R)",
-   "beleg": "295 Teile. Ab 4R faellt das Ergebnis wieder auf +0,79 R, also nicht weiter hochsetzen.",
-   "exit": true
+   "aenderung": "Nur einsteigen wenn die Daily-Bestaetigung (OB-LTF) vorliegt, und das Kriterium bei jedem Trade eintragen",
+   "effekt": "+1,33 R je Trade rechnerisch (live -0,53 auf +0,80 R), bei nur 5 belegten Faellen als Richtung zu lesen",
+   "beleg": "Live 5 Trades mit Bestaetigung Ø +0,80 R gegen 18 ohne Ø -0,53 R. Backtest 48 mit Ø +1,03 R gegen 163 ohne Ø +0,54 R."
   },
   {
    "prio": 4,
-   "art": "Ändern",
-   "aenderung": "Bei Kombi-Einstiegen mehr Risiko auf den Daily-Teil legen (z. B. 30 % Weekly, 70 % Daily)",
-   "effekt": "+0,24 R je Kombi-Trade (Kombi +0,74 gegen Einzel +0,50 R)",
-   "beleg": "122 Kombi-Teile gegen 174 Einzelteile. Backtest Daily +1,25 R (57) gegen Weekly +0,51 R (207)."
+   "art": "Korrigieren",
+   "aenderung": "Fehlende Eintraege nachtragen: OB-Qualitaet bei 10 von 23 Live-Trades, COT bei 4, Risiko bei 4",
+   "effekt": "Auswertung wird belastbar, heute sind 43 Prozent der Live-Trades unvollstaendig",
+   "beleg": "crit-Feld im Export: ob fehlt bei 10 (Ø -0,41 R), cot fehlt bei 4 (Ø -0,38 R), riskPct fehlt bei 4. Im Backtest ist ob bei 206 von 211 eingetragen."
+  },
+  {
+   "prio": 5,
+   "art": "Korrigieren",
+   "aenderung": "Bei GBPUSD das Ausstiegsdatum korrigieren, es steht auf dem 30.11.2026 und liegt damit in der Zukunft",
+   "effekt": "Haltedauer- und Serienauswertung werden sonst verzerrt",
+   "beleg": "Live-Trade GBPUSD long, Einstieg 12.10., Ausstieg laut Export 30.11.2026, Ergebnis +1 R."
   },
   {
    "prio": 6,
-   "art": "Korrigieren",
-   "aenderung": "Bei CADJPY, GBPUSD und 4 Live-Trades fehlende Kriterien und Risiko nachtragen",
-   "effekt": "Auswertung wird belastbar",
-   "beleg": "CADJPY hat weder COT noch OB-Qualität und verstößt gegen dein Regelwerk. Bei 4 Live-Trades fehlt das Risiko."
+   "art": "Ändern",
+   "aenderung": "Short-Setups aktiv suchen statt fast ausschliesslich long einzusteigen",
+   "effekt": "nicht quantifizierbar, aber der Backtest zeigt bei 102 Shorts kein schlechteres Ergebnis als bei 109 Longs",
+   "beleg": "Live 22 Long gegen 2 Short. Backtest 109 Long gegen 102 Short bei Ø +0,67 R gesamt."
   },
   {
    "prio": 7,
    "art": "Ändern",
-   "aenderung": "Aco nicht mehr als Ausschlusskriterium nutzen",
-   "effekt": "kein Verlust, mehr passende Trades",
-   "beleg": "Backtest: Ø R in allen drei Aco-Zuständen zwischen +0,60 und +0,69 (206 Trades). Regel wird nur zur Hälfte eingehalten, ohne Unterschied im Ergebnis."
+   "aenderung": "Aco nicht mehr als Ausschlusskriterium verwenden",
+   "effekt": "kein Ertragsverlust, mehr zulaessige Setups",
+   "beleg": "Backtest Ø R je Aco-Zustand: ueberverkauft +0,68 (82), neutral +0,67 (66), ueberkauft +0,60 (63). Kein verwertbarer Unterschied."
   },
   {
    "prio": 8,
    "art": "Lassen",
    "aenderung": "Stopp nicht auf Einstand nachziehen",
-   "effekt": "vermeidet im ungünstigen Fall −41 R, Nutzen nur bis +12 R",
-   "beleg": "12 Verlierer lagen vorher ≥ +0,5 R im Plus. Aber 52 der 118 Gewinner mit ≥ +0,5 R fielen zwischendurch mindestens 0,3 R zurück."
+   "effekt": "kein messbarer Vorteil",
+   "beleg": "Von 44 Verlierern mit Verlauf erreichten nur 2 (5 Prozent) vorher +1,0 R, 19 (43 Prozent) nur +0,5 R."
   },
   {
    "prio": 9,
-   "art": "Ändern",
-   "aenderung": "Emotion und Disziplin bei jedem Live-Trade eintragen",
-   "effekt": "Voraussetzung für Verhaltensanalyse",
-   "beleg": "Disziplin steht überall auf 5, Emotionen sind nur bei 4 von 222 Trades erfasst."
+   "art": "Beobachten",
+   "aenderung": "Nach einem Verlust die Kriterienliste bewusst abhaken statt sofort nachzusetzen",
+   "effekt": "-0,73 R je Teil nach Verlust (Schaetzung, 14 gegen 9 Teile)",
+   "beleg": "Live nach Verlust Ø -0,22 R (14 Teile), nach Gewinn Ø +0,51 R (9 Teile)."
   },
   {
    "prio": 10,
-   "art": "Lassen",
-   "aenderung": "Schwache Paare (AUDUSD, EURCHF) nicht aussortieren",
-   "effekt": "Ausschluss senkt die Summe um 7 R",
-   "beleg": "AUDUSD +0,14 R (18), EURCHF +0,38 R (12), beide positiv."
-  },
-  {
-   "prio": 6,
-   "art": "Ändern",
-   "aenderung": "Nach einem Trade im selben Paar und derselben Richtung 5 Wochen Pause oder nur halbes Risiko",
-   "effekt": "vermeidet rechnerisch bis zu 0,3 R je Wiedereinstieg",
-   "beleg": "Backtest: Wiedereinstieg innerhalb von 35 Tagen +0,45 R (19 Trades) gegenüber +0,79 R beim ersten Einstieg (29). Live: 2 von 2 Wiedereinstiegen Stopp (EURJPY, AUDJPY)."
-  },
-  {
-   "prio": 12,
-   "art": "Ändern",
-   "aenderung": "AUD-Konzentration senken: AUDUSD-Limit nur mit halbem Risiko oder streichen, höchstens 2 AUD-Positionen gleichzeitig",
-   "effekt": "weniger Klumpenrisiko bei der schwächsten Basiswährung",
-   "beleg": "Aktuell offen oder als Limit: AUDCAD, AUDNZD, AUDUSD, also 3 AUD-Longs. AUDUSD ist im Backtest das schwächste Paar (+0,14 R, 55 %, 18 Trades), AUD-Basis +0,37 R (67 %, 42)."
-  },
-  {
-   "prio": 13,
    "art": "Prüfen",
-   "aenderung": "Die 42 Backtest-Trades mit 0,5 % Risiko und einer Position auf Hindsight prüfen",
-   "effekt": "realistischere Backtest-Zahlen",
-   "beleg": "41 von 42 gewonnen (97 %), gleiche Trades mit 1 % nur 72 %."
-  },
-  {
-   "prio": 14,
-   "art": "Ändern",
-   "aenderung": "Live auch Short-Setups prüfen und eintragen",
-   "effekt": "mehr Gelegenheiten, Short ist im Backtest fast gleich gut",
-   "beleg": "Live 19 von 20 Long, Backtest 49 % Short mit +0,61 R (77 %, 102 Trades)."
-  },
-  {
-   "prio": 15,
-   "art": "Ändern",
-   "aenderung": "Beim Anlegen im Chart-Tool OB-Qualität, OB-HTF, OB-LTF, Risiko und Zone mit ausfüllen, zusätzlich Zonenalter und Berührungen notieren",
-   "effekt": "ermöglicht den vollständigen Vergleich von Live und Backtest",
-   "beleg": "Bei den 6 neuesten Trades fehlen diese Felder; bei 7 Chart-Trades sind die Zonen 2 bis 20 Monate alt, ob das wirkt, ist offen."
-  },
-  {
-   "prio": 16,
-   "art": "Lassen",
-   "aenderung": "Kombi-Einstiege (Weekly und Daily) beibehalten",
-   "effekt": "+0,3 R je Trade gegenüber Einzelposition",
-   "beleg": "Kombi +0,77 R (56 Trades), Einzelposition mit 1 % +0,47 R (109)."
-  },
-  {
-   "prio": 2,
-   "art": "Korrigieren",
-   "aenderung": "Beim geschlossenen GBPUSD-Live-Trade das Ausstiegsdatum (steht auf 30.11.2026, also in der Zukunft) und beim geschlossenen AUDJPY-Live-Trade (7.9., ohne Ausstiegsdatum) nachtragen",
-   "effekt": "Haltedauer und Zeit-Auswertungen werden korrekt; kein R-Effekt",
-   "beleg": "Export 01.11.: 2 von 13 geschlossenen Live-Trades mit fehlerhaftem oder fehlendem Ausstiegsdatum (Stichprobe klein, reiner Datenfehler)"
-  },
-  {
-   "prio": 7,
-   "art": "Beobachten",
-   "exit": false,
-   "aenderung": "Nach einem Live-Verlust den naechsten Einstieg mit halbem Risiko nehmen, bis die Serie gebrochen ist.",
-   "effekt": "rechnerisch +0,26 R je Teil nach Verlust, wenn sich das Muster haelt (Schaetzung)",
-   "beleg": "Live nach Verlust Ø -0,52 R und 17 % Treffer (18 Teile), nach Gewinn Ø +0,49 R und 60 % (10 Teile). Beide Stichproben klein und aus derselben Marktphase."
-  },
-  {
-   "prio": 8,
-   "art": "Lassen",
-   "exit": false,
-   "aenderung": "Einstieg in der Zone nicht auf 4H-Strukturbruch oder Bestaetigungskerze umstellen.",
-   "effekt": "vermeidet rechnerisch -0,78 R je Trade (Variante A) bzw. -0,96 R (Variante C)",
-   "beleg": "Echter Einstieg +0,81 R (116 Trades) gegen Variante A +0,03 R (22), B +0,62 R (22), C -0,15 R (27). 4H-Historie nur rund 1,4 Jahre."
+   "aenderung": "Trades ab 40 Tagen Haltedauer ohne Zielnaehe schliessen",
+   "effekt": "-0,27 R je Teil im Bereich ab 21 Tagen gegenueber 11 bis 20 Tagen",
+   "beleg": "Teile 11 bis 20 Tage Ø +0,76 R bei 81 Prozent (59), ab 21 Tagen Ø +0,49 R bei 64 Prozent (101)."
   }
  ],
  "abweichungen": [
   {
-   "thema": "Daily-Bestätigung (OB-LTF)",
-   "backtest": "47 von 206 Trades (23 %), Ø +1,03 R. Ohne: Ø +0,54 R (159)",
-   "live": "5 von 13 (38 %), Ø +0,80 R. Ohne: Ø −0,38 R (8 Trades)",
-   "bedeutung": "Größte Abweichung. Live-Trades ohne Daily-Bestätigung sind klar schlechter als im Backtest."
+   "thema": "Daily-Bestaetigung (OB-LTF)",
+   "backtest": "48 von 211 Trades (23 %), Ø +1,03 R. Ohne Eintrag: Ø +0,54 R (163)",
+   "live": "5 von 23 (22 %), Ø +0,80 R. Ohne Eintrag: Ø -0,53 R (18)",
+   "bedeutung": "Groesste Abweichung. Live sind die Trades ohne Daily-Bestaetigung klar schlechter als im Backtest, dort kostet das Fehlen nur 0,49 R, live 1,33 R."
+  },
+  {
+   "thema": "Zeitebene des Einstiegs",
+   "backtest": "Daily-Teile Ø +1,29 R (56), Weekly-Teile Ø +0,50 R (204)",
+   "live": "Daily-Teile Ø +0,17 R (11), Weekly-Teile Ø -0,23 R (15)",
+   "bedeutung": "Das Vorzeichen stimmt in beiden Datensaetzen, der Abstand ist live aber klein. Die starre Risikoteilung 50 zu 50 bei Kombis passt nicht dazu."
+  },
+  {
+   "thema": "Richtung",
+   "backtest": "109 Long gegen 102 Short, ausgeglichen",
+   "live": "22 Long gegen 2 Short, 92 Prozent Long",
+   "bedeutung": "Die Live-Umsetzung nutzt nur die Haelfte des Regelwerks. In einem Dollar-Aufwaertsjahr ist das struktureller Gegenwind."
   },
   {
    "thema": "COT als Pflichtkriterium",
-   "backtest": "206 von 206 erfüllt",
-   "live": "9 von 13 erfüllt, 2 ausgenommen (NQ, DJI), CADJPY ohne Eintrag (−1 R), GBPUSD mit Wert 73",
-   "bedeutung": "CADJPY hätte nach deinem Regelwerk nicht gehandelt werden dürfen."
+   "backtest": "210 von 211 erfuellt (True), 1 mit False und +2,00 R",
+   "live": "18 von 23 mit True (Ø -0,28 R), 1 mit Zahlwert 86 (+1,00 R), bei 4 fehlt der Eintrag (Ø -0,38 R)",
+   "bedeutung": "Bei vier Live-Trades ist nicht pruefbar ob das Pflichtkriterium erfuellt war. Die Ausnahmen NQ und DJI sind regelkonform."
   },
   {
-   "thema": "OB-Qualität eingetragen",
-   "backtest": "206 von 206",
-   "live": "11 von 13 (CADJPY und GBPUSD ohne Eintrag)",
-   "bedeutung": "Fehlende Einträge machen die Auswertung ungenau."
+   "thema": "OB-Qualitaet eingetragen",
+   "backtest": "211 von 211 (A: 206, B: 3, C: 2)",
+   "live": "13 von 23 mit A (Ø -0,11 R), bei 10 fehlt der Eintrag (Ø -0,41 R)",
+   "bedeutung": "43 Prozent der Live-Trades sind unvollstaendig dokumentiert. Auffaellig: die Trades mit Eintrag laufen besser als die ohne."
   },
   {
-   "thema": "Aco-Regel (Long nur überverkauft, Short nur überkauft)",
-   "backtest": "50 % eingehalten. Ø R je Zustand: überverkauft +0,69, neutral +0,67, überkauft +0,60",
-   "live": "6 von 13 eingehalten (46 %), Ø +0,08 R",
-   "bedeutung": "Im Backtest bringt die Aco-Regel keinen messbaren Unterschied, live wird sie auch nicht streng befolgt."
+   "thema": "Aco-Regel",
+   "backtest": "ueberverkauft +0,68 (82), neutral +0,67 (66), ueberkauft +0,60 (63). Kein Unterschied",
+   "live": "ueberverkauft -0,11 (10), neutral -0,20 (5), ueberkauft +1,50 (1), kein Eintrag -0,71 (7)",
+   "bedeutung": "Im Backtest bringt die Regel nichts, live wird sie bei 7 von 23 Trades nicht dokumentiert. Als Ausschlusskriterium nicht zu rechtfertigen."
   },
   {
    "thema": "Haltedauer bis Ausstieg",
-   "backtest": "Ø 19,6 Tage",
-   "live": "Ø 10,8 Tage",
-   "bedeutung": "Live werden Stopps früher getroffen, vor allem bei Weekly-Einstiegen."
+   "backtest": "Median 14 Tage, Mittel 19,3 Tage (207 Trades)",
+   "live": "Median 13 Tage, Mittel 14,9 Tage (22 Trades)",
+   "bedeutung": "Live wird kuerzer gehalten, vor allem weil Stopps bei Weekly-Einstiegen frueher greifen. Der Unterschied ist kleiner als bisher ausgewiesen."
   },
   {
    "thema": "Risiko je Trade",
-   "backtest": "1 %: 164 Trades, 0,5 %: 42 Trades",
-   "live": "1 %: 8, 0,5 %: 1, ohne Angabe: 4",
-   "bedeutung": "Bei 4 Live-Trades fehlt das Risiko, die R-Werte sind dort nicht überprüfbar."
+   "backtest": "1 %: 168, 0,5 %: 43",
+   "live": "1 %: 18, 0,5 %: 2, ohne Angabe: 4",
+   "bedeutung": "Die Streuung ist gering, das Risiko wird live konsistent gesetzt. Bei 4 Trades fehlt die Angabe, dort sind die R-Werte nicht nachrechenbar."
   },
   {
-   "thema": "JPY-Crosses",
-   "backtest": "EURJPY +0,46 R (13), AUDJPY +0,38 R (12), GBPJPY +1,10 R (10)",
-   "live": "5 Longs (EURJPY 2x, AUDJPY 2x, CADJPY), Ø −0,6 R",
-   "bedeutung": "Live läuft genau dort schlecht, wo der Backtest gut aussieht. Stichprobe klein."
+   "thema": "Instrumentmix",
+   "backtest": "16 Instrumente, am haeufigsten GBPUSD (24), AUDUSD (18), CHFJPY (17), EURUSD (16), USDCHF (15), GBPCAD (15)",
+   "live": "16 Instrumente, darunter DJI, NQ und OEL (3 Trades), aber kein CHFJPY und kein USDCHF",
+   "bedeutung": "Live werden genau die beiden Paare gemieden die im Backtest zu den haeufigsten gehoeren, und stattdessen Indizes und Oel gehandelt die nicht aus dem COT-Setup kommen."
+  },
+  {
+   "thema": "Kombi-Einstiege",
+   "backtest": "zusammen mit live: 122 Kombi-Teile Ø +0,74 R gegen 173 Einzelteile Ø +0,50 R",
+   "live": "Risikoaufteilung bei 60 von 61 Kombis starr 0,5 Prozent Weekly und 0,5 Prozent Daily",
+   "bedeutung": "Kombis sind besser, die Aufteilung nutzt den Daily-Vorteil aber nicht aus."
   },
   {
    "thema": "Order-Block-Aufbau in den Chart-Daten (7 Trades, 6 live)",
@@ -358,60 +263,6 @@
    "backtest": "nicht auswertbar",
    "live": "Die Zonen sind 2 bis 20 Monate alt: GBPUSD ca. 11 Monate (Nov 2025 bis Okt 2026), EURGBP ca. 20 Monate (Feb 2025), NZDJPY ca. 11 Monate, AUDNZD ca. 2 Monate, AUDUSD und GBPCAD frisch (Wochen).",
    "bedeutung": "Sehr alte Zonen (über 6 Monate) sind in dieser kleinen Stichprobe die Mehrheit. Ob Alter das Ergebnis beeinflusst, lässt sich erst sagen, wenn mehr Trades abgeschlossen sind. Im Backtest müsste das Zonenalter mit erfasst werden."
-  },
-  {
-   "thema": "Daily-Zone innerhalb der Weekly-Zone (Bilder AUDCHF, AUDJPY)",
-   "backtest": "AUDCHF Long: Weekly-Zone mit blauer Daily-Unterzone im unteren Teil, Ergebnis +1,5 R",
-   "live": "AUDJPY Long: gleicher Aufbau (blaue Daily-Zone in der unteren Hälfte der Weekly-Zone, Stop darunter), Ergebnis −1 R. Der Kurs lief tief in die Weekly-Zone bis in die Daily-Zone.",
-   "bedeutung": "In beiden Bildern sitzt die Daily-Zone im unteren Teil der Weekly-Zone, der Einstieg liegt aber am oberen Rand. Der Kurs läuft also oft erst in die Daily-Zone hinein, bevor er dreht. Einstieg direkt an der Daily-Zone würde den Stop enger machen. Nur 2 Bilder, nicht belastbar; die übrigen Bilder kommen noch."
-  },
-  {
-   "thema": "Optischer Vergleich: Stand der Bilder",
-   "backtest": "22 von 207 Exit-Bildern angesehen (18 Verlierer, 4 Gewinner)",
-   "live": "Alle 21 Live-Bilder angesehen",
-   "bedeutung": "Auf den Bildern zeigt sich kein sicheres Unterscheidungsmerkmal zwischen Gewinnern und Verlierern: in beiden fällt (bei Longs) oder steigt (bei Shorts) der Kurs über mehrere Wochenkerzen in die Zone, COT-Index und Oszillator sehen ähnlich aus. Die 4 angesehenen Short-Verlierer (AUDUSD, AUDCAD, NZDCHF, AUDJPY, 2020) liefen alle gegen einen 6 bis 10 Wochen langen Anstieg an, mit Oszillator bei 95 bis 99 (überkauft). Der Aco-Zustand trennt im Backtest aber nicht (Überkauft +0,60 R, Überverkauft +0,67 R). Die Backtest-Bilder sind Aufnahmen nach dem Trade, die zahlenmäßige Auswertung läuft deshalb über alle 207 Trades. Die 6 weiteren Verlierer-Bilder (AUDUSD, GBPCHF, GBPCAD, USDJPY, Mar 2021 bis Jan 2022) zeigen dasselbe: eine große Kerze läuft durch die Zone. Die Bilder zeigen den Stand nach dem Trade, COT-Index und Oszillator darauf gehören daher nicht zum Einstiegszeitpunkt und taugen nicht für einen Vergleich. Die übrigen Backtest-Bilder sind nicht einzeln angesehen."
-  },
-  {
-   "thema": "Wiedereinstieg: Live gegen Backtest",
-   "backtest": "innerhalb von 35 Tagen +0,45 R (68 %, 19 Trades)",
-   "live": "2 von 2 Stopps (EURJPY, AUDJPY)",
-   "bedeutung": "Live ist es noch schlechter als im Backtest, Stichprobe aber nur 2 Trades."
-  },
-  {
-   "thema": "Richtung: Live gegen Backtest",
-   "backtest": "49 % Short, +0,61 R (77 %)",
-   "live": "19 von 20 Long",
-   "bedeutung": "Live fehlen Short-Trades, der Backtest zeigt dort ähnlich gute Ergebnisse."
-  },
-  {
-   "thema": "Daily-Bestätigung (OB-LTF)",
-   "backtest": "mit Daily-Zone +0,96 R (85 %, 40 Trades), ohne +0,53 R (76 %, 160)",
-   "live": "mit Daily-Zone +0,80 R (80 %, 5), ohne −0,38 R (25 %, 8)",
-   "bedeutung": "Backtest und Live zeigen in dieselbe Richtung: ohne Daily-Zone ist der Einstieg schwächer."
-  },
-  {
-   "thema": "Trefferquote nach Risikoklasse",
-   "backtest": "0,5 % Einzelposition 97 %, 1 % Einzelposition 72 %, Kombi 75 %",
-   "live": "1 % Risiko: +0,38 R (62 %, 8 Trades)",
-   "bedeutung": "Der 0,5-%-Block im Backtest ist auffällig gut und sollte auf Hindsight geprüft werden."
-  },
-  {
-   "thema": "Weekly live gegen Weekly Backtest",
-   "backtest": "199 Trades, Trefferquote 77 %, Ø +0,62 R",
-   "live": "11 Trades, Trefferquote 55 %, Ø +0,27 R",
-   "bedeutung": "Live liegt auf Weekly klar unter dem Backtest. Stichprobe live klein (11). Zusätzlich liegt die unabhängig nachgebaute Weekly-Regel bei +0,005 R (1.346 Trades), die hohen Backtest-Werte der App-Tests sind also nicht reproduzierbar und mit Vorsicht zu lesen."
-  },
-  {
-   "thema": "Trefferquote Live gegen Backtest",
-   "backtest": "75,3 % Treffer, Ø +0,67 R, Ø bester Zwischenstand 1,79 R (267 Teile)",
-   "live": "34,5 % Treffer, Ø -0,12 R, Ø bester Zwischenstand 1,11 R (29 Teile)",
-   "bedeutung": "Live kommen die Trades im Schnitt nur auf zwei Drittel des Zwischengewinns. Die Verluste sind gleich gross. Das spricht fuer die Auswahl der Zonen, nicht fuer den Ausstieg."
-  },
-  {
-   "thema": "Zeitebene Live gegen Backtest",
-   "backtest": "Daily Ø +1,25 R (57 Teile), Weekly Ø +0,51 R (207)",
-   "live": "Daily Ø +0,17 R (11 Teile), Weekly Ø -0,21 R (16)",
-   "bedeutung": "Die Reihenfolge stimmt in beiden Welten, das Niveau nicht. Der Daily-Teil ist live der einzige mit positivem Schnitt."
   }
  ]
 }
